@@ -1,0 +1,2501 @@
+transaction_id,customer_id,amount,payment_method,product_category,customer_age,discount_rate,store_region
+tx_ref_200000,usr_6568,692.8,Credit Card,Digital Goods,18.8,0.29,North
+tx_ref_200001,usr_5444,1963.68,Credit Card,Home & Kitchen,18.6,0.18,South
+tx_ref_200002,usr_5965,2235.29,Credit Card,Apparel,44.7,0.03,East
+tx_ref_200003,usr_1481,743.56,Credit Card,Home & Kitchen,29.6,0.14,North
+tx_ref_200004,usr_6832,364.96,Credit Card,Apparel,31.4,0.06,East
+tx_ref_200005,usr_1225,3082.49,UPI,Electronics,34.5,0.23,North
+tx_ref_200006,usr_3523,274.34,UPI,Electronics,43.1,0.12,North
+tx_ref_200007,usr_8583,2588.86,UPI,Electronics,21.9,0.07,North
+tx_ref_200008,usr_1217,1499.94,UPI,Home & Kitchen,26.7,0.17,South
+tx_ref_200009,usr_1947,3479.39,UPI,Apparel,32.1,0.02,East
+tx_ref_200010,usr_8696,2755.46,Debit Card,Home & Kitchen,23.7,0.01,East
+tx_ref_200011,usr_7125,260.97,Credit Card,Home & Kitchen,39.1,0.25,North
+tx_ref_200012,usr_6749,298.66,Credit Card,Electronics,25.0,0.16,North
+tx_ref_200013,usr_1776,3093.72,Credit Card,Home & Kitchen,36.2,0.27,East
+tx_ref_200014,usr_7792,1038.54,Cash,Electronics,29.0,0.24,West
+tx_ref_200015,usr_1176,5639.7,UPI,Apparel,23.2,0.14,East
+tx_ref_200016,usr_2605,68.83,UPI,Apparel,40.4,0.01,North
+tx_ref_200017,usr_2602,1588.86,UPI,Electronics,41.4,0.0,South
+tx_ref_200018,usr_7155,250.1,Credit Card,Apparel,30.3,0.01,South
+tx_ref_200019,usr_1011,6349.56,Credit Card,Apparel,39.2,0.29,East
+tx_ref_200020,usr_2173,353.43,Debit Card,Electronics,28.3,0.19,North
+tx_ref_200021,usr_1983,960.95,UPI,Electronics,40.3,0.07,North
+tx_ref_200022,usr_5324,654.39,UPI,Electronics,37.9,0.08,South
+tx_ref_200023,usr_5858,2193.58,Debit Card,Home & Kitchen,26.1,0.04,East
+tx_ref_200024,usr_4558,213.54,UPI,Electronics,31.7,0.09,North
+tx_ref_200025,usr_2330,12748.39,UPI,Apparel,19.4,0.29,North
+tx_ref_200026,usr_3366,505.46,Credit Card,Home & Kitchen,,0.11,South
+tx_ref_200027,usr_7471,1650.41,UPI,Electronics,51.0,0.16,South
+tx_ref_200028,usr_5966,675.86,Debit Card,Electronics,42.2,0.01,West
+tx_ref_200029,usr_2937,314.43,UPI,Apparel,31.5,0.28,West
+tx_ref_200030,usr_7846,470.57,UPI,Apparel,34.4,0.21,East
+tx_ref_200031,usr_7629,3778.03,Credit Card,Apparel,36.0,0.24,West
+tx_ref_200032,usr_8283,1379.42,Debit Card,Apparel,33.6,0.12,West
+tx_ref_200033,usr_3406,2094.41,Cash,Digital Goods,45.9,0.06,North
+tx_ref_200034,usr_8156,909.65,Debit Card,Electronics,40.7,0.09,East
+tx_ref_200035,usr_6675,1601.83,Credit Card,Home & Kitchen,51.6,0.27,North
+tx_ref_200036,usr_2568,4138.79,Credit Card,Electronics,48.8,0.18,South
+tx_ref_200037,usr_5713,229.72,Cash,Electronics,33.6,0.16,South
+tx_ref_200038,usr_7788,3547.69,Credit Card,Electronics,29.2,0.25,East
+tx_ref_200039,usr_3573,72.3,UPI,Electronics,40.1,0.2,North
+tx_ref_200040,usr_3347,2562.48,UPI,Apparel,41.8,0.14,West
+tx_ref_200041,usr_3132,125.21,Cash,Electronics,29.3,0.07,North
+tx_ref_200042,usr_6192,695.65,UPI,Electronics,42.0,0.17,West
+tx_ref_200043,usr_8143,2821.31,Cash,Home & Kitchen,41.6,0.26,North
+tx_ref_200044,usr_1750,1045.58,Cash,Apparel,49.0,0.08,West
+tx_ref_200045,usr_7427,1447.0,UPI,Electronics,34.7,0.07,East
+tx_ref_200046,usr_2970,372.27,Debit Card,Electronics,32.6,0.0,East
+tx_ref_200047,usr_5119,404.23,UPI,Home & Kitchen,40.0,0.01,West
+tx_ref_200048,usr_8604,593.3,Debit Card,Apparel,35.2,0.09,North
+tx_ref_200049,usr_7228,702.73,Credit Card,Electronics,34.8,0.19,South
+tx_ref_200050,usr_8813,1339.73,Debit Card,Digital Goods,45.8,0.04,South
+tx_ref_200051,usr_5395,1511.52,Credit Card,Apparel,39.4,0.15,East
+tx_ref_200052,usr_1849,1913.22,Cash,Digital Goods,44.6,0.04,North
+tx_ref_200053,usr_1991,697.77,UPI,Apparel,33.8,0.13,West
+tx_ref_200054,usr_7908,2311.8,UPI,Apparel,36.9,0.05,South
+tx_ref_200055,usr_6034,1112.94,Credit Card,Apparel,30.1,0.24,West
+tx_ref_200056,usr_4050,528.63,Credit Card,Digital Goods,39.8,0.09,East
+tx_ref_200057,usr_6336,524.62,Credit Card,Apparel,26.8,0.25,West
+tx_ref_200058,usr_2337,1389.69,UPI,Home & Kitchen,35.5,0.24,South
+tx_ref_200059,usr_1689,1903.62,Credit Card,Electronics,46.9,0.07,North
+tx_ref_200060,usr_7187,2099.32,UPI,Home & Kitchen,30.1,0.09,South
+tx_ref_200061,usr_2281,2327.62,Debit Card,Digital Goods,29.2,0.15,West
+tx_ref_200062,usr_5330,777.03,UPI,Apparel,30.8,0.17,East
+tx_ref_200063,usr_2009,766.84,Debit Card,Electronics,31.8,0.15,East
+tx_ref_200064,usr_2230,386.75,UPI,Digital Goods,27.2,0.26,West
+tx_ref_200065,usr_3502,2504.7,Credit Card,Electronics,34.6,0.08,South
+tx_ref_200066,usr_4843,2621.8,UPI,Apparel,24.2,0.12,South
+tx_ref_200067,usr_7515,2611.71,Credit Card,Electronics,29.9,0.18,West
+tx_ref_200068,usr_8112,9945.45,UPI,Digital Goods,41.0,0.1,East
+tx_ref_200069,usr_5617,1084.38,Credit Card,Home & Kitchen,59.7,0.29,South
+tx_ref_200070,usr_7906,4159.75,UPI,Electronics,39.6,0.09,South
+tx_ref_200071,usr_6483,442.82,UPI,Apparel,37.0,0.01,North
+tx_ref_200072,usr_7222,269.58,Credit Card,Apparel,48.5,0.13,North
+tx_ref_200073,usr_1016,2644.4,UPI,Electronics,42.7,0.09,North
+tx_ref_200074,usr_7591,1375.83,Debit Card,Home & Kitchen,31.4,0.01,South
+tx_ref_200075,usr_5735,414.16,Debit Card,Apparel,43.9,0.02,East
+tx_ref_200076,usr_3993,475.71,UPI,Electronics,51.2,0.0,East
+tx_ref_200077,usr_6946,8059.16,Cash,Electronics,34.3,0.02,West
+tx_ref_200078,usr_5639,3166.05,Debit Card,Electronics,39.9,0.15,West
+tx_ref_200079,usr_1302,109.0,UPI,Home & Kitchen,,0.3,North
+tx_ref_200080,usr_4124,89.22,UPI,Apparel,45.5,0.14,East
+tx_ref_200081,usr_7860,1416.06,Debit Card,Electronics,45.5,0.23,West
+tx_ref_200082,usr_2038,6006.61,UPI,Home & Kitchen,33.1,0.25,East
+tx_ref_200083,usr_4564,291.15,Credit Card,Electronics,50.3,0.3,West
+tx_ref_200084,usr_4120,668.19,UPI,Home & Kitchen,22.6,0.15,North
+tx_ref_200085,usr_2286,3253.65,Cash,Electronics,,0.1,North
+tx_ref_200086,usr_5868,221.53,Cash,Electronics,37.9,0.09,North
+tx_ref_200087,usr_3647,2427.3,UPI,Apparel,29.3,0.1,North
+tx_ref_200088,usr_6955,1575.29,Cash,Home & Kitchen,44.8,0.11,North
+tx_ref_200089,usr_8604,5658.78,UPI,Apparel,32.6,0.25,South
+tx_ref_200090,usr_8103,824.03,Debit Card,Digital Goods,44.0,0.24,East
+tx_ref_200091,usr_2305,1084.6,Debit Card,Electronics,27.8,0.03,South
+tx_ref_200092,usr_2259,7597.2,Debit Card,Apparel,18.0,0.26,East
+tx_ref_200093,usr_1119,579.28,Credit Card,Apparel,41.2,0.25,East
+tx_ref_200094,usr_7059,763.36,Cash,Digital Goods,27.4,0.12,East
+tx_ref_200095,usr_7110,1991.54,Cash,Home & Kitchen,38.2,0.17,West
+tx_ref_200096,usr_6108,1634.11,UPI,Home & Kitchen,45.9,0.15,East
+tx_ref_200097,usr_5763,1530.88,Debit Card,Electronics,39.2,0.08,North
+tx_ref_200098,usr_3070,1094.38,UPI,Home & Kitchen,40.7,0.16,West
+tx_ref_200099,usr_3420,2390.33,UPI,Digital Goods,45.6,0.17,South
+tx_ref_200100,usr_6198,962.86,UPI,Digital Goods,34.5,0.03,West
+tx_ref_200101,usr_4623,68.33,Debit Card,Digital Goods,45.4,0.25,North
+tx_ref_200102,usr_2404,1471.18,Cash,Electronics,35.2,0.23,South
+tx_ref_200103,usr_7814,3320.58,UPI,Digital Goods,32.1,0.17,West
+tx_ref_200104,usr_6939,2145.88,UPI,Digital Goods,36.4,0.09,East
+tx_ref_200105,usr_4007,1950.69,Cash,Home & Kitchen,41.5,0.02,West
+tx_ref_200106,usr_8984,5705.42,Cash,Electronics,41.7,0.08,South
+tx_ref_200107,usr_6451,2074.24,UPI,Electronics,44.0,0.26,North
+tx_ref_200108,usr_5660,699.67,Debit Card,Home & Kitchen,40.4,0.22,West
+tx_ref_200109,usr_1772,1219.24,UPI,Electronics,29.9,0.0,South
+tx_ref_200110,usr_5278,694.4,UPI,Electronics,31.2,0.17,South
+tx_ref_200111,usr_6048,60.41,Debit Card,Electronics,32.5,0.1,North
+tx_ref_200112,usr_1294,3645.79,Credit Card,Digital Goods,33.5,0.03,South
+tx_ref_200113,usr_3382,160.46,Cash,Apparel,41.3,0.11,North
+tx_ref_200114,usr_7732,246.34,UPI,Electronics,41.0,0.22,East
+tx_ref_200115,usr_8739,1358.02,Credit Card,Home & Kitchen,37.4,0.02,North
+tx_ref_200116,usr_8088,1665.55,Debit Card,Electronics,19.1,0.21,South
+tx_ref_200117,usr_8919,237.6,Credit Card,Apparel,51.9,0.21,East
+tx_ref_200118,usr_1868,8909.73,Debit Card,Digital Goods,49.3,0.23,West
+tx_ref_200119,usr_6263,4474.4,UPI,Apparel,26.9,0.08,North
+tx_ref_200120,usr_3198,331.3,Cash,Apparel,31.3,0.18,North
+tx_ref_200121,usr_1071,412.57,UPI,Digital Goods,24.8,0.07,South
+tx_ref_200122,usr_8311,160.35,UPI,Home & Kitchen,44.4,0.06,East
+tx_ref_200123,usr_3160,1016.03,UPI,Apparel,36.7,0.19,East
+tx_ref_200124,usr_8985,1827.6,UPI,Digital Goods,21.3,0.29,West
+tx_ref_200125,usr_6375,302.47,UPI,Electronics,52.9,0.24,North
+tx_ref_200126,usr_1514,1521.9,UPI,Home & Kitchen,35.3,0.22,North
+tx_ref_200127,usr_4989,3754.2,Credit Card,Home & Kitchen,24.2,0.06,South
+tx_ref_200128,usr_7631,201.25,Debit Card,Home & Kitchen,,0.22,North
+tx_ref_200129,usr_5014,1294.0,Credit Card,Digital Goods,36.8,0.19,North
+tx_ref_200130,usr_8819,1200.34,Debit Card,Apparel,41.8,0.15,North
+tx_ref_200131,usr_8484,2036.92,Debit Card,Apparel,35.4,0.2,North
+tx_ref_200132,usr_7009,2591.35,Credit Card,Home & Kitchen,33.2,0.19,East
+tx_ref_200133,usr_8354,655.94,Credit Card,Digital Goods,34.9,0.2,South
+tx_ref_200134,usr_6370,469.92,UPI,Digital Goods,47.1,0.11,North
+tx_ref_200135,usr_5706,7675.79,UPI,Apparel,29.8,0.26,East
+tx_ref_200136,usr_6921,580.42,UPI,Home & Kitchen,47.9,0.06,West
+tx_ref_200137,usr_7139,11811.38,Credit Card,Electronics,32.1,0.06,South
+tx_ref_200138,usr_5850,172.82,Cash,Digital Goods,32.1,0.06,West
+tx_ref_200139,usr_3915,162.37,Credit Card,Apparel,31.4,0.09,South
+tx_ref_200140,usr_5387,627.79,Debit Card,Electronics,58.6,0.19,South
+tx_ref_200141,usr_1074,1094.18,UPI,Apparel,31.8,0.18,South
+tx_ref_200142,usr_5883,189.78,UPI,Electronics,22.1,0.24,South
+tx_ref_200143,usr_1419,1433.53,UPI,Electronics,56.0,0.25,South
+tx_ref_200144,usr_2036,157.0,Debit Card,Electronics,35.1,0.18,East
+tx_ref_200145,usr_8556,691.82,Credit Card,Electronics,40.2,0.02,East
+tx_ref_200146,usr_3433,2745.25,UPI,Digital Goods,27.8,0.1,North
+tx_ref_200147,usr_4846,158.13,Debit Card,Apparel,34.8,0.13,West
+tx_ref_200148,usr_4749,86.84,UPI,Electronics,32.1,0.22,West
+tx_ref_200149,usr_3265,4667.61,UPI,Home & Kitchen,40.1,0.15,South
+tx_ref_200150,usr_3443,169.99,Credit Card,Digital Goods,33.4,0.01,East
+tx_ref_200151,usr_5431,802.61,UPI,Apparel,32.8,0.03,South
+tx_ref_200152,usr_7769,193.41,Credit Card,Apparel,47.4,0.14,West
+tx_ref_200153,usr_3050,4267.19,UPI,Digital Goods,19.6,0.16,West
+tx_ref_200154,usr_6186,2060.22,Cash,Digital Goods,32.8,0.21,East
+tx_ref_200155,usr_6459,5257.11,Debit Card,Electronics,29.7,0.15,West
+tx_ref_200156,usr_5440,3732.07,Credit Card,Apparel,31.1,0.19,North
+tx_ref_200157,usr_5432,3837.74,Credit Card,Apparel,49.2,0.12,South
+tx_ref_200158,usr_6552,528.72,Debit Card,Electronics,34.1,0.01,North
+tx_ref_200159,usr_3137,3430.97,UPI,Electronics,41.0,0.27,South
+tx_ref_200160,usr_3149,5208.64,UPI,Electronics,47.9,0.14,East
+tx_ref_200161,usr_4728,1209.66,Credit Card,Apparel,42.3,0.2,North
+tx_ref_200162,usr_4095,1459.16,UPI,Electronics,41.5,0.27,North
+tx_ref_200163,usr_1016,1493.57,Credit Card,Electronics,18.9,0.06,South
+tx_ref_200164,usr_7213,1875.07,Debit Card,Apparel,37.4,0.26,North
+tx_ref_200165,usr_3253,2989.7,Cash,Electronics,52.4,0.19,South
+tx_ref_200166,usr_4773,676.99,Credit Card,Apparel,21.1,0.23,East
+tx_ref_200167,usr_6218,1051.8,UPI,Electronics,36.6,0.29,West
+tx_ref_200168,usr_2886,789.25,UPI,Electronics,43.6,0.15,East
+tx_ref_200169,usr_5216,4426.19,Cash,Home & Kitchen,53.8,0.03,West
+tx_ref_200170,usr_1484,267.11,Credit Card,Home & Kitchen,27.0,0.1,South
+tx_ref_200171,usr_7406,4971.67,Credit Card,Electronics,29.6,0.17,East
+tx_ref_200172,usr_3184,2754.33,UPI,Home & Kitchen,31.9,0.03,South
+tx_ref_200173,usr_4033,611.24,Debit Card,Apparel,28.3,0.19,West
+tx_ref_200174,usr_6076,1165.16,Credit Card,Home & Kitchen,27.0,0.21,West
+tx_ref_200175,usr_2383,456.31,UPI,Home & Kitchen,,0.18,North
+tx_ref_200176,usr_8705,900.24,Debit Card,Home & Kitchen,33.9,0.01,East
+tx_ref_200177,usr_1613,603.3,UPI,Digital Goods,39.9,0.13,East
+tx_ref_200178,usr_6810,1732.22,UPI,Home & Kitchen,46.1,0.09,South
+tx_ref_200179,usr_5869,2367.58,UPI,Apparel,44.2,0.0,East
+tx_ref_200180,usr_8880,254.61,Credit Card,Apparel,29.0,0.06,North
+tx_ref_200181,usr_3574,1369.3,Cash,Digital Goods,33.9,0.27,West
+tx_ref_200182,usr_8827,1362.58,UPI,Apparel,48.5,0.26,East
+tx_ref_200183,usr_5675,725.89,UPI,Home & Kitchen,34.3,0.05,North
+tx_ref_200184,usr_3969,6256.89,Debit Card,Apparel,22.1,0.29,West
+tx_ref_200185,usr_5441,732.89,Credit Card,Electronics,41.9,0.17,West
+tx_ref_200186,usr_7281,666.84,Debit Card,Electronics,38.9,0.16,West
+tx_ref_200187,usr_6005,452.34,Credit Card,Electronics,24.2,0.02,North
+tx_ref_200188,usr_8967,2731.73,Debit Card,Home & Kitchen,38.7,0.08,East
+tx_ref_200189,usr_5870,123.91,Credit Card,Digital Goods,39.2,0.19,East
+tx_ref_200190,usr_4133,5069.17,Credit Card,Apparel,46.9,0.12,North
+tx_ref_200191,usr_6770,1916.6,UPI,Electronics,19.9,0.15,East
+tx_ref_200192,usr_1143,1350.21,Credit Card,Electronics,41.6,0.06,South
+tx_ref_200193,usr_7216,208.53,Cash,Apparel,32.2,0.24,East
+tx_ref_200194,usr_2388,4335.26,Credit Card,Apparel,,0.21,West
+tx_ref_200195,usr_1553,9129.19,UPI,Electronics,43.3,0.21,West
+tx_ref_200196,usr_2836,3395.12,UPI,Home & Kitchen,53.9,0.08,East
+tx_ref_200197,usr_8386,123.3,Credit Card,Apparel,49.7,0.24,West
+tx_ref_200198,usr_2924,6796.82,Credit Card,Electronics,50.3,0.12,North
+tx_ref_200199,usr_8146,3349.15,UPI,Digital Goods,27.6,0.24,North
+tx_ref_200200,usr_1889,1341.55,Debit Card,Apparel,28.2,0.05,North
+tx_ref_200201,usr_6952,1760.8,Cash,Apparel,33.3,0.17,West
+tx_ref_200202,usr_7981,1456.29,UPI,Home & Kitchen,40.5,0.06,North
+tx_ref_200203,usr_7895,810.24,Debit Card,Electronics,39.8,0.26,West
+tx_ref_200204,usr_8965,7272.74,Debit Card,Apparel,36.8,0.17,South
+tx_ref_200205,usr_8871,2547.43,Debit Card,Home & Kitchen,23.2,0.01,North
+tx_ref_200206,usr_5248,5515.94,Credit Card,Apparel,29.5,0.27,East
+tx_ref_200207,usr_2292,522.48,Cash,Apparel,24.9,0.0,East
+tx_ref_200208,usr_2748,1717.76,Credit Card,Apparel,39.9,0.26,West
+tx_ref_200209,usr_3453,1185.94,Debit Card,Electronics,25.8,0.04,West
+tx_ref_200210,usr_3224,576.93,Cash,Digital Goods,32.0,0.05,North
+tx_ref_200211,usr_8376,349.52,UPI,Apparel,28.2,0.17,South
+tx_ref_200212,usr_2968,2998.24,UPI,Home & Kitchen,27.8,0.11,West
+tx_ref_200213,usr_1051,3721.97,UPI,Electronics,37.2,0.05,North
+tx_ref_200214,usr_3949,587.19,Credit Card,Electronics,20.7,0.12,East
+tx_ref_200215,usr_8674,2301.01,Credit Card,Electronics,40.9,0.12,East
+tx_ref_200216,usr_3945,533.17,Debit Card,Electronics,18.5,0.29,South
+tx_ref_200217,usr_7149,1107.52,Credit Card,Apparel,35.5,0.2,North
+tx_ref_200218,usr_6852,1016.97,Cash,Digital Goods,38.8,0.27,West
+tx_ref_200219,usr_1622,285.5,UPI,Electronics,36.7,0.28,North
+tx_ref_200220,usr_3916,220.2,Credit Card,Electronics,30.1,0.06,West
+tx_ref_200221,usr_7955,2060.06,Credit Card,Apparel,48.4,0.3,South
+tx_ref_200222,usr_2190,1321.82,Credit Card,Digital Goods,41.8,0.08,West
+tx_ref_200223,usr_6967,7798.41,UPI,Apparel,39.5,0.02,West
+tx_ref_200224,usr_6329,1817.78,UPI,Apparel,29.4,0.26,North
+tx_ref_200225,usr_4494,3720.89,UPI,Home & Kitchen,39.9,0.12,West
+tx_ref_200226,usr_1514,1479.74,Credit Card,Electronics,24.7,0.28,West
+tx_ref_200227,usr_8647,779.76,UPI,Apparel,38.5,0.28,South
+tx_ref_200228,usr_5920,455.92,Debit Card,Electronics,32.0,0.05,West
+tx_ref_200229,usr_6631,322.48,UPI,Electronics,45.6,0.24,West
+tx_ref_200230,usr_5946,3208.05,Credit Card,Home & Kitchen,32.8,0.02,South
+tx_ref_200231,usr_7270,908.22,Credit Card,Electronics,21.6,0.1,South
+tx_ref_200232,usr_6705,3564.65,Credit Card,Electronics,36.4,0.03,South
+tx_ref_200233,usr_1549,4822.19,Credit Card,Apparel,32.2,0.28,West
+tx_ref_200234,usr_1333,3566.22,Credit Card,Electronics,21.5,0.08,South
+tx_ref_200235,usr_5154,1396.8,Cash,Electronics,55.8,0.3,South
+tx_ref_200236,usr_7004,128.94,Credit Card,Electronics,33.6,0.02,South
+tx_ref_200237,usr_1523,588.0,UPI,Apparel,25.6,0.03,North
+tx_ref_200238,usr_1493,3609.7,Credit Card,Apparel,35.6,0.24,North
+tx_ref_200239,usr_8260,1158.62,UPI,Home & Kitchen,46.0,0.17,East
+tx_ref_200240,usr_1299,2120.12,Debit Card,Apparel,47.9,0.01,West
+tx_ref_200241,usr_3762,556.8,Debit Card,Apparel,36.3,0.04,West
+tx_ref_200242,usr_1289,1215.21,UPI,Electronics,38.6,0.19,West
+tx_ref_200243,usr_6996,1248.03,Debit Card,Electronics,51.2,0.17,East
+tx_ref_200244,usr_5381,2123.2,Credit Card,Apparel,33.7,0.01,East
+tx_ref_200245,usr_3876,792.48,UPI,Electronics,30.5,0.11,West
+tx_ref_200246,usr_3020,178.34,Credit Card,Digital Goods,27.2,0.07,West
+tx_ref_200247,usr_7703,262.86,UPI,Digital Goods,30.7,0.14,East
+tx_ref_200248,usr_5558,3624.97,Debit Card,Apparel,43.0,0.14,West
+tx_ref_200249,usr_1882,466.06,Debit Card,Electronics,29.2,0.12,East
+tx_ref_200250,usr_3419,1270.87,UPI,Apparel,33.5,0.29,North
+tx_ref_200251,usr_2827,1931.75,UPI,Electronics,32.4,0.04,West
+tx_ref_200252,usr_2077,1374.69,Debit Card,Apparel,35.7,0.29,East
+tx_ref_200253,usr_2181,649.87,Credit Card,Apparel,29.0,0.11,North
+tx_ref_200254,usr_3124,100.61,UPI,Electronics,43.6,0.18,West
+tx_ref_200255,usr_2500,1809.17,UPI,Apparel,30.6,0.28,South
+tx_ref_200256,usr_4635,823.04,Credit Card,Apparel,29.8,0.03,South
+tx_ref_200257,usr_8763,2242.01,Credit Card,Electronics,27.6,0.08,West
+tx_ref_200258,usr_6649,3152.58,UPI,Electronics,26.4,0.04,North
+tx_ref_200259,usr_1982,313.26,Cash,Apparel,21.0,0.22,South
+tx_ref_200260,usr_4715,4448.78,UPI,Home & Kitchen,23.0,0.29,West
+tx_ref_200261,usr_6876,1280.6,UPI,Apparel,50.9,0.19,South
+tx_ref_200262,usr_6814,1707.52,Cash,Home & Kitchen,30.4,0.28,South
+tx_ref_200263,usr_8094,3863.99,Credit Card,Home & Kitchen,44.0,0.05,West
+tx_ref_200264,usr_1242,742.38,Debit Card,Apparel,30.7,0.18,South
+tx_ref_200265,usr_3482,1137.21,Credit Card,Home & Kitchen,44.8,0.28,North
+tx_ref_200266,usr_1662,347.42,Cash,Electronics,53.6,0.07,East
+tx_ref_200267,usr_5677,1892.27,UPI,Apparel,35.6,0.23,East
+tx_ref_200268,usr_1064,1977.79,UPI,Electronics,46.7,0.26,South
+tx_ref_200269,usr_3118,1762.58,Credit Card,Electronics,44.6,0.21,West
+tx_ref_200270,usr_5955,1361.26,Credit Card,Home & Kitchen,43.5,0.2,West
+tx_ref_200271,usr_4029,2491.59,Credit Card,Digital Goods,33.6,0.12,South
+tx_ref_200272,usr_5528,1486.75,UPI,Home & Kitchen,36.0,0.28,South
+tx_ref_200273,usr_2361,226.65,Credit Card,Electronics,28.2,0.12,East
+tx_ref_200274,usr_3752,3784.77,UPI,Home & Kitchen,47.5,0.2,South
+tx_ref_200275,usr_7705,1937.02,UPI,Home & Kitchen,38.7,0.05,South
+tx_ref_200276,usr_3698,615.66,UPI,Electronics,22.0,0.06,North
+tx_ref_200277,usr_3877,4428.42,UPI,Apparel,33.2,0.0,West
+tx_ref_200278,usr_1056,867.32,UPI,Apparel,28.7,0.08,South
+tx_ref_200279,usr_6738,689.94,Cash,Apparel,43.3,0.17,North
+tx_ref_200280,usr_4434,947.28,UPI,Apparel,46.5,0.01,East
+tx_ref_200281,usr_2484,554.4,Debit Card,Electronics,39.3,0.28,East
+tx_ref_200282,usr_2323,1408.64,Debit Card,Home & Kitchen,51.2,0.01,East
+tx_ref_200283,usr_1362,1158.96,UPI,Apparel,32.3,0.17,South
+tx_ref_200284,usr_6657,3577.67,Debit Card,Apparel,39.7,0.27,East
+tx_ref_200285,usr_2645,2411.34,Debit Card,Apparel,37.7,0.04,North
+tx_ref_200286,usr_4620,7396.4,UPI,Electronics,35.4,0.17,South
+tx_ref_200287,usr_3623,2458.75,Credit Card,Electronics,,0.08,North
+tx_ref_200288,usr_3591,1692.19,UPI,Electronics,26.9,0.21,West
+tx_ref_200289,usr_3471,1780.49,Debit Card,Digital Goods,45.5,0.08,East
+tx_ref_200290,usr_2787,814.72,Credit Card,Electronics,27.7,0.29,North
+tx_ref_200291,usr_4215,210.63,Credit Card,Home & Kitchen,36.2,0.14,North
+tx_ref_200292,usr_1039,1457.04,Debit Card,Home & Kitchen,31.6,0.1,South
+tx_ref_200293,usr_2722,867.42,Cash,Home & Kitchen,40.7,0.12,North
+tx_ref_200294,usr_6585,554.01,Credit Card,Apparel,28.6,0.01,West
+tx_ref_200295,usr_1168,3988.09,Credit Card,Apparel,37.1,0.02,West
+tx_ref_200296,usr_1365,1470.7,UPI,Electronics,37.7,0.23,South
+tx_ref_200297,usr_7327,1640.01,UPI,Digital Goods,53.5,0.22,South
+tx_ref_200298,usr_7447,2824.14,Debit Card,Apparel,31.4,0.29,East
+tx_ref_200299,usr_3327,1552.35,Credit Card,Apparel,35.4,0.14,West
+tx_ref_200300,usr_5393,3817.17,Credit Card,Apparel,47.6,0.2,South
+tx_ref_200301,usr_1269,1224.5,Credit Card,Digital Goods,41.6,0.1,North
+tx_ref_200302,usr_7322,5249.19,UPI,Apparel,51.9,0.24,North
+tx_ref_200303,usr_2982,4922.4,Credit Card,Home & Kitchen,26.9,0.23,East
+tx_ref_200304,usr_4409,108.51,UPI,Electronics,36.2,0.05,West
+tx_ref_200305,usr_3594,2598.82,Debit Card,Electronics,34.5,0.19,North
+tx_ref_200306,usr_6130,1090.42,Credit Card,Home & Kitchen,53.6,0.13,South
+tx_ref_200307,usr_2604,236.89,UPI,Home & Kitchen,40.8,0.26,North
+tx_ref_200308,usr_4218,4005.44,Debit Card,Apparel,38.1,0.05,East
+tx_ref_200309,usr_7608,6850.24,Credit Card,Apparel,28.9,0.01,South
+tx_ref_200310,usr_2421,831.8,UPI,Apparel,40.9,0.18,East
+tx_ref_200311,usr_5813,3834.72,Credit Card,Digital Goods,43.2,0.25,West
+tx_ref_200312,usr_2043,3399.94,Debit Card,Electronics,41.6,0.29,South
+tx_ref_200313,usr_4370,6819.95,UPI,Home & Kitchen,29.7,0.07,South
+tx_ref_200314,usr_4092,269.5,Credit Card,Home & Kitchen,35.7,0.13,South
+tx_ref_200315,usr_4769,2210.86,UPI,Home & Kitchen,34.6,0.18,East
+tx_ref_200316,usr_3147,2097.8,Debit Card,Electronics,22.1,0.25,North
+tx_ref_200317,usr_5965,1097.33,UPI,Electronics,35.1,0.19,South
+tx_ref_200318,usr_8958,1340.76,Debit Card,Electronics,31.9,0.05,East
+tx_ref_200319,usr_6158,1269.76,UPI,Electronics,38.5,0.17,West
+tx_ref_200320,usr_7547,1925.69,Credit Card,Electronics,40.2,0.16,West
+tx_ref_200321,usr_2414,1703.24,UPI,Electronics,43.6,0.19,South
+tx_ref_200322,usr_5476,1232.73,Credit Card,Digital Goods,20.0,0.06,East
+tx_ref_200323,usr_1900,1926.26,UPI,Digital Goods,51.7,0.13,West
+tx_ref_200324,usr_2360,135.23,Cash,Digital Goods,42.7,0.02,West
+tx_ref_200325,usr_2963,2801.16,UPI,Home & Kitchen,29.8,0.18,North
+tx_ref_200326,usr_4246,102.85,UPI,Home & Kitchen,34.2,0.18,South
+tx_ref_200327,usr_7721,1577.9,Debit Card,Electronics,38.5,0.01,North
+tx_ref_200328,usr_7954,137.58,Cash,Electronics,31.7,0.08,South
+tx_ref_200329,usr_5120,2237.89,UPI,Electronics,36.0,0.06,West
+tx_ref_200330,usr_4714,1851.35,Credit Card,Apparel,27.2,0.08,East
+tx_ref_200331,usr_4143,2515.3,UPI,Apparel,38.9,0.0,South
+tx_ref_200332,usr_6268,2881.75,UPI,Electronics,46.3,0.01,West
+tx_ref_200333,usr_3667,750.48,UPI,Electronics,47.8,0.03,South
+tx_ref_200334,usr_6539,250.85,Credit Card,Apparel,23.3,0.06,North
+tx_ref_200335,usr_7567,5712.68,Debit Card,Digital Goods,32.5,0.11,North
+tx_ref_200336,usr_6178,462.32,Cash,Home & Kitchen,34.0,0.17,North
+tx_ref_200337,usr_8110,578.97,Credit Card,Apparel,44.3,0.13,West
+tx_ref_200338,usr_1421,79.88,UPI,Apparel,52.9,0.19,East
+tx_ref_200339,usr_7237,207.74,Debit Card,Electronics,27.3,0.23,West
+tx_ref_200340,usr_7204,3030.8,UPI,Home & Kitchen,38.3,0.02,East
+tx_ref_200341,usr_2952,359.3,Credit Card,Home & Kitchen,30.1,0.02,West
+tx_ref_200342,usr_1853,2881.05,Cash,Apparel,48.8,0.0,South
+tx_ref_200343,usr_4087,1364.33,Debit Card,Home & Kitchen,18.0,0.23,South
+tx_ref_200344,usr_3850,72.11,UPI,Home & Kitchen,,0.15,East
+tx_ref_200345,usr_6044,9100.06,UPI,Digital Goods,24.2,0.04,North
+tx_ref_200346,usr_6133,445.34,UPI,Electronics,19.7,0.17,West
+tx_ref_200347,usr_2408,2314.53,Credit Card,Digital Goods,35.5,0.01,North
+tx_ref_200348,usr_6042,4186.43,UPI,Electronics,47.3,0.06,South
+tx_ref_200349,usr_2334,653.48,Debit Card,Electronics,41.0,0.24,East
+tx_ref_200350,usr_6447,3714.73,Debit Card,Electronics,51.6,0.23,North
+tx_ref_200351,usr_8120,845.8,Credit Card,Electronics,45.4,0.08,East
+tx_ref_200352,usr_6084,349.61,Credit Card,Digital Goods,36.2,0.08,North
+tx_ref_200353,usr_8452,526.17,Credit Card,Apparel,37.5,0.13,North
+tx_ref_200354,usr_5169,2557.05,Debit Card,Apparel,32.9,0.04,North
+tx_ref_200355,usr_6774,2160.09,UPI,Electronics,36.4,0.01,North
+tx_ref_200356,usr_8648,2821.47,UPI,Electronics,25.6,0.1,West
+tx_ref_200357,usr_3975,64.91,Debit Card,Apparel,29.3,0.18,East
+tx_ref_200358,usr_4819,1333.82,Credit Card,Electronics,29.8,0.09,North
+tx_ref_200359,usr_1114,946.33,Debit Card,Home & Kitchen,38.0,0.25,North
+tx_ref_200360,usr_4658,1088.71,UPI,Digital Goods,25.3,0.23,North
+tx_ref_200361,usr_5004,1890.46,Credit Card,Apparel,33.5,0.08,East
+tx_ref_200362,usr_8345,7135.86,Cash,Apparel,47.8,0.09,North
+tx_ref_200363,usr_3970,281.73,Credit Card,Electronics,39.2,0.24,South
+tx_ref_200364,usr_3150,122.8,UPI,Electronics,42.1,0.13,South
+tx_ref_200365,usr_5690,1087.84,UPI,Home & Kitchen,44.8,0.1,West
+tx_ref_200366,usr_3736,269.44,UPI,Electronics,39.8,0.03,North
+tx_ref_200367,usr_1842,3923.79,UPI,Apparel,40.1,0.14,North
+tx_ref_200368,usr_3249,8357.46,Credit Card,Apparel,49.7,0.02,North
+tx_ref_200369,usr_1457,1678.77,UPI,Home & Kitchen,27.2,0.04,East
+tx_ref_200370,usr_6904,169.79,UPI,Home & Kitchen,26.0,0.29,West
+tx_ref_200371,usr_3913,14401.68,UPI,Electronics,24.1,0.01,West
+tx_ref_200372,usr_7260,1142.91,Cash,Electronics,34.8,0.17,South
+tx_ref_200373,usr_2063,2595.87,UPI,Home & Kitchen,28.8,0.06,South
+tx_ref_200374,usr_7410,4190.91,Credit Card,Apparel,32.1,0.11,East
+tx_ref_200375,usr_7303,1467.44,Credit Card,Apparel,50.7,0.06,East
+tx_ref_200376,usr_1876,1180.59,Debit Card,Home & Kitchen,44.3,0.09,West
+tx_ref_200377,usr_6041,783.87,Credit Card,Apparel,35.6,0.08,East
+tx_ref_200378,usr_2866,342.19,UPI,Electronics,27.2,0.11,South
+tx_ref_200379,usr_6712,1137.16,Credit Card,Electronics,48.9,0.11,South
+tx_ref_200380,usr_2702,2526.73,UPI,Electronics,39.1,0.06,East
+tx_ref_200381,usr_8942,2494.5,UPI,Home & Kitchen,35.7,0.05,East
+tx_ref_200382,usr_6940,1305.42,UPI,Apparel,,0.27,West
+tx_ref_200383,usr_3678,3206.91,Debit Card,Apparel,35.9,0.18,North
+tx_ref_200384,usr_2718,484.33,UPI,Apparel,27.6,0.14,East
+tx_ref_200385,usr_1261,258.44,Credit Card,Electronics,35.9,0.07,East
+tx_ref_200386,usr_1514,2075.57,Debit Card,Home & Kitchen,43.9,0.03,South
+tx_ref_200387,usr_7439,461.17,Cash,Electronics,32.1,0.07,South
+tx_ref_200388,usr_4514,1868.44,UPI,Apparel,49.7,0.02,South
+tx_ref_200389,usr_3303,3275.21,Cash,Home & Kitchen,28.8,0.04,East
+tx_ref_200390,usr_1847,1052.83,Debit Card,Home & Kitchen,33.3,0.15,South
+tx_ref_200391,usr_7512,2619.94,Credit Card,Apparel,38.0,0.28,East
+tx_ref_200392,usr_8721,204.18,UPI,Digital Goods,48.5,0.1,South
+tx_ref_200393,usr_3023,2421.8,UPI,Home & Kitchen,42.5,0.19,South
+tx_ref_200394,usr_8157,2126.51,Cash,Apparel,41.3,0.23,South
+tx_ref_200395,usr_6149,772.23,Cash,Digital Goods,33.5,0.13,South
+tx_ref_200396,usr_5660,5542.41,UPI,Electronics,35.0,0.19,South
+tx_ref_200397,usr_3417,537.13,Credit Card,Apparel,,0.04,North
+tx_ref_200398,usr_5908,1631.43,Credit Card,Apparel,44.5,0.29,South
+tx_ref_200399,usr_5766,3201.24,UPI,Digital Goods,30.1,0.02,North
+tx_ref_200400,usr_8541,1073.83,UPI,Electronics,29.5,0.11,North
+tx_ref_200401,usr_6605,5973.46,UPI,Electronics,32.7,0.15,East
+tx_ref_200402,usr_5922,1647.61,Debit Card,Electronics,40.0,0.17,South
+tx_ref_200403,usr_3527,1504.25,Credit Card,Apparel,45.8,0.22,East
+tx_ref_200404,usr_1593,1303.63,UPI,Electronics,36.1,0.26,South
+tx_ref_200405,usr_1577,1328.71,UPI,Home & Kitchen,42.9,0.21,North
+tx_ref_200406,usr_7266,2360.36,Cash,Electronics,31.8,0.13,West
+tx_ref_200407,usr_3968,1782.54,UPI,Electronics,19.7,0.16,North
+tx_ref_200408,usr_4722,7736.09,Credit Card,Home & Kitchen,37.0,0.25,North
+tx_ref_200409,usr_8533,181.27,Credit Card,Apparel,36.6,0.08,West
+tx_ref_200410,usr_4173,1049.78,Credit Card,Apparel,18.2,0.19,West
+tx_ref_200411,usr_4566,1918.01,Credit Card,Apparel,37.5,0.15,South
+tx_ref_200412,usr_5678,1209.04,UPI,Home & Kitchen,29.4,0.24,East
+tx_ref_200413,usr_3174,1229.51,Credit Card,Apparel,37.6,0.14,West
+tx_ref_200414,usr_7354,1123.72,Credit Card,Electronics,30.2,0.02,East
+tx_ref_200415,usr_2048,682.89,UPI,Electronics,23.5,0.23,South
+tx_ref_200416,usr_2100,1073.17,Debit Card,Electronics,35.1,0.13,West
+tx_ref_200417,usr_4517,2561.3,UPI,Electronics,54.0,0.05,North
+tx_ref_200418,usr_7203,1022.04,UPI,Digital Goods,,0.15,North
+tx_ref_200419,usr_5982,359.22,Credit Card,Electronics,26.1,0.18,South
+tx_ref_200420,usr_5240,762.52,UPI,Electronics,42.5,0.28,South
+tx_ref_200421,usr_3951,1880.53,Debit Card,Apparel,29.3,0.02,North
+tx_ref_200422,usr_4295,1409.06,UPI,Apparel,36.1,0.21,West
+tx_ref_200423,usr_4329,1738.92,Credit Card,Home & Kitchen,41.1,0.07,North
+tx_ref_200424,usr_7339,1853.55,UPI,Electronics,34.7,0.11,East
+tx_ref_200425,usr_6229,374.95,UPI,Home & Kitchen,35.1,0.22,South
+tx_ref_200426,usr_1539,571.03,Debit Card,Home & Kitchen,58.3,0.09,North
+tx_ref_200427,usr_8184,782.32,UPI,Home & Kitchen,37.1,0.13,North
+tx_ref_200428,usr_3985,1012.81,Debit Card,Digital Goods,39.4,0.27,South
+tx_ref_200429,usr_2138,105.41,Credit Card,Electronics,54.3,0.13,North
+tx_ref_200430,usr_8506,613.98,Credit Card,Apparel,36.4,0.26,North
+tx_ref_200431,usr_1429,759.65,Credit Card,Apparel,46.1,0.17,South
+tx_ref_200432,usr_6321,2016.52,Credit Card,Home & Kitchen,27.2,0.13,East
+tx_ref_200433,usr_6950,432.95,UPI,Home & Kitchen,33.7,0.24,South
+tx_ref_200434,usr_6153,458.19,Credit Card,Digital Goods,46.3,0.16,West
+tx_ref_200435,usr_6737,638.12,Debit Card,Electronics,21.8,0.12,East
+tx_ref_200436,usr_1235,667.87,UPI,Electronics,30.3,0.11,South
+tx_ref_200437,usr_4855,1615.54,Credit Card,Electronics,19.9,0.25,South
+tx_ref_200438,usr_7432,432.68,UPI,Home & Kitchen,55.7,0.14,South
+tx_ref_200439,usr_1330,1604.84,Debit Card,Electronics,31.8,0.08,North
+tx_ref_200440,usr_8913,1782.09,Credit Card,Electronics,27.5,0.02,East
+tx_ref_200441,usr_2997,186.22,Credit Card,Apparel,31.5,0.01,East
+tx_ref_200442,usr_1397,3414.41,UPI,Electronics,40.4,0.27,East
+tx_ref_200443,usr_5018,133.27,Credit Card,Home & Kitchen,35.9,0.28,South
+tx_ref_200444,usr_4669,1675.35,Debit Card,Electronics,42.8,0.08,West
+tx_ref_200445,usr_6999,132.44,UPI,Home & Kitchen,48.2,0.23,East
+tx_ref_200446,usr_4241,2509.73,Cash,Apparel,29.9,0.13,South
+tx_ref_200447,usr_2328,1351.34,Credit Card,Digital Goods,23.1,0.01,East
+tx_ref_200448,usr_8312,2222.23,Credit Card,Electronics,54.8,0.17,East
+tx_ref_200449,usr_4143,8478.86,Cash,Apparel,38.1,0.29,East
+tx_ref_200450,usr_5891,338.48,Debit Card,Electronics,34.4,0.21,South
+tx_ref_200451,usr_4376,620.12,Debit Card,Home & Kitchen,42.7,0.28,West
+tx_ref_200452,usr_4762,450.84,Credit Card,Home & Kitchen,37.6,0.26,East
+tx_ref_200453,usr_4516,1236.73,UPI,Home & Kitchen,48.4,0.24,North
+tx_ref_200454,usr_3544,370.59,UPI,Home & Kitchen,32.2,0.14,East
+tx_ref_200455,usr_5451,836.0,UPI,Electronics,18.9,0.24,West
+tx_ref_200456,usr_8342,2570.24,Credit Card,Apparel,36.4,0.27,West
+tx_ref_200457,usr_5787,3466.28,Cash,Electronics,30.4,0.07,West
+tx_ref_200458,usr_8799,1125.12,UPI,Apparel,29.6,0.08,North
+tx_ref_200459,usr_2664,335.61,Credit Card,Electronics,56.0,0.13,East
+tx_ref_200460,usr_8228,210.63,Debit Card,Electronics,29.9,0.28,South
+tx_ref_200461,usr_3375,118.86,Credit Card,Electronics,37.0,0.3,North
+tx_ref_200462,usr_2882,2543.19,UPI,Electronics,26.4,0.07,East
+tx_ref_200463,usr_4893,756.13,Credit Card,Home & Kitchen,44.0,0.07,South
+tx_ref_200464,usr_3802,5400.65,UPI,Electronics,30.2,0.11,West
+tx_ref_200465,usr_3909,409.22,Cash,Electronics,33.1,0.12,East
+tx_ref_200466,usr_5926,186.4,Credit Card,Electronics,34.8,0.21,East
+tx_ref_200467,usr_5452,4947.59,Cash,Electronics,24.0,0.25,North
+tx_ref_200468,usr_3306,492.67,Credit Card,Electronics,41.7,0.12,South
+tx_ref_200469,usr_6203,1046.66,UPI,Digital Goods,28.8,0.18,South
+tx_ref_200470,usr_4058,7541.28,Debit Card,Home & Kitchen,40.5,0.23,West
+tx_ref_200471,usr_8416,75.41,Credit Card,Apparel,34.9,0.16,East
+tx_ref_200472,usr_6902,4539.9,Credit Card,Electronics,30.8,0.02,West
+tx_ref_200473,usr_3587,360.41,UPI,Apparel,29.8,0.11,North
+tx_ref_200474,usr_5437,4985.18,Cash,Apparel,38.6,0.06,West
+tx_ref_200475,usr_6581,1976.08,UPI,Apparel,30.3,0.13,North
+tx_ref_200476,usr_1797,4426.81,UPI,Digital Goods,20.9,0.13,East
+tx_ref_200477,usr_5444,1259.5,UPI,Electronics,36.2,0.04,South
+tx_ref_200478,usr_6611,325.48,Cash,Digital Goods,24.1,0.05,South
+tx_ref_200479,usr_5602,22816.35,Cash,Apparel,32.5,0.27,East
+tx_ref_200480,usr_4654,265.46,Credit Card,Home & Kitchen,48.0,0.1,South
+tx_ref_200481,usr_7880,2395.32,Credit Card,Electronics,37.9,0.28,North
+tx_ref_200482,usr_4637,677.45,Credit Card,Digital Goods,24.8,0.16,South
+tx_ref_200483,usr_7655,4077.28,Credit Card,Apparel,41.1,0.01,North
+tx_ref_200484,usr_5766,4675.75,UPI,Electronics,53.3,0.05,East
+tx_ref_200485,usr_7888,98.65,Debit Card,Home & Kitchen,31.1,0.2,South
+tx_ref_200486,usr_5144,9575.63,UPI,Digital Goods,29.5,0.02,North
+tx_ref_200487,usr_2872,1737.55,Debit Card,Home & Kitchen,49.7,0.13,North
+tx_ref_200488,usr_7842,2256.09,UPI,Electronics,36.9,0.21,South
+tx_ref_200489,usr_1455,2135.51,UPI,Apparel,39.7,0.11,South
+tx_ref_200490,usr_6524,1269.24,UPI,Electronics,28.5,0.23,West
+tx_ref_200491,usr_4228,1423.5,Debit Card,Digital Goods,56.9,0.25,West
+tx_ref_200492,usr_8048,1138.89,UPI,Apparel,31.4,0.02,North
+tx_ref_200493,usr_2530,2330.76,Credit Card,Apparel,31.1,0.14,East
+tx_ref_200494,usr_2283,1847.01,Credit Card,Electronics,47.6,0.22,North
+tx_ref_200495,usr_8226,258.23,UPI,Electronics,44.7,0.2,West
+tx_ref_200496,usr_8576,983.57,UPI,Electronics,43.5,0.13,North
+tx_ref_200497,usr_7982,7700.26,Cash,Apparel,28.8,0.29,West
+tx_ref_200498,usr_7435,187.91,UPI,Apparel,42.2,0.19,East
+tx_ref_200499,usr_1018,1425.34,UPI,Electronics,51.0,0.23,West
+tx_ref_200500,usr_8335,406.31,Credit Card,Electronics,25.0,0.22,East
+tx_ref_200501,usr_1883,131.5,Debit Card,Digital Goods,35.7,0.2,North
+tx_ref_200502,usr_2061,396.49,Credit Card,Electronics,39.2,0.07,East
+tx_ref_200503,usr_1650,925.94,Credit Card,Electronics,40.4,0.1,West
+tx_ref_200504,usr_2232,94.26,Debit Card,Home & Kitchen,35.0,0.16,North
+tx_ref_200505,usr_2091,3358.95,Debit Card,Home & Kitchen,43.8,0.16,North
+tx_ref_200506,usr_1395,1029.19,UPI,Apparel,26.3,0.22,West
+tx_ref_200507,usr_2377,248.66,UPI,Apparel,36.8,0.04,West
+tx_ref_200508,usr_4174,2371.04,Debit Card,Digital Goods,32.8,0.06,West
+tx_ref_200509,usr_4120,1668.36,Credit Card,Apparel,27.8,0.09,North
+tx_ref_200510,usr_2029,209.55,Credit Card,Digital Goods,39.9,0.3,North
+tx_ref_200511,usr_4334,2885.69,Cash,Apparel,36.3,0.27,East
+tx_ref_200512,usr_4148,506.05,UPI,Electronics,39.2,0.05,South
+tx_ref_200513,usr_8029,2637.53,Cash,Digital Goods,24.8,0.22,North
+tx_ref_200514,usr_1542,1006.37,UPI,Electronics,40.3,0.01,West
+tx_ref_200515,usr_4647,4188.59,Credit Card,Electronics,38.4,0.13,East
+tx_ref_200516,usr_2617,282.63,Credit Card,Apparel,40.6,0.26,South
+tx_ref_200517,usr_6753,941.78,UPI,Home & Kitchen,46.5,0.12,South
+tx_ref_200518,usr_8213,1369.39,Credit Card,Digital Goods,18.0,0.03,South
+tx_ref_200519,usr_5612,3895.33,Debit Card,Electronics,45.6,0.06,West
+tx_ref_200520,usr_4497,2241.42,Credit Card,Digital Goods,27.7,0.18,North
+tx_ref_200521,usr_2393,973.22,Cash,Home & Kitchen,31.1,0.23,East
+tx_ref_200522,usr_2762,2238.4,UPI,Home & Kitchen,53.3,0.29,South
+tx_ref_200523,usr_1127,212.91,UPI,Digital Goods,35.1,0.09,West
+tx_ref_200524,usr_1344,1809.82,UPI,Apparel,31.5,0.07,North
+tx_ref_200525,usr_2798,2788.52,Credit Card,Home & Kitchen,43.0,0.25,South
+tx_ref_200526,usr_2875,1405.8,Debit Card,Home & Kitchen,39.8,0.28,East
+tx_ref_200527,usr_1152,2175.01,UPI,Home & Kitchen,38.4,0.03,West
+tx_ref_200528,usr_4635,721.61,UPI,Apparel,30.9,0.18,North
+tx_ref_200529,usr_2690,1096.12,Credit Card,Apparel,31.5,0.07,North
+tx_ref_200530,usr_1710,4250.98,Credit Card,Electronics,18.0,0.22,North
+tx_ref_200531,usr_8805,760.66,Debit Card,Electronics,37.9,0.16,East
+tx_ref_200532,usr_5523,1271.39,Credit Card,Apparel,42.6,0.12,South
+tx_ref_200533,usr_7472,198.07,Credit Card,Home & Kitchen,38.3,0.25,North
+tx_ref_200534,usr_2909,973.88,Credit Card,Electronics,28.2,0.18,West
+tx_ref_200535,usr_4928,654.66,Debit Card,Apparel,35.5,0.18,South
+tx_ref_200536,usr_2293,3667.93,Credit Card,Apparel,47.5,0.1,West
+tx_ref_200537,usr_5264,5408.21,Credit Card,Digital Goods,33.6,0.19,South
+tx_ref_200538,usr_1614,2098.85,Credit Card,Apparel,18.0,0.06,West
+tx_ref_200539,usr_5115,3421.32,Debit Card,Apparel,37.5,0.23,West
+tx_ref_200540,usr_7863,1724.37,Credit Card,Electronics,43.6,0.19,South
+tx_ref_200541,usr_1151,4914.01,Debit Card,Apparel,32.9,0.11,North
+tx_ref_200542,usr_6872,1327.04,UPI,Home & Kitchen,46.6,0.28,West
+tx_ref_200543,usr_8342,6733.76,UPI,Apparel,27.7,0.11,South
+tx_ref_200544,usr_7101,1107.92,Credit Card,Home & Kitchen,37.5,0.07,South
+tx_ref_200545,usr_5185,10539.29,Cash,Electronics,30.4,0.16,South
+tx_ref_200546,usr_2279,2664.7,UPI,Home & Kitchen,37.6,0.1,South
+tx_ref_200547,usr_4316,425.32,Credit Card,Apparel,36.0,0.2,West
+tx_ref_200548,usr_4485,454.27,Credit Card,Apparel,41.4,0.12,North
+tx_ref_200549,usr_6332,896.55,UPI,Home & Kitchen,39.6,0.28,East
+tx_ref_200550,usr_4001,8452.85,UPI,Apparel,41.0,0.09,East
+tx_ref_200551,usr_4192,2465.78,Credit Card,Electronics,56.8,0.25,South
+tx_ref_200552,usr_2056,187.49,UPI,Electronics,44.7,0.21,West
+tx_ref_200553,usr_4548,304.13,Debit Card,Apparel,33.9,0.11,West
+tx_ref_200554,usr_4774,3395.4,Debit Card,Electronics,48.1,0.13,North
+tx_ref_200555,usr_6795,1490.87,Credit Card,Electronics,22.4,0.18,North
+tx_ref_200556,usr_1237,1136.89,UPI,Apparel,47.3,0.04,East
+tx_ref_200557,usr_5316,223.61,UPI,Apparel,30.3,0.04,East
+tx_ref_200558,usr_1990,786.53,Credit Card,Home & Kitchen,27.4,0.1,North
+tx_ref_200559,usr_8082,11289.06,UPI,Electronics,41.0,0.06,South
+tx_ref_200560,usr_4378,1602.36,UPI,Home & Kitchen,29.6,0.19,West
+tx_ref_200561,usr_5933,1872.55,Cash,Apparel,41.5,0.05,North
+tx_ref_200562,usr_5040,823.42,Cash,Digital Goods,49.4,0.25,East
+tx_ref_200563,usr_2131,1226.73,UPI,Electronics,54.5,0.25,West
+tx_ref_200564,usr_8791,707.59,Credit Card,Electronics,49.1,0.29,West
+tx_ref_200565,usr_5754,4497.72,UPI,Apparel,39.7,0.01,East
+tx_ref_200566,usr_3803,7963.68,Cash,Home & Kitchen,23.7,0.0,West
+tx_ref_200567,usr_3804,430.05,UPI,Electronics,36.5,0.1,East
+tx_ref_200568,usr_3665,2774.46,Debit Card,Apparel,30.8,0.07,East
+tx_ref_200569,usr_1404,872.4,Debit Card,Apparel,47.3,0.03,North
+tx_ref_200570,usr_6723,573.16,Credit Card,Electronics,30.7,0.26,West
+tx_ref_200571,usr_6461,698.58,UPI,Home & Kitchen,32.0,0.22,West
+tx_ref_200572,usr_4856,1776.6,Cash,Apparel,28.6,0.11,North
+tx_ref_200573,usr_1852,515.92,UPI,Home & Kitchen,41.7,0.11,West
+tx_ref_200574,usr_6339,678.47,Credit Card,Electronics,20.1,0.22,East
+tx_ref_200575,usr_4914,417.32,UPI,Home & Kitchen,30.1,0.07,North
+tx_ref_200576,usr_8290,839.72,Cash,Home & Kitchen,24.3,0.17,East
+tx_ref_200577,usr_1433,1511.42,UPI,Electronics,40.2,0.19,West
+tx_ref_200578,usr_1115,1420.28,Cash,Electronics,19.8,0.13,North
+tx_ref_200579,usr_1833,2703.27,UPI,Home & Kitchen,25.8,0.0,South
+tx_ref_200580,usr_7571,1692.74,Debit Card,Electronics,36.0,0.08,East
+tx_ref_200581,usr_2006,1963.15,Cash,Digital Goods,32.2,0.06,West
+tx_ref_200582,usr_5682,224.96,Debit Card,Electronics,30.4,0.2,North
+tx_ref_200583,usr_3765,3341.95,Credit Card,Electronics,33.2,0.03,East
+tx_ref_200584,usr_7084,2280.29,UPI,Home & Kitchen,52.7,0.29,West
+tx_ref_200585,usr_8037,218.93,Debit Card,Apparel,29.3,0.0,South
+tx_ref_200586,usr_1919,2149.47,Debit Card,Digital Goods,39.7,0.1,North
+tx_ref_200587,usr_4293,6033.89,Credit Card,Apparel,38.9,0.17,North
+tx_ref_200588,usr_6601,3025.59,UPI,Electronics,28.4,0.18,South
+tx_ref_200589,usr_3870,572.1,UPI,Digital Goods,39.5,0.11,South
+tx_ref_200590,usr_5731,1458.77,Credit Card,Home & Kitchen,48.9,0.29,West
+tx_ref_200591,usr_7793,1144.67,UPI,Apparel,47.8,0.15,West
+tx_ref_200592,usr_4995,746.99,Credit Card,Electronics,38.2,0.1,North
+tx_ref_200593,usr_4874,2084.91,UPI,Apparel,34.4,0.08,North
+tx_ref_200594,usr_8023,2085.0,Credit Card,Apparel,49.2,0.11,North
+tx_ref_200595,usr_8846,1191.76,UPI,Electronics,47.1,0.16,West
+tx_ref_200596,usr_3716,1839.69,Credit Card,Apparel,38.3,0.21,West
+tx_ref_200597,usr_8838,598.06,UPI,Electronics,42.3,0.15,North
+tx_ref_200598,usr_3331,6318.44,Debit Card,Home & Kitchen,53.0,0.12,South
+tx_ref_200599,usr_7390,1230.45,Credit Card,Electronics,34.7,0.17,North
+tx_ref_200600,usr_2101,6710.47,UPI,Electronics,,0.27,South
+tx_ref_200601,usr_7505,3222.24,UPI,Digital Goods,23.5,0.25,West
+tx_ref_200602,usr_7602,241.48,Debit Card,Electronics,31.6,0.06,East
+tx_ref_200603,usr_3395,3212.54,Debit Card,Home & Kitchen,30.6,0.01,South
+tx_ref_200604,usr_8419,298.67,Cash,Electronics,40.2,0.14,East
+tx_ref_200605,usr_1827,2318.17,UPI,Home & Kitchen,27.4,0.29,West
+tx_ref_200606,usr_7569,3839.62,Cash,Home & Kitchen,33.6,0.13,West
+tx_ref_200607,usr_8655,334.31,Credit Card,Digital Goods,34.2,0.02,West
+tx_ref_200608,usr_5837,7681.18,UPI,Home & Kitchen,28.0,0.21,East
+tx_ref_200609,usr_7318,838.32,UPI,Apparel,48.5,0.06,South
+tx_ref_200610,usr_8110,1731.54,UPI,Apparel,26.5,0.07,South
+tx_ref_200611,usr_3217,4125.93,Credit Card,Apparel,26.5,0.03,West
+tx_ref_200612,usr_6665,892.13,UPI,Apparel,28.1,0.23,North
+tx_ref_200613,usr_6961,1175.08,Credit Card,Digital Goods,54.0,0.19,West
+tx_ref_200614,usr_8414,214.06,Debit Card,Apparel,27.3,0.11,South
+tx_ref_200615,usr_2736,84.4,Credit Card,Apparel,37.8,0.24,South
+tx_ref_200616,usr_5762,738.61,Cash,Electronics,40.2,0.29,East
+tx_ref_200617,usr_5060,5391.15,UPI,Digital Goods,40.7,0.1,North
+tx_ref_200618,usr_2353,1399.74,Credit Card,Apparel,,0.23,North
+tx_ref_200619,usr_3481,720.19,Debit Card,Home & Kitchen,26.6,0.29,West
+tx_ref_200620,usr_1151,61.31,UPI,Electronics,29.0,0.08,West
+tx_ref_200621,usr_5170,2687.55,Cash,Apparel,43.2,0.08,West
+tx_ref_200622,usr_7295,638.49,Debit Card,Home & Kitchen,24.6,0.1,West
+tx_ref_200623,usr_2459,1084.04,UPI,Apparel,39.1,0.07,West
+tx_ref_200624,usr_2222,1016.53,UPI,Home & Kitchen,36.2,0.3,West
+tx_ref_200625,usr_8874,921.17,Credit Card,Electronics,22.7,0.11,West
+tx_ref_200626,usr_2068,921.88,Debit Card,Digital Goods,41.4,0.11,West
+tx_ref_200627,usr_8811,4586.28,UPI,Electronics,37.2,0.25,East
+tx_ref_200628,usr_1616,3465.96,Credit Card,Electronics,,0.09,South
+tx_ref_200629,usr_4153,1248.39,Cash,Apparel,32.0,0.24,East
+tx_ref_200630,usr_8438,2454.03,Credit Card,Electronics,31.9,0.02,North
+tx_ref_200631,usr_8773,3241.36,Credit Card,Electronics,44.8,0.29,South
+tx_ref_200632,usr_4557,3896.26,UPI,Electronics,28.2,0.13,South
+tx_ref_200633,usr_7377,211.63,Debit Card,Apparel,20.6,0.01,West
+tx_ref_200634,usr_5251,224.11,Credit Card,Electronics,25.7,0.14,East
+tx_ref_200635,usr_3788,1318.16,UPI,Electronics,43.8,0.14,East
+tx_ref_200636,usr_4898,1841.02,Credit Card,Home & Kitchen,38.8,0.12,West
+tx_ref_200637,usr_2091,283.29,Cash,Apparel,40.5,0.28,West
+tx_ref_200638,usr_1085,2906.42,Cash,Electronics,47.0,0.04,North
+tx_ref_200639,usr_5376,3016.91,Credit Card,Home & Kitchen,31.7,0.25,East
+tx_ref_200640,usr_8498,895.42,UPI,Digital Goods,46.5,0.09,West
+tx_ref_200641,usr_7302,3593.38,Cash,Electronics,43.0,0.05,West
+tx_ref_200642,usr_4081,1645.72,Credit Card,Electronics,42.7,0.03,West
+tx_ref_200643,usr_6376,3049.19,Credit Card,Home & Kitchen,43.9,0.13,North
+tx_ref_200644,usr_7436,362.84,Credit Card,Electronics,39.5,0.08,South
+tx_ref_200645,usr_7243,392.75,UPI,Electronics,24.7,0.15,North
+tx_ref_200646,usr_5757,498.44,Cash,Apparel,50.5,0.19,West
+tx_ref_200647,usr_8154,12282.88,Credit Card,Apparel,35.7,0.22,West
+tx_ref_200648,usr_6768,5868.68,UPI,Home & Kitchen,33.7,0.28,West
+tx_ref_200649,usr_4007,1934.55,Credit Card,Apparel,24.1,0.27,East
+tx_ref_200650,usr_2708,1275.01,UPI,Apparel,35.2,0.19,North
+tx_ref_200651,usr_5176,1047.74,Credit Card,Home & Kitchen,44.3,0.27,West
+tx_ref_200652,usr_1642,956.77,Credit Card,Home & Kitchen,42.8,0.01,West
+tx_ref_200653,usr_8496,4512.77,UPI,Electronics,52.8,0.15,North
+tx_ref_200654,usr_1258,2450.25,UPI,Home & Kitchen,41.3,0.3,East
+tx_ref_200655,usr_1884,130.76,Cash,Digital Goods,37.5,0.11,West
+tx_ref_200656,usr_2313,517.58,UPI,Digital Goods,38.3,0.0,East
+tx_ref_200657,usr_5872,1340.58,Debit Card,Electronics,26.9,0.05,West
+tx_ref_200658,usr_8431,935.9,Credit Card,Electronics,36.3,0.3,South
+tx_ref_200659,usr_7592,1948.93,UPI,Electronics,32.2,0.16,South
+tx_ref_200660,usr_5314,1174.81,UPI,Electronics,30.5,0.0,East
+tx_ref_200661,usr_6601,2916.31,Credit Card,Digital Goods,42.1,0.03,South
+tx_ref_200662,usr_3537,2239.39,Cash,Apparel,37.8,0.28,North
+tx_ref_200663,usr_3864,1116.33,Debit Card,Digital Goods,43.3,0.15,West
+tx_ref_200664,usr_3523,4608.81,Debit Card,Digital Goods,37.4,0.2,South
+tx_ref_200665,usr_3288,158.19,UPI,Electronics,36.6,0.11,South
+tx_ref_200666,usr_1872,478.08,Credit Card,Home & Kitchen,47.2,0.06,South
+tx_ref_200667,usr_2277,4303.36,Credit Card,Apparel,23.0,0.06,North
+tx_ref_200668,usr_2524,361.2,Debit Card,Apparel,20.5,0.04,West
+tx_ref_200669,usr_1472,169.33,Debit Card,Electronics,29.8,0.16,South
+tx_ref_200670,usr_3404,1247.98,UPI,Digital Goods,26.5,0.29,North
+tx_ref_200671,usr_4134,2533.81,Credit Card,Digital Goods,41.2,0.28,South
+tx_ref_200672,usr_8068,1333.35,Debit Card,Electronics,21.5,0.09,North
+tx_ref_200673,usr_6663,1513.26,UPI,Digital Goods,27.3,0.07,East
+tx_ref_200674,usr_7113,3612.28,Debit Card,Apparel,33.2,0.17,South
+tx_ref_200675,usr_7047,1408.61,Debit Card,Electronics,44.2,0.29,South
+tx_ref_200676,usr_2478,5892.73,UPI,Electronics,29.9,0.11,East
+tx_ref_200677,usr_1314,812.87,UPI,Home & Kitchen,42.4,0.03,East
+tx_ref_200678,usr_3427,3271.06,UPI,Apparel,42.6,0.16,South
+tx_ref_200679,usr_6607,440.09,Credit Card,Home & Kitchen,35.8,0.15,East
+tx_ref_200680,usr_3505,1184.27,Cash,Apparel,26.1,0.22,South
+tx_ref_200681,usr_6799,4285.82,Credit Card,Apparel,38.2,0.19,East
+tx_ref_200682,usr_5993,4104.53,Debit Card,Electronics,45.2,0.22,West
+tx_ref_200683,usr_4205,513.17,Credit Card,Home & Kitchen,44.9,0.21,North
+tx_ref_200684,usr_2463,4226.36,Credit Card,Home & Kitchen,39.4,0.09,East
+tx_ref_200685,usr_5695,1486.13,Debit Card,Home & Kitchen,29.1,0.12,East
+tx_ref_200686,usr_6921,1634.52,UPI,Digital Goods,40.6,0.09,East
+tx_ref_200687,usr_8317,644.23,UPI,Home & Kitchen,20.2,0.22,West
+tx_ref_200688,usr_3311,150.15,Credit Card,Electronics,50.5,0.28,West
+tx_ref_200689,usr_4165,604.35,Credit Card,Apparel,29.4,0.24,South
+tx_ref_200690,usr_2629,3440.34,UPI,Electronics,18.0,0.13,South
+tx_ref_200691,usr_5381,1235.86,UPI,Electronics,37.2,0.11,West
+tx_ref_200692,usr_1246,3246.22,UPI,Home & Kitchen,32.3,0.19,East
+tx_ref_200693,usr_6263,1829.33,Cash,Apparel,38.0,0.13,South
+tx_ref_200694,usr_3758,2047.18,UPI,Digital Goods,34.4,0.09,North
+tx_ref_200695,usr_1489,344.52,Credit Card,Electronics,24.4,0.0,North
+tx_ref_200696,usr_1370,8733.45,Cash,Electronics,49.0,0.27,South
+tx_ref_200697,usr_1304,1604.02,UPI,Electronics,49.3,0.03,South
+tx_ref_200698,usr_8245,788.78,Debit Card,Home & Kitchen,28.7,0.13,South
+tx_ref_200699,usr_3392,5149.2,Debit Card,Home & Kitchen,22.1,0.22,West
+tx_ref_200700,usr_3511,76.04,UPI,Apparel,33.4,0.23,North
+tx_ref_200701,usr_1737,277.74,UPI,Apparel,18.0,0.04,South
+tx_ref_200702,usr_7932,632.61,UPI,Electronics,38.8,0.11,West
+tx_ref_200703,usr_2021,36110.91,UPI,Digital Goods,18.0,0.07,East
+tx_ref_200704,usr_8672,85.42,Debit Card,Home & Kitchen,22.9,0.24,South
+tx_ref_200705,usr_3275,543.75,Debit Card,Home & Kitchen,31.2,0.13,South
+tx_ref_200706,usr_5458,894.94,Cash,Home & Kitchen,30.1,0.02,South
+tx_ref_200707,usr_5033,4212.12,UPI,Electronics,37.0,0.04,West
+tx_ref_200708,usr_6953,1047.46,Debit Card,Electronics,19.5,0.11,West
+tx_ref_200709,usr_5456,1139.36,Cash,Home & Kitchen,,0.06,South
+tx_ref_200710,usr_8292,2905.84,Debit Card,Apparel,35.6,0.27,East
+tx_ref_200711,usr_1859,2969.73,Cash,Electronics,25.0,0.29,West
+tx_ref_200712,usr_4676,1351.28,UPI,Electronics,40.6,0.04,West
+tx_ref_200713,usr_7517,14545.63,Debit Card,Electronics,30.6,0.14,East
+tx_ref_200714,usr_3005,6015.27,Credit Card,Apparel,40.5,0.01,South
+tx_ref_200715,usr_2667,1366.32,Credit Card,Electronics,21.0,0.09,South
+tx_ref_200716,usr_3618,3554.76,Cash,Electronics,37.0,0.09,West
+tx_ref_200717,usr_3663,7597.88,UPI,Home & Kitchen,39.2,0.07,East
+tx_ref_200718,usr_2903,2805.11,Credit Card,Apparel,51.5,0.08,East
+tx_ref_200719,usr_4025,1409.47,Credit Card,Home & Kitchen,32.3,0.12,South
+tx_ref_200720,usr_3032,1212.58,Debit Card,Apparel,28.2,0.18,West
+tx_ref_200721,usr_5601,1547.25,UPI,Digital Goods,52.2,0.16,East
+tx_ref_200722,usr_1608,857.33,UPI,Electronics,49.7,0.01,South
+tx_ref_200723,usr_5879,4059.69,Cash,Home & Kitchen,26.9,0.05,West
+tx_ref_200724,usr_8796,1700.3,UPI,Electronics,53.3,0.16,East
+tx_ref_200725,usr_2497,5982.72,Credit Card,Apparel,44.0,0.28,South
+tx_ref_200726,usr_4546,703.13,UPI,Digital Goods,28.5,0.09,West
+tx_ref_200727,usr_4946,108.89,Debit Card,Apparel,45.3,0.03,North
+tx_ref_200728,usr_3181,2371.93,Credit Card,Home & Kitchen,29.3,0.06,South
+tx_ref_200729,usr_5059,635.44,UPI,Apparel,50.9,0.21,South
+tx_ref_200730,usr_5026,1511.01,Cash,Apparel,45.0,0.02,East
+tx_ref_200731,usr_6048,1536.35,Credit Card,Digital Goods,29.5,0.28,West
+tx_ref_200732,usr_6789,807.18,Cash,Apparel,50.0,0.03,West
+tx_ref_200733,usr_4020,169.44,Debit Card,Electronics,37.4,0.19,West
+tx_ref_200734,usr_5340,2627.98,UPI,Electronics,25.4,0.01,North
+tx_ref_200735,usr_6984,1253.99,UPI,Electronics,34.1,0.14,North
+tx_ref_200736,usr_7551,640.72,Credit Card,Digital Goods,37.1,0.07,East
+tx_ref_200737,usr_4233,281.89,Cash,Electronics,39.6,0.14,South
+tx_ref_200738,usr_2075,152.85,Cash,Electronics,46.1,0.21,East
+tx_ref_200739,usr_2817,4572.25,Debit Card,Home & Kitchen,32.6,0.23,West
+tx_ref_200740,usr_3614,75.69,Debit Card,Digital Goods,33.4,0.29,South
+tx_ref_200741,usr_4467,874.14,Credit Card,Digital Goods,21.0,0.19,West
+tx_ref_200742,usr_5149,1522.73,UPI,Electronics,37.8,0.2,East
+tx_ref_200743,usr_3465,285.04,Credit Card,Home & Kitchen,28.8,0.08,South
+tx_ref_200744,usr_3185,1205.14,Credit Card,Home & Kitchen,45.9,0.29,South
+tx_ref_200745,usr_2286,1130.56,Credit Card,Home & Kitchen,18.0,0.06,South
+tx_ref_200746,usr_1457,1289.72,UPI,Home & Kitchen,22.5,0.03,West
+tx_ref_200747,usr_1220,11325.79,Debit Card,Apparel,33.4,0.22,East
+tx_ref_200748,usr_2890,121.61,Credit Card,Electronics,30.3,0.08,North
+tx_ref_200749,usr_4506,253.37,UPI,Electronics,42.9,0.13,North
+tx_ref_200750,usr_5908,1260.13,UPI,Electronics,44.5,0.2,West
+tx_ref_200751,usr_8900,1090.8,Debit Card,Electronics,23.3,0.19,West
+tx_ref_200752,usr_5699,2974.78,Debit Card,Digital Goods,35.2,0.01,South
+tx_ref_200753,usr_6805,1736.03,UPI,Apparel,46.2,0.21,South
+tx_ref_200754,usr_2879,218.67,Credit Card,Apparel,36.5,0.13,West
+tx_ref_200755,usr_4541,2754.1,Debit Card,Apparel,45.6,0.09,East
+tx_ref_200756,usr_5571,353.07,Cash,Home & Kitchen,33.4,0.2,North
+tx_ref_200757,usr_3675,752.44,Credit Card,Electronics,31.3,0.09,West
+tx_ref_200758,usr_3064,842.2,Credit Card,Apparel,33.4,0.23,South
+tx_ref_200759,usr_8675,155.21,Credit Card,Apparel,39.0,0.26,South
+tx_ref_200760,usr_5229,2090.77,Credit Card,Digital Goods,43.7,0.1,East
+tx_ref_200761,usr_3476,8038.02,UPI,Digital Goods,26.5,0.03,South
+tx_ref_200762,usr_3071,1547.0,Credit Card,Electronics,31.5,0.04,North
+tx_ref_200763,usr_2868,1265.12,Credit Card,Home & Kitchen,30.4,0.06,West
+tx_ref_200764,usr_6001,207.4,Debit Card,Electronics,32.9,0.27,South
+tx_ref_200765,usr_5590,2154.79,Credit Card,Electronics,28.1,0.02,East
+tx_ref_200766,usr_2933,2999.0,Credit Card,Electronics,33.7,0.3,West
+tx_ref_200767,usr_8415,436.36,UPI,Electronics,28.7,0.16,South
+tx_ref_200768,usr_4819,401.64,Debit Card,Apparel,,0.11,East
+tx_ref_200769,usr_2345,1339.47,Credit Card,Electronics,28.3,0.22,West
+tx_ref_200770,usr_5820,1073.16,UPI,Apparel,38.9,0.06,South
+tx_ref_200771,usr_3321,1918.47,Debit Card,Digital Goods,36.2,0.18,East
+tx_ref_200772,usr_6715,1566.34,UPI,Apparel,36.1,0.27,East
+tx_ref_200773,usr_1207,1062.19,Credit Card,Electronics,39.0,0.17,South
+tx_ref_200774,usr_4368,801.82,Debit Card,Apparel,33.2,0.08,South
+tx_ref_200775,usr_4277,2621.03,Credit Card,Home & Kitchen,28.0,0.04,East
+tx_ref_200776,usr_2045,1203.95,UPI,Electronics,26.6,0.0,East
+tx_ref_200777,usr_5193,856.34,UPI,Apparel,47.3,0.13,East
+tx_ref_200778,usr_8171,1398.21,Debit Card,Home & Kitchen,43.4,0.03,South
+tx_ref_200779,usr_1411,3686.97,UPI,Digital Goods,27.6,0.11,North
+tx_ref_200780,usr_8671,1130.92,Credit Card,Electronics,42.7,0.3,South
+tx_ref_200781,usr_2304,916.41,UPI,Apparel,27.8,0.19,West
+tx_ref_200782,usr_3266,354.05,Debit Card,Home & Kitchen,40.9,0.13,East
+tx_ref_200783,usr_5777,2299.46,Cash,Home & Kitchen,41.1,0.11,East
+tx_ref_200784,usr_1213,2393.57,UPI,Digital Goods,32.9,0.07,South
+tx_ref_200785,usr_7087,3990.95,UPI,Apparel,29.8,0.18,North
+tx_ref_200786,usr_2388,7594.85,UPI,Electronics,,0.04,East
+tx_ref_200787,usr_5821,987.08,UPI,Digital Goods,25.9,0.08,West
+tx_ref_200788,usr_6607,1230.7,Debit Card,Apparel,28.6,0.2,South
+tx_ref_200789,usr_5063,846.0,Credit Card,Electronics,37.8,0.26,East
+tx_ref_200790,usr_3601,513.0,UPI,Digital Goods,45.6,0.13,North
+tx_ref_200791,usr_2125,5736.74,UPI,Digital Goods,32.2,0.03,East
+tx_ref_200792,usr_5858,5788.34,Credit Card,Digital Goods,38.0,0.25,West
+tx_ref_200793,usr_1834,7556.64,UPI,Electronics,32.8,0.16,East
+tx_ref_200794,usr_3410,1423.45,Cash,Digital Goods,39.3,0.13,West
+tx_ref_200795,usr_1028,1085.06,Credit Card,Electronics,,0.29,West
+tx_ref_200796,usr_8093,474.84,Debit Card,Electronics,47.0,0.27,North
+tx_ref_200797,usr_6631,2569.11,Credit Card,Electronics,28.0,0.25,North
+tx_ref_200798,usr_8901,4746.82,UPI,Electronics,26.6,0.24,West
+tx_ref_200799,usr_3001,160.69,Debit Card,Apparel,19.7,0.24,South
+tx_ref_200800,usr_6720,2806.67,UPI,Electronics,47.8,0.04,North
+tx_ref_200801,usr_6238,817.61,UPI,Apparel,33.4,0.17,South
+tx_ref_200802,usr_3150,3895.87,Credit Card,Apparel,18.0,0.25,East
+tx_ref_200803,usr_7387,4010.2,Credit Card,Electronics,28.4,0.03,East
+tx_ref_200804,usr_3796,2010.78,UPI,Electronics,46.6,0.17,North
+tx_ref_200805,usr_6227,1986.39,UPI,Home & Kitchen,48.8,0.01,North
+tx_ref_200806,usr_4184,1069.25,Debit Card,Electronics,42.8,0.02,East
+tx_ref_200807,usr_8358,878.25,UPI,Home & Kitchen,44.5,0.05,North
+tx_ref_200808,usr_6897,4551.77,Debit Card,Electronics,30.6,0.04,North
+tx_ref_200809,usr_8128,3505.83,Credit Card,Home & Kitchen,38.1,0.12,East
+tx_ref_200810,usr_5014,6952.52,UPI,Electronics,44.5,0.08,East
+tx_ref_200811,usr_1298,1391.65,Credit Card,Digital Goods,42.2,0.18,West
+tx_ref_200812,usr_1030,781.64,UPI,Home & Kitchen,34.0,0.27,South
+tx_ref_200813,usr_3258,62.25,UPI,Home & Kitchen,27.7,0.22,South
+tx_ref_200814,usr_1104,953.83,Debit Card,Apparel,37.6,0.12,North
+tx_ref_200815,usr_5646,2465.19,UPI,Electronics,18.0,0.21,East
+tx_ref_200816,usr_7373,649.86,UPI,Electronics,30.9,0.0,West
+tx_ref_200817,usr_2296,4642.71,UPI,Home & Kitchen,35.6,0.04,West
+tx_ref_200818,usr_8379,1467.23,UPI,Apparel,21.5,0.27,West
+tx_ref_200819,usr_1388,2809.53,Debit Card,Electronics,,0.07,West
+tx_ref_200820,usr_2376,392.9,Credit Card,Digital Goods,26.4,0.08,South
+tx_ref_200821,usr_2713,677.66,Credit Card,Apparel,33.7,0.25,North
+tx_ref_200822,usr_2505,904.37,UPI,Apparel,18.0,0.05,South
+tx_ref_200823,usr_8400,881.29,Credit Card,Digital Goods,34.1,0.03,South
+tx_ref_200824,usr_5308,673.42,UPI,Apparel,52.7,0.05,West
+tx_ref_200825,usr_5023,136.2,UPI,Apparel,38.3,0.09,East
+tx_ref_200826,usr_7024,87.9,Credit Card,Apparel,22.0,0.16,North
+tx_ref_200827,usr_6398,1105.2,Cash,Apparel,45.4,0.15,West
+tx_ref_200828,usr_2520,1097.32,UPI,Digital Goods,20.1,0.23,North
+tx_ref_200829,usr_8050,2126.38,UPI,Electronics,30.1,0.02,West
+tx_ref_200830,usr_7102,339.71,UPI,Electronics,,0.03,West
+tx_ref_200831,usr_3164,190.92,Credit Card,Apparel,41.4,0.2,East
+tx_ref_200832,usr_2697,14986.55,UPI,Apparel,27.5,0.03,South
+tx_ref_200833,usr_1511,290.96,UPI,Apparel,43.2,0.29,South
+tx_ref_200834,usr_1168,626.75,Credit Card,Apparel,27.6,0.12,South
+tx_ref_200835,usr_5541,1762.01,Credit Card,Electronics,18.0,0.02,North
+tx_ref_200836,usr_7141,604.15,UPI,Home & Kitchen,29.5,0.3,South
+tx_ref_200837,usr_5029,2904.78,Debit Card,Apparel,31.6,0.05,South
+tx_ref_200838,usr_3559,2046.36,UPI,Electronics,48.8,0.15,North
+tx_ref_200839,usr_4071,315.26,Cash,Electronics,30.0,0.15,North
+tx_ref_200840,usr_3201,331.24,UPI,Apparel,28.1,0.14,East
+tx_ref_200841,usr_1081,1092.7,UPI,Apparel,34.2,0.13,East
+tx_ref_200842,usr_6681,9760.28,UPI,Home & Kitchen,35.8,0.08,North
+tx_ref_200843,usr_2818,3006.7,UPI,Electronics,48.7,0.0,West
+tx_ref_200844,usr_3263,3961.73,Cash,Home & Kitchen,22.8,0.04,West
+tx_ref_200845,usr_2792,875.53,Credit Card,Electronics,35.6,0.05,South
+tx_ref_200846,usr_5298,3667.67,Debit Card,Digital Goods,42.2,0.2,East
+tx_ref_200847,usr_7031,1316.62,UPI,Electronics,29.9,0.18,South
+tx_ref_200848,usr_3823,509.09,UPI,Apparel,38.0,0.05,North
+tx_ref_200849,usr_4545,5123.7,UPI,Home & Kitchen,34.0,0.19,East
+tx_ref_200850,usr_3769,552.03,UPI,Home & Kitchen,54.5,0.09,North
+tx_ref_200851,usr_2931,1963.76,Credit Card,Home & Kitchen,46.6,0.13,North
+tx_ref_200852,usr_7863,1354.94,Debit Card,Apparel,30.3,0.21,South
+tx_ref_200853,usr_3871,2875.15,Credit Card,Digital Goods,34.6,0.01,West
+tx_ref_200854,usr_8660,3325.43,UPI,Apparel,26.8,0.08,West
+tx_ref_200855,usr_2317,121.41,UPI,Apparel,34.3,0.01,North
+tx_ref_200856,usr_7499,64.3,UPI,Digital Goods,39.1,0.09,West
+tx_ref_200857,usr_3565,1934.9,UPI,Apparel,42.5,0.07,South
+tx_ref_200858,usr_6644,1457.57,UPI,Apparel,,0.09,East
+tx_ref_200859,usr_5097,2824.09,UPI,Home & Kitchen,25.6,0.14,South
+tx_ref_200860,usr_8539,935.3,Credit Card,Digital Goods,35.4,0.22,West
+tx_ref_200861,usr_3708,2355.94,UPI,Home & Kitchen,32.5,0.22,South
+tx_ref_200862,usr_1959,3081.54,Debit Card,Electronics,27.2,0.11,South
+tx_ref_200863,usr_6449,1111.38,Credit Card,Electronics,47.9,0.04,North
+tx_ref_200864,usr_8245,3074.78,UPI,Home & Kitchen,20.2,0.23,East
+tx_ref_200865,usr_8639,898.54,Debit Card,Electronics,38.9,0.02,East
+tx_ref_200866,usr_8448,6876.4,UPI,Apparel,18.0,0.15,North
+tx_ref_200867,usr_8631,1723.13,UPI,Electronics,41.3,0.09,South
+tx_ref_200868,usr_4473,1097.69,Credit Card,Home & Kitchen,26.2,0.17,North
+tx_ref_200869,usr_3826,5504.8,Debit Card,Electronics,32.6,0.05,East
+tx_ref_200870,usr_4707,354.08,UPI,Apparel,20.5,0.05,East
+tx_ref_200871,usr_3956,415.78,Debit Card,Home & Kitchen,47.3,0.27,West
+tx_ref_200872,usr_7595,7202.26,Cash,Electronics,33.8,0.08,East
+tx_ref_200873,usr_6606,102.33,UPI,Apparel,40.4,0.04,West
+tx_ref_200874,usr_1850,2686.76,UPI,Electronics,46.9,0.12,East
+tx_ref_200875,usr_5578,973.19,Debit Card,Electronics,38.9,0.2,North
+tx_ref_200876,usr_4442,685.09,UPI,Digital Goods,38.8,0.09,South
+tx_ref_200877,usr_8023,3231.7,Credit Card,Apparel,34.5,0.19,North
+tx_ref_200878,usr_6821,131.83,Debit Card,Digital Goods,33.1,0.04,West
+tx_ref_200879,usr_4011,496.92,Debit Card,Electronics,39.4,0.29,West
+tx_ref_200880,usr_4454,277.93,UPI,Home & Kitchen,30.7,0.13,South
+tx_ref_200881,usr_8351,617.57,UPI,Home & Kitchen,38.0,0.27,East
+tx_ref_200882,usr_4144,2816.24,Debit Card,Apparel,46.8,0.13,North
+tx_ref_200883,usr_1459,3626.53,Debit Card,Home & Kitchen,21.8,0.3,North
+tx_ref_200884,usr_5960,167.29,Cash,Electronics,42.9,0.28,North
+tx_ref_200885,usr_8889,1759.3,Credit Card,Electronics,36.9,0.05,West
+tx_ref_200886,usr_2612,3538.74,Credit Card,Digital Goods,34.2,0.22,South
+tx_ref_200887,usr_8612,5924.75,UPI,Apparel,43.4,0.2,South
+tx_ref_200888,usr_4749,6093.95,Credit Card,Electronics,43.3,0.11,East
+tx_ref_200889,usr_2383,911.14,UPI,Apparel,37.6,0.22,South
+tx_ref_200890,usr_4326,2142.31,UPI,Electronics,47.1,0.14,West
+tx_ref_200891,usr_3565,198.19,Credit Card,Apparel,42.7,0.04,West
+tx_ref_200892,usr_8907,1842.13,UPI,Apparel,35.0,0.22,East
+tx_ref_200893,usr_4803,663.6,Credit Card,Apparel,38.4,0.18,North
+tx_ref_200894,usr_8882,2728.32,Cash,Home & Kitchen,37.1,0.26,East
+tx_ref_200895,usr_7907,3884.47,UPI,Digital Goods,49.3,0.14,North
+tx_ref_200896,usr_5251,1412.55,UPI,Apparel,38.4,0.22,West
+tx_ref_200897,usr_2776,2816.87,UPI,Apparel,35.7,0.21,North
+tx_ref_200898,usr_4833,836.11,UPI,Electronics,32.1,0.24,North
+tx_ref_200899,usr_6026,1562.93,Credit Card,Apparel,32.0,0.25,North
+tx_ref_200900,usr_7174,748.82,Cash,Apparel,29.4,0.17,East
+tx_ref_200901,usr_1870,345.91,UPI,Electronics,39.6,0.02,East
+tx_ref_200902,usr_6516,2672.74,Credit Card,Digital Goods,40.0,0.15,North
+tx_ref_200903,usr_4128,988.99,UPI,Electronics,48.8,0.21,East
+tx_ref_200904,usr_3421,2638.66,Debit Card,Apparel,35.7,0.28,North
+tx_ref_200905,usr_6084,207.76,UPI,Electronics,41.9,0.25,East
+tx_ref_200906,usr_1596,2200.5,UPI,Home & Kitchen,34.2,0.18,North
+tx_ref_200907,usr_5517,1399.94,UPI,Apparel,31.7,0.26,East
+tx_ref_200908,usr_1691,1151.95,UPI,Apparel,45.1,0.17,East
+tx_ref_200909,usr_4845,1273.04,UPI,Apparel,45.4,0.27,East
+tx_ref_200910,usr_7965,524.94,Credit Card,Electronics,18.0,0.28,East
+tx_ref_200911,usr_2195,1137.6,UPI,Home & Kitchen,34.0,0.19,East
+tx_ref_200912,usr_8454,2829.62,UPI,Apparel,48.2,0.22,North
+tx_ref_200913,usr_2480,304.64,UPI,Electronics,23.6,0.04,West
+tx_ref_200914,usr_4407,541.92,Credit Card,Apparel,40.9,0.19,East
+tx_ref_200915,usr_2556,1313.57,Credit Card,Home & Kitchen,47.6,0.19,South
+tx_ref_200916,usr_6794,527.15,Credit Card,Electronics,28.2,0.04,South
+tx_ref_200917,usr_5302,2424.82,UPI,Digital Goods,32.9,0.2,North
+tx_ref_200918,usr_8104,1048.29,Debit Card,Apparel,25.1,0.29,South
+tx_ref_200919,usr_2687,408.67,UPI,Home & Kitchen,41.1,0.02,North
+tx_ref_200920,usr_7700,642.54,UPI,Electronics,31.9,0.02,South
+tx_ref_200921,usr_1593,1224.5,Debit Card,Electronics,41.9,0.18,East
+tx_ref_200922,usr_5605,7329.71,UPI,Electronics,27.4,0.07,West
+tx_ref_200923,usr_4662,1340.7,UPI,Digital Goods,27.3,0.17,West
+tx_ref_200924,usr_2507,708.68,UPI,Digital Goods,48.3,0.21,North
+tx_ref_200925,usr_5847,3238.45,UPI,Electronics,34.2,0.14,West
+tx_ref_200926,usr_4308,4823.25,Credit Card,Electronics,30.7,0.15,West
+tx_ref_200927,usr_7745,614.85,UPI,Apparel,,0.11,West
+tx_ref_200928,usr_8231,1096.61,UPI,Digital Goods,60.1,0.11,East
+tx_ref_200929,usr_5157,4718.18,UPI,Digital Goods,32.7,0.17,East
+tx_ref_200930,usr_5002,4725.95,UPI,Electronics,54.5,0.29,South
+tx_ref_200931,usr_4438,7050.43,Credit Card,Electronics,28.6,0.19,East
+tx_ref_200932,usr_8462,673.64,Credit Card,Apparel,20.0,0.18,North
+tx_ref_200933,usr_2991,708.94,UPI,Apparel,30.5,0.22,North
+tx_ref_200934,usr_7338,2004.54,Debit Card,Apparel,44.4,0.11,West
+tx_ref_200935,usr_1221,844.98,Credit Card,Digital Goods,41.8,0.02,West
+tx_ref_200936,usr_7988,3483.3,UPI,Electronics,26.6,0.27,North
+tx_ref_200937,usr_6708,763.12,UPI,Apparel,48.7,0.0,North
+tx_ref_200938,usr_2478,1872.64,Cash,Electronics,45.7,0.25,South
+tx_ref_200939,usr_8034,16471.83,UPI,Apparel,28.7,0.13,East
+tx_ref_200940,usr_8669,1339.93,Credit Card,Apparel,18.0,0.27,North
+tx_ref_200941,usr_7059,1577.34,UPI,Home & Kitchen,35.3,0.28,West
+tx_ref_200942,usr_5736,175.13,Credit Card,Electronics,34.7,0.1,North
+tx_ref_200943,usr_4734,959.22,Credit Card,Electronics,36.6,0.21,North
+tx_ref_200944,usr_7097,702.68,Credit Card,Digital Goods,43.1,0.26,East
+tx_ref_200945,usr_3978,1538.87,Credit Card,Apparel,38.9,0.14,West
+tx_ref_200946,usr_5348,1577.91,Credit Card,Electronics,27.0,0.17,North
+tx_ref_200947,usr_6786,576.36,Credit Card,Digital Goods,21.4,0.17,East
+tx_ref_200948,usr_2392,374.95,Cash,Apparel,33.9,0.0,North
+tx_ref_200949,usr_5877,3490.14,UPI,Apparel,37.3,0.23,South
+tx_ref_200950,usr_1063,2240.56,Credit Card,Digital Goods,18.0,0.26,East
+tx_ref_200951,usr_3063,1293.12,Credit Card,Apparel,28.6,0.1,South
+tx_ref_200952,usr_7574,5713.78,UPI,Electronics,24.5,0.15,West
+tx_ref_200953,usr_8989,5075.05,Credit Card,Electronics,43.0,0.01,South
+tx_ref_200954,usr_4697,1272.27,Debit Card,Apparel,29.0,0.24,North
+tx_ref_200955,usr_6563,4742.02,Credit Card,Apparel,32.6,0.13,North
+tx_ref_200956,usr_8800,7477.47,Cash,Apparel,28.8,0.21,West
+tx_ref_200957,usr_7504,3786.02,Credit Card,Home & Kitchen,36.7,0.12,West
+tx_ref_200958,usr_1908,1094.93,Credit Card,Electronics,33.1,0.08,South
+tx_ref_200959,usr_4974,192.75,UPI,Electronics,37.6,0.16,North
+tx_ref_200960,usr_5230,2839.58,Credit Card,Apparel,18.0,0.21,West
+tx_ref_200961,usr_7708,280.57,UPI,Apparel,18.0,0.14,North
+tx_ref_200962,usr_2110,2102.59,Credit Card,Electronics,30.6,0.04,West
+tx_ref_200963,usr_6878,9801.48,UPI,Electronics,23.0,0.27,North
+tx_ref_200964,usr_3859,356.0,UPI,Electronics,31.0,0.23,East
+tx_ref_200965,usr_2034,2470.16,UPI,Home & Kitchen,42.6,0.12,South
+tx_ref_200966,usr_5872,3224.51,Debit Card,Electronics,40.4,0.29,South
+tx_ref_200967,usr_8960,480.44,UPI,Home & Kitchen,28.8,0.19,East
+tx_ref_200968,usr_5015,386.54,UPI,Apparel,31.3,0.16,South
+tx_ref_200969,usr_1246,3067.1,UPI,Digital Goods,39.2,0.06,South
+tx_ref_200970,usr_3519,1633.3,Debit Card,Apparel,43.7,0.23,East
+tx_ref_200971,usr_3569,5174.52,UPI,Apparel,36.4,0.09,North
+tx_ref_200972,usr_6271,396.4,Debit Card,Electronics,37.5,0.1,South
+tx_ref_200973,usr_1985,1554.43,UPI,Electronics,39.5,0.22,East
+tx_ref_200974,usr_4906,7123.13,Cash,Home & Kitchen,25.0,0.1,South
+tx_ref_200975,usr_8117,293.25,Credit Card,Home & Kitchen,25.1,0.12,South
+tx_ref_200976,usr_8925,637.58,UPI,Apparel,26.0,0.05,North
+tx_ref_200977,usr_8848,2414.0,Credit Card,Electronics,30.3,0.25,West
+tx_ref_200978,usr_6276,297.4,UPI,Apparel,30.9,0.14,East
+tx_ref_200979,usr_3169,165.54,UPI,Electronics,22.6,0.2,East
+tx_ref_200980,usr_8022,274.83,UPI,Home & Kitchen,54.1,0.26,East
+tx_ref_200981,usr_1023,1015.23,Credit Card,Electronics,44.1,0.02,West
+tx_ref_200982,usr_7817,1350.62,UPI,Electronics,39.4,0.29,North
+tx_ref_200983,usr_7026,231.6,UPI,Digital Goods,51.7,0.26,East
+tx_ref_200984,usr_2464,1806.57,UPI,Apparel,42.0,0.06,North
+tx_ref_200985,usr_2164,212.0,UPI,Apparel,21.2,0.19,South
+tx_ref_200986,usr_4354,1985.74,Credit Card,Electronics,28.4,0.03,West
+tx_ref_200987,usr_4445,3417.01,UPI,Digital Goods,33.0,0.16,North
+tx_ref_200988,usr_8510,1375.52,UPI,Apparel,35.9,0.28,South
+tx_ref_200989,usr_1619,850.35,UPI,Electronics,33.4,0.16,West
+tx_ref_200990,usr_6318,1466.59,Debit Card,Home & Kitchen,30.1,0.25,East
+tx_ref_200991,usr_6147,1832.31,Credit Card,Electronics,18.0,0.0,South
+tx_ref_200992,usr_4236,3169.37,Cash,Home & Kitchen,36.4,0.09,West
+tx_ref_200993,usr_6731,2790.46,UPI,Home & Kitchen,29.9,0.03,West
+tx_ref_200994,usr_1869,1308.58,UPI,Apparel,34.0,0.1,North
+tx_ref_200995,usr_7679,334.25,UPI,Home & Kitchen,48.7,0.06,West
+tx_ref_200996,usr_4003,1031.57,Credit Card,Electronics,42.8,0.08,North
+tx_ref_200997,usr_4777,2135.01,UPI,Digital Goods,26.1,0.15,South
+tx_ref_200998,usr_1459,879.17,UPI,Apparel,50.3,0.2,South
+tx_ref_200999,usr_6206,4129.95,UPI,Electronics,38.7,0.06,North
+tx_ref_201000,usr_1489,171.71,Credit Card,Home & Kitchen,30.1,0.03,West
+tx_ref_201001,usr_4302,331.39,Debit Card,Apparel,38.0,0.06,North
+tx_ref_201002,usr_3837,519.99,Debit Card,Electronics,26.2,0.05,East
+tx_ref_201003,usr_2802,278.45,UPI,Apparel,32.4,0.11,South
+tx_ref_201004,usr_2077,1471.24,Credit Card,Apparel,31.8,0.25,South
+tx_ref_201005,usr_3664,991.85,UPI,Digital Goods,22.8,0.17,East
+tx_ref_201006,usr_3193,1054.24,Cash,Electronics,45.1,0.24,West
+tx_ref_201007,usr_8351,6724.7,UPI,Digital Goods,24.3,0.27,North
+tx_ref_201008,usr_5970,2364.55,UPI,Apparel,51.1,0.15,North
+tx_ref_201009,usr_2793,994.86,Credit Card,Apparel,27.0,0.1,South
+tx_ref_201010,usr_7848,2179.78,UPI,Electronics,29.7,0.24,South
+tx_ref_201011,usr_8386,1875.49,Credit Card,Digital Goods,34.0,0.24,West
+tx_ref_201012,usr_7166,568.63,Debit Card,Electronics,39.1,0.21,East
+tx_ref_201013,usr_4069,1025.44,UPI,Electronics,33.9,0.01,East
+tx_ref_201014,usr_5527,471.33,Debit Card,Apparel,29.4,0.21,South
+tx_ref_201015,usr_3202,408.79,Debit Card,Electronics,28.2,0.24,North
+tx_ref_201016,usr_4316,1883.3,UPI,Electronics,34.7,0.05,South
+tx_ref_201017,usr_4771,167.07,Credit Card,Electronics,34.7,0.23,North
+tx_ref_201018,usr_7861,728.56,Credit Card,Apparel,22.6,0.13,East
+tx_ref_201019,usr_6682,912.65,Credit Card,Apparel,51.9,0.01,West
+tx_ref_201020,usr_5058,2704.12,Credit Card,Electronics,26.8,0.06,East
+tx_ref_201021,usr_5069,4250.42,Credit Card,Apparel,37.0,0.24,East
+tx_ref_201022,usr_6824,2726.07,Credit Card,Electronics,32.1,0.1,South
+tx_ref_201023,usr_4107,6835.35,Credit Card,Apparel,23.8,0.06,East
+tx_ref_201024,usr_1534,141.4,Credit Card,Apparel,32.0,0.0,West
+tx_ref_201025,usr_3703,1706.98,UPI,Apparel,25.6,0.22,West
+tx_ref_201026,usr_7973,3083.54,UPI,Apparel,51.3,0.21,North
+tx_ref_201027,usr_8228,1500.44,UPI,Electronics,29.1,0.19,East
+tx_ref_201028,usr_4890,375.49,Cash,Home & Kitchen,35.5,0.18,East
+tx_ref_201029,usr_5594,2343.02,Debit Card,Electronics,32.4,0.09,North
+tx_ref_201030,usr_3291,98.42,UPI,Home & Kitchen,41.0,0.19,South
+tx_ref_201031,usr_2109,530.86,Debit Card,Electronics,18.0,0.28,South
+tx_ref_201032,usr_7503,817.25,Debit Card,Apparel,34.2,0.07,East
+tx_ref_201033,usr_7413,2479.27,Credit Card,Digital Goods,34.1,0.05,West
+tx_ref_201034,usr_7257,5749.44,Credit Card,Home & Kitchen,34.0,0.29,West
+tx_ref_201035,usr_7824,314.0,UPI,Electronics,36.4,0.27,North
+tx_ref_201036,usr_7452,1008.61,Credit Card,Electronics,46.5,0.21,North
+tx_ref_201037,usr_7446,648.22,Debit Card,Digital Goods,44.2,0.14,West
+tx_ref_201038,usr_1467,146.15,UPI,Home & Kitchen,43.0,0.01,East
+tx_ref_201039,usr_2359,41811.01,Cash,Apparel,26.4,0.05,South
+tx_ref_201040,usr_1880,173.27,UPI,Home & Kitchen,53.0,0.02,North
+tx_ref_201041,usr_6967,364.63,Credit Card,Apparel,40.5,0.03,North
+tx_ref_201042,usr_2894,2401.24,Credit Card,Electronics,35.8,0.03,North
+tx_ref_201043,usr_1451,2571.63,UPI,Apparel,43.3,0.03,South
+tx_ref_201044,usr_8851,318.82,Cash,Digital Goods,18.0,0.01,South
+tx_ref_201045,usr_4833,3210.5,UPI,Home & Kitchen,31.1,0.26,East
+tx_ref_201046,usr_2607,3103.32,Debit Card,Electronics,22.1,0.13,East
+tx_ref_201047,usr_1860,2825.26,UPI,Electronics,42.2,0.17,West
+tx_ref_201048,usr_6738,1786.08,Debit Card,Apparel,49.5,0.17,West
+tx_ref_201049,usr_3700,318.27,Credit Card,Electronics,39.1,0.16,North
+tx_ref_201050,usr_6278,230.9,Credit Card,Electronics,40.4,0.15,East
+tx_ref_201051,usr_2819,770.34,UPI,Home & Kitchen,36.8,0.04,East
+tx_ref_201052,usr_2132,632.71,Debit Card,Digital Goods,28.5,0.17,East
+tx_ref_201053,usr_8350,669.42,Cash,Electronics,19.9,0.25,East
+tx_ref_201054,usr_8394,2576.61,Debit Card,Apparel,31.4,0.23,West
+tx_ref_201055,usr_4827,85.22,UPI,Electronics,46.0,0.0,South
+tx_ref_201056,usr_5847,2383.88,Credit Card,Electronics,31.0,0.17,South
+tx_ref_201057,usr_4746,612.22,Cash,Home & Kitchen,44.0,0.15,West
+tx_ref_201058,usr_6765,1595.2,UPI,Digital Goods,50.0,0.22,West
+tx_ref_201059,usr_4468,2623.83,UPI,Electronics,41.8,0.12,West
+tx_ref_201060,usr_4923,3297.94,UPI,Electronics,45.0,0.2,West
+tx_ref_201061,usr_1008,597.81,Cash,Apparel,48.5,0.17,South
+tx_ref_201062,usr_6275,1826.81,Credit Card,Digital Goods,45.6,0.08,South
+tx_ref_201063,usr_6587,3867.13,Credit Card,Apparel,38.4,0.1,South
+tx_ref_201064,usr_4795,989.13,Credit Card,Electronics,21.3,0.1,South
+tx_ref_201065,usr_7161,979.24,Cash,Electronics,,0.06,North
+tx_ref_201066,usr_7537,6290.4,UPI,Electronics,34.3,0.17,East
+tx_ref_201067,usr_3872,2925.71,Credit Card,Electronics,38.7,0.22,South
+tx_ref_201068,usr_4354,188.12,Credit Card,Home & Kitchen,25.6,0.28,North
+tx_ref_201069,usr_2703,411.8,Credit Card,Home & Kitchen,38.0,0.1,East
+tx_ref_201070,usr_4840,4088.02,Credit Card,Electronics,39.8,0.1,East
+tx_ref_201071,usr_6003,1287.22,Credit Card,Digital Goods,38.1,0.06,East
+tx_ref_201072,usr_3920,4553.77,Credit Card,Apparel,24.6,0.15,East
+tx_ref_201073,usr_6650,815.45,Debit Card,Apparel,22.0,0.1,South
+tx_ref_201074,usr_6886,2611.55,Credit Card,Digital Goods,32.4,0.22,North
+tx_ref_201075,usr_5607,1254.54,UPI,Electronics,31.6,0.25,North
+tx_ref_201076,usr_3378,4870.06,Cash,Digital Goods,32.1,0.24,West
+tx_ref_201077,usr_5794,1445.56,Cash,Electronics,41.8,0.03,North
+tx_ref_201078,usr_7899,1188.46,Credit Card,Apparel,19.6,0.21,North
+tx_ref_201079,usr_2417,174.95,Cash,Electronics,24.7,0.06,North
+tx_ref_201080,usr_5708,432.01,Credit Card,Apparel,44.5,0.22,East
+tx_ref_201081,usr_2477,1998.5,Debit Card,Electronics,18.0,0.19,West
+tx_ref_201082,usr_8590,1293.79,UPI,Home & Kitchen,44.6,0.26,West
+tx_ref_201083,usr_7732,381.4,Debit Card,Electronics,20.3,0.22,South
+tx_ref_201084,usr_8927,1593.99,Credit Card,Apparel,45.3,0.04,West
+tx_ref_201085,usr_4745,13790.93,Debit Card,Apparel,42.5,0.16,North
+tx_ref_201086,usr_6463,5615.79,Debit Card,Home & Kitchen,36.6,0.16,East
+tx_ref_201087,usr_6395,1130.7,UPI,Digital Goods,28.6,0.24,West
+tx_ref_201088,usr_5603,2850.02,Credit Card,Electronics,35.3,0.02,South
+tx_ref_201089,usr_1650,3845.34,UPI,Electronics,30.1,0.02,South
+tx_ref_201090,usr_3339,1535.71,Debit Card,Digital Goods,33.3,0.23,South
+tx_ref_201091,usr_3047,139.24,Credit Card,Apparel,31.8,0.05,East
+tx_ref_201092,usr_2340,1182.81,Debit Card,Digital Goods,31.7,0.23,East
+tx_ref_201093,usr_3694,1642.58,UPI,Apparel,24.7,0.07,North
+tx_ref_201094,usr_4438,5875.63,Credit Card,Home & Kitchen,32.9,0.22,West
+tx_ref_201095,usr_1033,748.99,Debit Card,Electronics,36.5,0.06,East
+tx_ref_201096,usr_6990,144.29,UPI,Apparel,32.5,0.27,North
+tx_ref_201097,usr_8880,741.02,Credit Card,Home & Kitchen,38.1,0.03,West
+tx_ref_201098,usr_6157,5238.09,UPI,Apparel,32.7,0.17,East
+tx_ref_201099,usr_5718,70.53,Credit Card,Electronics,39.5,0.23,North
+tx_ref_201100,usr_4170,64.9,Cash,Apparel,33.4,0.03,South
+tx_ref_201101,usr_6486,4112.05,Credit Card,Digital Goods,31.0,0.23,South
+tx_ref_201102,usr_6644,723.97,Credit Card,Electronics,36.4,0.03,West
+tx_ref_201103,usr_2456,1795.93,UPI,Electronics,40.1,0.23,South
+tx_ref_201104,usr_5657,756.2,Cash,Electronics,50.2,0.12,South
+tx_ref_201105,usr_4137,1727.4,UPI,Apparel,31.0,0.25,South
+tx_ref_201106,usr_6961,2920.42,Credit Card,Electronics,45.6,0.12,West
+tx_ref_201107,usr_7913,814.69,UPI,Home & Kitchen,18.0,0.21,West
+tx_ref_201108,usr_6069,1227.76,UPI,Apparel,43.0,0.13,East
+tx_ref_201109,usr_3633,2117.54,UPI,Electronics,38.7,0.01,North
+tx_ref_201110,usr_5887,5588.52,Debit Card,Apparel,20.0,0.09,East
+tx_ref_201111,usr_3460,2535.37,Debit Card,Home & Kitchen,35.9,0.05,East
+tx_ref_201112,usr_5957,1364.02,Credit Card,Electronics,38.5,0.09,West
+tx_ref_201113,usr_6989,6875.87,Cash,Electronics,38.4,0.16,North
+tx_ref_201114,usr_2454,5562.99,UPI,Home & Kitchen,27.3,0.2,West
+tx_ref_201115,usr_4042,543.29,Debit Card,Digital Goods,24.1,0.22,East
+tx_ref_201116,usr_8037,126.46,Credit Card,Electronics,27.9,0.11,West
+tx_ref_201117,usr_3758,1635.58,Debit Card,Electronics,38.2,0.24,West
+tx_ref_201118,usr_8564,696.53,UPI,Apparel,29.1,0.24,East
+tx_ref_201119,usr_7853,576.36,Debit Card,Electronics,47.0,0.2,East
+tx_ref_201120,usr_6714,1086.45,Cash,Home & Kitchen,26.3,0.02,East
+tx_ref_201121,usr_5370,436.97,UPI,Apparel,27.5,0.13,West
+tx_ref_201122,usr_8448,3138.89,Debit Card,Home & Kitchen,35.1,0.18,East
+tx_ref_201123,usr_1822,256.13,Cash,Digital Goods,33.4,0.13,North
+tx_ref_201124,usr_1892,10720.79,Debit Card,Electronics,37.7,0.15,East
+tx_ref_201125,usr_2365,620.43,Cash,Home & Kitchen,29.7,0.03,South
+tx_ref_201126,usr_6219,356.74,Debit Card,Electronics,23.0,0.22,North
+tx_ref_201127,usr_2074,407.7,Credit Card,Electronics,39.2,0.22,West
+tx_ref_201128,usr_3741,3519.1,Debit Card,Apparel,27.0,0.27,West
+tx_ref_201129,usr_2667,499.28,UPI,Apparel,,0.26,North
+tx_ref_201130,usr_2399,4297.1,Cash,Home & Kitchen,34.8,0.0,West
+tx_ref_201131,usr_6660,98.11,Credit Card,Home & Kitchen,35.4,0.25,East
+tx_ref_201132,usr_8916,1877.46,Debit Card,Electronics,29.8,0.28,West
+tx_ref_201133,usr_4597,3294.03,Credit Card,Apparel,38.6,0.13,West
+tx_ref_201134,usr_4465,6614.2,Credit Card,Apparel,29.3,0.21,West
+tx_ref_201135,usr_7552,413.66,Debit Card,Electronics,49.7,0.17,South
+tx_ref_201136,usr_6628,910.81,Debit Card,Apparel,27.8,0.29,West
+tx_ref_201137,usr_5253,2939.65,Cash,Home & Kitchen,24.5,0.1,East
+tx_ref_201138,usr_7127,682.2,Credit Card,Home & Kitchen,36.0,0.26,South
+tx_ref_201139,usr_1281,222.9,Credit Card,Electronics,45.2,0.23,South
+tx_ref_201140,usr_1378,136.92,Credit Card,Home & Kitchen,42.7,0.11,East
+tx_ref_201141,usr_5841,4272.94,Credit Card,Home & Kitchen,36.3,0.2,North
+tx_ref_201142,usr_4718,1147.87,UPI,Apparel,26.8,0.19,North
+tx_ref_201143,usr_8778,2663.07,UPI,Home & Kitchen,47.0,0.21,North
+tx_ref_201144,usr_6200,1013.46,Credit Card,Home & Kitchen,32.6,0.07,South
+tx_ref_201145,usr_3986,1258.83,Credit Card,Digital Goods,38.0,0.03,West
+tx_ref_201146,usr_7836,4505.06,UPI,Digital Goods,45.3,0.09,South
+tx_ref_201147,usr_5482,490.06,Debit Card,Electronics,34.8,0.29,North
+tx_ref_201148,usr_5701,3077.03,UPI,Electronics,26.4,0.05,North
+tx_ref_201149,usr_5447,3601.2,Debit Card,Apparel,38.8,0.3,East
+tx_ref_201150,usr_4795,2681.84,Debit Card,Digital Goods,57.6,0.04,East
+tx_ref_201151,usr_5391,1130.23,UPI,Home & Kitchen,45.3,0.03,West
+tx_ref_201152,usr_2159,715.17,Debit Card,Digital Goods,26.1,0.2,North
+tx_ref_201153,usr_3529,1370.51,Debit Card,Apparel,49.7,0.23,East
+tx_ref_201154,usr_8820,1807.4,Credit Card,Digital Goods,27.8,0.16,East
+tx_ref_201155,usr_3925,367.48,UPI,Electronics,37.6,0.09,South
+tx_ref_201156,usr_6008,511.05,UPI,Apparel,33.1,0.27,South
+tx_ref_201157,usr_7417,923.82,UPI,Home & Kitchen,39.1,0.29,East
+tx_ref_201158,usr_3280,6213.22,Cash,Apparel,44.1,0.19,North
+tx_ref_201159,usr_2110,2395.72,Cash,Electronics,25.7,0.22,South
+tx_ref_201160,usr_3100,1318.94,UPI,Apparel,36.4,0.15,South
+tx_ref_201161,usr_7794,2177.64,Credit Card,Home & Kitchen,26.3,0.17,North
+tx_ref_201162,usr_3337,2444.39,UPI,Digital Goods,39.6,0.12,West
+tx_ref_201163,usr_1625,1101.27,UPI,Home & Kitchen,41.6,0.03,North
+tx_ref_201164,usr_7697,3340.84,UPI,Electronics,20.1,0.09,South
+tx_ref_201165,usr_4212,6967.46,Credit Card,Apparel,35.0,0.03,South
+tx_ref_201166,usr_3150,488.93,UPI,Digital Goods,41.3,0.07,East
+tx_ref_201167,usr_1414,1225.72,UPI,Apparel,33.9,0.11,North
+tx_ref_201168,usr_3852,1546.67,Credit Card,Digital Goods,27.4,0.01,East
+tx_ref_201169,usr_8284,356.69,UPI,Electronics,27.5,0.01,South
+tx_ref_201170,usr_5884,155.18,Credit Card,Electronics,42.3,0.03,North
+tx_ref_201171,usr_8312,2623.82,Credit Card,Home & Kitchen,25.7,0.21,West
+tx_ref_201172,usr_3211,2782.95,Debit Card,Home & Kitchen,32.9,0.13,East
+tx_ref_201173,usr_4187,3436.61,Debit Card,Electronics,40.7,0.02,North
+tx_ref_201174,usr_4126,395.66,Debit Card,Home & Kitchen,35.8,0.16,East
+tx_ref_201175,usr_7847,3801.02,Debit Card,Electronics,35.1,0.23,East
+tx_ref_201176,usr_4059,680.57,UPI,Electronics,49.0,0.12,South
+tx_ref_201177,usr_7210,756.91,UPI,Home & Kitchen,36.2,0.04,West
+tx_ref_201178,usr_8990,670.96,UPI,Electronics,39.7,0.08,North
+tx_ref_201179,usr_1026,5198.21,Credit Card,Home & Kitchen,31.2,0.07,West
+tx_ref_201180,usr_6391,2161.6,UPI,Digital Goods,37.3,0.15,South
+tx_ref_201181,usr_7245,1916.05,UPI,Electronics,29.4,0.22,West
+tx_ref_201182,usr_7565,340.53,UPI,Electronics,38.2,0.12,South
+tx_ref_201183,usr_3384,1156.28,UPI,Digital Goods,31.7,0.28,North
+tx_ref_201184,usr_8182,815.48,Cash,Apparel,27.6,0.17,West
+tx_ref_201185,usr_6512,189.52,Credit Card,Home & Kitchen,37.7,0.02,East
+tx_ref_201186,usr_5214,67.68,Credit Card,Digital Goods,38.4,0.14,North
+tx_ref_201187,usr_7681,116.15,UPI,Apparel,27.5,0.09,East
+tx_ref_201188,usr_7928,2524.71,Credit Card,Home & Kitchen,43.1,0.15,East
+tx_ref_201189,usr_3423,1679.1,Cash,Electronics,22.3,0.21,West
+tx_ref_201190,usr_8786,3243.12,Credit Card,Electronics,38.6,0.11,South
+tx_ref_201191,usr_3850,347.42,Credit Card,Apparel,45.1,0.11,East
+tx_ref_201192,usr_1374,5390.51,Debit Card,Electronics,42.4,0.08,East
+tx_ref_201193,usr_3748,423.35,Credit Card,Apparel,26.6,0.04,North
+tx_ref_201194,usr_6791,762.01,Credit Card,Home & Kitchen,24.5,0.06,West
+tx_ref_201195,usr_3410,918.14,Credit Card,Apparel,38.1,0.17,South
+tx_ref_201196,usr_6545,4510.52,Debit Card,Electronics,25.9,0.24,South
+tx_ref_201197,usr_4339,5041.9,UPI,Digital Goods,29.3,0.17,West
+tx_ref_201198,usr_1797,164.85,Debit Card,Electronics,29.5,0.14,East
+tx_ref_201199,usr_7030,966.79,Credit Card,Electronics,45.3,0.1,North
+tx_ref_201200,usr_7605,496.53,Debit Card,Home & Kitchen,35.6,0.09,North
+tx_ref_201201,usr_6900,4877.81,Debit Card,Apparel,48.0,0.13,West
+tx_ref_201202,usr_1097,1785.98,Cash,Apparel,25.4,0.08,West
+tx_ref_201203,usr_7642,3387.41,Debit Card,Home & Kitchen,31.8,0.29,North
+tx_ref_201204,usr_2616,536.56,Debit Card,Electronics,55.1,0.02,South
+tx_ref_201205,usr_6168,318.32,Debit Card,Home & Kitchen,27.6,0.27,West
+tx_ref_201206,usr_5834,68.54,Credit Card,Digital Goods,28.3,0.16,East
+tx_ref_201207,usr_4062,4031.54,UPI,Home & Kitchen,33.1,0.06,South
+tx_ref_201208,usr_4682,1062.85,UPI,Home & Kitchen,40.7,0.1,South
+tx_ref_201209,usr_5208,2271.1,Debit Card,Apparel,40.4,0.03,South
+tx_ref_201210,usr_8632,2328.98,Cash,Apparel,36.6,0.19,South
+tx_ref_201211,usr_8160,2061.67,UPI,Apparel,30.5,0.15,South
+tx_ref_201212,usr_2971,1100.11,Debit Card,Apparel,43.8,0.24,East
+tx_ref_201213,usr_4730,322.52,Debit Card,Apparel,43.3,0.05,East
+tx_ref_201214,usr_8113,375.22,Credit Card,Electronics,56.3,0.1,East
+tx_ref_201215,usr_6665,149.12,Cash,Home & Kitchen,48.3,0.21,East
+tx_ref_201216,usr_5975,2770.16,Credit Card,Electronics,36.0,0.08,East
+tx_ref_201217,usr_8491,2136.4,Credit Card,Electronics,33.1,0.09,East
+tx_ref_201218,usr_7227,799.21,Credit Card,Apparel,35.8,0.28,East
+tx_ref_201219,usr_1349,2543.57,Credit Card,Apparel,27.6,0.11,South
+tx_ref_201220,usr_8238,4126.85,Cash,Electronics,54.9,0.07,South
+tx_ref_201221,usr_6171,6366.12,UPI,Apparel,51.8,0.1,North
+tx_ref_201222,usr_3076,331.93,Debit Card,Electronics,29.5,0.14,East
+tx_ref_201223,usr_6793,4405.45,UPI,Home & Kitchen,37.7,0.13,North
+tx_ref_201224,usr_6717,2043.15,Credit Card,Home & Kitchen,24.7,0.24,South
+tx_ref_201225,usr_2388,414.36,Cash,Home & Kitchen,45.1,0.05,North
+tx_ref_201226,usr_8524,1598.38,Credit Card,Electronics,27.8,0.24,East
+tx_ref_201227,usr_2871,417.27,Credit Card,Home & Kitchen,32.2,0.05,West
+tx_ref_201228,usr_2078,1556.81,Credit Card,Apparel,32.7,0.26,West
+tx_ref_201229,usr_1167,2771.57,Credit Card,Electronics,36.4,0.22,East
+tx_ref_201230,usr_4276,751.72,Debit Card,Apparel,57.1,0.07,West
+tx_ref_201231,usr_8578,1474.15,UPI,Electronics,34.9,0.27,East
+tx_ref_201232,usr_7733,3104.82,Debit Card,Apparel,37.4,0.23,North
+tx_ref_201233,usr_4964,3371.41,Debit Card,Electronics,48.2,0.28,East
+tx_ref_201234,usr_6835,1236.69,UPI,Home & Kitchen,39.1,0.16,West
+tx_ref_201235,usr_8346,2122.92,Credit Card,Home & Kitchen,39.8,0.08,East
+tx_ref_201236,usr_7338,3483.93,Cash,Apparel,34.0,0.05,South
+tx_ref_201237,usr_7175,2728.57,Credit Card,Electronics,37.2,0.19,East
+tx_ref_201238,usr_1127,682.22,Credit Card,Electronics,22.5,0.0,North
+tx_ref_201239,usr_2817,366.65,UPI,Apparel,30.2,0.26,South
+tx_ref_201240,usr_2902,4933.44,UPI,Apparel,48.9,0.04,West
+tx_ref_201241,usr_1412,1652.76,Credit Card,Apparel,24.6,0.01,South
+tx_ref_201242,usr_1765,6037.22,UPI,Home & Kitchen,38.7,0.2,North
+tx_ref_201243,usr_7053,275.9,UPI,Electronics,42.9,0.28,South
+tx_ref_201244,usr_6671,3219.66,UPI,Home & Kitchen,33.4,0.09,South
+tx_ref_201245,usr_3858,831.78,Debit Card,Apparel,40.4,0.12,North
+tx_ref_201246,usr_1015,1780.79,UPI,Electronics,20.7,0.03,North
+tx_ref_201247,usr_2479,2030.38,Debit Card,Electronics,39.1,0.28,East
+tx_ref_201248,usr_6117,1152.68,Credit Card,Electronics,37.5,0.13,West
+tx_ref_201249,usr_4788,3336.19,UPI,Home & Kitchen,24.3,0.02,West
+tx_ref_201250,usr_8326,234.35,UPI,Home & Kitchen,48.4,0.05,East
+tx_ref_201251,usr_5091,1224.96,Credit Card,Electronics,18.0,0.02,North
+tx_ref_201252,usr_3164,3518.08,Debit Card,Digital Goods,27.1,0.15,North
+tx_ref_201253,usr_8579,7157.33,Credit Card,Home & Kitchen,42.8,0.12,North
+tx_ref_201254,usr_4477,1185.79,UPI,Apparel,26.9,0.13,West
+tx_ref_201255,usr_1276,587.04,Cash,Electronics,43.7,0.18,South
+tx_ref_201256,usr_4265,199.01,UPI,Electronics,30.8,0.04,South
+tx_ref_201257,usr_2905,390.07,Debit Card,Apparel,22.2,0.2,East
+tx_ref_201258,usr_6947,2406.11,UPI,Digital Goods,38.8,0.16,South
+tx_ref_201259,usr_5483,1819.21,Debit Card,Digital Goods,40.4,0.06,East
+tx_ref_201260,usr_5112,556.58,Debit Card,Digital Goods,37.6,0.04,South
+tx_ref_201261,usr_8444,1726.62,Debit Card,Digital Goods,30.8,0.04,East
+tx_ref_201262,usr_5741,1382.72,UPI,Apparel,25.6,0.25,West
+tx_ref_201263,usr_8767,441.41,UPI,Home & Kitchen,34.7,0.03,North
+tx_ref_201264,usr_2057,657.08,Debit Card,Home & Kitchen,28.5,0.15,South
+tx_ref_201265,usr_1195,71.63,Debit Card,Home & Kitchen,26.0,0.18,South
+tx_ref_201266,usr_7753,2401.84,Cash,Electronics,38.8,0.15,North
+tx_ref_201267,usr_3695,3537.09,Credit Card,Digital Goods,42.1,0.21,North
+tx_ref_201268,usr_4775,469.95,UPI,Electronics,43.1,0.27,East
+tx_ref_201269,usr_2842,2157.49,Credit Card,Electronics,29.8,0.03,West
+tx_ref_201270,usr_1277,3595.17,Credit Card,Electronics,20.5,0.09,West
+tx_ref_201271,usr_1344,380.12,Debit Card,Electronics,42.5,0.16,South
+tx_ref_201272,usr_5802,1510.32,Debit Card,Digital Goods,34.6,0.22,North
+tx_ref_201273,usr_7106,3041.33,UPI,Electronics,42.1,0.1,East
+tx_ref_201274,usr_1116,1937.66,Credit Card,Digital Goods,52.3,0.15,East
+tx_ref_201275,usr_1083,3348.87,Cash,Digital Goods,26.8,0.1,South
+tx_ref_201276,usr_4245,548.4,Debit Card,Electronics,37.9,0.13,South
+tx_ref_201277,usr_7371,524.05,UPI,Electronics,39.9,0.02,South
+tx_ref_201278,usr_8769,3782.47,Credit Card,Home & Kitchen,38.1,0.1,West
+tx_ref_201279,usr_4202,3359.58,Credit Card,Electronics,48.5,0.13,South
+tx_ref_201280,usr_8446,3600.85,Credit Card,Electronics,54.1,0.21,North
+tx_ref_201281,usr_1684,86.63,UPI,Apparel,46.6,0.17,West
+tx_ref_201282,usr_1897,3431.93,Cash,Electronics,36.9,0.29,West
+tx_ref_201283,usr_7046,1810.15,Credit Card,Electronics,31.6,0.1,West
+tx_ref_201284,usr_7477,2834.14,UPI,Electronics,54.2,0.05,North
+tx_ref_201285,usr_7303,535.85,Credit Card,Home & Kitchen,29.7,0.28,North
+tx_ref_201286,usr_5349,860.85,UPI,Home & Kitchen,22.4,0.18,South
+tx_ref_201287,usr_8098,1042.43,Credit Card,Apparel,37.0,0.04,East
+tx_ref_201288,usr_7981,758.18,UPI,Digital Goods,18.0,0.03,South
+tx_ref_201289,usr_1552,2370.68,UPI,Home & Kitchen,43.7,0.29,West
+tx_ref_201290,usr_3441,1209.16,UPI,Home & Kitchen,40.3,0.19,North
+tx_ref_201291,usr_5473,1355.37,Credit Card,Electronics,40.3,0.26,North
+tx_ref_201292,usr_7247,1798.21,UPI,Digital Goods,20.4,0.22,East
+tx_ref_201293,usr_5481,415.61,Debit Card,Electronics,34.9,0.09,South
+tx_ref_201294,usr_5141,881.44,UPI,Electronics,34.7,0.28,South
+tx_ref_201295,usr_4485,7046.38,Credit Card,Apparel,18.0,0.19,East
+tx_ref_201296,usr_6340,660.81,Credit Card,Home & Kitchen,37.1,0.17,West
+tx_ref_201297,usr_1457,940.18,UPI,Apparel,43.2,0.03,East
+tx_ref_201298,usr_6463,599.99,Credit Card,Digital Goods,46.2,0.06,South
+tx_ref_201299,usr_1474,4930.2,UPI,Home & Kitchen,44.2,0.2,North
+tx_ref_201300,usr_7000,2611.03,Credit Card,Home & Kitchen,28.0,0.11,East
+tx_ref_201301,usr_2680,270.61,Debit Card,Apparel,28.8,0.14,East
+tx_ref_201302,usr_7829,141.19,Debit Card,Electronics,36.9,0.24,East
+tx_ref_201303,usr_7616,827.2,UPI,Digital Goods,37.1,0.25,West
+tx_ref_201304,usr_3143,1154.26,UPI,Apparel,43.7,0.11,West
+tx_ref_201305,usr_3590,1586.44,UPI,Home & Kitchen,31.0,0.18,South
+tx_ref_201306,usr_7113,567.54,UPI,Electronics,29.0,0.24,East
+tx_ref_201307,usr_8279,5781.86,Credit Card,Electronics,47.7,0.23,North
+tx_ref_201308,usr_3835,4446.72,Credit Card,Electronics,23.8,0.03,East
+tx_ref_201309,usr_2762,4277.56,UPI,Apparel,33.7,0.25,East
+tx_ref_201310,usr_7069,5706.52,Credit Card,Digital Goods,38.6,0.23,South
+tx_ref_201311,usr_1768,1637.84,Debit Card,Electronics,26.5,0.06,East
+tx_ref_201312,usr_7118,2169.79,Debit Card,Apparel,32.1,0.04,North
+tx_ref_201313,usr_2111,1461.09,UPI,Electronics,38.3,0.28,West
+tx_ref_201314,usr_5469,406.94,Credit Card,Electronics,32.4,0.18,South
+tx_ref_201315,usr_8915,2682.82,Debit Card,Electronics,49.9,0.28,North
+tx_ref_201316,usr_6420,628.74,Credit Card,Digital Goods,19.2,0.08,South
+tx_ref_201317,usr_8731,2216.71,Credit Card,Electronics,,0.29,South
+tx_ref_201318,usr_2208,797.07,Debit Card,Digital Goods,22.8,0.09,South
+tx_ref_201319,usr_3218,2025.65,Credit Card,Digital Goods,41.3,0.0,East
+tx_ref_201320,usr_1741,248.15,Credit Card,Apparel,32.2,0.06,West
+tx_ref_201321,usr_6214,2162.79,Cash,Electronics,36.3,0.02,West
+tx_ref_201322,usr_3354,2000.39,Debit Card,Electronics,36.9,0.17,South
+tx_ref_201323,usr_1255,2070.55,Debit Card,Home & Kitchen,30.8,0.11,South
+tx_ref_201324,usr_3902,3304.54,UPI,Electronics,33.2,0.28,West
+tx_ref_201325,usr_4163,3331.17,Credit Card,Electronics,40.2,0.13,South
+tx_ref_201326,usr_8492,2331.26,Credit Card,Home & Kitchen,39.6,0.04,South
+tx_ref_201327,usr_5625,155.08,UPI,Home & Kitchen,40.3,0.18,East
+tx_ref_201328,usr_3859,932.46,UPI,Digital Goods,33.8,0.08,East
+tx_ref_201329,usr_4628,944.41,UPI,Digital Goods,50.5,0.02,South
+tx_ref_201330,usr_4294,2039.81,Debit Card,Home & Kitchen,55.1,0.25,North
+tx_ref_201331,usr_3644,463.27,Debit Card,Apparel,25.2,0.04,South
+tx_ref_201332,usr_4853,34983.79,Cash,Apparel,52.1,0.28,West
+tx_ref_201333,usr_5951,769.46,UPI,Electronics,39.1,0.15,West
+tx_ref_201334,usr_7300,4113.19,UPI,Apparel,33.8,0.06,North
+tx_ref_201335,usr_3566,166.32,Credit Card,Home & Kitchen,18.0,0.19,East
+tx_ref_201336,usr_3617,1146.52,Credit Card,Digital Goods,34.8,0.05,East
+tx_ref_201337,usr_6886,1293.47,Credit Card,Electronics,39.9,0.13,North
+tx_ref_201338,usr_3888,1498.0,UPI,Electronics,50.8,0.2,North
+tx_ref_201339,usr_2599,176.71,Debit Card,Home & Kitchen,,0.1,West
+tx_ref_201340,usr_6415,1333.47,Credit Card,Electronics,34.5,0.17,East
+tx_ref_201341,usr_6493,7602.74,Debit Card,Electronics,33.4,0.17,West
+tx_ref_201342,usr_6584,1149.41,Debit Card,Apparel,31.3,0.26,West
+tx_ref_201343,usr_6414,576.66,Credit Card,Electronics,36.0,0.15,West
+tx_ref_201344,usr_5669,1751.08,Credit Card,Home & Kitchen,18.0,0.11,East
+tx_ref_201345,usr_4920,229.54,UPI,Apparel,35.2,0.16,North
+tx_ref_201346,usr_6121,1395.73,Debit Card,Home & Kitchen,34.4,0.27,South
+tx_ref_201347,usr_7913,1492.35,Cash,Apparel,38.1,0.19,West
+tx_ref_201348,usr_7018,3021.15,Credit Card,Apparel,46.1,0.23,North
+tx_ref_201349,usr_5011,1516.53,UPI,Apparel,33.9,0.16,South
+tx_ref_201350,usr_4250,340.41,UPI,Home & Kitchen,36.1,0.23,West
+tx_ref_201351,usr_1097,5459.93,Credit Card,Electronics,34.6,0.11,South
+tx_ref_201352,usr_6617,1293.52,Debit Card,Apparel,40.4,0.13,East
+tx_ref_201353,usr_1943,3368.41,Credit Card,Apparel,40.6,0.22,East
+tx_ref_201354,usr_2372,1223.89,UPI,Apparel,23.0,0.17,North
+tx_ref_201355,usr_1307,994.32,Debit Card,Digital Goods,48.8,0.22,North
+tx_ref_201356,usr_7020,4474.47,UPI,Home & Kitchen,,0.18,South
+tx_ref_201357,usr_2855,464.63,UPI,Apparel,,0.03,South
+tx_ref_201358,usr_7337,1899.0,Debit Card,Electronics,25.1,0.17,East
+tx_ref_201359,usr_5566,13361.83,UPI,Home & Kitchen,35.4,0.17,South
+tx_ref_201360,usr_6325,2738.89,UPI,Apparel,31.1,0.13,North
+tx_ref_201361,usr_2974,3126.53,Credit Card,Electronics,42.1,0.27,West
+tx_ref_201362,usr_5322,1060.18,Debit Card,Electronics,43.3,0.29,East
+tx_ref_201363,usr_4266,1225.32,Credit Card,Electronics,28.0,0.23,North
+tx_ref_201364,usr_5146,5452.77,Credit Card,Home & Kitchen,34.6,0.29,West
+tx_ref_201365,usr_7056,3760.88,Debit Card,Digital Goods,46.7,0.28,East
+tx_ref_201366,usr_2188,365.08,UPI,Digital Goods,42.2,0.24,North
+tx_ref_201367,usr_3594,1954.29,UPI,Apparel,40.8,0.25,South
+tx_ref_201368,usr_4201,244.97,UPI,Digital Goods,31.2,0.02,South
+tx_ref_201369,usr_2993,886.42,UPI,Apparel,45.0,0.27,East
+tx_ref_201370,usr_5307,92.32,Credit Card,Electronics,43.1,0.21,South
+tx_ref_201371,usr_7942,3506.46,Credit Card,Electronics,37.9,0.28,West
+tx_ref_201372,usr_2254,1381.22,Credit Card,Electronics,35.8,0.19,West
+tx_ref_201373,usr_2053,1018.74,Cash,Electronics,26.9,0.3,West
+tx_ref_201374,usr_3873,1239.5,Credit Card,Electronics,37.5,0.0,North
+tx_ref_201375,usr_4673,3759.48,UPI,Home & Kitchen,28.2,0.01,West
+tx_ref_201376,usr_4193,616.57,Cash,Home & Kitchen,38.7,0.1,South
+tx_ref_201377,usr_1817,60.49,Credit Card,Home & Kitchen,,0.04,North
+tx_ref_201378,usr_8465,623.58,Debit Card,Apparel,39.5,0.11,West
+tx_ref_201379,usr_4675,1881.4,Debit Card,Home & Kitchen,36.8,0.13,East
+tx_ref_201380,usr_7518,2664.01,Cash,Apparel,35.4,0.29,West
+tx_ref_201381,usr_2141,1311.54,UPI,Electronics,,0.01,West
+tx_ref_201382,usr_8887,511.76,Cash,Home & Kitchen,33.6,0.05,West
+tx_ref_201383,usr_8618,1012.61,UPI,Home & Kitchen,32.0,0.29,North
+tx_ref_201384,usr_6123,2056.89,Credit Card,Electronics,25.5,0.05,West
+tx_ref_201385,usr_8899,1817.96,Credit Card,Home & Kitchen,34.9,0.1,South
+tx_ref_201386,usr_5307,330.27,UPI,Electronics,23.2,0.27,West
+tx_ref_201387,usr_1278,238.16,Credit Card,Home & Kitchen,19.9,0.2,South
+tx_ref_201388,usr_5509,4219.5,Credit Card,Apparel,20.9,0.25,West
+tx_ref_201389,usr_7280,1224.34,Debit Card,Apparel,44.5,0.13,North
+tx_ref_201390,usr_2040,720.31,UPI,Apparel,18.0,0.02,North
+tx_ref_201391,usr_3061,998.17,Debit Card,Electronics,29.7,0.27,South
+tx_ref_201392,usr_5020,2864.73,Credit Card,Home & Kitchen,28.4,0.17,West
+tx_ref_201393,usr_6723,2163.74,UPI,Home & Kitchen,37.1,0.18,West
+tx_ref_201394,usr_3038,456.08,UPI,Digital Goods,34.8,0.01,North
+tx_ref_201395,usr_3642,513.76,UPI,Apparel,23.9,0.27,East
+tx_ref_201396,usr_8176,188.65,Debit Card,Electronics,34.6,0.0,East
+tx_ref_201397,usr_5656,2118.85,Debit Card,Home & Kitchen,43.2,0.03,East
+tx_ref_201398,usr_5947,1993.89,Credit Card,Home & Kitchen,31.7,0.14,North
+tx_ref_201399,usr_4877,1261.74,Cash,Home & Kitchen,23.8,0.08,West
+tx_ref_201400,usr_6054,792.28,UPI,Electronics,23.2,0.24,North
+tx_ref_201401,usr_6127,1592.36,Credit Card,Apparel,38.0,0.27,North
+tx_ref_201402,usr_2261,851.53,UPI,Home & Kitchen,21.9,0.13,South
+tx_ref_201403,usr_5509,419.6,UPI,Home & Kitchen,42.3,0.07,South
+tx_ref_201404,usr_6762,3322.52,Debit Card,Apparel,43.3,0.02,East
+tx_ref_201405,usr_2786,1120.5,Credit Card,Home & Kitchen,40.3,0.16,East
+tx_ref_201406,usr_8930,1036.52,UPI,Electronics,39.0,0.16,North
+tx_ref_201407,usr_7157,2088.44,UPI,Electronics,39.8,0.06,East
+tx_ref_201408,usr_5221,4010.73,Credit Card,Apparel,57.1,0.03,West
+tx_ref_201409,usr_5519,2322.95,Debit Card,Electronics,38.1,0.19,South
+tx_ref_201410,usr_2538,2278.49,Credit Card,Home & Kitchen,20.6,0.17,North
+tx_ref_201411,usr_7279,823.44,Credit Card,Apparel,39.3,0.08,North
+tx_ref_201412,usr_5268,2257.92,UPI,Electronics,35.8,0.17,East
+tx_ref_201413,usr_2754,6843.41,Credit Card,Apparel,44.3,0.1,South
+tx_ref_201414,usr_1154,972.5,Credit Card,Apparel,29.2,0.26,North
+tx_ref_201415,usr_1552,1838.95,Credit Card,Digital Goods,42.7,0.13,North
+tx_ref_201416,usr_1418,1456.41,UPI,Home & Kitchen,27.8,0.2,West
+tx_ref_201417,usr_3910,4778.3,UPI,Home & Kitchen,29.5,0.0,East
+tx_ref_201418,usr_5958,5365.19,UPI,Apparel,42.0,0.15,North
+tx_ref_201419,usr_6646,2011.85,Cash,Electronics,29.4,0.06,South
+tx_ref_201420,usr_5099,778.77,Credit Card,Home & Kitchen,40.2,0.06,West
+tx_ref_201421,usr_5373,2216.45,UPI,Digital Goods,36.1,0.06,South
+tx_ref_201422,usr_3269,1897.24,Credit Card,Electronics,31.0,0.29,East
+tx_ref_201423,usr_4908,525.89,Cash,Electronics,28.4,0.19,West
+tx_ref_201424,usr_8613,3938.32,Credit Card,Apparel,28.3,0.05,South
+tx_ref_201425,usr_8660,1096.92,Debit Card,Apparel,38.6,0.28,West
+tx_ref_201426,usr_7492,958.62,Credit Card,Home & Kitchen,39.1,0.18,North
+tx_ref_201427,usr_3017,5604.65,Credit Card,Home & Kitchen,37.5,0.02,North
+tx_ref_201428,usr_7579,605.6,Debit Card,Home & Kitchen,24.4,0.21,South
+tx_ref_201429,usr_8214,154.29,Credit Card,Electronics,30.1,0.05,North
+tx_ref_201430,usr_6713,1537.99,UPI,Apparel,36.7,0.04,West
+tx_ref_201431,usr_6841,266.4,Credit Card,Electronics,50.7,0.13,South
+tx_ref_201432,usr_2567,2045.25,Credit Card,Home & Kitchen,23.9,0.06,South
+tx_ref_201433,usr_4569,841.61,Debit Card,Home & Kitchen,48.2,0.07,North
+tx_ref_201434,usr_4373,501.41,UPI,Electronics,49.0,0.06,East
+tx_ref_201435,usr_3096,1517.52,Credit Card,Home & Kitchen,36.9,0.07,East
+tx_ref_201436,usr_1698,3752.91,Cash,Home & Kitchen,38.4,0.1,West
+tx_ref_201437,usr_6813,1914.32,UPI,Electronics,25.8,0.13,East
+tx_ref_201438,usr_3197,113.65,UPI,Home & Kitchen,27.3,0.1,South
+tx_ref_201439,usr_4686,894.56,Debit Card,Apparel,41.9,0.21,North
+tx_ref_201440,usr_8752,3105.91,Credit Card,Electronics,24.2,0.29,East
+tx_ref_201441,usr_1982,870.12,Debit Card,Electronics,33.8,0.09,East
+tx_ref_201442,usr_1367,2007.29,Debit Card,Electronics,39.9,0.21,West
+tx_ref_201443,usr_6158,1951.25,Credit Card,Apparel,38.9,0.3,South
+tx_ref_201444,usr_5510,4070.76,Credit Card,Apparel,48.7,0.3,West
+tx_ref_201445,usr_2028,1585.67,UPI,Digital Goods,38.4,0.19,East
+tx_ref_201446,usr_8816,5079.46,Credit Card,Electronics,31.6,0.18,East
+tx_ref_201447,usr_5396,1657.8,Debit Card,Digital Goods,33.3,0.24,North
+tx_ref_201448,usr_7659,4567.72,UPI,Apparel,25.8,0.15,South
+tx_ref_201449,usr_5849,2952.58,UPI,Electronics,35.0,0.27,West
+tx_ref_201450,usr_8470,933.54,Debit Card,Apparel,40.8,0.02,West
+tx_ref_201451,usr_7891,253.77,Cash,Home & Kitchen,36.0,0.04,South
+tx_ref_201452,usr_1723,178.51,UPI,Home & Kitchen,43.9,0.16,North
+tx_ref_201453,usr_6922,778.24,UPI,Electronics,23.5,0.21,South
+tx_ref_201454,usr_4637,173.51,Cash,Electronics,43.6,0.26,North
+tx_ref_201455,usr_4026,188.75,Credit Card,Home & Kitchen,45.4,0.06,East
+tx_ref_201456,usr_7054,2708.81,UPI,Apparel,34.8,0.07,West
+tx_ref_201457,usr_3539,894.2,Credit Card,Electronics,39.6,0.12,West
+tx_ref_201458,usr_2075,4406.92,Credit Card,Home & Kitchen,26.4,0.24,West
+tx_ref_201459,usr_2600,619.33,Credit Card,Home & Kitchen,40.1,0.1,West
+tx_ref_201460,usr_5942,200.97,UPI,Home & Kitchen,29.4,0.18,South
+tx_ref_201461,usr_1188,109.1,Credit Card,Home & Kitchen,39.5,0.22,North
+tx_ref_201462,usr_2267,520.87,UPI,Electronics,31.6,0.1,South
+tx_ref_201463,usr_8489,697.63,UPI,Apparel,50.1,0.22,North
+tx_ref_201464,usr_3980,1229.93,UPI,Home & Kitchen,48.4,0.29,West
+tx_ref_201465,usr_5395,1866.01,UPI,Electronics,25.7,0.21,North
+tx_ref_201466,usr_1796,2962.03,Credit Card,Home & Kitchen,40.5,0.05,South
+tx_ref_201467,usr_7746,928.91,UPI,Electronics,32.7,0.28,North
+tx_ref_201468,usr_6312,7685.17,UPI,Home & Kitchen,27.5,0.18,West
+tx_ref_201469,usr_3277,5158.62,UPI,Apparel,45.8,0.06,West
+tx_ref_201470,usr_4431,4224.03,Credit Card,Apparel,35.5,0.14,North
+tx_ref_201471,usr_4244,1428.71,UPI,Apparel,36.5,0.08,North
+tx_ref_201472,usr_1876,675.15,UPI,Apparel,27.4,0.15,North
+tx_ref_201473,usr_5483,1365.62,UPI,Digital Goods,27.7,0.01,North
+tx_ref_201474,usr_4863,538.93,Credit Card,Electronics,40.4,0.05,South
+tx_ref_201475,usr_5682,1276.85,Credit Card,Digital Goods,25.5,0.21,East
+tx_ref_201476,usr_1378,1287.93,UPI,Electronics,33.8,0.25,West
+tx_ref_201477,usr_8159,2656.03,UPI,Digital Goods,32.8,0.14,South
+tx_ref_201478,usr_8721,2833.51,UPI,Apparel,29.3,0.16,North
+tx_ref_201479,usr_2689,141.6,UPI,Apparel,34.2,0.02,South
+tx_ref_201480,usr_6875,1628.28,UPI,Electronics,45.4,0.18,North
+tx_ref_201481,usr_8813,1849.05,UPI,Electronics,35.3,0.24,North
+tx_ref_201482,usr_2008,1388.21,Debit Card,Apparel,27.2,0.19,South
+tx_ref_201483,usr_7644,1529.85,Credit Card,Apparel,18.0,0.19,West
+tx_ref_201484,usr_7600,1342.08,Credit Card,Apparel,,0.1,South
+tx_ref_201485,usr_6449,2910.29,Credit Card,Electronics,54.0,0.02,North
+tx_ref_201486,usr_6295,3150.23,UPI,Apparel,19.6,0.19,North
+tx_ref_201487,usr_8512,7657.75,Credit Card,Electronics,34.6,0.25,East
+tx_ref_201488,usr_7727,1261.09,UPI,Electronics,36.1,0.12,South
+tx_ref_201489,usr_8875,2812.81,Credit Card,Apparel,35.1,0.16,East
+tx_ref_201490,usr_8190,3690.6,Credit Card,Home & Kitchen,28.9,0.07,North
+tx_ref_201491,usr_3066,2429.14,UPI,Electronics,35.5,0.07,South
+tx_ref_201492,usr_5547,2008.67,UPI,Electronics,36.1,0.15,East
+tx_ref_201493,usr_6846,1043.2,Debit Card,Apparel,38.4,0.2,North
+tx_ref_201494,usr_7663,1928.37,UPI,Electronics,33.0,0.27,South
+tx_ref_201495,usr_6685,286.42,UPI,Apparel,36.4,0.09,South
+tx_ref_201496,usr_2805,4357.65,Credit Card,Digital Goods,49.5,0.01,North
+tx_ref_201497,usr_1501,4248.3,Credit Card,Electronics,38.2,0.27,South
+tx_ref_201498,usr_5939,1259.02,Cash,Apparel,33.2,0.27,East
+tx_ref_201499,usr_7664,1354.55,Debit Card,Home & Kitchen,31.9,0.24,West
+tx_ref_201500,usr_6076,551.92,UPI,Home & Kitchen,29.6,0.1,South
+tx_ref_201501,usr_7258,496.42,Debit Card,Home & Kitchen,37.2,0.29,East
+tx_ref_201502,usr_6631,1950.98,UPI,Electronics,36.8,0.02,East
+tx_ref_201503,usr_8458,1293.2,Debit Card,Digital Goods,31.0,0.07,North
+tx_ref_201504,usr_2757,6119.88,Credit Card,Home & Kitchen,41.6,0.09,East
+tx_ref_201505,usr_3295,981.49,UPI,Home & Kitchen,42.6,0.18,North
+tx_ref_201506,usr_6579,908.03,Credit Card,Home & Kitchen,30.6,0.16,South
+tx_ref_201507,usr_7714,1739.7,Credit Card,Apparel,35.2,0.25,North
+tx_ref_201508,usr_3302,4250.72,Credit Card,Electronics,52.4,0.02,East
+tx_ref_201509,usr_1745,593.25,Cash,Digital Goods,36.3,0.18,North
+tx_ref_201510,usr_1278,1097.77,UPI,Apparel,24.1,0.28,West
+tx_ref_201511,usr_5586,2026.54,Cash,Home & Kitchen,18.6,0.1,West
+tx_ref_201512,usr_6405,4258.87,UPI,Apparel,25.7,0.2,South
+tx_ref_201513,usr_6890,1650.89,Credit Card,Electronics,,0.07,North
+tx_ref_201514,usr_5913,4195.33,Cash,Electronics,42.7,0.14,South
+tx_ref_201515,usr_2269,1199.3,Credit Card,Apparel,23.7,0.18,North
+tx_ref_201516,usr_2017,5546.4,Credit Card,Electronics,49.3,0.01,North
+tx_ref_201517,usr_5435,765.39,Credit Card,Digital Goods,46.8,0.23,South
+tx_ref_201518,usr_4087,1771.36,UPI,Home & Kitchen,27.6,0.1,East
+tx_ref_201519,usr_7976,1546.14,Debit Card,Apparel,35.2,0.27,East
+tx_ref_201520,usr_6163,984.94,Debit Card,Electronics,36.8,0.15,South
+tx_ref_201521,usr_7773,979.12,Credit Card,Apparel,41.6,0.03,West
+tx_ref_201522,usr_4277,60.93,UPI,Home & Kitchen,33.4,0.23,West
+tx_ref_201523,usr_4736,2086.03,UPI,Electronics,32.6,0.14,East
+tx_ref_201524,usr_6243,2811.1,Credit Card,Electronics,27.5,0.15,South
+tx_ref_201525,usr_5174,976.46,Cash,Apparel,30.3,0.14,North
+tx_ref_201526,usr_5096,303.03,Credit Card,Home & Kitchen,37.4,0.04,North
+tx_ref_201527,usr_2619,744.73,Cash,Home & Kitchen,20.8,0.1,North
+tx_ref_201528,usr_3185,113.55,UPI,Home & Kitchen,18.0,0.12,West
+tx_ref_201529,usr_8704,80.36,Debit Card,Apparel,32.6,0.18,North
+tx_ref_201530,usr_3347,3034.95,Debit Card,Digital Goods,44.3,0.26,North
+tx_ref_201531,usr_5027,3186.85,Credit Card,Electronics,34.5,0.05,West
+tx_ref_201532,usr_6578,3977.25,UPI,Apparel,23.3,0.27,South
+tx_ref_201533,usr_2659,2018.65,UPI,Apparel,18.0,0.16,North
+tx_ref_201534,usr_8408,479.6,Credit Card,Home & Kitchen,28.0,0.29,North
+tx_ref_201535,usr_5222,637.18,Cash,Digital Goods,35.6,0.12,North
+tx_ref_201536,usr_8036,617.53,UPI,Home & Kitchen,47.8,0.17,North
+tx_ref_201537,usr_3702,2867.02,UPI,Electronics,37.8,0.05,North
+tx_ref_201538,usr_1015,1453.41,Credit Card,Apparel,26.8,0.18,East
+tx_ref_201539,usr_4891,1920.57,Credit Card,Electronics,38.4,0.09,South
+tx_ref_201540,usr_2528,561.31,UPI,Apparel,21.7,0.26,South
+tx_ref_201541,usr_1048,427.88,Credit Card,Home & Kitchen,35.9,0.13,North
+tx_ref_201542,usr_5974,2056.01,Debit Card,Electronics,34.2,0.07,West
+tx_ref_201543,usr_6067,384.27,UPI,Home & Kitchen,18.0,0.14,East
+tx_ref_201544,usr_4928,268.78,UPI,Electronics,36.3,0.04,West
+tx_ref_201545,usr_4219,890.04,Credit Card,Electronics,55.6,0.1,North
+tx_ref_201546,usr_6806,254.55,UPI,Apparel,37.6,0.08,West
+tx_ref_201547,usr_1862,66.61,UPI,Electronics,40.0,0.04,East
+tx_ref_201548,usr_7524,8882.85,Credit Card,Digital Goods,24.8,0.04,North
+tx_ref_201549,usr_3465,4537.85,UPI,Digital Goods,39.9,0.12,West
+tx_ref_201550,usr_8769,4822.51,UPI,Digital Goods,30.4,0.06,East
+tx_ref_201551,usr_7784,798.06,Credit Card,Electronics,39.6,0.14,East
+tx_ref_201552,usr_3291,1743.85,Credit Card,Electronics,45.1,0.14,West
+tx_ref_201553,usr_1121,304.53,Debit Card,Apparel,38.5,0.18,West
+tx_ref_201554,usr_3773,5056.88,Cash,Home & Kitchen,31.1,0.18,South
+tx_ref_201555,usr_6577,1650.35,UPI,Apparel,27.6,0.05,West
+tx_ref_201556,usr_8661,808.72,Debit Card,Digital Goods,27.0,0.0,West
+tx_ref_201557,usr_4268,572.52,UPI,Apparel,43.1,0.25,South
+tx_ref_201558,usr_2021,852.48,Credit Card,Home & Kitchen,41.8,0.12,West
+tx_ref_201559,usr_8822,1124.44,Credit Card,Apparel,41.0,0.09,South
+tx_ref_201560,usr_4516,2247.67,Credit Card,Electronics,46.2,0.1,East
+tx_ref_201561,usr_5395,3301.86,UPI,Digital Goods,30.0,0.07,East
+tx_ref_201562,usr_5877,2944.77,UPI,Home & Kitchen,22.6,0.2,West
+tx_ref_201563,usr_6994,5543.93,Cash,Digital Goods,35.6,0.26,South
+tx_ref_201564,usr_3439,1627.78,Credit Card,Home & Kitchen,23.5,0.07,West
+tx_ref_201565,usr_5318,1806.86,Credit Card,Home & Kitchen,30.0,0.19,West
+tx_ref_201566,usr_6902,1098.92,Cash,Apparel,26.0,0.1,East
+tx_ref_201567,usr_1836,748.18,Cash,Apparel,18.0,0.03,East
+tx_ref_201568,usr_6889,2771.23,Credit Card,Apparel,31.9,0.04,West
+tx_ref_201569,usr_5403,3070.08,UPI,Apparel,41.6,0.28,West
+tx_ref_201570,usr_7178,2091.39,UPI,Home & Kitchen,18.0,0.15,North
+tx_ref_201571,usr_1224,5285.23,Debit Card,Electronics,36.7,0.03,South
+tx_ref_201572,usr_4235,749.55,UPI,Home & Kitchen,26.6,0.01,East
+tx_ref_201573,usr_1119,303.39,Cash,Digital Goods,38.8,0.05,North
+tx_ref_201574,usr_7245,165.51,Debit Card,Apparel,20.0,0.26,West
+tx_ref_201575,usr_5441,1860.26,Credit Card,Electronics,47.7,0.29,South
+tx_ref_201576,usr_7127,3049.71,Credit Card,Apparel,42.3,0.0,South
+tx_ref_201577,usr_4492,896.36,UPI,Apparel,23.8,0.01,East
+tx_ref_201578,usr_8860,2623.15,Credit Card,Home & Kitchen,42.8,0.05,South
+tx_ref_201579,usr_8278,5704.48,UPI,Apparel,31.4,0.18,East
+tx_ref_201580,usr_3794,1945.98,Cash,Digital Goods,31.0,0.0,West
+tx_ref_201581,usr_2913,2974.63,Debit Card,Electronics,25.4,0.03,West
+tx_ref_201582,usr_6786,231.89,Credit Card,Digital Goods,39.4,0.07,East
+tx_ref_201583,usr_7523,4513.26,UPI,Apparel,41.4,0.03,North
+tx_ref_201584,usr_8066,434.37,Cash,Apparel,52.0,0.07,South
+tx_ref_201585,usr_7690,1195.09,Debit Card,Home & Kitchen,22.4,0.29,East
+tx_ref_201586,usr_4381,774.9,UPI,Electronics,,0.01,West
+tx_ref_201587,usr_7191,1678.22,Cash,Apparel,37.7,0.2,West
+tx_ref_201588,usr_3251,178.78,Credit Card,Home & Kitchen,23.6,0.16,West
+tx_ref_201589,usr_5076,6563.44,Credit Card,Electronics,38.8,0.26,North
+tx_ref_201590,usr_4708,413.92,Cash,Electronics,36.8,0.12,North
+tx_ref_201591,usr_1716,2625.55,Debit Card,Home & Kitchen,42.4,0.23,South
+tx_ref_201592,usr_3706,352.88,Credit Card,Electronics,26.9,0.27,East
+tx_ref_201593,usr_2395,1289.07,Debit Card,Electronics,30.2,0.24,West
+tx_ref_201594,usr_4721,874.72,UPI,Home & Kitchen,20.3,0.08,South
+tx_ref_201595,usr_2282,844.14,Cash,Home & Kitchen,38.4,0.26,North
+tx_ref_201596,usr_2440,3605.4,UPI,Home & Kitchen,30.0,0.06,North
+tx_ref_201597,usr_4700,760.7,Credit Card,Electronics,26.7,0.1,East
+tx_ref_201598,usr_2855,3616.56,Cash,Apparel,43.2,0.01,North
+tx_ref_201599,usr_3732,1554.24,UPI,Home & Kitchen,29.3,0.08,West
+tx_ref_201600,usr_8955,1254.63,Credit Card,Home & Kitchen,34.9,0.26,North
+tx_ref_201601,usr_5630,3481.9,UPI,Electronics,26.7,0.04,West
+tx_ref_201602,usr_2086,2482.95,Debit Card,Home & Kitchen,28.0,0.28,North
+tx_ref_201603,usr_6098,2043.92,UPI,Apparel,37.3,0.23,North
+tx_ref_201604,usr_2030,4771.77,UPI,Apparel,,0.14,North
+tx_ref_201605,usr_3657,3189.22,UPI,Apparel,33.9,0.01,West
+tx_ref_201606,usr_5148,79.23,Credit Card,Digital Goods,45.6,0.19,North
+tx_ref_201607,usr_8022,3631.84,Credit Card,Electronics,46.4,0.15,North
+tx_ref_201608,usr_8594,330.42,Credit Card,Electronics,33.9,0.21,North
+tx_ref_201609,usr_4403,4375.53,Debit Card,Apparel,37.2,0.06,West
+tx_ref_201610,usr_3554,785.53,UPI,Electronics,28.0,0.1,North
+tx_ref_201611,usr_2948,4679.41,Credit Card,Electronics,34.7,0.27,North
+tx_ref_201612,usr_4548,2724.1,Debit Card,Electronics,44.9,0.07,West
+tx_ref_201613,usr_3329,2111.36,Credit Card,Home & Kitchen,18.0,0.17,East
+tx_ref_201614,usr_6301,1090.35,Credit Card,Home & Kitchen,24.8,0.26,South
+tx_ref_201615,usr_7251,603.05,UPI,Digital Goods,23.2,0.29,North
+tx_ref_201616,usr_2172,3678.4,Cash,Electronics,39.0,0.04,North
+tx_ref_201617,usr_5525,203.56,UPI,Electronics,18.3,0.09,East
+tx_ref_201618,usr_8729,5771.14,UPI,Apparel,41.8,0.14,North
+tx_ref_201619,usr_4560,227.86,UPI,Electronics,18.0,0.11,North
+tx_ref_201620,usr_4197,1122.78,UPI,Apparel,32.2,0.05,West
+tx_ref_201621,usr_8536,228.59,Cash,Electronics,18.8,0.28,North
+tx_ref_201622,usr_6212,1788.86,UPI,Electronics,29.7,0.24,South
+tx_ref_201623,usr_5409,196.91,Debit Card,Apparel,18.4,0.24,South
+tx_ref_201624,usr_4166,2235.72,Debit Card,Electronics,46.6,0.1,East
+tx_ref_201625,usr_7560,1150.0,Credit Card,Apparel,32.1,0.02,East
+tx_ref_201626,usr_3057,2246.11,Credit Card,Electronics,31.6,0.24,South
+tx_ref_201627,usr_1236,634.08,Debit Card,Digital Goods,39.0,0.25,East
+tx_ref_201628,usr_6935,664.87,UPI,Apparel,50.0,0.15,West
+tx_ref_201629,usr_7054,2708.98,Cash,Apparel,36.0,0.14,South
+tx_ref_201630,usr_3104,256.51,UPI,Electronics,25.5,0.24,East
+tx_ref_201631,usr_8902,1333.13,Credit Card,Digital Goods,51.0,0.07,North
+tx_ref_201632,usr_2372,4790.51,Credit Card,Home & Kitchen,38.0,0.28,East
+tx_ref_201633,usr_7170,4609.28,Credit Card,Apparel,18.0,0.26,North
+tx_ref_201634,usr_3523,1561.78,Debit Card,Electronics,38.3,0.05,East
+tx_ref_201635,usr_4457,2159.27,Credit Card,Apparel,62.5,0.3,East
+tx_ref_201636,usr_5491,324.08,UPI,Apparel,45.0,0.08,East
+tx_ref_201637,usr_8091,475.25,Cash,Digital Goods,27.9,0.27,North
+tx_ref_201638,usr_8025,634.15,UPI,Digital Goods,55.4,0.05,West
+tx_ref_201639,usr_2443,5030.94,UPI,Home & Kitchen,34.7,0.17,West
+tx_ref_201640,usr_7266,1055.45,Credit Card,Digital Goods,35.9,0.03,North
+tx_ref_201641,usr_7279,385.79,UPI,Home & Kitchen,39.3,0.14,West
+tx_ref_201642,usr_4967,195.53,UPI,Electronics,48.7,0.12,East
+tx_ref_201643,usr_3132,2616.39,UPI,Apparel,32.0,0.25,East
+tx_ref_201644,usr_5075,1107.4,Credit Card,Home & Kitchen,31.0,0.19,South
+tx_ref_201645,usr_3757,164.96,Debit Card,Apparel,37.0,0.04,West
+tx_ref_201646,usr_7921,1241.99,UPI,Home & Kitchen,26.4,0.29,East
+tx_ref_201647,usr_3207,2173.77,Credit Card,Electronics,32.1,0.25,West
+tx_ref_201648,usr_8387,1108.56,Credit Card,Digital Goods,30.8,0.09,East
+tx_ref_201649,usr_8708,4572.09,UPI,Electronics,39.0,0.3,East
+tx_ref_201650,usr_1075,1293.48,Debit Card,Electronics,45.5,0.16,West
+tx_ref_201651,usr_8616,73.4,UPI,Electronics,32.0,0.21,North
+tx_ref_201652,usr_5419,2478.12,Credit Card,Electronics,18.2,0.19,North
+tx_ref_201653,usr_7654,1705.46,Debit Card,Electronics,34.8,0.07,North
+tx_ref_201654,usr_4904,8139.82,Debit Card,Apparel,47.8,0.04,North
+tx_ref_201655,usr_8691,475.43,UPI,Apparel,21.2,0.27,North
+tx_ref_201656,usr_7150,959.28,UPI,Home & Kitchen,37.4,0.24,East
+tx_ref_201657,usr_1668,2727.63,Debit Card,Home & Kitchen,25.2,0.21,East
+tx_ref_201658,usr_5577,827.01,UPI,Apparel,,0.23,South
+tx_ref_201659,usr_1846,79.97,UPI,Apparel,36.9,0.07,South
+tx_ref_201660,usr_7106,2959.23,Credit Card,Electronics,45.7,0.29,South
+tx_ref_201661,usr_4353,1237.21,UPI,Home & Kitchen,25.6,0.1,West
+tx_ref_201662,usr_8922,1311.68,Credit Card,Electronics,38.1,0.11,West
+tx_ref_201663,usr_4563,2493.29,Debit Card,Electronics,47.8,0.28,South
+tx_ref_201664,usr_6770,671.14,Credit Card,Electronics,33.7,0.2,East
+tx_ref_201665,usr_3172,2223.67,UPI,Electronics,30.4,0.25,South
+tx_ref_201666,usr_4679,6811.58,Credit Card,Apparel,48.1,0.04,West
+tx_ref_201667,usr_1296,1718.77,Credit Card,Apparel,50.8,0.01,West
+tx_ref_201668,usr_5620,1708.95,Credit Card,Electronics,31.1,0.09,North
+tx_ref_201669,usr_2876,1560.96,UPI,Electronics,29.9,0.17,North
+tx_ref_201670,usr_7881,2721.5,Credit Card,Electronics,38.5,0.2,North
+tx_ref_201671,usr_1493,2302.38,UPI,Apparel,23.9,0.17,North
+tx_ref_201672,usr_8235,351.54,UPI,Home & Kitchen,33.4,0.15,North
+tx_ref_201673,usr_1597,1239.06,Debit Card,Electronics,29.9,0.23,South
+tx_ref_201674,usr_8900,5954.58,Credit Card,Home & Kitchen,26.4,0.19,East
+tx_ref_201675,usr_4858,806.99,UPI,Apparel,21.5,0.21,East
+tx_ref_201676,usr_4176,3555.17,Debit Card,Apparel,41.7,0.27,South
+tx_ref_201677,usr_6071,2813.83,Cash,Apparel,32.3,0.02,West
+tx_ref_201678,usr_5537,201.26,UPI,Apparel,35.9,0.28,East
+tx_ref_201679,usr_8033,5994.24,Debit Card,Apparel,27.5,0.02,West
+tx_ref_201680,usr_1464,7414.77,Credit Card,Home & Kitchen,30.5,0.24,North
+tx_ref_201681,usr_7235,2490.48,Credit Card,Apparel,29.8,0.2,East
+tx_ref_201682,usr_2848,4568.06,Debit Card,Home & Kitchen,46.3,0.18,West
+tx_ref_201683,usr_1754,456.09,Credit Card,Home & Kitchen,33.0,0.1,West
+tx_ref_201684,usr_1088,498.08,UPI,Electronics,24.2,0.18,West
+tx_ref_201685,usr_7034,929.12,Credit Card,Home & Kitchen,47.3,0.3,West
+tx_ref_201686,usr_1403,1435.77,Credit Card,Digital Goods,39.0,0.16,North
+tx_ref_201687,usr_3113,112.37,UPI,Digital Goods,37.8,0.18,East
+tx_ref_201688,usr_4943,1562.61,UPI,Home & Kitchen,34.6,0.03,East
+tx_ref_201689,usr_5899,1263.69,UPI,Apparel,23.7,0.22,East
+tx_ref_201690,usr_4909,460.08,Cash,Digital Goods,60.3,0.04,South
+tx_ref_201691,usr_1350,996.02,Cash,Electronics,39.3,0.1,West
+tx_ref_201692,usr_5379,876.96,UPI,Home & Kitchen,,0.04,South
+tx_ref_201693,usr_7103,1366.72,Credit Card,Digital Goods,55.8,0.08,East
+tx_ref_201694,usr_2843,1612.88,UPI,Apparel,28.6,0.08,East
+tx_ref_201695,usr_3444,657.04,Credit Card,Apparel,45.8,0.24,South
+tx_ref_201696,usr_2781,4606.59,Credit Card,Apparel,30.4,0.0,West
+tx_ref_201697,usr_2380,1666.87,Debit Card,Home & Kitchen,35.0,0.25,East
+tx_ref_201698,usr_2302,135.45,UPI,Home & Kitchen,37.0,0.13,South
+tx_ref_201699,usr_7806,522.82,Debit Card,Apparel,32.1,0.29,North
+tx_ref_201700,usr_5916,972.48,Debit Card,Home & Kitchen,,0.02,South
+tx_ref_201701,usr_2241,3114.16,Credit Card,Home & Kitchen,36.1,0.07,West
+tx_ref_201702,usr_3143,5709.25,Credit Card,Electronics,35.3,0.24,South
+tx_ref_201703,usr_5221,740.86,UPI,Apparel,31.1,0.2,South
+tx_ref_201704,usr_5380,696.02,Debit Card,Electronics,42.4,0.22,West
+tx_ref_201705,usr_4643,7181.33,Credit Card,Digital Goods,49.0,0.1,North
+tx_ref_201706,usr_1259,3843.9,Credit Card,Apparel,29.0,0.28,West
+tx_ref_201707,usr_7903,1170.62,Credit Card,Electronics,46.7,0.04,North
+tx_ref_201708,usr_1463,4244.72,UPI,Apparel,45.8,0.09,West
+tx_ref_201709,usr_3328,486.39,Credit Card,Apparel,41.4,0.1,East
+tx_ref_201710,usr_8795,1687.28,Debit Card,Digital Goods,33.2,0.23,South
+tx_ref_201711,usr_6341,1291.74,Credit Card,Electronics,31.0,0.13,East
+tx_ref_201712,usr_3407,6845.14,UPI,Electronics,41.4,0.07,North
+tx_ref_201713,usr_5538,1153.79,Debit Card,Electronics,35.4,0.07,North
+tx_ref_201714,usr_1477,122.89,Cash,Home & Kitchen,44.0,0.24,East
+tx_ref_201715,usr_2012,6783.68,Credit Card,Apparel,32.3,0.14,North
+tx_ref_201716,usr_3381,1539.53,Debit Card,Home & Kitchen,20.8,0.01,North
+tx_ref_201717,usr_2259,661.63,Cash,Electronics,26.2,0.03,North
+tx_ref_201718,usr_4338,3680.11,Credit Card,Apparel,27.2,0.01,West
+tx_ref_201719,usr_7557,496.59,UPI,Apparel,19.6,0.09,North
+tx_ref_201720,usr_7051,509.74,Debit Card,Electronics,26.3,0.15,South
+tx_ref_201721,usr_6500,1410.1,Cash,Home & Kitchen,29.6,0.11,South
+tx_ref_201722,usr_5022,4528.49,Credit Card,Digital Goods,30.1,0.08,West
+tx_ref_201723,usr_5260,4563.68,Debit Card,Home & Kitchen,37.7,0.05,South
+tx_ref_201724,usr_4756,8643.81,Credit Card,Apparel,30.6,0.27,West
+tx_ref_201725,usr_7018,2170.22,UPI,Electronics,31.4,0.04,North
+tx_ref_201726,usr_1354,902.54,Credit Card,Home & Kitchen,33.7,0.28,East
+tx_ref_201727,usr_4508,1100.42,Debit Card,Electronics,48.6,0.03,West
+tx_ref_201728,usr_8229,1550.9,Credit Card,Electronics,18.0,0.01,West
+tx_ref_201729,usr_6052,1723.83,Debit Card,Electronics,31.9,0.09,West
+tx_ref_201730,usr_6818,5693.79,Credit Card,Digital Goods,50.5,0.04,West
+tx_ref_201731,usr_3347,90.67,Credit Card,Apparel,43.0,0.19,North
+tx_ref_201732,usr_1344,623.64,Credit Card,Home & Kitchen,45.6,0.22,West
+tx_ref_201733,usr_1889,2834.98,Cash,Electronics,32.7,0.09,West
+tx_ref_201734,usr_8699,527.73,Credit Card,Electronics,39.0,0.04,East
+tx_ref_201735,usr_7802,1637.12,Credit Card,Apparel,51.0,0.02,East
+tx_ref_201736,usr_4152,3292.89,Debit Card,Electronics,42.9,0.14,East
+tx_ref_201737,usr_1666,6069.06,Debit Card,Home & Kitchen,37.4,0.03,North
+tx_ref_201738,usr_7165,1804.62,Credit Card,Home & Kitchen,33.6,0.09,North
+tx_ref_201739,usr_6326,108.56,UPI,Home & Kitchen,36.0,0.27,North
+tx_ref_201740,usr_7694,1855.54,Credit Card,Apparel,22.8,0.23,East
+tx_ref_201741,usr_7269,1715.47,Debit Card,Apparel,41.5,0.15,South
+tx_ref_201742,usr_5409,794.74,Debit Card,Apparel,37.4,0.27,West
+tx_ref_201743,usr_5309,1741.48,Debit Card,Electronics,35.8,0.22,North
+tx_ref_201744,usr_4887,1254.84,UPI,Electronics,25.9,0.09,East
+tx_ref_201745,usr_8011,1579.05,Cash,Apparel,34.6,0.17,West
+tx_ref_201746,usr_7073,154.07,UPI,Home & Kitchen,39.2,0.12,West
+tx_ref_201747,usr_8851,722.84,UPI,Apparel,22.3,0.02,East
+tx_ref_201748,usr_7332,10458.62,UPI,Home & Kitchen,18.5,0.08,South
+tx_ref_201749,usr_3765,408.2,Cash,Apparel,24.9,0.02,West
+tx_ref_201750,usr_5116,2003.12,UPI,Digital Goods,44.5,0.25,West
+tx_ref_201751,usr_8228,410.49,UPI,Apparel,32.0,0.26,South
+tx_ref_201752,usr_7954,3255.98,UPI,Home & Kitchen,40.7,0.21,West
+tx_ref_201753,usr_3387,2691.91,Credit Card,Apparel,18.0,0.25,West
+tx_ref_201754,usr_5772,182.12,UPI,Electronics,28.2,0.24,North
+tx_ref_201755,usr_8920,3424.85,UPI,Digital Goods,24.2,0.13,West
+tx_ref_201756,usr_2454,1037.05,UPI,Apparel,35.0,0.29,West
+tx_ref_201757,usr_6794,869.48,UPI,Electronics,27.7,0.0,West
+tx_ref_201758,usr_6344,3409.72,Credit Card,Apparel,28.0,0.14,East
+tx_ref_201759,usr_6311,74.5,Credit Card,Apparel,42.9,0.03,North
+tx_ref_201760,usr_8737,2943.48,UPI,Home & Kitchen,37.8,0.27,South
+tx_ref_201761,usr_2313,1544.13,UPI,Apparel,40.4,0.12,South
+tx_ref_201762,usr_5359,322.29,Cash,Electronics,33.8,0.23,East
+tx_ref_201763,usr_8642,150.94,Debit Card,Electronics,31.8,0.03,East
+tx_ref_201764,usr_5195,4864.47,Credit Card,Electronics,21.5,0.13,South
+tx_ref_201765,usr_7667,1200.15,Credit Card,Digital Goods,33.8,0.26,West
+tx_ref_201766,usr_2754,1229.05,UPI,Electronics,35.2,0.27,North
+tx_ref_201767,usr_7418,2664.05,UPI,Apparel,32.4,0.15,East
+tx_ref_201768,usr_7986,529.4,Credit Card,Apparel,23.4,0.05,North
+tx_ref_201769,usr_4309,985.22,Cash,Electronics,48.6,0.27,West
+tx_ref_201770,usr_3507,74.73,Cash,Digital Goods,31.8,0.18,North
+tx_ref_201771,usr_3114,5093.5,Credit Card,Electronics,34.3,0.07,West
+tx_ref_201772,usr_4869,370.9,Credit Card,Digital Goods,31.5,0.2,North
+tx_ref_201773,usr_2263,417.46,Debit Card,Electronics,45.7,0.23,South
+tx_ref_201774,usr_1698,2174.08,UPI,Home & Kitchen,43.7,0.28,North
+tx_ref_201775,usr_1673,738.03,Credit Card,Electronics,37.5,0.12,East
+tx_ref_201776,usr_6271,1531.26,Credit Card,Digital Goods,29.1,0.23,East
+tx_ref_201777,usr_3489,772.25,UPI,Apparel,41.0,0.27,East
+tx_ref_201778,usr_3466,2086.99,Credit Card,Apparel,41.3,0.02,North
+tx_ref_201779,usr_8200,238.09,Cash,Apparel,21.5,0.25,North
+tx_ref_201780,usr_8924,513.82,Credit Card,Electronics,45.3,0.3,West
+tx_ref_201781,usr_2985,4498.52,UPI,Apparel,32.0,0.06,North
+tx_ref_201782,usr_8098,3025.98,Debit Card,Electronics,32.8,0.11,North
+tx_ref_201783,usr_3078,1757.34,UPI,Electronics,35.7,0.04,East
+tx_ref_201784,usr_6470,448.74,UPI,Home & Kitchen,22.6,0.13,North
+tx_ref_201785,usr_4049,7605.94,Credit Card,Electronics,42.5,0.05,West
+tx_ref_201786,usr_2486,312.19,Debit Card,Home & Kitchen,34.1,0.25,East
+tx_ref_201787,usr_5943,2562.89,Credit Card,Apparel,34.0,0.08,South
+tx_ref_201788,usr_7196,4398.65,Credit Card,Apparel,30.3,0.27,North
+tx_ref_201789,usr_5520,2419.99,Credit Card,Digital Goods,47.9,0.05,South
+tx_ref_201790,usr_5740,928.37,UPI,Digital Goods,22.1,0.08,North
+tx_ref_201791,usr_8414,7299.61,Credit Card,Home & Kitchen,35.4,0.02,East
+tx_ref_201792,usr_4387,1279.62,Credit Card,Apparel,27.7,0.17,East
+tx_ref_201793,usr_3233,849.52,Debit Card,Apparel,32.8,0.11,South
+tx_ref_201794,usr_6835,8770.75,Debit Card,Electronics,49.5,0.17,South
+tx_ref_201795,usr_8832,1564.64,Credit Card,Electronics,32.0,0.25,North
+tx_ref_201796,usr_7875,1468.12,UPI,Home & Kitchen,26.8,0.01,North
+tx_ref_201797,usr_1383,1032.01,UPI,Apparel,43.2,0.22,North
+tx_ref_201798,usr_1416,377.08,Credit Card,Digital Goods,35.2,0.11,North
+tx_ref_201799,usr_3702,150.14,Credit Card,Electronics,26.2,0.07,North
+tx_ref_201800,usr_2316,2072.61,Debit Card,Electronics,32.7,0.24,West
+tx_ref_201801,usr_5041,1647.89,UPI,Digital Goods,,0.24,North
+tx_ref_201802,usr_1025,630.22,Debit Card,Apparel,42.7,0.1,East
+tx_ref_201803,usr_3749,9232.58,UPI,Home & Kitchen,47.3,0.18,West
+tx_ref_201804,usr_3501,1208.12,UPI,Digital Goods,47.2,0.16,East
+tx_ref_201805,usr_8736,305.46,Credit Card,Home & Kitchen,40.5,0.07,West
+tx_ref_201806,usr_8322,115.23,UPI,Apparel,42.5,0.13,West
+tx_ref_201807,usr_4605,2887.67,Credit Card,Electronics,37.7,0.1,South
+tx_ref_201808,usr_1230,1425.66,Credit Card,Apparel,24.7,0.01,South
+tx_ref_201809,usr_5277,660.95,UPI,Apparel,33.2,0.25,South
+tx_ref_201810,usr_8593,129.97,Credit Card,Apparel,40.0,0.3,West
+tx_ref_201811,usr_5306,1407.41,Credit Card,Home & Kitchen,33.6,0.15,West
+tx_ref_201812,usr_2086,3464.35,UPI,Electronics,33.7,0.25,West
+tx_ref_201813,usr_7555,2159.3,Credit Card,Home & Kitchen,40.9,0.23,North
+tx_ref_201814,usr_8436,689.55,Credit Card,Electronics,46.4,0.11,West
+tx_ref_201815,usr_3264,1690.38,UPI,Home & Kitchen,35.4,0.23,North
+tx_ref_201816,usr_2628,682.9,Credit Card,Apparel,23.1,0.0,East
+tx_ref_201817,usr_5988,2275.13,UPI,Electronics,29.5,0.18,North
+tx_ref_201818,usr_1615,723.89,Debit Card,Electronics,25.4,0.27,North
+tx_ref_201819,usr_6462,439.01,Debit Card,Home & Kitchen,32.5,0.14,East
+tx_ref_201820,usr_8479,797.81,Credit Card,Apparel,41.8,0.14,South
+tx_ref_201821,usr_3929,2113.57,Credit Card,Electronics,29.8,0.3,North
+tx_ref_201822,usr_1488,3555.3,UPI,Electronics,26.4,0.18,East
+tx_ref_201823,usr_3113,162.01,Debit Card,Electronics,37.4,0.11,North
+tx_ref_201824,usr_5506,755.02,UPI,Electronics,25.4,0.28,West
+tx_ref_201825,usr_1590,787.28,Credit Card,Home & Kitchen,42.0,0.07,North
+tx_ref_201826,usr_1675,3072.63,Cash,Electronics,35.3,0.28,South
+tx_ref_201827,usr_6672,1084.43,UPI,Electronics,40.5,0.25,East
+tx_ref_201828,usr_6478,3698.4,Debit Card,Apparel,48.4,0.16,North
+tx_ref_201829,usr_1405,3091.9,Debit Card,Apparel,32.4,0.21,West
+tx_ref_201830,usr_1257,1349.45,UPI,Home & Kitchen,49.7,0.25,East
+tx_ref_201831,usr_6368,3854.28,Credit Card,Apparel,43.9,0.29,South
+tx_ref_201832,usr_2662,2161.15,Credit Card,Apparel,44.9,0.27,South
+tx_ref_201833,usr_3732,182.32,UPI,Apparel,29.7,0.03,South
+tx_ref_201834,usr_5483,338.15,Credit Card,Apparel,47.4,0.26,West
+tx_ref_201835,usr_7230,2195.21,UPI,Home & Kitchen,38.3,0.11,North
+tx_ref_201836,usr_8316,321.96,UPI,Electronics,22.8,0.13,West
+tx_ref_201837,usr_7182,10751.16,Debit Card,Apparel,45.0,0.29,North
+tx_ref_201838,usr_7705,1931.27,Credit Card,Home & Kitchen,59.3,0.11,West
+tx_ref_201839,usr_2826,1590.85,Credit Card,Apparel,32.9,0.17,West
+tx_ref_201840,usr_1005,439.96,UPI,Home & Kitchen,39.5,0.29,East
+tx_ref_201841,usr_4856,1188.48,UPI,Apparel,21.2,0.27,South
+tx_ref_201842,usr_3101,4645.62,Credit Card,Apparel,45.6,0.04,North
+tx_ref_201843,usr_8443,272.22,Credit Card,Home & Kitchen,,0.23,South
+tx_ref_201844,usr_1194,841.84,UPI,Digital Goods,34.1,0.04,East
+tx_ref_201845,usr_7992,3210.25,Credit Card,Electronics,40.5,0.18,North
+tx_ref_201846,usr_3448,3890.14,Credit Card,Electronics,52.2,0.21,East
+tx_ref_201847,usr_3737,2149.51,UPI,Digital Goods,34.4,0.16,West
+tx_ref_201848,usr_2933,1341.11,Credit Card,Apparel,23.4,0.17,West
+tx_ref_201849,usr_4537,4710.24,UPI,Apparel,29.7,0.05,South
+tx_ref_201850,usr_5240,805.71,Credit Card,Home & Kitchen,24.7,0.2,North
+tx_ref_201851,usr_2209,6520.59,UPI,Digital Goods,34.0,0.08,East
+tx_ref_201852,usr_2898,3236.52,Credit Card,Apparel,34.1,0.06,West
+tx_ref_201853,usr_8451,875.96,Credit Card,Electronics,28.4,0.28,East
+tx_ref_201854,usr_2098,3280.2,UPI,Apparel,48.8,0.16,North
+tx_ref_201855,usr_7655,123.6,UPI,Electronics,,0.06,South
+tx_ref_201856,usr_2814,2633.38,Credit Card,Home & Kitchen,33.8,0.25,North
+tx_ref_201857,usr_4365,1485.92,Credit Card,Home & Kitchen,33.5,0.1,East
+tx_ref_201858,usr_2509,651.39,Cash,Home & Kitchen,40.0,0.09,South
+tx_ref_201859,usr_6106,2989.3,Cash,Electronics,50.3,0.21,East
+tx_ref_201860,usr_8008,3270.74,Debit Card,Apparel,35.6,0.1,South
+tx_ref_201861,usr_4647,861.06,UPI,Apparel,32.1,0.22,North
+tx_ref_201862,usr_1196,3585.7,Credit Card,Apparel,31.2,0.27,South
+tx_ref_201863,usr_1758,110.86,Debit Card,Apparel,45.7,0.21,West
+tx_ref_201864,usr_2617,1641.98,UPI,Electronics,61.7,0.22,East
+tx_ref_201865,usr_1199,1308.92,Credit Card,Apparel,46.3,0.01,North
+tx_ref_201866,usr_6348,467.9,UPI,Apparel,22.2,0.26,South
+tx_ref_201867,usr_4483,2395.21,Debit Card,Apparel,26.1,0.23,North
+tx_ref_201868,usr_6215,6853.88,UPI,Apparel,44.6,0.08,East
+tx_ref_201869,usr_1373,4080.45,UPI,Apparel,45.2,0.23,South
+tx_ref_201870,usr_1417,644.46,UPI,Digital Goods,30.3,0.0,East
+tx_ref_201871,usr_1758,426.3,UPI,Home & Kitchen,49.1,0.27,North
+tx_ref_201872,usr_7630,4613.27,Credit Card,Electronics,35.7,0.03,South
+tx_ref_201873,usr_8935,314.11,Credit Card,Home & Kitchen,25.4,0.13,South
+tx_ref_201874,usr_5046,378.07,UPI,Apparel,48.1,0.05,East
+tx_ref_201875,usr_2336,422.93,Debit Card,Apparel,,0.15,South
+tx_ref_201876,usr_6415,3091.88,UPI,Electronics,34.8,0.11,South
+tx_ref_201877,usr_6108,3580.61,UPI,Digital Goods,41.0,0.1,West
+tx_ref_201878,usr_4781,3694.03,UPI,Apparel,39.6,0.25,South
+tx_ref_201879,usr_3587,1645.81,Cash,Electronics,36.3,0.12,West
+tx_ref_201880,usr_7847,8085.54,UPI,Electronics,44.9,0.27,East
+tx_ref_201881,usr_5842,820.2,Cash,Digital Goods,24.0,0.26,South
+tx_ref_201882,usr_2167,1631.58,UPI,Electronics,46.1,0.22,West
+tx_ref_201883,usr_2174,1476.7,Credit Card,Apparel,35.8,0.19,South
+tx_ref_201884,usr_3777,109.25,Debit Card,Electronics,22.7,0.22,South
+tx_ref_201885,usr_6081,4166.64,Debit Card,Apparel,41.0,0.04,West
+tx_ref_201886,usr_5435,4574.45,Debit Card,Electronics,31.4,0.28,West
+tx_ref_201887,usr_6757,1098.06,UPI,Home & Kitchen,24.8,0.07,East
+tx_ref_201888,usr_4050,2441.71,Credit Card,Electronics,26.3,0.07,North
+tx_ref_201889,usr_7074,642.35,Debit Card,Electronics,36.6,0.21,West
+tx_ref_201890,usr_8857,879.68,Credit Card,Electronics,52.8,0.0,West
+tx_ref_201891,usr_2341,375.92,UPI,Apparel,41.7,0.04,West
+tx_ref_201892,usr_5882,1093.94,Credit Card,Home & Kitchen,30.9,0.03,East
+tx_ref_201893,usr_7654,8450.57,UPI,Electronics,34.8,0.2,East
+tx_ref_201894,usr_4349,1271.25,Credit Card,Home & Kitchen,37.1,0.28,South
+tx_ref_201895,usr_5065,1182.08,UPI,Electronics,36.1,0.08,East
+tx_ref_201896,usr_5152,1840.59,Credit Card,Apparel,38.0,0.07,South
+tx_ref_201897,usr_8125,546.89,Debit Card,Electronics,41.6,0.13,South
+tx_ref_201898,usr_6324,2283.44,Debit Card,Digital Goods,28.1,0.19,North
+tx_ref_201899,usr_8931,213.57,UPI,Electronics,40.5,0.16,South
+tx_ref_201900,usr_1299,2158.75,UPI,Electronics,30.7,0.12,East
+tx_ref_201901,usr_7985,809.5,UPI,Electronics,35.5,0.13,West
+tx_ref_201902,usr_1348,4416.53,Credit Card,Digital Goods,45.0,0.21,South
+tx_ref_201903,usr_4182,1063.75,UPI,Apparel,41.7,0.04,South
+tx_ref_201904,usr_4287,3412.34,Credit Card,Apparel,44.2,0.12,North
+tx_ref_201905,usr_1671,3400.32,Debit Card,Digital Goods,34.8,0.09,South
+tx_ref_201906,usr_3106,1213.01,UPI,Apparel,18.0,0.25,South
+tx_ref_201907,usr_2769,2244.75,Cash,Apparel,47.4,0.13,East
+tx_ref_201908,usr_5234,1490.13,UPI,Electronics,29.4,0.12,South
+tx_ref_201909,usr_5106,4311.93,UPI,Home & Kitchen,29.5,0.29,South
+tx_ref_201910,usr_2053,10344.46,Credit Card,Electronics,22.0,0.21,East
+tx_ref_201911,usr_1593,1467.21,UPI,Home & Kitchen,48.3,0.27,West
+tx_ref_201912,usr_1588,931.8,Debit Card,Home & Kitchen,37.0,0.11,North
+tx_ref_201913,usr_5075,809.67,Debit Card,Apparel,50.4,0.27,West
+tx_ref_201914,usr_6827,3308.92,Debit Card,Digital Goods,37.4,0.08,West
+tx_ref_201915,usr_8791,322.87,Credit Card,Electronics,28.2,0.08,North
+tx_ref_201916,usr_6385,61.34,Debit Card,Electronics,45.1,0.25,South
+tx_ref_201917,usr_4683,8507.4,UPI,Apparel,28.6,0.13,South
+tx_ref_201918,usr_2254,1812.89,UPI,Apparel,29.5,0.01,East
+tx_ref_201919,usr_8256,4547.0,Credit Card,Apparel,45.8,0.11,North
+tx_ref_201920,usr_2145,654.77,UPI,Apparel,21.4,0.17,North
+tx_ref_201921,usr_1288,1806.16,Credit Card,Electronics,39.0,0.29,West
+tx_ref_201922,usr_7433,1047.89,Debit Card,Electronics,37.9,0.09,West
+tx_ref_201923,usr_4722,260.25,UPI,Apparel,30.9,0.27,West
+tx_ref_201924,usr_6130,3515.25,UPI,Apparel,40.9,0.3,North
+tx_ref_201925,usr_3364,108.42,Cash,Electronics,38.3,0.15,South
+tx_ref_201926,usr_4188,350.88,Debit Card,Home & Kitchen,39.6,0.17,South
+tx_ref_201927,usr_4476,308.82,Cash,Apparel,22.5,0.22,North
+tx_ref_201928,usr_8819,1284.35,Cash,Digital Goods,39.2,0.01,South
+tx_ref_201929,usr_6543,761.67,UPI,Apparel,26.5,0.15,South
+tx_ref_201930,usr_8954,275.76,Debit Card,Digital Goods,35.7,0.1,East
+tx_ref_201931,usr_3730,67.99,Debit Card,Home & Kitchen,42.1,0.13,East
+tx_ref_201932,usr_5540,995.41,UPI,Apparel,52.5,0.11,West
+tx_ref_201933,usr_2282,6616.61,UPI,Apparel,28.6,0.08,East
+tx_ref_201934,usr_1955,611.31,UPI,Apparel,44.3,0.26,South
+tx_ref_201935,usr_7144,2452.3,Credit Card,Electronics,46.3,0.06,West
+tx_ref_201936,usr_3583,9387.54,Credit Card,Apparel,40.8,0.19,South
+tx_ref_201937,usr_3706,7426.12,Credit Card,Electronics,,0.03,South
+tx_ref_201938,usr_2063,1037.28,Credit Card,Apparel,48.5,0.2,South
+tx_ref_201939,usr_1483,434.6,UPI,Digital Goods,34.9,0.13,South
+tx_ref_201940,usr_3575,203.14,Credit Card,Home & Kitchen,40.9,0.03,South
+tx_ref_201941,usr_2872,3594.48,Debit Card,Home & Kitchen,49.0,0.23,North
+tx_ref_201942,usr_1796,433.17,Cash,Apparel,36.3,0.15,East
+tx_ref_201943,usr_4460,2561.61,UPI,Home & Kitchen,30.7,0.3,East
+tx_ref_201944,usr_8350,1699.44,Credit Card,Apparel,35.9,0.0,West
+tx_ref_201945,usr_8012,1513.19,Credit Card,Apparel,31.7,0.04,East
+tx_ref_201946,usr_3346,3671.66,UPI,Apparel,,0.13,North
+tx_ref_201947,usr_3705,1605.63,Credit Card,Digital Goods,39.3,0.03,South
+tx_ref_201948,usr_2346,1423.15,Cash,Apparel,35.1,0.23,North
+tx_ref_201949,usr_2000,2298.15,UPI,Apparel,40.7,0.16,East
+tx_ref_201950,usr_1818,2365.14,UPI,Apparel,22.4,0.18,East
+tx_ref_201951,usr_4271,2078.41,Cash,Apparel,43.4,0.03,North
+tx_ref_201952,usr_6234,576.27,Debit Card,Home & Kitchen,29.8,0.11,West
+tx_ref_201953,usr_2062,3377.06,Credit Card,Electronics,,0.28,South
+tx_ref_201954,usr_3938,154.15,Credit Card,Digital Goods,37.9,0.28,East
+tx_ref_201955,usr_7619,3265.99,UPI,Home & Kitchen,42.7,0.19,East
+tx_ref_201956,usr_1320,1939.69,Debit Card,Electronics,30.2,0.1,South
+tx_ref_201957,usr_2542,6352.06,Credit Card,Electronics,46.2,0.01,North
+tx_ref_201958,usr_7861,291.72,Credit Card,Home & Kitchen,34.0,0.07,West
+tx_ref_201959,usr_3107,831.5,UPI,Apparel,27.0,0.1,East
+tx_ref_201960,usr_6821,802.14,Credit Card,Home & Kitchen,52.5,0.19,North
+tx_ref_201961,usr_4392,720.67,Debit Card,Home & Kitchen,25.9,0.16,West
+tx_ref_201962,usr_7832,1570.01,Cash,Digital Goods,26.6,0.06,West
+tx_ref_201963,usr_6872,1958.26,UPI,Apparel,18.0,0.21,North
+tx_ref_201964,usr_8819,2845.6,UPI,Electronics,37.5,0.13,East
+tx_ref_201965,usr_1569,2031.93,UPI,Digital Goods,20.3,0.09,North
+tx_ref_201966,usr_4084,1177.32,Credit Card,Electronics,25.3,0.23,North
+tx_ref_201967,usr_6324,1580.61,Credit Card,Home & Kitchen,28.4,0.03,East
+tx_ref_201968,usr_3072,5964.58,Debit Card,Home & Kitchen,26.5,0.17,West
+tx_ref_201969,usr_6005,377.47,Credit Card,Apparel,43.2,0.14,North
+tx_ref_201970,usr_7959,959.69,UPI,Digital Goods,44.0,0.17,South
+tx_ref_201971,usr_8941,3719.06,Debit Card,Electronics,24.0,0.05,South
+tx_ref_201972,usr_3336,1559.23,Credit Card,Home & Kitchen,40.9,0.04,East
+tx_ref_201973,usr_8501,416.97,UPI,Electronics,55.0,0.23,East
+tx_ref_201974,usr_1924,419.9,Debit Card,Home & Kitchen,30.8,0.25,South
+tx_ref_201975,usr_5265,1116.08,Cash,Home & Kitchen,46.3,0.21,North
+tx_ref_201976,usr_5642,6923.2,Cash,Electronics,28.6,0.02,East
+tx_ref_201977,usr_3908,142.0,UPI,Electronics,32.7,0.02,East
+tx_ref_201978,usr_6921,1435.83,UPI,Home & Kitchen,37.0,0.26,South
+tx_ref_201979,usr_4596,1621.96,Cash,Home & Kitchen,24.2,0.18,North
+tx_ref_201980,usr_4839,357.14,Debit Card,Apparel,26.7,0.3,East
+tx_ref_201981,usr_2106,451.86,Debit Card,Home & Kitchen,39.0,0.1,North
+tx_ref_201982,usr_4482,988.02,UPI,Electronics,34.3,0.25,West
+tx_ref_201983,usr_1948,517.98,Credit Card,Home & Kitchen,36.4,0.16,East
+tx_ref_201984,usr_4522,1193.97,UPI,Electronics,43.5,0.29,North
+tx_ref_201985,usr_1459,120.7,Credit Card,Apparel,41.6,0.09,South
+tx_ref_201986,usr_8383,805.38,Cash,Home & Kitchen,34.9,0.07,East
+tx_ref_201987,usr_7494,3393.4,Cash,Electronics,43.6,0.22,South
+tx_ref_201988,usr_1917,1497.22,Debit Card,Electronics,46.2,0.15,South
+tx_ref_201989,usr_4232,7067.15,UPI,Apparel,51.3,0.29,South
+tx_ref_201990,usr_2225,1166.3,Debit Card,Electronics,46.2,0.29,East
+tx_ref_201991,usr_8042,5707.69,Credit Card,Home & Kitchen,32.8,0.25,South
+tx_ref_201992,usr_5154,3261.74,UPI,Apparel,18.0,0.03,North
+tx_ref_201993,usr_2582,513.51,Cash,Apparel,55.6,0.05,East
+tx_ref_201994,usr_8454,4468.18,Debit Card,Electronics,44.3,0.2,East
+tx_ref_201995,usr_2575,2397.15,Debit Card,Electronics,47.7,0.06,East
+tx_ref_201996,usr_6836,3768.35,UPI,Digital Goods,31.7,0.09,East
+tx_ref_201997,usr_8231,1749.41,Credit Card,Digital Goods,37.0,0.01,West
+tx_ref_201998,usr_7738,3605.39,Debit Card,Apparel,29.5,0.28,North
+tx_ref_201999,usr_1456,7927.35,Credit Card,Digital Goods,22.4,0.14,West
+tx_ref_202000,usr_2748,520.06,UPI,Home & Kitchen,35.0,0.15,West
+tx_ref_202001,usr_8777,623.34,Cash,Electronics,30.9,0.05,West
+tx_ref_202002,usr_5446,1432.23,UPI,Electronics,52.8,0.18,North
+tx_ref_202003,usr_1247,1698.21,UPI,Electronics,42.6,0.23,West
+tx_ref_202004,usr_2406,758.14,Debit Card,Digital Goods,24.8,0.02,North
+tx_ref_202005,usr_1398,1477.05,UPI,Home & Kitchen,25.4,0.28,East
+tx_ref_202006,usr_6550,1024.27,UPI,Apparel,30.3,0.1,East
+tx_ref_202007,usr_3639,227.26,Cash,Apparel,29.9,0.28,West
+tx_ref_202008,usr_7940,796.21,Debit Card,Apparel,22.5,0.24,South
+tx_ref_202009,usr_3087,3720.81,Debit Card,Electronics,53.7,0.16,West
+tx_ref_202010,usr_3372,1274.6,UPI,Home & Kitchen,47.2,0.27,East
+tx_ref_202011,usr_7573,1661.02,Credit Card,Electronics,39.2,0.19,East
+tx_ref_202012,usr_8877,1399.86,Credit Card,Digital Goods,26.2,0.06,East
+tx_ref_202013,usr_3047,1304.84,Credit Card,Electronics,35.2,0.29,North
+tx_ref_202014,usr_4391,729.77,Cash,Electronics,29.0,0.08,West
+tx_ref_202015,usr_6969,984.19,UPI,Home & Kitchen,33.7,0.25,South
+tx_ref_202016,usr_7237,6656.73,Cash,Apparel,44.7,0.28,North
+tx_ref_202017,usr_1943,4760.14,UPI,Home & Kitchen,38.8,0.06,East
+tx_ref_202018,usr_5177,406.63,UPI,Electronics,40.8,0.05,North
+tx_ref_202019,usr_1564,473.94,Cash,Digital Goods,43.2,0.1,East
+tx_ref_202020,usr_3064,406.43,UPI,Apparel,36.1,0.21,North
+tx_ref_202021,usr_1052,281.97,UPI,Electronics,41.6,0.23,East
+tx_ref_202022,usr_3985,2773.41,Cash,Electronics,36.5,0.26,North
+tx_ref_202023,usr_8989,6522.38,UPI,Home & Kitchen,40.8,0.04,West
+tx_ref_202024,usr_5698,208.83,Credit Card,Home & Kitchen,44.9,0.07,East
+tx_ref_202025,usr_8981,339.82,UPI,Electronics,34.5,0.15,South
+tx_ref_202026,usr_7029,8390.42,UPI,Home & Kitchen,30.1,0.09,North
+tx_ref_202027,usr_1538,158.59,Credit Card,Apparel,41.3,0.14,South
+tx_ref_202028,usr_8768,2884.27,UPI,Digital Goods,38.5,0.28,South
+tx_ref_202029,usr_4637,191.72,UPI,Digital Goods,40.4,0.05,West
+tx_ref_202030,usr_1179,1965.3,UPI,Home & Kitchen,19.3,0.07,West
+tx_ref_202031,usr_1339,550.9,Cash,Apparel,34.4,0.23,North
+tx_ref_202032,usr_4788,446.16,Credit Card,Digital Goods,36.6,0.25,South
+tx_ref_202033,usr_4161,431.64,UPI,Electronics,25.2,0.16,West
+tx_ref_202034,usr_8759,567.53,Credit Card,Digital Goods,39.7,0.01,East
+tx_ref_202035,usr_7283,2101.89,Debit Card,Home & Kitchen,40.0,0.1,North
+tx_ref_202036,usr_4775,1926.79,UPI,Apparel,35.4,0.18,East
+tx_ref_202037,usr_8120,1744.3,Debit Card,Electronics,34.6,0.17,South
+tx_ref_202038,usr_7082,2748.08,Credit Card,Electronics,45.3,0.18,South
+tx_ref_202039,usr_7372,1377.32,Cash,Apparel,28.8,0.12,East
+tx_ref_202040,usr_5484,2232.54,Debit Card,Electronics,18.0,0.01,South
+tx_ref_202041,usr_6221,1730.82,UPI,Apparel,37.4,0.11,West
+tx_ref_202042,usr_7404,1577.48,Cash,Electronics,38.9,0.05,North
+tx_ref_202043,usr_6512,1528.77,Credit Card,Apparel,28.4,0.22,South
+tx_ref_202044,usr_5955,1047.57,UPI,Apparel,35.3,0.2,West
+tx_ref_202045,usr_2009,3825.14,UPI,Electronics,25.2,0.28,East
+tx_ref_202046,usr_4877,1707.45,UPI,Electronics,37.3,0.16,North
+tx_ref_202047,usr_8168,7959.03,UPI,Electronics,35.1,0.01,East
+tx_ref_202048,usr_3379,5320.94,Credit Card,Digital Goods,30.2,0.03,North
+tx_ref_202049,usr_1264,4054.8,UPI,Apparel,41.1,0.18,East
+tx_ref_202050,usr_8128,4471.62,UPI,Electronics,44.2,0.08,North
+tx_ref_202051,usr_3335,4655.59,Credit Card,Apparel,28.1,0.08,South
+tx_ref_202052,usr_2216,1041.3,UPI,Digital Goods,36.4,0.04,North
+tx_ref_202053,usr_2366,67223.8,Debit Card,Electronics,40.3,0.3,South
+tx_ref_202054,usr_6458,3340.27,UPI,Electronics,38.8,0.24,East
+tx_ref_202055,usr_5626,185.94,Credit Card,Apparel,33.3,0.09,South
+tx_ref_202056,usr_1508,1954.13,Credit Card,Apparel,18.4,0.11,West
+tx_ref_202057,usr_2214,1873.08,Cash,Home & Kitchen,47.6,0.25,West
+tx_ref_202058,usr_5380,3093.17,UPI,Apparel,35.6,0.18,West
+tx_ref_202059,usr_5704,3217.05,Credit Card,Apparel,38.4,0.0,West
+tx_ref_202060,usr_4258,377.02,Credit Card,Home & Kitchen,33.5,0.11,South
+tx_ref_202061,usr_1673,1589.67,Credit Card,Home & Kitchen,,0.19,North
+tx_ref_202062,usr_6690,4212.95,UPI,Electronics,55.9,0.2,North
+tx_ref_202063,usr_1361,349.23,Credit Card,Apparel,36.4,0.07,East
+tx_ref_202064,usr_4624,4855.22,Debit Card,Electronics,30.6,0.28,South
+tx_ref_202065,usr_2184,6896.02,Credit Card,Electronics,46.1,0.14,North
+tx_ref_202066,usr_4605,779.32,Debit Card,Home & Kitchen,38.5,0.22,West
+tx_ref_202067,usr_4896,248.82,Debit Card,Apparel,35.2,0.23,North
+tx_ref_202068,usr_6462,1550.89,Cash,Apparel,42.9,0.07,East
+tx_ref_202069,usr_7577,2771.17,Debit Card,Apparel,32.4,0.15,North
+tx_ref_202070,usr_8238,414.64,UPI,Electronics,45.2,0.05,East
+tx_ref_202071,usr_5079,2365.83,Credit Card,Electronics,34.7,0.21,East
+tx_ref_202072,usr_2459,1901.91,Credit Card,Electronics,41.1,0.18,East
+tx_ref_202073,usr_3721,4721.34,Debit Card,Home & Kitchen,33.3,0.09,East
+tx_ref_202074,usr_3587,831.51,Debit Card,Electronics,26.3,0.11,East
+tx_ref_202075,usr_2413,2506.63,Debit Card,Electronics,28.7,0.03,West
+tx_ref_202076,usr_2198,1822.72,Credit Card,Electronics,36.3,0.07,West
+tx_ref_202077,usr_3761,4848.3,Debit Card,Electronics,36.0,0.13,South
+tx_ref_202078,usr_5327,965.94,UPI,Home & Kitchen,51.6,0.16,North
+tx_ref_202079,usr_7839,1756.13,Debit Card,Home & Kitchen,34.2,0.19,East
+tx_ref_202080,usr_6141,2152.68,Credit Card,Apparel,32.4,0.19,South
+tx_ref_202081,usr_8489,1025.93,Debit Card,Apparel,37.8,0.17,East
+tx_ref_202082,usr_6353,1332.68,Debit Card,Home & Kitchen,31.4,0.19,South
+tx_ref_202083,usr_5728,356.74,Cash,Home & Kitchen,,0.06,North
+tx_ref_202084,usr_6014,3217.96,UPI,Apparel,40.8,0.12,North
+tx_ref_202085,usr_2589,8581.53,Credit Card,Apparel,21.1,0.09,West
+tx_ref_202086,usr_7442,595.71,UPI,Electronics,37.9,0.07,South
+tx_ref_202087,usr_8345,4129.32,Debit Card,Apparel,50.2,0.23,South
+tx_ref_202088,usr_1499,395.12,Credit Card,Home & Kitchen,38.6,0.08,East
+tx_ref_202089,usr_5835,1160.36,UPI,Electronics,48.0,0.26,East
+tx_ref_202090,usr_6048,3890.3,Debit Card,Apparel,21.0,0.02,North
+tx_ref_202091,usr_1162,4222.16,UPI,Electronics,46.9,0.19,South
+tx_ref_202092,usr_5966,2386.64,Credit Card,Apparel,27.9,0.05,East
+tx_ref_202093,usr_3362,56649.13,UPI,Apparel,24.3,0.07,North
+tx_ref_202094,usr_5397,1506.21,UPI,Electronics,29.9,0.24,West
+tx_ref_202095,usr_8528,2135.87,UPI,Electronics,47.8,0.01,East
+tx_ref_202096,usr_8716,1573.05,Credit Card,Electronics,,0.26,North
+tx_ref_202097,usr_7125,1940.89,UPI,Electronics,45.8,0.17,North
+tx_ref_202098,usr_6044,792.56,UPI,Digital Goods,39.5,0.17,North
+tx_ref_202099,usr_5301,602.54,Credit Card,Electronics,31.2,0.1,West
+tx_ref_202100,usr_5960,938.56,Credit Card,Apparel,21.1,0.08,East
+tx_ref_202101,usr_8538,1461.44,Credit Card,Digital Goods,21.9,0.28,East
+tx_ref_202102,usr_3119,366.62,UPI,Digital Goods,31.9,0.2,North
+tx_ref_202103,usr_6204,5662.72,Credit Card,Home & Kitchen,40.1,0.11,West
+tx_ref_202104,usr_4041,1178.05,UPI,Apparel,32.4,0.12,West
+tx_ref_202105,usr_4779,1111.85,UPI,Digital Goods,42.2,0.1,North
+tx_ref_202106,usr_1002,1117.29,UPI,Apparel,33.2,0.29,South
+tx_ref_202107,usr_8027,1187.81,Debit Card,Digital Goods,32.1,0.07,East
+tx_ref_202108,usr_3459,854.34,UPI,Electronics,42.3,0.01,East
+tx_ref_202109,usr_8237,2450.08,Debit Card,Apparel,42.8,0.09,East
+tx_ref_202110,usr_8635,5594.44,UPI,Apparel,55.7,0.22,West
+tx_ref_202111,usr_2696,1581.36,Debit Card,Electronics,35.0,0.11,South
+tx_ref_202112,usr_3101,105.09,Credit Card,Digital Goods,47.2,0.17,North
+tx_ref_202113,usr_8789,3692.71,Credit Card,Apparel,45.1,0.1,East
+tx_ref_202114,usr_2029,1113.15,Credit Card,Electronics,37.0,0.05,North
+tx_ref_202115,usr_4776,5383.05,UPI,Home & Kitchen,39.2,0.24,South
+tx_ref_202116,usr_1086,1139.63,Credit Card,Home & Kitchen,41.3,0.14,West
+tx_ref_202117,usr_5758,1366.17,Credit Card,Apparel,37.4,0.14,West
+tx_ref_202118,usr_5910,1652.6,Debit Card,Apparel,27.0,0.27,North
+tx_ref_202119,usr_3632,2743.14,Debit Card,Home & Kitchen,38.2,0.27,South
+tx_ref_202120,usr_2622,5730.66,Credit Card,Apparel,34.5,0.06,South
+tx_ref_202121,usr_8647,6722.27,Credit Card,Digital Goods,43.0,0.08,South
+tx_ref_202122,usr_7834,1783.93,Debit Card,Home & Kitchen,19.4,0.06,West
+tx_ref_202123,usr_7348,148.31,Debit Card,Apparel,50.9,0.14,East
+tx_ref_202124,usr_5997,233.21,Credit Card,Digital Goods,33.6,0.02,South
+tx_ref_202125,usr_6714,1447.49,Debit Card,Apparel,19.4,0.09,North
+tx_ref_202126,usr_3397,3143.95,UPI,Apparel,42.0,0.24,East
+tx_ref_202127,usr_7585,2154.96,UPI,Electronics,36.5,0.11,North
+tx_ref_202128,usr_6819,812.85,Credit Card,Digital Goods,38.2,0.11,East
+tx_ref_202129,usr_7115,2874.6,Debit Card,Digital Goods,42.2,0.23,East
+tx_ref_202130,usr_3724,2722.31,UPI,Home & Kitchen,24.4,0.11,East
+tx_ref_202131,usr_2225,2216.32,Credit Card,Electronics,34.9,0.18,West
+tx_ref_202132,usr_2827,739.44,UPI,Electronics,31.7,0.22,West
+tx_ref_202133,usr_4467,2164.53,Cash,Electronics,20.8,0.24,East
+tx_ref_202134,usr_8029,1916.86,Cash,Home & Kitchen,28.1,0.02,South
+tx_ref_202135,usr_8509,1131.37,UPI,Digital Goods,40.5,0.28,South
+tx_ref_202136,usr_2338,338.37,Debit Card,Digital Goods,18.0,0.24,West
+tx_ref_202137,usr_3525,1273.23,Cash,Home & Kitchen,26.1,0.08,North
+tx_ref_202138,usr_2501,11469.51,Credit Card,Electronics,38.4,0.05,West
+tx_ref_202139,usr_5131,813.83,UPI,Apparel,36.5,0.29,South
+tx_ref_202140,usr_3552,603.37,UPI,Apparel,31.6,0.15,North
+tx_ref_202141,usr_7803,649.8,Credit Card,Digital Goods,32.3,0.14,East
+tx_ref_202142,usr_6892,1068.08,UPI,Electronics,46.5,0.08,South
+tx_ref_202143,usr_3978,5970.75,Credit Card,Apparel,40.4,0.16,West
+tx_ref_202144,usr_4786,1474.68,Credit Card,Electronics,38.4,0.07,South
+tx_ref_202145,usr_7575,362.93,Credit Card,Home & Kitchen,43.6,0.11,South
+tx_ref_202146,usr_8286,971.09,Debit Card,Apparel,34.9,0.01,South
+tx_ref_202147,usr_4467,2917.02,UPI,Apparel,32.7,0.3,West
+tx_ref_202148,usr_2070,78.33,Credit Card,Electronics,18.0,0.23,East
+tx_ref_202149,usr_1924,3808.32,Credit Card,Home & Kitchen,44.0,0.15,South
+tx_ref_202150,usr_6314,1968.62,Cash,Digital Goods,24.6,0.04,South
+tx_ref_202151,usr_8300,2933.17,Credit Card,Electronics,50.5,0.01,South
+tx_ref_202152,usr_5535,1783.39,Credit Card,Electronics,32.9,0.18,East
+tx_ref_202153,usr_8095,1588.24,Cash,Apparel,35.0,0.12,East
+tx_ref_202154,usr_1555,396.55,UPI,Apparel,,0.26,South
+tx_ref_202155,usr_6691,96.22,UPI,Digital Goods,37.3,0.25,West
+tx_ref_202156,usr_6529,889.47,Cash,Electronics,39.9,0.12,South
+tx_ref_202157,usr_1672,1926.2,Debit Card,Digital Goods,38.7,0.27,West
+tx_ref_202158,usr_8901,2182.82,Credit Card,Electronics,24.0,0.11,South
+tx_ref_202159,usr_1412,741.93,UPI,Home & Kitchen,52.9,0.23,South
+tx_ref_202160,usr_1869,3256.21,Debit Card,Electronics,28.6,0.01,North
+tx_ref_202161,usr_6682,5742.26,UPI,Apparel,25.8,0.22,South
+tx_ref_202162,usr_6683,147.53,UPI,Home & Kitchen,38.8,0.08,East
+tx_ref_202163,usr_4703,1050.02,Cash,Electronics,26.4,0.06,East
+tx_ref_202164,usr_3678,595.07,Debit Card,Apparel,38.0,0.09,East
+tx_ref_202165,usr_6124,2430.12,Debit Card,Home & Kitchen,33.7,0.15,West
+tx_ref_202166,usr_1381,367.7,Debit Card,Electronics,24.1,0.15,East
+tx_ref_202167,usr_4857,3193.26,UPI,Electronics,30.8,0.3,West
+tx_ref_202168,usr_2390,4791.09,UPI,Apparel,32.2,0.19,East
+tx_ref_202169,usr_3599,2683.09,UPI,Electronics,30.6,0.02,West
+tx_ref_202170,usr_8581,298.73,Debit Card,Apparel,44.4,0.15,South
+tx_ref_202171,usr_5223,4255.87,Cash,Apparel,47.8,0.12,South
+tx_ref_202172,usr_1231,214.79,Credit Card,Digital Goods,31.3,0.03,North
+tx_ref_202173,usr_8058,7766.15,Cash,Electronics,42.5,0.25,West
+tx_ref_202174,usr_6996,1451.16,UPI,Digital Goods,34.1,0.15,East
+tx_ref_202175,usr_5592,5035.67,Cash,Apparel,41.9,0.24,West
+tx_ref_202176,usr_1022,7439.97,Credit Card,Electronics,35.1,0.13,East
+tx_ref_202177,usr_3920,6663.93,Credit Card,Apparel,23.2,0.14,North
+tx_ref_202178,usr_4045,516.51,UPI,Home & Kitchen,35.8,0.26,West
+tx_ref_202179,usr_2015,183.89,Credit Card,Electronics,36.3,0.3,North
+tx_ref_202180,usr_2767,1754.71,Debit Card,Home & Kitchen,34.4,0.05,West
+tx_ref_202181,usr_3280,459.29,Credit Card,Apparel,,0.14,South
+tx_ref_202182,usr_3682,159.78,UPI,Apparel,39.4,0.26,East
+tx_ref_202183,usr_7089,987.55,UPI,Electronics,43.2,0.07,East
+tx_ref_202184,usr_7534,2609.94,UPI,Home & Kitchen,38.1,0.23,West
+tx_ref_202185,usr_5275,3273.6,Debit Card,Electronics,27.3,0.29,East
+tx_ref_202186,usr_2056,2854.23,Credit Card,Home & Kitchen,39.8,0.22,West
+tx_ref_202187,usr_5852,1092.8,Credit Card,Digital Goods,45.1,0.27,East
+tx_ref_202188,usr_5472,234.19,Cash,Apparel,26.9,0.12,South
+tx_ref_202189,usr_8824,842.05,Debit Card,Electronics,37.7,0.27,North
+tx_ref_202190,usr_5918,95.13,UPI,Electronics,37.4,0.09,South
+tx_ref_202191,usr_7740,1860.26,Credit Card,Apparel,32.8,0.19,South
+tx_ref_202192,usr_2665,199.73,Credit Card,Electronics,23.1,0.07,West
+tx_ref_202193,usr_8760,1421.8,Credit Card,Electronics,43.2,0.09,North
+tx_ref_202194,usr_1509,966.94,UPI,Digital Goods,23.4,0.21,South
+tx_ref_202195,usr_7897,6496.17,UPI,Apparel,43.4,0.01,South
+tx_ref_202196,usr_7103,5379.84,UPI,Apparel,42.9,0.11,North
+tx_ref_202197,usr_4235,1288.91,Cash,Electronics,31.8,0.18,East
+tx_ref_202198,usr_7107,2616.14,UPI,Electronics,37.9,0.12,South
+tx_ref_202199,usr_7987,8288.37,UPI,Electronics,44.3,0.19,North
+tx_ref_202200,usr_6800,592.55,UPI,Electronics,25.5,0.08,East
+tx_ref_202201,usr_8954,483.61,Debit Card,Electronics,30.4,0.19,South
+tx_ref_202202,usr_6331,2286.16,UPI,Electronics,38.0,0.13,North
+tx_ref_202203,usr_5491,193.87,Credit Card,Electronics,30.4,0.26,South
+tx_ref_202204,usr_5398,1098.62,UPI,Apparel,37.4,0.2,South
+tx_ref_202205,usr_8258,13007.82,Debit Card,Electronics,32.4,0.28,South
+tx_ref_202206,usr_2945,3188.56,UPI,Apparel,43.6,0.17,West
+tx_ref_202207,usr_6066,429.53,Credit Card,Home & Kitchen,36.0,0.26,North
+tx_ref_202208,usr_5456,3772.91,UPI,Apparel,21.7,0.23,North
+tx_ref_202209,usr_7823,259.87,UPI,Electronics,33.0,0.04,West
+tx_ref_202210,usr_4633,109.21,Credit Card,Home & Kitchen,33.7,0.23,South
+tx_ref_202211,usr_2417,150.81,Credit Card,Apparel,31.5,0.09,West
+tx_ref_202212,usr_1966,2851.41,Cash,Apparel,28.0,0.15,North
+tx_ref_202213,usr_2543,2091.54,Debit Card,Apparel,22.2,0.27,South
+tx_ref_202214,usr_1091,93.97,UPI,Electronics,37.2,0.11,North
+tx_ref_202215,usr_1549,1718.7,Credit Card,Apparel,39.4,0.28,North
+tx_ref_202216,usr_3141,834.38,UPI,Home & Kitchen,30.6,0.23,East
+tx_ref_202217,usr_2453,2782.23,Credit Card,Apparel,35.0,0.18,North
+tx_ref_202218,usr_3530,674.04,Credit Card,Electronics,23.7,0.26,South
+tx_ref_202219,usr_4567,471.77,Cash,Home & Kitchen,34.0,0.03,West
+tx_ref_202220,usr_4675,1006.17,Debit Card,Digital Goods,31.5,0.09,East
+tx_ref_202221,usr_6991,3429.86,Cash,Electronics,32.2,0.03,North
+tx_ref_202222,usr_6663,2018.57,Cash,Home & Kitchen,46.6,0.04,East
+tx_ref_202223,usr_3330,1108.42,UPI,Electronics,47.2,0.06,South
+tx_ref_202224,usr_5405,658.08,UPI,Home & Kitchen,34.3,0.0,South
+tx_ref_202225,usr_1359,7389.08,Cash,Electronics,20.0,0.23,South
+tx_ref_202226,usr_3899,736.89,Cash,Apparel,40.1,0.21,South
+tx_ref_202227,usr_3335,336.53,UPI,Home & Kitchen,43.8,0.11,North
+tx_ref_202228,usr_2112,512.35,Debit Card,Home & Kitchen,33.3,0.04,South
+tx_ref_202229,usr_6572,2362.26,UPI,Electronics,29.4,0.15,East
+tx_ref_202230,usr_5751,1719.9,UPI,Electronics,37.9,0.13,South
+tx_ref_202231,usr_6409,4509.19,UPI,Home & Kitchen,31.1,0.28,North
+tx_ref_202232,usr_6241,1826.11,UPI,Home & Kitchen,49.6,0.08,South
+tx_ref_202233,usr_7493,1107.91,Credit Card,Electronics,30.4,0.25,West
+tx_ref_202234,usr_5443,815.86,UPI,Electronics,18.0,0.27,East
+tx_ref_202235,usr_7458,1029.79,UPI,Digital Goods,31.2,0.09,North
+tx_ref_202236,usr_6771,3564.99,Credit Card,Apparel,37.5,0.16,East
+tx_ref_202237,usr_8657,2057.7,Credit Card,Home & Kitchen,51.3,0.09,North
+tx_ref_202238,usr_8100,1418.26,Credit Card,Apparel,25.1,0.18,South
+tx_ref_202239,usr_2423,1094.47,Credit Card,Electronics,34.4,0.09,South
+tx_ref_202240,usr_8797,1662.03,UPI,Apparel,40.2,0.23,North
+tx_ref_202241,usr_3668,483.43,UPI,Home & Kitchen,53.5,0.05,South
+tx_ref_202242,usr_1938,1373.26,UPI,Apparel,34.7,0.1,North
+tx_ref_202243,usr_4067,254.56,Cash,Home & Kitchen,40.3,0.29,North
+tx_ref_202244,usr_4261,3678.14,Debit Card,Apparel,39.2,0.12,East
+tx_ref_202245,usr_5718,590.46,Credit Card,Electronics,29.3,0.01,North
+tx_ref_202246,usr_7789,2818.18,UPI,Apparel,49.3,0.13,West
+tx_ref_202247,usr_3519,5101.4,Debit Card,Home & Kitchen,42.4,0.16,South
+tx_ref_202248,usr_8978,1323.49,Credit Card,Apparel,33.4,0.22,West
+tx_ref_202249,usr_7383,1680.67,Debit Card,Home & Kitchen,33.6,0.3,West
+tx_ref_202250,usr_8216,1647.65,UPI,Home & Kitchen,51.0,0.2,East
+tx_ref_202251,usr_5658,1797.15,UPI,Apparel,20.8,0.11,East
+tx_ref_202252,usr_5060,409.42,Credit Card,Home & Kitchen,42.3,0.18,West
+tx_ref_202253,usr_7128,1986.0,UPI,Home & Kitchen,29.8,0.17,East
+tx_ref_202254,usr_3921,4638.02,UPI,Apparel,32.6,0.17,East
+tx_ref_202255,usr_8318,678.74,UPI,Electronics,34.9,0.24,West
+tx_ref_202256,usr_5342,1930.42,UPI,Home & Kitchen,41.0,0.08,South
+tx_ref_202257,usr_2522,972.61,Credit Card,Electronics,24.6,0.08,East
+tx_ref_202258,usr_5981,205.45,UPI,Electronics,32.8,0.16,North
+tx_ref_202259,usr_2961,4202.94,UPI,Apparel,44.7,0.04,West
+tx_ref_202260,usr_3774,164.64,UPI,Home & Kitchen,30.7,0.18,North
+tx_ref_202261,usr_6463,226.63,Credit Card,Apparel,32.6,0.15,West
+tx_ref_202262,usr_5652,739.99,Debit Card,Electronics,45.1,0.12,South
+tx_ref_202263,usr_7934,531.76,Credit Card,Apparel,19.7,0.04,South
+tx_ref_202264,usr_1649,208.57,UPI,Apparel,43.6,0.1,East
+tx_ref_202265,usr_8451,463.99,Cash,Digital Goods,33.0,0.04,West
+tx_ref_202266,usr_5350,3462.8,UPI,Electronics,30.0,0.22,East
+tx_ref_202267,usr_6530,1717.99,Credit Card,Digital Goods,25.0,0.12,South
+tx_ref_202268,usr_2728,6387.67,Credit Card,Digital Goods,36.3,0.16,South
+tx_ref_202269,usr_6859,2428.53,UPI,Electronics,37.3,0.14,East
+tx_ref_202270,usr_3055,460.53,Debit Card,Digital Goods,36.6,0.29,East
+tx_ref_202271,usr_6020,481.08,UPI,Digital Goods,,0.25,North
+tx_ref_202272,usr_6070,1115.64,UPI,Electronics,31.7,0.29,South
+tx_ref_202273,usr_1432,1479.3,UPI,Home & Kitchen,34.4,0.08,West
+tx_ref_202274,usr_8793,2235.68,Debit Card,Home & Kitchen,19.7,0.13,North
+tx_ref_202275,usr_7648,1902.18,Cash,Electronics,48.9,0.14,South
+tx_ref_202276,usr_2521,3120.29,Credit Card,Digital Goods,40.3,0.06,West
+tx_ref_202277,usr_1726,4603.06,UPI,Electronics,50.5,0.25,West
+tx_ref_202278,usr_6870,901.69,Debit Card,Apparel,36.6,0.1,East
+tx_ref_202279,usr_7646,8556.61,UPI,Electronics,32.0,0.17,South
+tx_ref_202280,usr_8290,227.75,UPI,Home & Kitchen,38.3,0.01,West
+tx_ref_202281,usr_1760,2162.58,UPI,Home & Kitchen,38.5,0.11,West
+tx_ref_202282,usr_2307,2931.95,Credit Card,Apparel,26.2,0.01,West
+tx_ref_202283,usr_4022,3549.74,UPI,Electronics,43.8,0.21,South
+tx_ref_202284,usr_8273,6697.6,Debit Card,Electronics,47.0,0.24,North
+tx_ref_202285,usr_2608,1598.37,Credit Card,Apparel,41.5,0.15,North
+tx_ref_202286,usr_1776,1071.95,Credit Card,Electronics,34.5,0.19,South
+tx_ref_202287,usr_3524,1993.78,UPI,Home & Kitchen,31.8,0.02,West
+tx_ref_202288,usr_8761,294.42,Debit Card,Digital Goods,22.8,0.13,West
+tx_ref_202289,usr_5601,422.79,Credit Card,Digital Goods,24.1,0.14,North
+tx_ref_202290,usr_4807,273.47,Credit Card,Electronics,33.6,0.22,South
+tx_ref_202291,usr_7863,76.61,Debit Card,Electronics,35.9,0.27,West
+tx_ref_202292,usr_1986,1672.0,UPI,Home & Kitchen,39.3,0.1,North
+tx_ref_202293,usr_6323,1101.17,UPI,Apparel,30.4,0.14,South
+tx_ref_202294,usr_5762,5596.99,Credit Card,Electronics,23.4,0.26,East
+tx_ref_202295,usr_4963,1140.49,Credit Card,Apparel,47.6,0.06,East
+tx_ref_202296,usr_2905,3763.23,Debit Card,Electronics,33.4,0.18,North
+tx_ref_202297,usr_4820,1302.52,UPI,Apparel,26.3,0.26,East
+tx_ref_202298,usr_1674,1985.7,UPI,Apparel,37.0,0.25,East
+tx_ref_202299,usr_4618,1228.79,UPI,Apparel,32.7,0.29,North
+tx_ref_202300,usr_7601,2852.22,Debit Card,Electronics,39.1,0.27,North
+tx_ref_202301,usr_6524,3553.11,Credit Card,Apparel,45.6,0.02,East
+tx_ref_202302,usr_8943,1487.54,Credit Card,Digital Goods,33.7,0.13,North
+tx_ref_202303,usr_5940,618.75,UPI,Apparel,40.9,0.03,South
+tx_ref_202304,usr_8754,4224.93,Credit Card,Digital Goods,28.2,0.01,South
+tx_ref_202305,usr_4640,364.07,UPI,Apparel,54.2,0.15,East
+tx_ref_202306,usr_5616,6456.03,UPI,Digital Goods,36.6,0.09,South
+tx_ref_202307,usr_6062,632.76,Cash,Home & Kitchen,39.8,0.01,West
+tx_ref_202308,usr_4750,996.8,Credit Card,Home & Kitchen,32.9,0.18,East
+tx_ref_202309,usr_5190,10941.24,Debit Card,Electronics,36.9,0.05,East
+tx_ref_202310,usr_2243,1925.31,UPI,Digital Goods,29.0,0.24,West
+tx_ref_202311,usr_2579,2167.33,Credit Card,Home & Kitchen,37.0,0.17,North
+tx_ref_202312,usr_6122,1764.14,Credit Card,Electronics,26.3,0.11,South
+tx_ref_202313,usr_7857,7936.1,Credit Card,Electronics,32.5,0.03,South
+tx_ref_202314,usr_6097,2984.48,Cash,Electronics,34.5,0.06,West
+tx_ref_202315,usr_5908,276.37,UPI,Digital Goods,35.3,0.03,South
+tx_ref_202316,usr_6132,2294.15,Debit Card,Home & Kitchen,40.4,0.05,East
+tx_ref_202317,usr_8709,1451.16,Debit Card,Digital Goods,18.0,0.21,West
+tx_ref_202318,usr_7973,726.28,UPI,Electronics,36.7,0.09,East
+tx_ref_202319,usr_8163,1075.9,Credit Card,Apparel,19.8,0.21,South
+tx_ref_202320,usr_4880,3464.9,UPI,Apparel,43.8,0.2,North
+tx_ref_202321,usr_6570,5309.84,Debit Card,Home & Kitchen,30.0,0.03,South
+tx_ref_202322,usr_6553,484.37,UPI,Digital Goods,43.4,0.06,North
+tx_ref_202323,usr_6632,1977.64,UPI,Apparel,28.3,0.3,East
+tx_ref_202324,usr_1015,4485.7,Credit Card,Electronics,36.8,0.1,South
+tx_ref_202325,usr_2012,1457.73,Debit Card,Home & Kitchen,31.7,0.21,East
+tx_ref_202326,usr_6700,441.68,Cash,Digital Goods,29.8,0.18,North
+tx_ref_202327,usr_2138,653.51,Cash,Electronics,45.3,0.17,South
+tx_ref_202328,usr_1905,865.05,Credit Card,Apparel,53.0,0.06,North
+tx_ref_202329,usr_2896,871.28,Credit Card,Apparel,46.5,0.23,East
+tx_ref_202330,usr_1590,2027.4,UPI,Electronics,23.2,0.05,East
+tx_ref_202331,usr_3801,1147.52,UPI,Apparel,30.6,0.02,West
+tx_ref_202332,usr_7103,2813.34,Cash,Electronics,33.0,0.04,West
+tx_ref_202333,usr_8277,1007.59,UPI,Home & Kitchen,44.7,0.2,North
+tx_ref_202334,usr_2971,1615.17,Cash,Apparel,46.2,0.08,North
+tx_ref_202335,usr_5042,1724.56,UPI,Electronics,44.4,0.03,West
+tx_ref_202336,usr_6888,92.63,UPI,Home & Kitchen,40.1,0.12,North
+tx_ref_202337,usr_8349,1246.95,UPI,Digital Goods,22.7,0.08,South
+tx_ref_202338,usr_1854,181.07,Cash,Apparel,55.0,0.28,West
+tx_ref_202339,usr_6601,381.76,Debit Card,Electronics,31.5,0.02,West
+tx_ref_202340,usr_3538,2812.06,Cash,Electronics,42.7,0.09,West
+tx_ref_202341,usr_1236,1474.01,Credit Card,Apparel,40.8,0.18,North
+tx_ref_202342,usr_8473,327.92,UPI,Digital Goods,41.3,0.09,North
+tx_ref_202343,usr_1332,2369.6,Cash,Apparel,35.0,0.01,East
+tx_ref_202344,usr_8743,964.19,Cash,Apparel,34.6,0.26,East
+tx_ref_202345,usr_1153,1406.34,UPI,Home & Kitchen,26.9,0.28,South
+tx_ref_202346,usr_8681,1546.57,Debit Card,Apparel,37.2,0.05,West
+tx_ref_202347,usr_7511,171.26,UPI,Digital Goods,32.8,0.21,West
+tx_ref_202348,usr_4053,3171.1,Credit Card,Home & Kitchen,22.8,0.26,West
+tx_ref_202349,usr_2417,5003.57,Credit Card,Electronics,31.2,0.28,North
+tx_ref_202350,usr_4936,1943.4,UPI,Electronics,25.7,0.07,East
+tx_ref_202351,usr_6360,1251.52,Credit Card,Home & Kitchen,42.0,0.28,East
+tx_ref_202352,usr_7027,249.48,UPI,Apparel,22.5,0.23,South
+tx_ref_202353,usr_5727,4597.57,Credit Card,Electronics,32.1,0.01,South
+tx_ref_202354,usr_3634,2144.5,UPI,Digital Goods,38.4,0.01,South
+tx_ref_202355,usr_7470,1150.88,UPI,Electronics,32.7,0.19,South
+tx_ref_202356,usr_4902,389.47,Cash,Apparel,33.4,0.27,East
+tx_ref_202357,usr_5091,130.8,Credit Card,Home & Kitchen,36.9,0.03,West
+tx_ref_202358,usr_2548,280.06,UPI,Home & Kitchen,29.6,0.11,North
+tx_ref_202359,usr_8823,791.27,Debit Card,Electronics,51.8,0.07,North
+tx_ref_202360,usr_2679,1303.25,Cash,Apparel,31.6,0.14,East
+tx_ref_202361,usr_7263,1791.85,UPI,Electronics,40.6,0.24,West
+tx_ref_202362,usr_1217,646.94,Debit Card,Digital Goods,45.7,0.05,North
+tx_ref_202363,usr_5947,115.18,UPI,Apparel,33.0,0.02,South
+tx_ref_202364,usr_6018,1353.0,Credit Card,Apparel,46.7,0.06,South
+tx_ref_202365,usr_4016,1007.99,Debit Card,Digital Goods,30.8,0.07,South
+tx_ref_202366,usr_6995,770.57,UPI,Digital Goods,28.3,0.02,South
+tx_ref_202367,usr_1560,2630.19,Credit Card,Electronics,39.2,0.07,West
+tx_ref_202368,usr_4646,1222.1,UPI,Apparel,30.9,0.27,West
+tx_ref_202369,usr_6898,3992.43,UPI,Electronics,18.0,0.07,North
+tx_ref_202370,usr_8068,274.42,UPI,Apparel,37.9,0.14,East
+tx_ref_202371,usr_8401,1825.95,UPI,Electronics,37.0,0.25,North
+tx_ref_202372,usr_8022,6639.62,Debit Card,Digital Goods,36.1,0.27,West
+tx_ref_202373,usr_7154,5999.8,UPI,Home & Kitchen,24.8,0.0,North
+tx_ref_202374,usr_2445,1812.14,Credit Card,Electronics,57.5,0.06,South
+tx_ref_202375,usr_2490,551.5,Credit Card,Digital Goods,43.7,0.22,South
+tx_ref_202376,usr_1383,2083.7,Debit Card,Apparel,56.1,0.04,North
+tx_ref_202377,usr_6144,7414.25,UPI,Apparel,39.2,0.01,West
+tx_ref_202378,usr_8451,898.8,UPI,Home & Kitchen,53.5,0.19,North
+tx_ref_202379,usr_8510,174.25,Debit Card,Electronics,33.4,0.1,South
+tx_ref_202380,usr_5076,4875.17,Debit Card,Apparel,44.2,0.29,North
+tx_ref_202381,usr_1228,2207.03,UPI,Apparel,37.1,0.01,West
+tx_ref_202382,usr_8704,3844.61,UPI,Apparel,27.1,0.07,East
+tx_ref_202383,usr_6486,5553.18,UPI,Apparel,28.6,0.14,South
+tx_ref_202384,usr_2742,121.05,Credit Card,Electronics,42.4,0.13,South
+tx_ref_202385,usr_6664,135.52,UPI,Electronics,30.6,0.24,West
+tx_ref_202386,usr_5764,67.39,UPI,Home & Kitchen,18.0,0.15,South
+tx_ref_202387,usr_3632,318.56,UPI,Apparel,53.4,0.29,West
+tx_ref_202388,usr_1578,2753.21,UPI,Electronics,39.4,0.08,West
+tx_ref_202389,usr_4639,2489.81,UPI,Electronics,21.4,0.25,North
+tx_ref_202390,usr_5267,2149.13,UPI,Apparel,52.8,0.25,North
+tx_ref_202391,usr_3422,6249.06,UPI,Electronics,39.9,0.01,East
+tx_ref_202392,usr_6594,1211.67,UPI,Electronics,52.2,0.28,West
+tx_ref_202393,usr_7464,3077.88,Credit Card,Electronics,47.6,0.18,South
+tx_ref_202394,usr_5680,909.71,UPI,Digital Goods,25.3,0.08,West
+tx_ref_202395,usr_4225,292.04,UPI,Digital Goods,23.1,0.1,West
+tx_ref_202396,usr_1875,222.24,Debit Card,Apparel,37.4,0.06,North
+tx_ref_202397,usr_5702,676.25,Credit Card,Electronics,27.5,0.23,East
+tx_ref_202398,usr_4803,6485.92,UPI,Digital Goods,28.7,0.21,West
+tx_ref_202399,usr_8961,2298.15,UPI,Electronics,42.7,0.1,North
+tx_ref_202400,usr_5583,177.58,UPI,Apparel,36.1,0.15,South
+tx_ref_202401,usr_3754,1275.62,UPI,Electronics,38.3,0.27,West
+tx_ref_202402,usr_7486,1380.75,UPI,Electronics,25.7,0.01,South
+tx_ref_202403,usr_4441,1065.0,Debit Card,Home & Kitchen,40.6,0.3,East
+tx_ref_202404,usr_1534,4679.5,Credit Card,Electronics,34.2,0.26,North
+tx_ref_202405,usr_4881,543.08,UPI,Home & Kitchen,34.2,0.22,East
+tx_ref_202406,usr_2949,3295.18,UPI,Apparel,38.0,0.02,East
+tx_ref_202407,usr_6525,3578.13,Debit Card,Electronics,24.2,0.15,West
+tx_ref_202408,usr_7152,302.25,Debit Card,Apparel,19.0,0.29,West
+tx_ref_202409,usr_6125,3971.73,Cash,Home & Kitchen,23.9,0.22,South
+tx_ref_202410,usr_3703,1726.87,Cash,Home & Kitchen,44.7,0.25,East
+tx_ref_202411,usr_7809,151.86,Cash,Electronics,34.8,0.1,South
+tx_ref_202412,usr_7949,721.84,UPI,Home & Kitchen,25.3,0.3,North
+tx_ref_202413,usr_7830,5939.59,Debit Card,Home & Kitchen,25.0,0.26,South
+tx_ref_202414,usr_8114,825.59,Credit Card,Home & Kitchen,36.2,0.04,North
+tx_ref_202415,usr_1035,3813.06,Credit Card,Electronics,22.0,0.09,South
+tx_ref_202416,usr_4511,4179.09,Cash,Electronics,42.6,0.2,West
+tx_ref_202417,usr_1474,459.43,UPI,Electronics,23.2,0.25,North
+tx_ref_202418,usr_1191,1716.62,Debit Card,Electronics,24.3,0.02,East
+tx_ref_202419,usr_4353,2596.21,UPI,Home & Kitchen,35.4,0.16,North
+tx_ref_202420,usr_2901,1297.91,Cash,Electronics,32.5,0.01,West
+tx_ref_202421,usr_8401,6211.61,UPI,Electronics,19.6,0.01,East
+tx_ref_202422,usr_6057,255.02,Credit Card,Home & Kitchen,34.1,0.16,South
+tx_ref_202423,usr_8342,426.78,Cash,Apparel,18.0,0.26,South
+tx_ref_202424,usr_2379,2918.98,Cash,Home & Kitchen,33.0,0.01,North
+tx_ref_202425,usr_8334,2314.24,Credit Card,Apparel,18.0,0.28,South
+tx_ref_202426,usr_2899,8707.73,Credit Card,Electronics,26.9,0.07,North
+tx_ref_202427,usr_4655,6313.53,Cash,Electronics,37.3,0.05,North
+tx_ref_202428,usr_1852,1548.07,UPI,Apparel,25.7,0.05,East
+tx_ref_202429,usr_8071,3832.49,UPI,Home & Kitchen,,0.11,West
+tx_ref_202430,usr_7988,1265.22,Credit Card,Apparel,26.4,0.3,West
+tx_ref_202431,usr_7275,123.43,Credit Card,Digital Goods,26.1,0.22,East
+tx_ref_202432,usr_1014,1332.53,UPI,Electronics,22.7,0.3,North
+tx_ref_202433,usr_4264,172.59,UPI,Apparel,,0.3,North
+tx_ref_202434,usr_1067,528.33,Credit Card,Apparel,33.1,0.13,South
+tx_ref_202435,usr_6441,2242.31,UPI,Electronics,26.2,0.0,East
+tx_ref_202436,usr_6441,1231.49,Cash,Electronics,25.3,0.17,West
+tx_ref_202437,usr_7604,250.47,Debit Card,Apparel,37.1,0.13,South
+tx_ref_202438,usr_4491,5389.08,UPI,Electronics,40.3,0.19,East
+tx_ref_202439,usr_3945,1862.22,Credit Card,Apparel,29.6,0.05,West
+tx_ref_202440,usr_3297,2484.08,Credit Card,Digital Goods,23.7,0.18,South
+tx_ref_202441,usr_2407,927.42,UPI,Apparel,41.3,0.11,South
+tx_ref_202442,usr_3849,4345.16,Credit Card,Electronics,31.6,0.14,South
+tx_ref_202443,usr_7479,943.41,UPI,Home & Kitchen,41.8,0.07,East
+tx_ref_202444,usr_3714,872.81,UPI,Home & Kitchen,18.0,0.06,East
+tx_ref_202445,usr_6160,4920.1,UPI,Electronics,48.2,0.18,North
+tx_ref_202446,usr_4238,1502.88,Credit Card,Apparel,42.1,0.03,West
+tx_ref_202447,usr_1089,4256.59,UPI,Apparel,32.0,0.12,South
+tx_ref_202448,usr_7459,4932.04,Debit Card,Electronics,38.7,0.25,North
+tx_ref_202449,usr_7450,279.7,UPI,Electronics,35.2,0.25,South
+tx_ref_202450,usr_2026,618.23,Debit Card,Apparel,34.7,0.18,South
+tx_ref_202451,usr_4844,2330.43,UPI,Apparel,34.8,0.23,South
+tx_ref_202452,usr_6929,289.74,UPI,Apparel,35.4,0.22,East
+tx_ref_202453,usr_3140,1240.19,Credit Card,Apparel,25.8,0.0,South
+tx_ref_202454,usr_7607,10559.47,UPI,Electronics,18.0,0.15,East
+tx_ref_202455,usr_1605,2062.81,UPI,Apparel,40.1,0.19,West
+tx_ref_202456,usr_4845,4072.44,UPI,Apparel,20.7,0.29,West
+tx_ref_202457,usr_8202,628.31,Cash,Home & Kitchen,18.0,0.18,West
+tx_ref_202458,usr_2103,1449.57,UPI,Electronics,31.3,0.05,North
+tx_ref_202459,usr_3518,576.99,Credit Card,Apparel,40.1,0.02,East
+tx_ref_202460,usr_2387,788.09,Credit Card,Electronics,32.9,0.21,South
+tx_ref_202461,usr_4657,1513.34,Cash,Digital Goods,33.9,0.21,North
+tx_ref_202462,usr_3119,1455.76,Debit Card,Apparel,23.3,0.06,North
+tx_ref_202463,usr_7937,605.95,Cash,Apparel,25.4,0.29,West
+tx_ref_202464,usr_2418,3623.74,UPI,Digital Goods,33.9,0.03,East
+tx_ref_202465,usr_5584,2251.47,Cash,Home & Kitchen,36.2,0.18,West
+tx_ref_202466,usr_6690,194.61,Credit Card,Digital Goods,46.0,0.21,West
+tx_ref_202467,usr_4947,781.99,UPI,Apparel,33.2,0.17,East
+tx_ref_202468,usr_3962,3577.51,Credit Card,Electronics,23.4,0.29,North
+tx_ref_202469,usr_3264,2195.53,Credit Card,Apparel,54.7,0.22,East
+tx_ref_202470,usr_8073,2545.16,Credit Card,Apparel,36.4,0.02,East
+tx_ref_202471,usr_7457,173.21,Cash,Electronics,44.2,0.05,East
+tx_ref_202472,usr_4026,3096.3,Debit Card,Electronics,19.7,0.09,North
+tx_ref_202473,usr_3422,1898.63,Credit Card,Home & Kitchen,43.3,0.21,North
+tx_ref_202474,usr_4506,222.23,Credit Card,Electronics,54.1,0.23,South
+tx_ref_202475,usr_6213,417.96,Credit Card,Apparel,27.9,0.17,East
+tx_ref_202476,usr_4410,3432.66,UPI,Electronics,18.7,0.12,South
+tx_ref_202477,usr_3826,2952.43,Credit Card,Home & Kitchen,26.5,0.2,West
+tx_ref_202478,usr_6652,2641.87,UPI,Electronics,38.8,0.28,North
+tx_ref_202479,usr_1263,835.65,Credit Card,Electronics,31.1,0.03,North
+tx_ref_202480,usr_1899,559.55,UPI,Apparel,41.7,0.18,West
+tx_ref_202481,usr_4127,2843.72,Debit Card,Electronics,31.1,0.05,North
+tx_ref_202482,usr_1941,1335.31,Debit Card,Electronics,23.9,0.12,North
+tx_ref_202483,usr_2476,3156.3,Debit Card,Electronics,35.0,0.08,North
+tx_ref_202484,usr_1061,911.18,Debit Card,Electronics,25.3,0.12,South
+tx_ref_202485,usr_1803,4352.41,Credit Card,Electronics,26.5,0.22,North
+tx_ref_202486,usr_4381,2924.78,UPI,Electronics,30.9,0.02,West
+tx_ref_202487,usr_8293,1338.39,Credit Card,Electronics,48.4,0.18,North
+tx_ref_202488,usr_4266,1263.68,UPI,Electronics,42.1,0.11,West
+tx_ref_202489,usr_5398,101.3,UPI,Home & Kitchen,30.9,0.03,South
+tx_ref_202490,usr_4028,2959.32,Credit Card,Home & Kitchen,33.5,0.27,North
+tx_ref_202491,usr_6816,282.11,UPI,Apparel,51.8,0.08,East
+tx_ref_202492,usr_4809,727.64,UPI,Apparel,41.2,0.08,East
+tx_ref_202493,usr_5527,1968.19,Credit Card,Home & Kitchen,26.4,0.24,South
+tx_ref_202494,usr_1247,3882.61,Credit Card,Apparel,42.1,0.23,North
+tx_ref_202495,usr_3672,969.57,Credit Card,Digital Goods,42.6,0.07,West
+tx_ref_202496,usr_3891,459.69,UPI,Home & Kitchen,47.8,0.12,West
+tx_ref_202497,usr_1574,1453.92,Credit Card,Apparel,37.0,0.2,West
+tx_ref_202498,usr_3346,1274.53,Debit Card,Apparel,46.4,0.03,West
+tx_ref_202499,usr_8213,637.23,Cash,Apparel,29.0,0.23,South

@@ -1,0 +1,2501 @@
+transaction_id,customer_id,amount,payment_method,product_category,customer_age,discount_rate,is_fraud
+tx_syn_100000,usr_8270,2741.43,Credit Card,Electronics,35.0,0.16,False
+tx_syn_100001,usr_8603,5151.65,UPI,Electronics,28.6,0.23,False
+tx_syn_100002,usr_1860,185.31,UPI,Home & Kitchen,23.6,0.28,False
+tx_syn_100003,usr_6390,1425.36,UPI,Home & Kitchen,24.2,0.26,False
+tx_syn_100004,usr_6226,3904.88,Credit Card,Apparel,32.9,0.33,False
+tx_syn_100005,usr_6191,205.0,UPI,Digital Goods,40.6,0.14,False
+tx_syn_100006,usr_4772,3182.35,UPI,Digital Goods,43.3,0.07,False
+tx_syn_100007,usr_4092,847.14,UPI,Digital Goods,23.6,0.19,False
+tx_syn_100008,usr_6734,749.75,Debit Card,Apparel,31.6,0.04,False
+tx_syn_100009,usr_7265,6876.94,Cash,Electronics,38.3,0.1,False
+tx_syn_100010,usr_1466,453.59,Cash,Apparel,35.5,0.07,False
+tx_syn_100011,usr_6334,2176.77,Credit Card,Home & Kitchen,40.1,0.14,False
+tx_syn_100012,usr_5426,3151.1,Debit Card,Electronics,30.5,0.04,False
+tx_syn_100013,usr_6578,125.7,Debit Card,Home & Kitchen,45.0,0.01,False
+tx_syn_100014,usr_7231,2047.7,Credit Card,Electronics,34.2,0.23,False
+tx_syn_100015,usr_4444,5499.0,Credit Card,Apparel,40.6,0.21,False
+tx_syn_100016,usr_4171,288.75,UPI,Electronics,31.0,0.25,False
+tx_syn_100017,usr_3919,4127.89,Cash,Home & Kitchen,34.7,0.23,False
+tx_syn_100018,usr_8831,1675.97,UPI,Electronics,20.6,0.04,False
+tx_syn_100019,usr_1130,1775.64,Credit Card,Home & Kitchen,27.1,0.1,False
+tx_syn_100020,usr_2685,1758.54,Credit Card,Apparel,32.4,0.05,False
+tx_syn_100021,usr_8476,689.02,UPI,Home & Kitchen,,0.3,False
+tx_syn_100022,usr_1769,4975.66,UPI,Digital Goods,57.0,0.26,False
+tx_syn_100023,usr_3391,5349.38,Credit Card,Home & Kitchen,31.0,0.07,False
+tx_syn_100024,usr_6611,1816.96,UPI,Digital Goods,22.5,0.12,False
+tx_syn_100025,usr_8581,2803.65,Debit Card,Electronics,48.7,0.34,False
+tx_syn_100026,usr_7949,1755.35,Credit Card,Electronics,43.4,0.21,False
+tx_syn_100027,usr_3433,1242.36,Credit Card,Electronics,24.4,0.28,False
+tx_syn_100028,usr_6311,1996.2,Credit Card,Electronics,38.2,0.09,False
+tx_syn_100029,usr_6051,1499.36,Credit Card,Home & Kitchen,41.3,0.07,False
+tx_syn_100030,usr_7420,1688.0,Credit Card,Electronics,35.6,0.27,False
+tx_syn_100031,usr_2184,2807.06,Credit Card,Apparel,37.0,0.24,False
+tx_syn_100032,usr_5555,1230.2,Debit Card,Apparel,28.8,0.24,False
+tx_syn_100033,usr_4385,124.89,Debit Card,Apparel,38.5,0.19,False
+tx_syn_100034,usr_5117,372.43,Debit Card,Apparel,30.0,0.2,False
+tx_syn_100035,usr_7396,1089.2,UPI,Home & Kitchen,18.0,0.26,False
+tx_syn_100036,usr_5843,2372.64,UPI,Electronics,,0.09,False
+tx_syn_100037,usr_3904,1669.33,Cash,Electronics,20.0,0.12,False
+tx_syn_100038,usr_8728,1941.19,UPI,Apparel,42.8,0.31,False
+tx_syn_100039,usr_1474,1224.57,UPI,Home & Kitchen,,0.11,False
+tx_syn_100040,usr_2082,1771.59,Credit Card,Apparel,18.0,0.19,False
+tx_syn_100041,usr_3558,768.22,UPI,Digital Goods,19.2,0.25,False
+tx_syn_100042,usr_8849,1193.4,UPI,Apparel,33.8,0.35,False
+tx_syn_100043,usr_3047,2504.6,Cash,Apparel,35.8,0.15,False
+tx_syn_100044,usr_8643,3747.96,Credit Card,Electronics,,0.15,False
+tx_syn_100045,usr_3747,1073.39,UPI,Apparel,25.1,0.29,False
+tx_syn_100046,usr_1975,130.36,Cash,Home & Kitchen,34.1,0.28,False
+tx_syn_100047,usr_2806,367.42,Cash,Electronics,42.5,0.26,False
+tx_syn_100048,usr_1189,87.95,Credit Card,Electronics,23.9,0.16,False
+tx_syn_100049,usr_8101,1956.54,UPI,Home & Kitchen,37.4,0.11,False
+tx_syn_100050,usr_3734,777.09,Debit Card,Apparel,19.4,0.21,False
+tx_syn_100051,usr_4005,1457.48,Debit Card,Electronics,36.9,0.31,True
+tx_syn_100052,usr_5658,1273.62,Credit Card,Home & Kitchen,40.6,0.31,False
+tx_syn_100053,usr_2899,203.08,Debit Card,Electronics,38.7,0.04,False
+tx_syn_100054,usr_8734,979.3,Credit Card,Digital Goods,42.7,0.15,False
+tx_syn_100055,usr_2267,498.53,UPI,Electronics,42.1,0.16,False
+tx_syn_100056,usr_7975,1025.55,Credit Card,Home & Kitchen,49.9,0.34,False
+tx_syn_100057,usr_2528,459.73,UPI,Apparel,35.1,0.24,False
+tx_syn_100058,usr_4202,3353.74,Debit Card,Digital Goods,49.9,0.14,False
+tx_syn_100059,usr_4556,394.51,Credit Card,Electronics,26.2,0.01,False
+tx_syn_100060,usr_4890,5879.45,UPI,Home & Kitchen,32.5,0.2,False
+tx_syn_100061,usr_1646,1017.85,Credit Card,Apparel,33.2,0.03,False
+tx_syn_100062,usr_7164,3420.31,UPI,Apparel,25.3,0.29,False
+tx_syn_100063,usr_3888,1833.66,UPI,Apparel,18.0,0.26,False
+tx_syn_100064,usr_7310,2442.83,Credit Card,Home & Kitchen,41.6,0.16,False
+tx_syn_100065,usr_6393,2677.69,UPI,Digital Goods,26.3,0.15,False
+tx_syn_100066,usr_3435,1315.19,Debit Card,Electronics,30.8,0.31,False
+tx_syn_100067,usr_1600,1460.71,UPI,Electronics,47.7,0.1,False
+tx_syn_100068,usr_3363,1348.77,Credit Card,Home & Kitchen,39.1,0.09,False
+tx_syn_100069,usr_3061,1646.37,Debit Card,Electronics,49.0,0.33,False
+tx_syn_100070,usr_1241,103.7,Credit Card,Digital Goods,35.2,0.28,False
+tx_syn_100071,usr_3041,956.08,Credit Card,Apparel,38.9,0.29,False
+tx_syn_100072,usr_3824,1727.39,Cash,Home & Kitchen,32.2,0.07,False
+tx_syn_100073,usr_8513,1689.11,UPI,Electronics,27.0,0.05,False
+tx_syn_100074,usr_3612,2884.68,UPI,Electronics,38.9,0.01,False
+tx_syn_100075,usr_8041,1965.63,Credit Card,Home & Kitchen,30.5,0.08,False
+tx_syn_100076,usr_2363,8771.21,UPI,Digital Goods,39.7,0.27,False
+tx_syn_100077,usr_7235,650.97,Cash,Digital Goods,29.4,0.08,False
+tx_syn_100078,usr_6486,850.93,UPI,Electronics,32.7,0.26,False
+tx_syn_100079,usr_8099,921.67,Debit Card,Electronics,33.4,0.09,False
+tx_syn_100080,usr_2478,1178.62,Debit Card,Electronics,43.4,0.14,False
+tx_syn_100081,usr_8595,3304.18,UPI,Digital Goods,30.6,0.34,False
+tx_syn_100082,usr_3556,534.05,Credit Card,Electronics,44.3,0.09,False
+tx_syn_100083,usr_1775,2743.0,UPI,Electronics,26.5,0.13,False
+tx_syn_100084,usr_5014,985.49,Credit Card,Electronics,36.5,0.11,False
+tx_syn_100085,usr_1034,1707.69,UPI,Electronics,28.4,0.04,False
+tx_syn_100086,usr_7349,1852.06,Cash,Digital Goods,43.7,0.17,False
+tx_syn_100087,usr_4152,889.82,Cash,Apparel,27.2,0.13,False
+tx_syn_100088,usr_2955,1343.66,UPI,Electronics,28.1,0.24,False
+tx_syn_100089,usr_2585,1009.01,UPI,Electronics,23.5,0.29,False
+tx_syn_100090,usr_4943,178.95,Debit Card,Electronics,35.1,0.19,True
+tx_syn_100091,usr_8555,1084.59,UPI,Electronics,39.2,0.01,False
+tx_syn_100092,usr_4073,234.44,Cash,Electronics,38.3,0.22,False
+tx_syn_100093,usr_2021,984.61,Credit Card,Home & Kitchen,33.0,0.02,False
+tx_syn_100094,usr_4461,1667.73,UPI,Electronics,28.6,0.22,False
+tx_syn_100095,usr_3613,1609.0,Debit Card,Electronics,31.8,0.24,False
+tx_syn_100096,usr_6225,2005.79,Credit Card,Apparel,32.2,0.07,False
+tx_syn_100097,usr_4843,230.2,Cash,Home & Kitchen,36.3,0.29,False
+tx_syn_100098,usr_8989,1950.63,Cash,Apparel,35.8,0.32,False
+tx_syn_100099,usr_2500,723.53,UPI,Home & Kitchen,,0.28,False
+tx_syn_100100,usr_5798,966.63,UPI,Apparel,,0.11,False
+tx_syn_100101,usr_7545,19598.13,Cash,Home & Kitchen,37.3,0.21,False
+tx_syn_100102,usr_7873,66.33,Cash,Electronics,34.8,0.32,False
+tx_syn_100103,usr_6675,9063.57,UPI,Digital Goods,31.4,0.11,False
+tx_syn_100104,usr_1161,1693.55,Debit Card,Electronics,37.2,0.29,False
+tx_syn_100105,usr_5297,959.49,Credit Card,Apparel,30.6,0.0,False
+tx_syn_100106,usr_2981,536.96,UPI,Home & Kitchen,33.7,0.0,False
+tx_syn_100107,usr_1995,531.42,Debit Card,Apparel,44.1,0.27,False
+tx_syn_100108,usr_7413,3923.0,UPI,Digital Goods,30.1,0.27,False
+tx_syn_100109,usr_5911,1100.19,Cash,Apparel,37.5,0.28,False
+tx_syn_100110,usr_4342,773.25,UPI,Digital Goods,18.0,0.33,False
+tx_syn_100111,usr_5551,1122.11,Credit Card,Home & Kitchen,32.6,0.04,False
+tx_syn_100112,usr_8629,2042.27,UPI,Digital Goods,30.0,0.08,False
+tx_syn_100113,usr_4798,333.57,Credit Card,Digital Goods,35.2,0.32,False
+tx_syn_100114,usr_2275,1124.25,Credit Card,Digital Goods,32.2,0.06,False
+tx_syn_100115,usr_2016,1645.61,UPI,Home & Kitchen,35.4,0.24,False
+tx_syn_100116,usr_8869,5392.03,Credit Card,Apparel,31.0,0.19,False
+tx_syn_100117,usr_7439,573.9,Credit Card,Electronics,37.5,0.03,False
+tx_syn_100118,usr_8892,851.21,UPI,Home & Kitchen,19.6,0.1,False
+tx_syn_100119,usr_7863,908.6,Debit Card,Digital Goods,35.1,0.18,False
+tx_syn_100120,usr_8916,1724.42,UPI,Home & Kitchen,26.2,0.3,False
+tx_syn_100121,usr_1337,844.15,Credit Card,Digital Goods,44.1,0.25,False
+tx_syn_100122,usr_1878,1422.54,Credit Card,Home & Kitchen,26.1,0.22,False
+tx_syn_100123,usr_2076,2790.14,Credit Card,Electronics,42.7,0.17,False
+tx_syn_100124,usr_5887,2249.76,UPI,Electronics,34.1,0.1,False
+tx_syn_100125,usr_4993,1114.26,Credit Card,Electronics,18.7,0.04,False
+tx_syn_100126,usr_7360,3644.04,Credit Card,Electronics,26.8,0.14,True
+tx_syn_100127,usr_5859,1520.17,Debit Card,Apparel,41.4,0.01,False
+tx_syn_100128,usr_7331,1447.38,Debit Card,Digital Goods,40.9,0.07,False
+tx_syn_100129,usr_1379,112.61,Credit Card,Home & Kitchen,,0.15,False
+tx_syn_100130,usr_1492,7825.03,UPI,Apparel,,0.15,False
+tx_syn_100131,usr_8208,286.19,UPI,Electronics,34.0,0.02,False
+tx_syn_100132,usr_6276,523.1,UPI,Electronics,41.7,0.21,False
+tx_syn_100133,usr_3062,145.55,UPI,Apparel,23.9,0.19,False
+tx_syn_100134,usr_4884,1888.99,UPI,Electronics,30.3,0.03,False
+tx_syn_100135,usr_1064,508.11,UPI,Electronics,37.7,0.33,False
+tx_syn_100136,usr_3568,407.23,UPI,Apparel,31.5,0.03,False
+tx_syn_100137,usr_6463,216.9,UPI,Electronics,18.0,0.3,False
+tx_syn_100138,usr_6248,246.28,UPI,Digital Goods,32.6,0.0,False
+tx_syn_100139,usr_3027,1631.63,UPI,Electronics,18.0,0.31,False
+tx_syn_100140,usr_3695,2147.75,UPI,Electronics,25.1,0.01,False
+tx_syn_100141,usr_2495,961.64,Credit Card,Electronics,22.3,0.27,False
+tx_syn_100142,usr_8230,1226.71,Credit Card,Electronics,43.8,0.13,False
+tx_syn_100143,usr_6258,2134.87,UPI,Home & Kitchen,46.5,0.26,False
+tx_syn_100144,usr_6618,81.56,Credit Card,Home & Kitchen,37.1,0.14,False
+tx_syn_100145,usr_7736,752.5,UPI,Apparel,32.2,0.02,False
+tx_syn_100146,usr_1391,6557.98,UPI,Home & Kitchen,34.4,0.27,False
+tx_syn_100147,usr_6794,1611.98,UPI,Apparel,,0.02,False
+tx_syn_100148,usr_5514,578.0,Credit Card,Home & Kitchen,18.0,0.32,False
+tx_syn_100149,usr_7432,1377.64,Credit Card,Electronics,25.1,0.02,False
+tx_syn_100150,usr_5474,805.18,UPI,Apparel,42.7,0.17,False
+tx_syn_100151,usr_6892,1417.66,UPI,Home & Kitchen,44.5,0.25,False
+tx_syn_100152,usr_4561,291.88,Debit Card,Home & Kitchen,39.2,0.14,False
+tx_syn_100153,usr_3278,306.3,UPI,Home & Kitchen,,0.08,False
+tx_syn_100154,usr_8161,328.91,UPI,Electronics,42.6,0.27,False
+tx_syn_100155,usr_7184,5108.74,Debit Card,Electronics,45.8,0.27,False
+tx_syn_100156,usr_4099,2426.23,Debit Card,Digital Goods,40.3,0.32,False
+tx_syn_100157,usr_7278,368.95,Credit Card,Electronics,18.0,0.13,False
+tx_syn_100158,usr_1200,425.63,Credit Card,Electronics,,0.18,False
+tx_syn_100159,usr_6959,2412.34,UPI,Electronics,39.2,0.13,False
+tx_syn_100160,usr_5875,355.63,UPI,Electronics,29.8,0.09,False
+tx_syn_100161,usr_8073,531.15,Credit Card,Electronics,35.8,0.26,False
+tx_syn_100162,usr_4104,6001.26,UPI,Apparel,29.8,0.12,False
+tx_syn_100163,usr_8215,580.61,Credit Card,Apparel,26.9,0.15,False
+tx_syn_100164,usr_5598,2000.52,Cash,Digital Goods,47.0,0.14,False
+tx_syn_100165,usr_3454,6972.49,Cash,Electronics,36.0,0.25,False
+tx_syn_100166,usr_4645,893.98,UPI,Electronics,24.8,0.32,False
+tx_syn_100167,usr_6847,81.81,Credit Card,Apparel,22.5,0.23,False
+tx_syn_100168,usr_1804,553.84,Credit Card,Apparel,26.9,0.17,False
+tx_syn_100169,usr_7242,3248.83,Debit Card,Apparel,26.9,0.27,False
+tx_syn_100170,usr_3731,3649.26,UPI,Home & Kitchen,35.4,0.22,False
+tx_syn_100171,usr_6991,2683.87,UPI,Electronics,38.3,0.02,False
+tx_syn_100172,usr_3773,266.06,UPI,Home & Kitchen,38.3,0.03,False
+tx_syn_100173,usr_2570,2907.03,UPI,Apparel,27.8,0.01,False
+tx_syn_100174,usr_6056,4566.81,UPI,Electronics,42.0,0.16,False
+tx_syn_100175,usr_8906,1702.07,Debit Card,Digital Goods,44.6,0.29,False
+tx_syn_100176,usr_7756,5140.59,Credit Card,Apparel,32.0,0.11,False
+tx_syn_100177,usr_6581,3206.36,UPI,Electronics,25.4,0.13,False
+tx_syn_100178,usr_3690,2029.15,Credit Card,Electronics,35.1,0.32,False
+tx_syn_100179,usr_4840,1599.48,UPI,Electronics,52.6,0.29,False
+tx_syn_100180,usr_2028,821.46,Cash,Apparel,25.2,0.23,False
+tx_syn_100181,usr_8385,362.31,Cash,Electronics,29.7,0.09,False
+tx_syn_100182,usr_1502,1721.76,Cash,Electronics,34.7,0.04,False
+tx_syn_100183,usr_7910,739.2,Debit Card,Electronics,38.8,0.01,False
+tx_syn_100184,usr_5493,3673.75,UPI,Home & Kitchen,18.0,0.04,False
+tx_syn_100185,usr_1870,9070.12,UPI,Home & Kitchen,45.3,0.1,False
+tx_syn_100186,usr_7938,2562.9,Credit Card,Home & Kitchen,45.2,0.19,False
+tx_syn_100187,usr_5488,220.71,Cash,Electronics,30.6,0.02,False
+tx_syn_100188,usr_1206,663.15,UPI,Digital Goods,57.2,0.05,False
+tx_syn_100189,usr_6134,257.96,UPI,Home & Kitchen,44.6,0.06,False
+tx_syn_100190,usr_6977,1942.31,Debit Card,Digital Goods,44.2,0.22,False
+tx_syn_100191,usr_8721,2658.17,UPI,Apparel,44.3,0.22,False
+tx_syn_100192,usr_8035,4728.75,Credit Card,Apparel,44.0,0.19,False
+tx_syn_100193,usr_2484,1087.81,Credit Card,Home & Kitchen,34.0,0.09,False
+tx_syn_100194,usr_8858,4219.59,UPI,Electronics,33.2,0.13,False
+tx_syn_100195,usr_8742,3835.12,UPI,Apparel,26.2,0.03,False
+tx_syn_100196,usr_1863,736.78,Debit Card,Home & Kitchen,29.3,0.08,False
+tx_syn_100197,usr_3790,3707.24,Credit Card,Home & Kitchen,31.6,0.31,False
+tx_syn_100198,usr_8408,897.94,Cash,Digital Goods,34.8,0.34,False
+tx_syn_100199,usr_1563,683.98,UPI,Home & Kitchen,47.8,0.23,False
+tx_syn_100200,usr_6116,1934.93,UPI,Electronics,18.0,0.32,False
+tx_syn_100201,usr_5191,766.52,Debit Card,Electronics,45.6,0.22,False
+tx_syn_100202,usr_7019,1840.67,Credit Card,Apparel,25.6,0.01,False
+tx_syn_100203,usr_2757,1744.12,UPI,Apparel,33.3,0.35,False
+tx_syn_100204,usr_7628,1541.89,Debit Card,Electronics,28.0,0.03,False
+tx_syn_100205,usr_8574,911.68,UPI,Electronics,50.0,0.24,False
+tx_syn_100206,usr_7374,1481.32,UPI,Apparel,30.0,0.09,False
+tx_syn_100207,usr_7892,1683.58,UPI,Home & Kitchen,38.6,0.14,False
+tx_syn_100208,usr_2678,1470.14,UPI,Digital Goods,39.1,0.23,False
+tx_syn_100209,usr_4242,1107.94,Credit Card,Home & Kitchen,24.3,0.15,False
+tx_syn_100210,usr_5636,76.6,Credit Card,Home & Kitchen,33.4,0.09,False
+tx_syn_100211,usr_2059,1642.02,Credit Card,Apparel,44.4,0.12,False
+tx_syn_100212,usr_7668,382.02,Cash,Digital Goods,26.8,0.12,False
+tx_syn_100213,usr_6279,1901.9,UPI,Apparel,41.2,0.34,False
+tx_syn_100214,usr_2722,2613.9,UPI,Digital Goods,31.4,0.28,False
+tx_syn_100215,usr_4314,1299.27,UPI,Digital Goods,44.1,0.16,False
+tx_syn_100216,usr_4157,1457.02,UPI,Digital Goods,49.1,0.07,False
+tx_syn_100217,usr_6915,5496.35,Credit Card,Apparel,,0.28,False
+tx_syn_100218,usr_3625,3431.14,Debit Card,Electronics,22.8,0.06,False
+tx_syn_100219,usr_3729,4471.09,Debit Card,Electronics,30.5,0.07,False
+tx_syn_100220,usr_7700,3075.36,UPI,Electronics,46.7,0.13,False
+tx_syn_100221,usr_2597,257.57,UPI,Electronics,38.7,0.31,False
+tx_syn_100222,usr_4060,340.4,Credit Card,Electronics,23.6,0.05,False
+tx_syn_100223,usr_3693,1396.16,UPI,Electronics,40.0,0.04,False
+tx_syn_100224,usr_5891,558.42,Credit Card,Apparel,26.4,0.17,False
+tx_syn_100225,usr_6147,1215.67,Cash,Home & Kitchen,41.6,0.1,False
+tx_syn_100226,usr_6739,952.66,UPI,Electronics,38.8,0.2,False
+tx_syn_100227,usr_4627,1484.97,Debit Card,Home & Kitchen,26.4,0.16,False
+tx_syn_100228,usr_2363,2522.97,Credit Card,Home & Kitchen,33.6,0.15,False
+tx_syn_100229,usr_8965,2312.58,UPI,Apparel,44.6,0.04,False
+tx_syn_100230,usr_2981,1375.78,Credit Card,Digital Goods,18.1,0.05,False
+tx_syn_100231,usr_6450,3160.73,UPI,Electronics,36.8,0.29,False
+tx_syn_100232,usr_2663,1064.54,UPI,Electronics,24.8,0.31,False
+tx_syn_100233,usr_2529,4136.46,Credit Card,Apparel,34.1,0.08,False
+tx_syn_100234,usr_3038,183.11,Debit Card,Electronics,,0.04,False
+tx_syn_100235,usr_8515,5618.42,UPI,Apparel,,0.02,False
+tx_syn_100236,usr_6592,1963.98,UPI,Apparel,34.0,0.21,False
+tx_syn_100237,usr_4302,910.68,Debit Card,Electronics,46.7,0.25,False
+tx_syn_100238,usr_3237,445.27,Debit Card,Electronics,27.1,0.13,False
+tx_syn_100239,usr_8392,6733.33,Debit Card,Electronics,30.0,0.24,False
+tx_syn_100240,usr_6504,439.46,UPI,Apparel,39.2,0.25,False
+tx_syn_100241,usr_6496,377.46,Cash,Apparel,35.9,0.33,True
+tx_syn_100242,usr_2306,1779.15,UPI,Electronics,31.4,0.02,False
+tx_syn_100243,usr_5029,1382.75,Credit Card,Electronics,31.2,0.07,False
+tx_syn_100244,usr_7776,2046.12,UPI,Electronics,45.5,0.02,False
+tx_syn_100245,usr_3675,4826.56,Credit Card,Electronics,31.7,0.3,False
+tx_syn_100246,usr_6068,1417.72,UPI,Digital Goods,25.5,0.28,False
+tx_syn_100247,usr_6864,1615.5,Credit Card,Electronics,26.9,0.2,False
+tx_syn_100248,usr_2282,219.02,UPI,Home & Kitchen,39.9,0.03,False
+tx_syn_100249,usr_8526,2326.2,UPI,Digital Goods,,0.1,False
+tx_syn_100250,usr_1709,969.2,Credit Card,Electronics,,0.1,False
+tx_syn_100251,usr_6575,6818.69,Debit Card,Apparel,52.5,0.2,False
+tx_syn_100252,usr_6530,3168.66,Cash,Digital Goods,34.1,0.09,False
+tx_syn_100253,usr_5744,1380.47,UPI,Home & Kitchen,31.8,0.03,False
+tx_syn_100254,usr_5413,286.7,Debit Card,Apparel,26.5,0.26,False
+tx_syn_100255,usr_4748,3581.51,Credit Card,Home & Kitchen,32.5,0.1,False
+tx_syn_100256,usr_8392,2945.02,UPI,Home & Kitchen,27.8,0.16,False
+tx_syn_100257,usr_8986,417.3,UPI,Electronics,27.1,0.04,False
+tx_syn_100258,usr_6353,679.91,Credit Card,Digital Goods,20.2,0.28,False
+tx_syn_100259,usr_5779,2888.61,Cash,Apparel,,0.2,False
+tx_syn_100260,usr_1663,418.73,Credit Card,Apparel,43.2,0.32,False
+tx_syn_100261,usr_2998,4546.44,Credit Card,Digital Goods,36.5,0.17,False
+tx_syn_100262,usr_8994,1044.61,Credit Card,Home & Kitchen,33.0,0.33,False
+tx_syn_100263,usr_4445,1176.51,UPI,Apparel,34.2,0.31,False
+tx_syn_100264,usr_4743,3094.62,Debit Card,Electronics,27.6,0.2,False
+tx_syn_100265,usr_6727,891.72,Debit Card,Apparel,24.6,0.33,False
+tx_syn_100266,usr_2495,1395.68,UPI,Home & Kitchen,40.3,0.11,False
+tx_syn_100267,usr_4304,264.43,Debit Card,Home & Kitchen,32.0,0.13,False
+tx_syn_100268,usr_4763,54.66,UPI,Digital Goods,37.0,0.02,False
+tx_syn_100269,usr_6232,1878.93,Cash,Digital Goods,20.1,0.21,False
+tx_syn_100270,usr_2853,1353.14,UPI,Apparel,31.5,0.25,False
+tx_syn_100271,usr_6616,1670.48,UPI,Electronics,24.4,0.27,False
+tx_syn_100272,usr_7585,2891.55,UPI,Apparel,38.3,0.05,False
+tx_syn_100273,usr_5659,1922.31,Credit Card,Home & Kitchen,42.7,0.16,False
+tx_syn_100274,usr_2291,395.78,UPI,Apparel,46.6,0.06,False
+tx_syn_100275,usr_4581,855.49,Credit Card,Apparel,28.9,0.23,False
+tx_syn_100276,usr_8974,4303.94,Credit Card,Apparel,24.6,0.06,False
+tx_syn_100277,usr_4457,2694.98,Debit Card,Electronics,30.6,0.32,False
+tx_syn_100278,usr_8554,1514.06,UPI,Electronics,,0.08,False
+tx_syn_100279,usr_8280,581.43,Credit Card,Apparel,,0.1,False
+tx_syn_100280,usr_2636,697.32,UPI,Electronics,22.3,0.3,False
+tx_syn_100281,usr_4696,2419.9,Credit Card,Electronics,19.3,0.16,False
+tx_syn_100282,usr_3999,3478.96,UPI,Electronics,,0.01,False
+tx_syn_100283,usr_4152,2053.38,Cash,Apparel,40.4,0.17,False
+tx_syn_100284,usr_1698,3034.87,Credit Card,Electronics,25.5,0.03,False
+tx_syn_100285,usr_3160,2669.44,Credit Card,Home & Kitchen,41.4,0.34,False
+tx_syn_100286,usr_5097,341.91,Credit Card,Apparel,37.3,0.21,False
+tx_syn_100287,usr_5737,1042.79,UPI,Home & Kitchen,,0.09,False
+tx_syn_100288,usr_7363,348.86,UPI,Home & Kitchen,27.4,0.2,False
+tx_syn_100289,usr_6685,532.74,Debit Card,Electronics,20.5,0.03,False
+tx_syn_100290,usr_1854,3712.18,Cash,Apparel,39.3,0.28,False
+tx_syn_100291,usr_6855,1202.63,UPI,Digital Goods,36.6,0.32,False
+tx_syn_100292,usr_8392,1429.68,Credit Card,Home & Kitchen,35.9,0.31,False
+tx_syn_100293,usr_7528,403.8,Debit Card,Digital Goods,25.3,0.12,False
+tx_syn_100294,usr_4474,723.85,Credit Card,Home & Kitchen,40.8,0.11,False
+tx_syn_100295,usr_6757,521.03,UPI,Electronics,28.8,0.01,False
+tx_syn_100296,usr_6249,465.63,UPI,Electronics,35.9,0.23,False
+tx_syn_100297,usr_6172,1878.8,UPI,Apparel,30.3,0.19,False
+tx_syn_100298,usr_2707,584.43,Debit Card,Apparel,37.2,0.16,False
+tx_syn_100299,usr_3777,1849.49,Credit Card,Electronics,24.0,0.32,True
+tx_syn_100300,usr_6791,158.42,Credit Card,Home & Kitchen,38.4,0.06,False
+tx_syn_100301,usr_2733,325.2,Cash,Apparel,39.8,0.0,False
+tx_syn_100302,usr_6535,627.71,Credit Card,Electronics,35.2,0.03,False
+tx_syn_100303,usr_7390,1686.08,Cash,Home & Kitchen,48.2,0.08,False
+tx_syn_100304,usr_5931,2077.74,Credit Card,Home & Kitchen,36.0,0.01,False
+tx_syn_100305,usr_4510,1102.43,UPI,Apparel,42.0,0.18,False
+tx_syn_100306,usr_1202,1112.38,Cash,Home & Kitchen,35.0,0.11,False
+tx_syn_100307,usr_4255,2370.61,Credit Card,Digital Goods,41.2,0.06,False
+tx_syn_100308,usr_5218,78.71,UPI,Apparel,21.2,0.26,False
+tx_syn_100309,usr_5496,800.9,UPI,Electronics,34.5,0.07,False
+tx_syn_100310,usr_1766,3123.75,UPI,Electronics,24.6,0.24,False
+tx_syn_100311,usr_5389,1713.87,Credit Card,Apparel,35.4,0.12,False
+tx_syn_100312,usr_3327,790.38,Debit Card,Electronics,37.5,0.18,False
+tx_syn_100313,usr_3931,23633.24,Cash,Digital Goods,41.1,0.33,False
+tx_syn_100314,usr_8777,2716.06,Cash,Home & Kitchen,38.4,0.01,False
+tx_syn_100315,usr_1197,603.94,UPI,Home & Kitchen,31.3,0.18,False
+tx_syn_100316,usr_8125,10535.9,UPI,Digital Goods,27.8,0.3,False
+tx_syn_100317,usr_2930,1680.3,UPI,Digital Goods,18.0,0.21,False
+tx_syn_100318,usr_4582,973.05,Debit Card,Electronics,34.8,0.1,False
+tx_syn_100319,usr_7895,872.99,UPI,Electronics,43.9,0.14,False
+tx_syn_100320,usr_7287,807.66,Credit Card,Home & Kitchen,35.1,0.24,False
+tx_syn_100321,usr_1608,1778.23,Debit Card,Apparel,33.5,0.31,False
+tx_syn_100322,usr_4272,1101.44,Credit Card,Apparel,35.4,0.01,False
+tx_syn_100323,usr_2147,3259.36,UPI,Apparel,30.9,0.03,False
+tx_syn_100324,usr_5282,2043.43,Cash,Digital Goods,35.9,0.11,False
+tx_syn_100325,usr_4397,180.49,Cash,Apparel,30.8,0.08,False
+tx_syn_100326,usr_3511,1889.81,UPI,Home & Kitchen,26.6,0.09,True
+tx_syn_100327,usr_8516,619.31,Credit Card,Electronics,33.6,0.08,False
+tx_syn_100328,usr_2794,1667.26,Cash,Home & Kitchen,33.4,0.07,False
+tx_syn_100329,usr_1659,2101.72,UPI,Electronics,50.1,0.05,False
+tx_syn_100330,usr_3811,522.4,Credit Card,Digital Goods,27.4,0.33,False
+tx_syn_100331,usr_8098,1148.69,UPI,Electronics,32.8,0.05,False
+tx_syn_100332,usr_7051,430.02,Credit Card,Home & Kitchen,32.0,0.07,False
+tx_syn_100333,usr_7546,146.76,UPI,Electronics,30.4,0.09,False
+tx_syn_100334,usr_2369,906.05,UPI,Electronics,38.6,0.33,False
+tx_syn_100335,usr_2986,861.62,UPI,Apparel,53.2,0.26,False
+tx_syn_100336,usr_6630,9768.83,Credit Card,Apparel,31.5,0.28,False
+tx_syn_100337,usr_1146,1114.21,Cash,Electronics,38.6,0.04,True
+tx_syn_100338,usr_4219,780.48,Debit Card,Electronics,18.0,0.29,False
+tx_syn_100339,usr_3911,1613.54,Debit Card,Home & Kitchen,30.9,0.14,False
+tx_syn_100340,usr_2734,217.32,Credit Card,Home & Kitchen,47.4,0.09,False
+tx_syn_100341,usr_2843,5920.54,UPI,Electronics,33.7,0.2,False
+tx_syn_100342,usr_1488,1863.95,UPI,Home & Kitchen,38.5,0.29,False
+tx_syn_100343,usr_3976,2580.5,Cash,Electronics,28.9,0.27,False
+tx_syn_100344,usr_2959,386.43,UPI,Apparel,,0.31,False
+tx_syn_100345,usr_6759,998.15,UPI,Electronics,48.1,0.32,False
+tx_syn_100346,usr_7694,1038.87,Credit Card,Apparel,24.3,0.08,False
+tx_syn_100347,usr_3385,3154.79,UPI,Electronics,52.8,0.15,False
+tx_syn_100348,usr_3919,52.23,UPI,Digital Goods,21.1,0.01,False
+tx_syn_100349,usr_5736,694.21,Cash,Electronics,,0.31,False
+tx_syn_100350,usr_2802,7206.5,Debit Card,Electronics,27.1,0.05,False
+tx_syn_100351,usr_7616,1209.45,UPI,Electronics,31.9,0.3,False
+tx_syn_100352,usr_7065,917.81,Cash,Digital Goods,27.0,0.12,False
+tx_syn_100353,usr_7294,279.75,Credit Card,Apparel,26.3,0.13,False
+tx_syn_100354,usr_6534,6630.82,Debit Card,Home & Kitchen,24.1,0.01,False
+tx_syn_100355,usr_5061,86.41,UPI,Digital Goods,39.7,0.11,False
+tx_syn_100356,usr_4369,2455.32,UPI,Digital Goods,32.2,0.31,False
+tx_syn_100357,usr_6730,2684.49,Credit Card,Home & Kitchen,30.0,0.01,False
+tx_syn_100358,usr_1262,552.67,Cash,Electronics,36.6,0.14,False
+tx_syn_100359,usr_6883,2054.11,Credit Card,Home & Kitchen,21.5,0.01,False
+tx_syn_100360,usr_7287,225.56,UPI,Electronics,36.8,0.13,False
+tx_syn_100361,usr_7489,584.82,UPI,Home & Kitchen,33.4,0.06,False
+tx_syn_100362,usr_1623,2841.27,Debit Card,Home & Kitchen,33.7,0.09,False
+tx_syn_100363,usr_2016,3650.29,UPI,Home & Kitchen,38.6,0.31,False
+tx_syn_100364,usr_4643,1737.92,Credit Card,Apparel,48.2,0.15,False
+tx_syn_100365,usr_5976,1322.45,UPI,Apparel,36.9,0.1,False
+tx_syn_100366,usr_3049,362.35,UPI,Digital Goods,32.5,0.21,False
+tx_syn_100367,usr_8040,167.34,Credit Card,Electronics,24.1,0.05,False
+tx_syn_100368,usr_6423,275.3,Credit Card,Electronics,18.0,0.09,False
+tx_syn_100369,usr_7397,514.29,UPI,Apparel,35.3,0.19,False
+tx_syn_100370,usr_4723,802.5,UPI,Digital Goods,23.5,0.08,False
+tx_syn_100371,usr_5548,913.11,Debit Card,Electronics,,0.24,False
+tx_syn_100372,usr_4108,815.25,UPI,Electronics,31.2,0.17,False
+tx_syn_100373,usr_6279,541.75,Credit Card,Electronics,36.2,0.27,False
+tx_syn_100374,usr_5090,1333.02,Cash,Electronics,40.5,0.33,False
+tx_syn_100375,usr_8158,3190.29,UPI,Digital Goods,43.2,0.04,False
+tx_syn_100376,usr_3056,640.57,Cash,Home & Kitchen,41.6,0.12,False
+tx_syn_100377,usr_8400,5187.21,UPI,Home & Kitchen,41.9,0.11,False
+tx_syn_100378,usr_4170,3769.2,Credit Card,Apparel,21.7,0.05,False
+tx_syn_100379,usr_2682,367.62,UPI,Home & Kitchen,32.9,0.28,False
+tx_syn_100380,usr_7959,2827.53,Cash,Electronics,39.1,0.27,False
+tx_syn_100381,usr_3255,1588.45,UPI,Apparel,34.6,0.17,False
+tx_syn_100382,usr_2154,1554.87,UPI,Apparel,32.9,0.19,False
+tx_syn_100383,usr_5499,942.81,Cash,Electronics,34.4,0.02,False
+tx_syn_100384,usr_7295,1301.82,Credit Card,Apparel,36.3,0.19,False
+tx_syn_100385,usr_7197,961.04,Credit Card,Electronics,33.5,0.28,False
+tx_syn_100386,usr_4191,1446.71,UPI,Electronics,27.0,0.2,False
+tx_syn_100387,usr_2696,1829.71,Credit Card,Electronics,19.7,0.09,False
+tx_syn_100388,usr_4991,2069.22,UPI,Home & Kitchen,32.5,0.23,False
+tx_syn_100389,usr_5723,1418.57,UPI,Electronics,34.7,0.13,False
+tx_syn_100390,usr_5682,2350.5,Credit Card,Digital Goods,34.6,0.19,False
+tx_syn_100391,usr_2648,324.16,UPI,Electronics,42.3,0.17,False
+tx_syn_100392,usr_6539,478.82,Cash,Home & Kitchen,43.8,0.13,False
+tx_syn_100393,usr_2445,3124.03,Cash,Digital Goods,33.3,0.25,False
+tx_syn_100394,usr_5199,750.9,Debit Card,Digital Goods,33.4,0.31,False
+tx_syn_100395,usr_4923,91.69,Debit Card,Digital Goods,39.1,0.0,False
+tx_syn_100396,usr_1253,350.58,Credit Card,Electronics,37.8,0.33,False
+tx_syn_100397,usr_8394,505.59,UPI,Electronics,30.4,0.18,False
+tx_syn_100398,usr_4183,5727.37,Debit Card,Apparel,39.8,0.25,False
+tx_syn_100399,usr_3557,1581.92,UPI,Electronics,33.0,0.3,False
+tx_syn_100400,usr_6592,4908.29,UPI,Electronics,33.1,0.16,False
+tx_syn_100401,usr_1098,1590.89,Debit Card,Digital Goods,37.9,0.29,False
+tx_syn_100402,usr_3200,1224.83,Credit Card,Apparel,31.6,0.06,False
+tx_syn_100403,usr_6980,727.67,Debit Card,Apparel,35.0,0.06,False
+tx_syn_100404,usr_3961,1728.22,UPI,Digital Goods,36.7,0.23,False
+tx_syn_100405,usr_7015,319.8,Credit Card,Home & Kitchen,41.1,0.3,True
+tx_syn_100406,usr_5973,4163.63,UPI,Home & Kitchen,40.6,0.31,False
+tx_syn_100407,usr_5433,3232.47,Credit Card,Home & Kitchen,36.5,0.23,False
+tx_syn_100408,usr_4777,737.67,Debit Card,Electronics,18.0,0.18,False
+tx_syn_100409,usr_3869,5545.96,Credit Card,Apparel,36.3,0.12,False
+tx_syn_100410,usr_4234,3189.41,UPI,Digital Goods,37.6,0.34,False
+tx_syn_100411,usr_4791,2025.56,UPI,Digital Goods,39.3,0.11,False
+tx_syn_100412,usr_1956,283.71,UPI,Digital Goods,26.1,0.26,False
+tx_syn_100413,usr_6800,1220.97,Credit Card,Apparel,18.0,0.19,False
+tx_syn_100414,usr_5067,1319.79,Cash,Digital Goods,41.1,0.21,False
+tx_syn_100415,usr_1160,526.43,UPI,Electronics,23.8,0.14,False
+tx_syn_100416,usr_6699,200.02,Debit Card,Electronics,44.6,0.34,False
+tx_syn_100417,usr_7944,2748.82,Debit Card,Apparel,29.3,0.2,False
+tx_syn_100418,usr_5493,284.27,Credit Card,Apparel,25.5,0.33,False
+tx_syn_100419,usr_2300,1673.81,Credit Card,Electronics,37.2,0.0,False
+tx_syn_100420,usr_5911,5010.65,Debit Card,Apparel,39.4,0.2,True
+tx_syn_100421,usr_4987,3808.98,UPI,Electronics,38.9,0.25,False
+tx_syn_100422,usr_2527,635.7,UPI,Apparel,38.5,0.26,False
+tx_syn_100423,usr_7015,3482.28,UPI,Home & Kitchen,28.2,0.32,False
+tx_syn_100424,usr_6511,50.6,Cash,Home & Kitchen,21.2,0.0,False
+tx_syn_100425,usr_6254,82.12,Cash,Electronics,30.9,0.0,False
+tx_syn_100426,usr_2218,1710.85,Debit Card,Apparel,24.5,0.17,False
+tx_syn_100427,usr_5496,866.86,UPI,Home & Kitchen,37.9,0.01,False
+tx_syn_100428,usr_5735,929.32,Credit Card,Apparel,41.6,0.34,False
+tx_syn_100429,usr_4104,1546.03,UPI,Apparel,35.7,0.08,False
+tx_syn_100430,usr_3735,433.26,UPI,Apparel,34.2,0.17,False
+tx_syn_100431,usr_5555,478.3,Credit Card,Digital Goods,31.6,0.02,False
+tx_syn_100432,usr_1954,1243.07,Cash,Electronics,42.5,0.18,False
+tx_syn_100433,usr_5565,2576.22,Cash,Apparel,18.6,0.13,False
+tx_syn_100434,usr_4446,1789.27,Credit Card,Apparel,23.9,0.02,False
+tx_syn_100435,usr_2045,685.23,UPI,Apparel,49.7,0.12,False
+tx_syn_100436,usr_7893,1062.88,UPI,Electronics,23.5,0.14,False
+tx_syn_100437,usr_2693,386.84,UPI,Electronics,38.7,0.35,False
+tx_syn_100438,usr_7181,189.61,Debit Card,Electronics,40.5,0.07,False
+tx_syn_100439,usr_7373,2797.62,Debit Card,Digital Goods,18.0,0.19,False
+tx_syn_100440,usr_4436,605.14,UPI,Home & Kitchen,19.5,0.35,False
+tx_syn_100441,usr_1562,402.32,Credit Card,Home & Kitchen,45.0,0.28,False
+tx_syn_100442,usr_3485,2167.55,UPI,Home & Kitchen,25.9,0.35,False
+tx_syn_100443,usr_6895,1782.45,UPI,Electronics,,0.34,False
+tx_syn_100444,usr_4354,1855.24,Credit Card,Digital Goods,29.8,0.17,False
+tx_syn_100445,usr_7170,517.87,UPI,Apparel,26.0,0.24,False
+tx_syn_100446,usr_1225,526.65,Credit Card,Electronics,38.7,0.04,False
+tx_syn_100447,usr_8444,499.08,Debit Card,Home & Kitchen,24.2,0.15,False
+tx_syn_100448,usr_5893,393.55,Credit Card,Home & Kitchen,18.0,0.28,False
+tx_syn_100449,usr_8776,1969.36,UPI,Home & Kitchen,44.0,0.18,False
+tx_syn_100450,usr_7427,3441.16,UPI,Electronics,24.6,0.25,False
+tx_syn_100451,usr_8022,2369.31,Credit Card,Digital Goods,27.8,0.26,False
+tx_syn_100452,usr_1959,2877.2,UPI,Digital Goods,41.3,0.09,False
+tx_syn_100453,usr_6600,983.94,UPI,Apparel,34.8,0.31,False
+tx_syn_100454,usr_5548,1960.76,Credit Card,Electronics,43.7,0.16,False
+tx_syn_100455,usr_4067,837.18,Credit Card,Electronics,41.4,0.07,False
+tx_syn_100456,usr_8996,1391.91,Debit Card,Digital Goods,30.3,0.3,False
+tx_syn_100457,usr_1815,1232.74,UPI,Apparel,42.9,0.15,False
+tx_syn_100458,usr_5754,400.39,Debit Card,Apparel,35.6,0.26,False
+tx_syn_100459,usr_8683,931.13,UPI,Electronics,29.1,0.19,False
+tx_syn_100460,usr_5642,6024.76,UPI,Electronics,36.7,0.13,False
+tx_syn_100461,usr_6311,564.42,Credit Card,Home & Kitchen,23.1,0.28,False
+tx_syn_100462,usr_4120,308.56,Credit Card,Apparel,41.3,0.2,False
+tx_syn_100463,usr_8679,1026.11,Cash,Digital Goods,40.2,0.14,False
+tx_syn_100464,usr_1016,2862.06,Debit Card,Home & Kitchen,35.2,0.04,False
+tx_syn_100465,usr_8339,1620.73,Cash,Home & Kitchen,18.0,0.31,False
+tx_syn_100466,usr_2243,2106.47,Cash,Electronics,44.0,0.01,False
+tx_syn_100467,usr_3205,428.62,Credit Card,Electronics,37.9,0.3,False
+tx_syn_100468,usr_3524,1786.68,Credit Card,Apparel,34.0,0.13,False
+tx_syn_100469,usr_2069,753.48,Credit Card,Electronics,32.7,0.22,False
+tx_syn_100470,usr_4444,3285.67,Cash,Electronics,29.6,0.32,False
+tx_syn_100471,usr_3565,1836.25,Debit Card,Digital Goods,31.3,0.05,False
+tx_syn_100472,usr_7242,449.09,UPI,Apparel,40.7,0.2,False
+tx_syn_100473,usr_6864,170.24,Debit Card,Electronics,29.8,0.27,False
+tx_syn_100474,usr_2060,128.42,UPI,Electronics,31.9,0.27,False
+tx_syn_100475,usr_3327,885.69,Credit Card,Electronics,33.1,0.18,False
+tx_syn_100476,usr_4420,606.28,UPI,Digital Goods,33.3,0.22,False
+tx_syn_100477,usr_7640,1919.68,Credit Card,Electronics,28.9,0.27,False
+tx_syn_100478,usr_1301,1295.27,Debit Card,Electronics,32.8,0.29,False
+tx_syn_100479,usr_5276,606.69,UPI,Home & Kitchen,37.1,0.27,True
+tx_syn_100480,usr_1606,340.92,UPI,Electronics,26.5,0.12,False
+tx_syn_100481,usr_4170,294.89,UPI,Electronics,32.8,0.35,False
+tx_syn_100482,usr_1699,3649.94,Credit Card,Electronics,50.6,0.15,False
+tx_syn_100483,usr_6088,552.24,UPI,Electronics,33.7,0.01,False
+tx_syn_100484,usr_2139,1948.5,UPI,Electronics,26.3,0.13,False
+tx_syn_100485,usr_1190,3045.83,UPI,Electronics,25.3,0.04,False
+tx_syn_100486,usr_3300,1763.83,Credit Card,Home & Kitchen,23.4,0.04,False
+tx_syn_100487,usr_1980,3583.42,UPI,Electronics,48.0,0.1,False
+tx_syn_100488,usr_3975,946.81,Debit Card,Home & Kitchen,42.8,0.02,False
+tx_syn_100489,usr_7102,5681.53,UPI,Home & Kitchen,23.2,0.24,False
+tx_syn_100490,usr_2184,307.19,Credit Card,Apparel,36.0,0.03,False
+tx_syn_100491,usr_4327,243.95,UPI,Electronics,44.6,0.07,False
+tx_syn_100492,usr_4394,1984.95,Credit Card,Electronics,33.9,0.03,False
+tx_syn_100493,usr_1127,5201.14,UPI,Home & Kitchen,30.0,0.02,False
+tx_syn_100494,usr_3065,3028.77,Debit Card,Apparel,53.2,0.09,False
+tx_syn_100495,usr_2816,193.09,Cash,Home & Kitchen,18.0,0.2,False
+tx_syn_100496,usr_6854,639.73,Cash,Electronics,56.6,0.34,False
+tx_syn_100497,usr_7709,4844.89,Credit Card,Digital Goods,34.7,0.31,False
+tx_syn_100498,usr_1569,575.18,Credit Card,Electronics,45.2,0.31,False
+tx_syn_100499,usr_6442,2785.03,Debit Card,Apparel,24.0,0.06,False
+tx_syn_100500,usr_2895,3188.7,Credit Card,Apparel,28.0,0.09,False
+tx_syn_100501,usr_3733,1281.37,UPI,Electronics,,0.03,False
+tx_syn_100502,usr_4863,928.99,Debit Card,Apparel,33.3,0.27,False
+tx_syn_100503,usr_5721,1126.51,Credit Card,Home & Kitchen,36.8,0.02,False
+tx_syn_100504,usr_8455,513.38,UPI,Home & Kitchen,43.3,0.19,False
+tx_syn_100505,usr_5014,4013.16,UPI,Digital Goods,19.7,0.09,False
+tx_syn_100506,usr_3901,1128.14,UPI,Apparel,35.5,0.09,False
+tx_syn_100507,usr_2686,3903.75,Credit Card,Apparel,41.8,0.35,False
+tx_syn_100508,usr_4009,251.07,UPI,Electronics,43.4,0.26,False
+tx_syn_100509,usr_8806,8052.9,UPI,Apparel,30.5,0.29,False
+tx_syn_100510,usr_1154,1104.22,UPI,Electronics,30.6,0.2,False
+tx_syn_100511,usr_3537,138.22,Credit Card,Apparel,33.4,0.3,False
+tx_syn_100512,usr_2409,119.77,Debit Card,Electronics,35.8,0.23,False
+tx_syn_100513,usr_5057,2518.23,UPI,Apparel,45.3,0.33,False
+tx_syn_100514,usr_1784,1986.76,UPI,Apparel,23.9,0.1,False
+tx_syn_100515,usr_4175,2966.27,UPI,Digital Goods,27.5,0.21,False
+tx_syn_100516,usr_8560,250.42,Cash,Apparel,22.9,0.24,False
+tx_syn_100517,usr_8978,115.19,Credit Card,Digital Goods,37.8,0.14,False
+tx_syn_100518,usr_5341,1328.82,Credit Card,Home & Kitchen,43.6,0.31,False
+tx_syn_100519,usr_8343,932.65,UPI,Apparel,22.1,0.34,False
+tx_syn_100520,usr_8206,1165.64,Debit Card,Apparel,35.0,0.17,False
+tx_syn_100521,usr_6596,8650.66,Credit Card,Electronics,42.9,0.14,False
+tx_syn_100522,usr_6801,6407.37,UPI,Home & Kitchen,40.9,0.17,False
+tx_syn_100523,usr_3806,5184.98,UPI,Apparel,40.8,0.3,False
+tx_syn_100524,usr_1537,2807.15,UPI,Digital Goods,24.1,0.23,False
+tx_syn_100525,usr_6986,838.87,Debit Card,Apparel,40.7,0.02,False
+tx_syn_100526,usr_2841,1006.25,Debit Card,Home & Kitchen,32.6,0.19,False
+tx_syn_100527,usr_6016,1485.78,Credit Card,Home & Kitchen,43.3,0.01,False
+tx_syn_100528,usr_3455,3245.19,Debit Card,Electronics,38.0,0.27,False
+tx_syn_100529,usr_1524,178.14,UPI,Electronics,27.3,0.11,False
+tx_syn_100530,usr_7971,1043.89,Credit Card,Apparel,36.6,0.17,False
+tx_syn_100531,usr_6625,205.22,Credit Card,Apparel,41.2,0.28,False
+tx_syn_100532,usr_3950,1351.22,UPI,Electronics,29.9,0.02,False
+tx_syn_100533,usr_8992,4174.98,Debit Card,Digital Goods,35.3,0.06,False
+tx_syn_100534,usr_5131,2795.88,UPI,Apparel,22.8,0.14,False
+tx_syn_100535,usr_5780,515.42,UPI,Digital Goods,38.9,0.08,False
+tx_syn_100536,usr_5115,6762.78,Credit Card,Home & Kitchen,33.7,0.12,False
+tx_syn_100537,usr_3368,2031.2,Credit Card,Apparel,42.0,0.35,False
+tx_syn_100538,usr_4847,68.87,Credit Card,Digital Goods,38.6,0.29,False
+tx_syn_100539,usr_7655,580.87,UPI,Apparel,30.7,0.31,False
+tx_syn_100540,usr_5495,593.73,Debit Card,Digital Goods,27.0,0.33,False
+tx_syn_100541,usr_3701,179.18,Credit Card,Apparel,25.1,0.12,False
+tx_syn_100542,usr_1971,5836.19,Credit Card,Apparel,29.9,0.1,False
+tx_syn_100543,usr_7002,1221.04,Cash,Apparel,41.7,0.08,False
+tx_syn_100544,usr_7614,4120.85,Debit Card,Apparel,19.3,0.29,False
+tx_syn_100545,usr_2166,750.07,UPI,Apparel,25.4,0.24,False
+tx_syn_100546,usr_6211,290.84,Debit Card,Apparel,41.5,0.08,False
+tx_syn_100547,usr_8521,1207.57,UPI,Electronics,45.5,0.13,False
+tx_syn_100548,usr_5929,267.78,UPI,Digital Goods,25.8,0.18,False
+tx_syn_100549,usr_6919,1248.01,UPI,Apparel,25.3,0.18,False
+tx_syn_100550,usr_3774,4603.01,Cash,Apparel,46.2,0.31,False
+tx_syn_100551,usr_2982,1374.03,UPI,Home & Kitchen,33.1,0.13,False
+tx_syn_100552,usr_1853,1775.15,Credit Card,Home & Kitchen,26.6,0.32,False
+tx_syn_100553,usr_5146,356.65,UPI,Digital Goods,43.1,0.15,False
+tx_syn_100554,usr_4736,130.5,Debit Card,Apparel,38.5,0.26,False
+tx_syn_100555,usr_4769,261.4,Credit Card,Electronics,40.5,0.33,False
+tx_syn_100556,usr_1574,1692.73,Credit Card,Apparel,27.0,0.32,False
+tx_syn_100557,usr_4261,229.7,UPI,Apparel,37.4,0.02,False
+tx_syn_100558,usr_2148,898.87,Debit Card,Digital Goods,44.8,0.07,False
+tx_syn_100559,usr_7293,1487.68,Cash,Apparel,39.6,0.17,False
+tx_syn_100560,usr_7457,935.76,Credit Card,Digital Goods,42.0,0.15,False
+tx_syn_100561,usr_7713,371.75,Credit Card,Apparel,46.1,0.22,False
+tx_syn_100562,usr_8509,625.85,Cash,Digital Goods,37.8,0.33,False
+tx_syn_100563,usr_7448,4793.92,UPI,Electronics,29.4,0.04,False
+tx_syn_100564,usr_2715,2078.52,Debit Card,Digital Goods,41.7,0.16,False
+tx_syn_100565,usr_5777,1283.49,Debit Card,Digital Goods,24.8,0.07,False
+tx_syn_100566,usr_5933,73.03,UPI,Digital Goods,32.3,0.31,False
+tx_syn_100567,usr_4854,8836.94,Credit Card,Electronics,39.2,0.34,False
+tx_syn_100568,usr_6173,2053.55,UPI,Electronics,18.0,0.17,False
+tx_syn_100569,usr_8146,736.06,Credit Card,Home & Kitchen,36.3,0.04,False
+tx_syn_100570,usr_3491,3855.54,Credit Card,Electronics,36.7,0.27,False
+tx_syn_100571,usr_3660,588.18,UPI,Electronics,24.5,0.24,False
+tx_syn_100572,usr_8136,1463.54,Credit Card,Electronics,37.0,0.12,False
+tx_syn_100573,usr_7407,1869.43,UPI,Apparel,35.8,0.31,False
+tx_syn_100574,usr_4124,499.69,UPI,Apparel,34.5,0.34,False
+tx_syn_100575,usr_6691,6952.88,UPI,Electronics,44.3,0.2,False
+tx_syn_100576,usr_4051,2532.36,Debit Card,Electronics,41.7,0.2,False
+tx_syn_100577,usr_8787,1518.84,UPI,Apparel,39.6,0.1,False
+tx_syn_100578,usr_1004,408.52,Debit Card,Apparel,25.5,0.2,False
+tx_syn_100579,usr_6222,149.65,Credit Card,Electronics,34.1,0.15,False
+tx_syn_100580,usr_6315,744.35,UPI,Apparel,44.3,0.11,False
+tx_syn_100581,usr_5869,2568.43,Debit Card,Digital Goods,32.4,0.02,False
+tx_syn_100582,usr_1876,614.83,Credit Card,Digital Goods,47.4,0.09,False
+tx_syn_100583,usr_1991,1446.02,Credit Card,Digital Goods,39.9,0.07,False
+tx_syn_100584,usr_8027,2393.17,UPI,Digital Goods,48.7,0.19,False
+tx_syn_100585,usr_8517,255.61,UPI,Apparel,,0.21,False
+tx_syn_100586,usr_5142,2131.03,UPI,Home & Kitchen,32.9,0.21,False
+tx_syn_100587,usr_8010,223.46,UPI,Apparel,33.7,0.14,False
+tx_syn_100588,usr_7966,6091.02,UPI,Apparel,39.4,0.15,False
+tx_syn_100589,usr_8079,1256.36,UPI,Electronics,27.9,0.29,False
+tx_syn_100590,usr_8987,343.97,UPI,Apparel,20.5,0.17,False
+tx_syn_100591,usr_7799,804.44,UPI,Apparel,37.4,0.35,True
+tx_syn_100592,usr_5364,1010.19,UPI,Electronics,31.1,0.15,False
+tx_syn_100593,usr_5465,2605.25,UPI,Home & Kitchen,,0.23,False
+tx_syn_100594,usr_1635,2498.59,Cash,Electronics,28.3,0.02,False
+tx_syn_100595,usr_6225,1753.87,UPI,Electronics,35.3,0.23,True
+tx_syn_100596,usr_2693,251.55,Credit Card,Electronics,25.0,0.3,False
+tx_syn_100597,usr_2682,345.86,UPI,Apparel,32.5,0.33,False
+tx_syn_100598,usr_5752,227.21,Cash,Electronics,27.2,0.35,False
+tx_syn_100599,usr_1119,1599.42,UPI,Digital Goods,29.0,0.1,False
+tx_syn_100600,usr_1830,3824.05,Cash,Apparel,37.2,0.2,False
+tx_syn_100601,usr_6906,1073.86,Credit Card,Apparel,,0.16,False
+tx_syn_100602,usr_4675,365.65,UPI,Electronics,,0.2,False
+tx_syn_100603,usr_6177,1519.77,Cash,Apparel,42.4,0.06,False
+tx_syn_100604,usr_7070,3055.99,Credit Card,Home & Kitchen,25.9,0.3,False
+tx_syn_100605,usr_2369,2486.62,UPI,Apparel,21.3,0.32,False
+tx_syn_100606,usr_1740,3888.37,Debit Card,Home & Kitchen,22.8,0.16,False
+tx_syn_100607,usr_8641,636.07,Cash,Digital Goods,25.1,0.1,False
+tx_syn_100608,usr_1116,438.11,Credit Card,Digital Goods,23.0,0.05,False
+tx_syn_100609,usr_6949,3863.72,UPI,Home & Kitchen,51.4,0.24,False
+tx_syn_100610,usr_3838,1978.99,Debit Card,Electronics,21.0,0.11,False
+tx_syn_100611,usr_2150,720.34,Credit Card,Apparel,42.2,0.32,False
+tx_syn_100612,usr_8560,2491.06,Debit Card,Apparel,34.0,0.23,False
+tx_syn_100613,usr_2931,3088.47,Credit Card,Home & Kitchen,36.1,0.23,False
+tx_syn_100614,usr_2012,1768.02,UPI,Home & Kitchen,26.5,0.2,False
+tx_syn_100615,usr_2664,2145.89,Cash,Home & Kitchen,37.0,0.02,False
+tx_syn_100616,usr_2081,896.76,UPI,Home & Kitchen,26.4,0.33,False
+tx_syn_100617,usr_5729,1442.66,UPI,Electronics,42.0,0.22,False
+tx_syn_100618,usr_1512,1386.81,Credit Card,Electronics,42.7,0.35,False
+tx_syn_100619,usr_8918,3441.54,Credit Card,Electronics,33.1,0.19,False
+tx_syn_100620,usr_3849,3348.24,UPI,Digital Goods,,0.25,False
+tx_syn_100621,usr_6215,3268.13,Debit Card,Home & Kitchen,,0.02,False
+tx_syn_100622,usr_8805,69.97,UPI,Home & Kitchen,37.4,0.22,False
+tx_syn_100623,usr_6237,2542.06,UPI,Home & Kitchen,42.9,0.27,False
+tx_syn_100624,usr_1559,2608.91,Debit Card,Home & Kitchen,,0.27,False
+tx_syn_100625,usr_4672,2091.89,UPI,Digital Goods,34.0,0.27,False
+tx_syn_100626,usr_5583,2591.01,UPI,Home & Kitchen,30.1,0.08,False
+tx_syn_100627,usr_8404,3370.95,UPI,Apparel,41.1,0.34,False
+tx_syn_100628,usr_5992,1193.86,Cash,Home & Kitchen,32.9,0.35,False
+tx_syn_100629,usr_4343,1305.06,UPI,Electronics,35.2,0.03,False
+tx_syn_100630,usr_6308,289.77,UPI,Home & Kitchen,38.7,0.33,False
+tx_syn_100631,usr_5070,926.14,Credit Card,Apparel,42.5,0.1,False
+tx_syn_100632,usr_5799,10482.33,Credit Card,Electronics,36.4,0.24,False
+tx_syn_100633,usr_2470,2778.7,UPI,Home & Kitchen,29.2,0.12,False
+tx_syn_100634,usr_1580,490.8,Credit Card,Apparel,49.5,0.34,False
+tx_syn_100635,usr_7933,316.93,UPI,Digital Goods,47.2,0.04,False
+tx_syn_100636,usr_8004,2008.03,Cash,Electronics,25.5,0.17,False
+tx_syn_100637,usr_3294,53.39,UPI,Apparel,26.4,0.15,False
+tx_syn_100638,usr_4147,403.64,UPI,Apparel,27.5,0.11,False
+tx_syn_100639,usr_5249,103.1,Credit Card,Electronics,41.4,0.23,False
+tx_syn_100640,usr_2679,378.65,UPI,Apparel,49.8,0.05,False
+tx_syn_100641,usr_4506,410.11,Credit Card,Electronics,29.9,0.25,False
+tx_syn_100642,usr_6092,932.88,UPI,Electronics,35.6,0.34,False
+tx_syn_100643,usr_8253,976.48,UPI,Electronics,27.8,0.28,False
+tx_syn_100644,usr_3744,3782.41,Debit Card,Electronics,48.7,0.3,False
+tx_syn_100645,usr_4356,1334.43,Credit Card,Home & Kitchen,41.2,0.13,False
+tx_syn_100646,usr_5045,2363.36,Credit Card,Electronics,27.2,0.11,True
+tx_syn_100647,usr_2243,247.94,UPI,Apparel,18.0,0.18,False
+tx_syn_100648,usr_6188,509.83,UPI,Home & Kitchen,43.0,0.02,False
+tx_syn_100649,usr_4118,2234.9,UPI,Apparel,29.3,0.33,False
+tx_syn_100650,usr_6104,147.65,UPI,Digital Goods,41.4,0.05,False
+tx_syn_100651,usr_3141,1250.05,Credit Card,Home & Kitchen,36.7,0.32,False
+tx_syn_100652,usr_6869,1696.49,Debit Card,Home & Kitchen,18.6,0.03,False
+tx_syn_100653,usr_6053,1709.0,UPI,Electronics,27.3,0.29,False
+tx_syn_100654,usr_4059,91.76,UPI,Home & Kitchen,31.2,0.05,False
+tx_syn_100655,usr_5548,749.78,UPI,Home & Kitchen,28.5,0.01,False
+tx_syn_100656,usr_6323,1871.51,UPI,Apparel,35.2,0.25,False
+tx_syn_100657,usr_3959,340.42,UPI,Electronics,37.6,0.1,False
+tx_syn_100658,usr_3265,2189.85,Cash,Apparel,49.4,0.25,False
+tx_syn_100659,usr_7617,13839.25,Credit Card,Home & Kitchen,38.2,0.19,False
+tx_syn_100660,usr_3479,7278.21,Cash,Apparel,46.9,0.04,False
+tx_syn_100661,usr_7484,473.94,Debit Card,Home & Kitchen,30.1,0.33,False
+tx_syn_100662,usr_5646,3188.69,Credit Card,Electronics,44.1,0.16,False
+tx_syn_100663,usr_2635,1372.26,Credit Card,Home & Kitchen,31.0,0.26,False
+tx_syn_100664,usr_6408,891.58,UPI,Electronics,26.4,0.18,False
+tx_syn_100665,usr_8421,284.97,Credit Card,Electronics,26.0,0.21,False
+tx_syn_100666,usr_2757,2443.88,Cash,Apparel,,0.11,False
+tx_syn_100667,usr_5452,534.2,UPI,Electronics,41.5,0.07,True
+tx_syn_100668,usr_3070,885.73,Debit Card,Electronics,23.2,0.19,False
+tx_syn_100669,usr_6881,166.25,UPI,Electronics,46.2,0.15,False
+tx_syn_100670,usr_7665,2959.33,Cash,Apparel,32.7,0.14,False
+tx_syn_100671,usr_6877,2668.91,Cash,Digital Goods,21.0,0.24,False
+tx_syn_100672,usr_8267,2431.07,Credit Card,Home & Kitchen,24.7,0.24,False
+tx_syn_100673,usr_3849,690.58,Credit Card,Apparel,35.8,0.02,False
+tx_syn_100674,usr_4251,392.96,Credit Card,Electronics,18.2,0.12,False
+tx_syn_100675,usr_8390,1876.78,Debit Card,Apparel,39.2,0.14,False
+tx_syn_100676,usr_7905,1283.92,Cash,Home & Kitchen,21.3,0.03,False
+tx_syn_100677,usr_4730,403.38,Debit Card,Electronics,27.9,0.08,False
+tx_syn_100678,usr_3489,2134.54,Credit Card,Electronics,35.9,0.02,False
+tx_syn_100679,usr_2631,8554.42,Credit Card,Electronics,38.2,0.35,False
+tx_syn_100680,usr_3816,2525.42,Debit Card,Home & Kitchen,41.0,0.26,False
+tx_syn_100681,usr_2015,2474.64,Credit Card,Apparel,,0.03,False
+tx_syn_100682,usr_2348,5453.61,Debit Card,Home & Kitchen,31.6,0.01,False
+tx_syn_100683,usr_5611,458.28,Credit Card,Electronics,43.5,0.25,False
+tx_syn_100684,usr_4087,1550.61,UPI,Electronics,31.6,0.15,False
+tx_syn_100685,usr_3839,7060.12,UPI,Apparel,36.7,0.28,False
+tx_syn_100686,usr_1335,375.22,Credit Card,Apparel,35.6,0.32,False
+tx_syn_100687,usr_6878,2218.66,UPI,Electronics,45.3,0.21,False
+tx_syn_100688,usr_7401,1636.58,UPI,Electronics,30.2,0.07,False
+tx_syn_100689,usr_5592,1639.48,Credit Card,Electronics,,0.27,False
+tx_syn_100690,usr_1895,2203.23,UPI,Electronics,26.0,0.33,False
+tx_syn_100691,usr_7303,4826.84,UPI,Electronics,35.8,0.2,False
+tx_syn_100692,usr_4546,2796.68,Debit Card,Digital Goods,,0.24,False
+tx_syn_100693,usr_1851,153.99,Cash,Apparel,29.6,0.12,False
+tx_syn_100694,usr_2687,3497.85,Debit Card,Apparel,34.8,0.13,False
+tx_syn_100695,usr_2931,510.06,Cash,Apparel,27.7,0.26,False
+tx_syn_100696,usr_7833,901.53,Credit Card,Electronics,37.0,0.32,False
+tx_syn_100697,usr_4746,1164.92,UPI,Electronics,40.4,0.22,False
+tx_syn_100698,usr_3427,1230.21,Credit Card,Apparel,38.1,0.28,False
+tx_syn_100699,usr_2568,1078.25,Credit Card,Apparel,21.0,0.06,False
+tx_syn_100700,usr_5000,5036.44,UPI,Electronics,34.9,0.07,False
+tx_syn_100701,usr_6052,2253.63,UPI,Home & Kitchen,35.5,0.19,False
+tx_syn_100702,usr_3738,1845.36,Credit Card,Apparel,31.0,0.06,False
+tx_syn_100703,usr_4498,142.03,UPI,Electronics,36.9,0.22,False
+tx_syn_100704,usr_6732,4266.51,Credit Card,Electronics,36.6,0.1,False
+tx_syn_100705,usr_6387,4372.15,UPI,Apparel,33.4,0.28,False
+tx_syn_100706,usr_8744,2777.17,Credit Card,Home & Kitchen,25.7,0.28,False
+tx_syn_100707,usr_6536,62.7,Credit Card,Electronics,34.0,0.16,False
+tx_syn_100708,usr_6287,156.18,UPI,Electronics,50.1,0.06,False
+tx_syn_100709,usr_4913,509.33,UPI,Apparel,30.9,0.23,False
+tx_syn_100710,usr_2066,303.47,Credit Card,Electronics,43.1,0.35,False
+tx_syn_100711,usr_8723,966.0,Debit Card,Home & Kitchen,34.5,0.22,False
+tx_syn_100712,usr_5380,4656.32,Debit Card,Apparel,27.4,0.01,True
+tx_syn_100713,usr_3444,1199.79,Credit Card,Electronics,,0.01,False
+tx_syn_100714,usr_5107,74.29,Debit Card,Electronics,34.1,0.11,False
+tx_syn_100715,usr_6726,648.18,UPI,Apparel,39.8,0.07,False
+tx_syn_100716,usr_4373,132.12,UPI,Electronics,54.4,0.28,False
+tx_syn_100717,usr_4969,116.53,UPI,Electronics,34.7,0.3,False
+tx_syn_100718,usr_8420,630.64,Credit Card,Home & Kitchen,,0.09,False
+tx_syn_100719,usr_3546,630.37,UPI,Electronics,20.1,0.11,False
+tx_syn_100720,usr_1753,2834.7,UPI,Apparel,30.6,0.08,False
+tx_syn_100721,usr_3082,6678.12,Credit Card,Electronics,24.6,0.32,False
+tx_syn_100722,usr_3774,885.12,Credit Card,Apparel,38.9,0.18,False
+tx_syn_100723,usr_3896,1058.3,UPI,Electronics,39.0,0.23,False
+tx_syn_100724,usr_5185,3403.35,UPI,Digital Goods,33.0,0.15,False
+tx_syn_100725,usr_1775,611.9,Credit Card,Home & Kitchen,39.8,0.22,False
+tx_syn_100726,usr_7748,356.1,Credit Card,Electronics,34.8,0.14,False
+tx_syn_100727,usr_8113,3502.28,Credit Card,Apparel,50.1,0.12,False
+tx_syn_100728,usr_2625,135.71,UPI,Apparel,39.5,0.22,False
+tx_syn_100729,usr_4069,1790.23,Credit Card,Apparel,41.8,0.21,False
+tx_syn_100730,usr_1417,8447.65,Debit Card,Home & Kitchen,21.9,0.1,True
+tx_syn_100731,usr_1114,814.15,UPI,Apparel,,0.05,False
+tx_syn_100732,usr_1616,731.5,Cash,Electronics,38.3,0.13,False
+tx_syn_100733,usr_4974,2710.01,UPI,Home & Kitchen,21.0,0.15,False
+tx_syn_100734,usr_4267,212.7,UPI,Electronics,28.9,0.22,False
+tx_syn_100735,usr_1825,536.39,Credit Card,Home & Kitchen,44.2,0.32,False
+tx_syn_100736,usr_8668,2423.2,UPI,Home & Kitchen,28.7,0.01,False
+tx_syn_100737,usr_6745,1480.61,UPI,Electronics,23.9,0.09,False
+tx_syn_100738,usr_2516,296.51,Credit Card,Electronics,39.9,0.07,False
+tx_syn_100739,usr_4146,3898.8,Debit Card,Home & Kitchen,51.8,0.18,False
+tx_syn_100740,usr_1412,949.94,Cash,Home & Kitchen,27.3,0.15,False
+tx_syn_100741,usr_8543,3217.09,Credit Card,Apparel,44.6,0.26,False
+tx_syn_100742,usr_8587,2839.67,UPI,Electronics,26.3,0.08,False
+tx_syn_100743,usr_1728,1812.74,Credit Card,Apparel,33.2,0.21,False
+tx_syn_100744,usr_4348,1277.91,Credit Card,Electronics,33.6,0.31,False
+tx_syn_100745,usr_8164,7051.66,Debit Card,Electronics,27.6,0.32,False
+tx_syn_100746,usr_3808,331.9,Debit Card,Electronics,41.6,0.34,False
+tx_syn_100747,usr_1675,2374.79,Debit Card,Electronics,21.1,0.27,False
+tx_syn_100748,usr_4465,431.95,Credit Card,Apparel,,0.32,False
+tx_syn_100749,usr_6988,793.2,Credit Card,Digital Goods,43.3,0.08,False
+tx_syn_100750,usr_3504,714.52,UPI,Home & Kitchen,40.9,0.07,False
+tx_syn_100751,usr_3967,5338.66,Cash,Electronics,38.4,0.0,False
+tx_syn_100752,usr_7335,6209.78,UPI,Apparel,47.7,0.25,False
+tx_syn_100753,usr_3786,413.84,UPI,Apparel,32.3,0.33,False
+tx_syn_100754,usr_8856,90.11,UPI,Electronics,21.2,0.07,False
+tx_syn_100755,usr_2122,2341.39,Debit Card,Digital Goods,35.3,0.22,False
+tx_syn_100756,usr_5079,1024.28,Credit Card,Apparel,33.1,0.26,False
+tx_syn_100757,usr_2571,217.47,Credit Card,Digital Goods,18.0,0.32,False
+tx_syn_100758,usr_6073,2122.22,Cash,Apparel,24.6,0.23,False
+tx_syn_100759,usr_6104,1467.84,Cash,Apparel,23.6,0.34,False
+tx_syn_100760,usr_3143,7138.77,UPI,Electronics,27.3,0.12,False
+tx_syn_100761,usr_2687,514.41,UPI,Apparel,31.2,0.12,False
+tx_syn_100762,usr_7806,981.46,Debit Card,Electronics,31.5,0.19,False
+tx_syn_100763,usr_8357,1457.74,Cash,Home & Kitchen,27.6,0.13,False
+tx_syn_100764,usr_8903,2873.8,Credit Card,Home & Kitchen,23.5,0.0,False
+tx_syn_100765,usr_5132,1482.67,Credit Card,Home & Kitchen,37.4,0.26,False
+tx_syn_100766,usr_4851,1758.33,UPI,Home & Kitchen,35.2,0.26,False
+tx_syn_100767,usr_4440,511.47,Debit Card,Home & Kitchen,35.4,0.26,False
+tx_syn_100768,usr_4766,3428.22,Credit Card,Electronics,49.3,0.12,False
+tx_syn_100769,usr_6644,1057.49,Credit Card,Apparel,35.6,0.18,False
+tx_syn_100770,usr_3326,323.49,UPI,Home & Kitchen,31.1,0.13,False
+tx_syn_100771,usr_7360,2014.17,Cash,Apparel,33.3,0.01,False
+tx_syn_100772,usr_3914,488.23,Credit Card,Home & Kitchen,35.0,0.2,True
+tx_syn_100773,usr_5968,234.78,UPI,Electronics,39.4,0.04,False
+tx_syn_100774,usr_6917,3614.73,Credit Card,Electronics,33.8,0.03,False
+tx_syn_100775,usr_6392,1159.68,Credit Card,Digital Goods,18.0,0.26,False
+tx_syn_100776,usr_4952,2540.18,Credit Card,Apparel,30.5,0.0,False
+tx_syn_100777,usr_7205,667.97,Debit Card,Electronics,34.2,0.34,False
+tx_syn_100778,usr_1595,2833.38,Credit Card,Home & Kitchen,45.3,0.18,False
+tx_syn_100779,usr_6999,263.68,Cash,Digital Goods,27.5,0.34,False
+tx_syn_100780,usr_1728,842.03,UPI,Electronics,20.3,0.02,False
+tx_syn_100781,usr_2365,6925.15,UPI,Home & Kitchen,34.7,0.2,False
+tx_syn_100782,usr_5492,2893.69,UPI,Digital Goods,41.6,0.12,False
+tx_syn_100783,usr_1698,1287.81,Credit Card,Digital Goods,30.9,0.3,False
+tx_syn_100784,usr_8186,797.32,Credit Card,Digital Goods,54.5,0.13,False
+tx_syn_100785,usr_7320,3752.21,Debit Card,Apparel,52.5,0.09,False
+tx_syn_100786,usr_6731,1466.82,Debit Card,Apparel,33.6,0.3,False
+tx_syn_100787,usr_1395,2607.04,Credit Card,Electronics,35.8,0.13,False
+tx_syn_100788,usr_7588,2575.15,Cash,Electronics,45.8,0.01,False
+tx_syn_100789,usr_8400,82.6,UPI,Apparel,33.4,0.14,False
+tx_syn_100790,usr_5171,292.94,Debit Card,Apparel,27.4,0.23,False
+tx_syn_100791,usr_5360,1989.9,Credit Card,Electronics,41.8,0.09,False
+tx_syn_100792,usr_3502,367.31,Credit Card,Apparel,38.1,0.15,False
+tx_syn_100793,usr_2819,581.06,Debit Card,Electronics,27.3,0.02,False
+tx_syn_100794,usr_1717,5325.18,Credit Card,Home & Kitchen,,0.21,False
+tx_syn_100795,usr_3782,1528.51,UPI,Electronics,32.8,0.26,False
+tx_syn_100796,usr_8551,2550.59,Credit Card,Apparel,30.9,0.14,False
+tx_syn_100797,usr_8731,1519.52,Credit Card,Apparel,27.5,0.15,False
+tx_syn_100798,usr_5946,1497.4,Debit Card,Electronics,35.2,0.03,False
+tx_syn_100799,usr_4577,227.99,Credit Card,Digital Goods,31.9,0.07,False
+tx_syn_100800,usr_6486,807.95,Cash,Apparel,36.6,0.05,False
+tx_syn_100801,usr_1143,647.39,Credit Card,Electronics,41.2,0.17,True
+tx_syn_100802,usr_5980,941.88,Credit Card,Electronics,36.2,0.19,False
+tx_syn_100803,usr_4140,2932.15,Debit Card,Electronics,36.3,0.33,False
+tx_syn_100804,usr_8266,887.19,Credit Card,Electronics,29.6,0.03,False
+tx_syn_100805,usr_5491,1131.67,Cash,Apparel,44.2,0.21,False
+tx_syn_100806,usr_8192,961.65,Credit Card,Apparel,27.0,0.18,False
+tx_syn_100807,usr_8091,226.51,Credit Card,Digital Goods,20.5,0.18,False
+tx_syn_100808,usr_3938,1097.12,UPI,Home & Kitchen,25.1,0.31,False
+tx_syn_100809,usr_6588,441.81,Credit Card,Electronics,43.0,0.07,False
+tx_syn_100810,usr_8651,422.03,UPI,Electronics,38.1,0.01,False
+tx_syn_100811,usr_4636,227.76,Debit Card,Apparel,45.4,0.24,False
+tx_syn_100812,usr_4222,843.98,UPI,Electronics,23.0,0.12,False
+tx_syn_100813,usr_2167,2600.02,UPI,Electronics,53.9,0.01,False
+tx_syn_100814,usr_3616,3478.38,UPI,Home & Kitchen,31.8,0.09,False
+tx_syn_100815,usr_2062,724.05,UPI,Electronics,19.2,0.11,False
+tx_syn_100816,usr_3156,1902.4,UPI,Home & Kitchen,52.9,0.22,False
+tx_syn_100817,usr_8860,442.32,Debit Card,Electronics,23.1,0.06,False
+tx_syn_100818,usr_6161,4140.71,Debit Card,Digital Goods,30.8,0.14,False
+tx_syn_100819,usr_6305,1371.86,Debit Card,Apparel,32.5,0.17,False
+tx_syn_100820,usr_3982,1118.28,Debit Card,Home & Kitchen,38.0,0.16,False
+tx_syn_100821,usr_7541,1518.87,UPI,Electronics,27.5,0.34,False
+tx_syn_100822,usr_4294,376.81,Debit Card,Digital Goods,43.0,0.02,False
+tx_syn_100823,usr_5729,1761.0,UPI,Home & Kitchen,40.6,0.33,False
+tx_syn_100824,usr_2156,862.06,UPI,Home & Kitchen,34.4,0.2,False
+tx_syn_100825,usr_8330,4144.71,Credit Card,Apparel,45.5,0.28,False
+tx_syn_100826,usr_6334,382.91,UPI,Home & Kitchen,33.6,0.15,False
+tx_syn_100827,usr_1732,1323.23,Debit Card,Electronics,31.9,0.16,False
+tx_syn_100828,usr_5330,1690.85,UPI,Apparel,51.2,0.31,False
+tx_syn_100829,usr_7801,111.12,Debit Card,Home & Kitchen,36.7,0.31,False
+tx_syn_100830,usr_5846,863.73,Credit Card,Apparel,25.8,0.08,False
+tx_syn_100831,usr_7731,2424.45,UPI,Electronics,27.0,0.07,False
+tx_syn_100832,usr_8176,3140.42,Debit Card,Apparel,34.4,0.17,False
+tx_syn_100833,usr_8241,726.18,UPI,Home & Kitchen,,0.32,False
+tx_syn_100834,usr_1953,2934.37,Credit Card,Electronics,28.8,0.11,False
+tx_syn_100835,usr_3539,6231.96,UPI,Electronics,33.3,0.23,False
+tx_syn_100836,usr_8056,3549.25,Credit Card,Electronics,32.8,0.25,True
+tx_syn_100837,usr_4324,275.29,Credit Card,Home & Kitchen,23.5,0.27,False
+tx_syn_100838,usr_4301,2472.87,UPI,Electronics,30.4,0.2,False
+tx_syn_100839,usr_2542,743.31,Cash,Home & Kitchen,44.2,0.14,False
+tx_syn_100840,usr_6293,8074.63,Debit Card,Apparel,42.5,0.34,False
+tx_syn_100841,usr_6772,1245.71,Credit Card,Home & Kitchen,35.0,0.21,False
+tx_syn_100842,usr_2191,285.09,Debit Card,Digital Goods,33.6,0.25,False
+tx_syn_100843,usr_7313,2374.99,UPI,Electronics,32.8,0.12,True
+tx_syn_100844,usr_6512,752.18,Credit Card,Electronics,36.2,0.23,False
+tx_syn_100845,usr_3993,10553.97,UPI,Home & Kitchen,35.1,0.09,False
+tx_syn_100846,usr_7938,7072.17,UPI,Electronics,37.0,0.09,False
+tx_syn_100847,usr_3681,1971.51,Cash,Electronics,38.5,0.25,False
+tx_syn_100848,usr_2217,300.31,Credit Card,Home & Kitchen,23.9,0.18,False
+tx_syn_100849,usr_2540,2139.99,Credit Card,Digital Goods,31.6,0.24,False
+tx_syn_100850,usr_7172,225.76,UPI,Apparel,35.9,0.09,False
+tx_syn_100851,usr_4236,103.65,Credit Card,Electronics,26.0,0.21,False
+tx_syn_100852,usr_6541,3166.47,UPI,Apparel,28.5,0.16,False
+tx_syn_100853,usr_3386,473.74,UPI,Electronics,32.3,0.21,False
+tx_syn_100854,usr_4719,907.64,UPI,Home & Kitchen,32.8,0.1,False
+tx_syn_100855,usr_6615,6582.21,Credit Card,Home & Kitchen,36.0,0.25,False
+tx_syn_100856,usr_2388,789.33,Credit Card,Digital Goods,27.0,0.28,False
+tx_syn_100857,usr_2856,683.01,UPI,Electronics,42.4,0.09,False
+tx_syn_100858,usr_2365,4556.44,Debit Card,Apparel,32.7,0.11,False
+tx_syn_100859,usr_1499,261.28,UPI,Electronics,35.4,0.23,False
+tx_syn_100860,usr_2680,2615.68,Credit Card,Electronics,,0.24,False
+tx_syn_100861,usr_1510,8020.99,Cash,Home & Kitchen,36.2,0.25,False
+tx_syn_100862,usr_8494,4218.13,Credit Card,Electronics,48.4,0.24,False
+tx_syn_100863,usr_5312,1948.28,Debit Card,Apparel,31.0,0.14,False
+tx_syn_100864,usr_2324,728.54,Cash,Home & Kitchen,29.6,0.14,False
+tx_syn_100865,usr_2155,578.23,Credit Card,Digital Goods,27.1,0.09,False
+tx_syn_100866,usr_2827,3129.2,Credit Card,Home & Kitchen,33.7,0.05,False
+tx_syn_100867,usr_4141,3863.81,Debit Card,Home & Kitchen,33.6,0.24,False
+tx_syn_100868,usr_8419,1391.64,UPI,Apparel,34.6,0.03,False
+tx_syn_100869,usr_4486,554.29,UPI,Electronics,38.2,0.33,True
+tx_syn_100870,usr_2810,265.72,Cash,Apparel,37.1,0.29,False
+tx_syn_100871,usr_7588,214.19,Debit Card,Apparel,34.0,0.3,False
+tx_syn_100872,usr_3923,2335.42,UPI,Home & Kitchen,50.8,0.32,False
+tx_syn_100873,usr_6301,1030.88,Credit Card,Apparel,40.1,0.14,False
+tx_syn_100874,usr_3214,4293.81,Debit Card,Apparel,24.9,0.3,False
+tx_syn_100875,usr_5186,2472.46,Credit Card,Electronics,21.1,0.06,False
+tx_syn_100876,usr_1713,432.1,Credit Card,Electronics,28.3,0.01,False
+tx_syn_100877,usr_6977,1762.41,Debit Card,Home & Kitchen,35.5,0.27,False
+tx_syn_100878,usr_4602,1079.28,Credit Card,Apparel,27.6,0.03,False
+tx_syn_100879,usr_5134,1599.75,Credit Card,Home & Kitchen,28.9,0.35,False
+tx_syn_100880,usr_8293,2461.41,Debit Card,Apparel,34.4,0.24,False
+tx_syn_100881,usr_4522,3003.63,Debit Card,Electronics,31.3,0.26,False
+tx_syn_100882,usr_5268,3391.19,Credit Card,Home & Kitchen,18.0,0.09,False
+tx_syn_100883,usr_5748,577.39,UPI,Home & Kitchen,43.4,0.24,False
+tx_syn_100884,usr_5849,106.9,UPI,Apparel,41.4,0.02,False
+tx_syn_100885,usr_2243,2469.86,Cash,Apparel,23.3,0.29,False
+tx_syn_100886,usr_4709,252.38,UPI,Apparel,34.7,0.06,False
+tx_syn_100887,usr_2081,730.79,UPI,Home & Kitchen,24.7,0.24,False
+tx_syn_100888,usr_6779,56.88,Credit Card,Home & Kitchen,29.0,0.08,False
+tx_syn_100889,usr_7619,2110.4,Debit Card,Home & Kitchen,38.3,0.02,False
+tx_syn_100890,usr_1455,379.18,UPI,Apparel,41.1,0.17,False
+tx_syn_100891,usr_5924,1967.05,UPI,Apparel,40.9,0.06,False
+tx_syn_100892,usr_1894,8683.97,UPI,Apparel,36.3,0.26,False
+tx_syn_100893,usr_2384,185.8,Credit Card,Home & Kitchen,45.0,0.08,False
+tx_syn_100894,usr_2958,194.38,UPI,Apparel,29.0,0.12,False
+tx_syn_100895,usr_4072,798.96,UPI,Apparel,30.9,0.2,False
+tx_syn_100896,usr_7530,3673.05,Credit Card,Electronics,18.0,0.1,False
+tx_syn_100897,usr_2996,486.94,Debit Card,Digital Goods,33.4,0.13,False
+tx_syn_100898,usr_7491,854.38,UPI,Home & Kitchen,39.1,0.29,False
+tx_syn_100899,usr_5285,177.74,UPI,Apparel,36.6,0.06,False
+tx_syn_100900,usr_1504,2642.63,Credit Card,Apparel,28.9,0.03,False
+tx_syn_100901,usr_2214,994.58,Cash,Electronics,,0.11,False
+tx_syn_100902,usr_2531,2613.18,Credit Card,Electronics,33.6,0.15,False
+tx_syn_100903,usr_4440,4260.79,Cash,Electronics,40.7,0.19,False
+tx_syn_100904,usr_8576,526.93,Debit Card,Home & Kitchen,38.3,0.13,False
+tx_syn_100905,usr_1823,3014.81,UPI,Digital Goods,46.3,0.28,False
+tx_syn_100906,usr_1928,159.64,Credit Card,Apparel,37.1,0.01,False
+tx_syn_100907,usr_6029,4174.02,UPI,Apparel,39.4,0.15,False
+tx_syn_100908,usr_6236,1943.64,Credit Card,Apparel,33.5,0.13,False
+tx_syn_100909,usr_1133,3781.89,UPI,Electronics,29.9,0.23,False
+tx_syn_100910,usr_3105,50.34,UPI,Electronics,38.4,0.34,False
+tx_syn_100911,usr_4627,383.4,Cash,Home & Kitchen,47.0,0.18,False
+tx_syn_100912,usr_5780,939.02,UPI,Digital Goods,29.0,0.35,False
+tx_syn_100913,usr_7815,909.02,Debit Card,Apparel,32.1,0.11,False
+tx_syn_100914,usr_7316,512.83,UPI,Home & Kitchen,34.4,0.01,False
+tx_syn_100915,usr_2852,915.15,UPI,Digital Goods,40.0,0.06,False
+tx_syn_100916,usr_5910,298.29,Debit Card,Electronics,37.1,0.14,False
+tx_syn_100917,usr_6268,5545.0,Credit Card,Home & Kitchen,42.0,0.11,False
+tx_syn_100918,usr_5175,2968.3,Debit Card,Apparel,51.0,0.03,False
+tx_syn_100919,usr_3933,1223.85,UPI,Apparel,28.8,0.15,False
+tx_syn_100920,usr_4284,82.7,Credit Card,Electronics,39.4,0.12,False
+tx_syn_100921,usr_5298,1035.0,Debit Card,Home & Kitchen,36.9,0.04,False
+tx_syn_100922,usr_3811,99.59,Credit Card,Home & Kitchen,34.4,0.1,False
+tx_syn_100923,usr_6348,6149.44,Credit Card,Electronics,39.4,0.31,False
+tx_syn_100924,usr_6795,295.41,Cash,Apparel,31.9,0.11,False
+tx_syn_100925,usr_2250,2263.88,Credit Card,Electronics,36.9,0.25,False
+tx_syn_100926,usr_6778,6536.6,Cash,Digital Goods,23.1,0.21,False
+tx_syn_100927,usr_6651,3198.06,Debit Card,Apparel,29.6,0.15,False
+tx_syn_100928,usr_4512,12171.76,Debit Card,Home & Kitchen,43.1,0.08,False
+tx_syn_100929,usr_8569,3342.59,UPI,Apparel,42.8,0.13,False
+tx_syn_100930,usr_7190,7261.27,UPI,Electronics,36.4,0.21,False
+tx_syn_100931,usr_2256,1798.03,Debit Card,Electronics,30.3,0.12,False
+tx_syn_100932,usr_4376,1524.43,UPI,Electronics,41.2,0.08,False
+tx_syn_100933,usr_6645,1831.1,UPI,Electronics,44.7,0.04,False
+tx_syn_100934,usr_6262,1419.32,UPI,Apparel,30.7,0.31,False
+tx_syn_100935,usr_4486,1864.58,UPI,Electronics,21.8,0.15,False
+tx_syn_100936,usr_4584,1125.59,Cash,Apparel,38.0,0.22,False
+tx_syn_100937,usr_2396,493.64,Debit Card,Apparel,42.0,0.17,False
+tx_syn_100938,usr_4637,280.61,Credit Card,Apparel,39.2,0.31,False
+tx_syn_100939,usr_4330,177.42,UPI,Home & Kitchen,47.5,0.19,False
+tx_syn_100940,usr_3703,600.07,Debit Card,Apparel,47.5,0.17,False
+tx_syn_100941,usr_1470,135.0,Credit Card,Digital Goods,31.6,0.32,False
+tx_syn_100942,usr_8114,1557.34,Cash,Electronics,35.9,0.25,False
+tx_syn_100943,usr_6131,650.9,Credit Card,Apparel,30.0,0.04,False
+tx_syn_100944,usr_2353,3182.57,UPI,Apparel,25.5,0.06,False
+tx_syn_100945,usr_3783,188.85,Credit Card,Apparel,26.0,0.28,False
+tx_syn_100946,usr_3831,511.95,Cash,Home & Kitchen,40.3,0.29,False
+tx_syn_100947,usr_6063,2408.44,Credit Card,Apparel,36.8,0.19,False
+tx_syn_100948,usr_1357,1693.97,Credit Card,Apparel,41.8,0.19,False
+tx_syn_100949,usr_4019,170.0,UPI,Apparel,55.7,0.22,False
+tx_syn_100950,usr_8575,3825.54,Debit Card,Digital Goods,38.4,0.15,False
+tx_syn_100951,usr_1667,3825.86,Debit Card,Digital Goods,27.5,0.24,False
+tx_syn_100952,usr_5468,771.96,UPI,Electronics,43.0,0.04,False
+tx_syn_100953,usr_6127,799.03,Credit Card,Electronics,27.3,0.34,False
+tx_syn_100954,usr_2145,8172.39,UPI,Home & Kitchen,49.1,0.26,False
+tx_syn_100955,usr_6467,1821.15,UPI,Digital Goods,18.0,0.22,False
+tx_syn_100956,usr_7819,1414.09,UPI,Electronics,29.6,0.11,False
+tx_syn_100957,usr_5185,3327.98,UPI,Apparel,39.5,0.06,False
+tx_syn_100958,usr_4719,654.58,Credit Card,Digital Goods,44.2,0.14,False
+tx_syn_100959,usr_3745,1059.23,UPI,Home & Kitchen,28.4,0.23,False
+tx_syn_100960,usr_8483,611.01,UPI,Electronics,26.9,0.22,False
+tx_syn_100961,usr_8345,2851.99,Debit Card,Apparel,35.5,0.13,False
+tx_syn_100962,usr_1539,1583.22,Credit Card,Digital Goods,50.4,0.21,False
+tx_syn_100963,usr_3779,1985.65,Credit Card,Home & Kitchen,21.1,0.28,False
+tx_syn_100964,usr_5964,573.37,UPI,Home & Kitchen,31.5,0.01,False
+tx_syn_100965,usr_5136,497.75,Credit Card,Home & Kitchen,36.4,0.16,False
+tx_syn_100966,usr_5835,1256.29,UPI,Electronics,27.4,0.27,False
+tx_syn_100967,usr_4775,2457.96,Debit Card,Home & Kitchen,27.4,0.19,False
+tx_syn_100968,usr_7042,1390.9,UPI,Electronics,32.2,0.23,False
+tx_syn_100969,usr_7645,109.74,Credit Card,Digital Goods,,0.18,False
+tx_syn_100970,usr_8102,3702.45,UPI,Apparel,32.5,0.35,False
+tx_syn_100971,usr_8312,170.37,Debit Card,Digital Goods,46.7,0.02,False
+tx_syn_100972,usr_6320,5665.25,Credit Card,Electronics,39.2,0.17,False
+tx_syn_100973,usr_6024,95.83,Credit Card,Apparel,37.5,0.03,False
+tx_syn_100974,usr_7132,2184.16,UPI,Electronics,,0.06,False
+tx_syn_100975,usr_8891,204.41,Credit Card,Home & Kitchen,37.6,0.13,False
+tx_syn_100976,usr_3508,4397.88,Cash,Home & Kitchen,30.4,0.05,False
+tx_syn_100977,usr_3779,1173.97,Debit Card,Home & Kitchen,32.0,0.34,False
+tx_syn_100978,usr_7895,316.31,UPI,Apparel,24.6,0.33,False
+tx_syn_100979,usr_1924,800.15,UPI,Electronics,51.2,0.12,True
+tx_syn_100980,usr_3956,374.2,Cash,Digital Goods,42.1,0.22,False
+tx_syn_100981,usr_2581,386.66,Credit Card,Home & Kitchen,18.0,0.19,False
+tx_syn_100982,usr_8714,5375.47,Credit Card,Home & Kitchen,45.5,0.29,False
+tx_syn_100983,usr_4324,1110.62,Cash,Home & Kitchen,21.7,0.22,False
+tx_syn_100984,usr_5485,2848.93,Debit Card,Home & Kitchen,38.6,0.0,False
+tx_syn_100985,usr_6713,1887.0,Credit Card,Apparel,18.0,0.27,False
+tx_syn_100986,usr_8026,2080.99,Credit Card,Home & Kitchen,30.6,0.26,False
+tx_syn_100987,usr_1255,304.18,UPI,Apparel,45.6,0.18,False
+tx_syn_100988,usr_5804,530.27,Debit Card,Digital Goods,46.1,0.32,False
+tx_syn_100989,usr_2838,2831.52,UPI,Home & Kitchen,36.8,0.32,False
+tx_syn_100990,usr_2944,6408.37,UPI,Electronics,40.9,0.18,False
+tx_syn_100991,usr_7593,598.51,UPI,Apparel,22.2,0.21,False
+tx_syn_100992,usr_1009,620.35,UPI,Electronics,38.8,0.35,False
+tx_syn_100993,usr_3871,1202.65,Credit Card,Electronics,41.4,0.1,False
+tx_syn_100994,usr_1797,7475.42,Credit Card,Apparel,56.0,0.11,False
+tx_syn_100995,usr_8409,613.91,Credit Card,Digital Goods,28.9,0.06,False
+tx_syn_100996,usr_8418,990.52,UPI,Electronics,,0.31,False
+tx_syn_100997,usr_5972,4047.48,Cash,Apparel,34.9,0.26,False
+tx_syn_100998,usr_6124,55.27,UPI,Digital Goods,40.1,0.04,False
+tx_syn_100999,usr_8286,123.04,Debit Card,Home & Kitchen,41.7,0.34,False
+tx_syn_101000,usr_2015,1717.74,Cash,Apparel,43.2,0.26,False
+tx_syn_101001,usr_2824,4332.65,Credit Card,Home & Kitchen,42.6,0.3,False
+tx_syn_101002,usr_5469,541.28,Credit Card,Apparel,21.6,0.02,False
+tx_syn_101003,usr_4136,1191.56,Cash,Electronics,18.0,0.18,False
+tx_syn_101004,usr_3193,1127.63,UPI,Electronics,29.8,0.24,False
+tx_syn_101005,usr_1223,1202.9,Credit Card,Electronics,33.9,0.19,False
+tx_syn_101006,usr_6358,1803.63,Credit Card,Apparel,29.0,0.23,False
+tx_syn_101007,usr_7320,1191.91,UPI,Digital Goods,30.3,0.29,False
+tx_syn_101008,usr_6898,1117.84,Debit Card,Home & Kitchen,31.3,0.13,False
+tx_syn_101009,usr_5948,1207.4,Cash,Apparel,39.1,0.3,False
+tx_syn_101010,usr_8449,1658.69,Debit Card,Apparel,25.4,0.06,False
+tx_syn_101011,usr_5158,1436.08,UPI,Electronics,33.5,0.09,False
+tx_syn_101012,usr_6336,3515.15,UPI,Home & Kitchen,33.6,0.02,False
+tx_syn_101013,usr_4925,141.37,Credit Card,Home & Kitchen,38.9,0.13,False
+tx_syn_101014,usr_7970,3274.99,UPI,Electronics,44.1,0.13,False
+tx_syn_101015,usr_7938,3393.35,Credit Card,Electronics,48.5,0.28,False
+tx_syn_101016,usr_5784,653.62,Credit Card,Apparel,27.9,0.23,False
+tx_syn_101017,usr_6580,1168.67,Credit Card,Apparel,18.0,0.15,False
+tx_syn_101018,usr_5000,1088.98,Credit Card,Apparel,32.1,0.23,False
+tx_syn_101019,usr_2633,493.79,Credit Card,Apparel,20.7,0.02,False
+tx_syn_101020,usr_3152,959.9,UPI,Apparel,57.4,0.06,False
+tx_syn_101021,usr_8266,131.73,UPI,Electronics,26.8,0.22,False
+tx_syn_101022,usr_1510,635.87,Credit Card,Apparel,39.0,0.22,False
+tx_syn_101023,usr_1384,3103.76,Credit Card,Apparel,42.1,0.27,False
+tx_syn_101024,usr_1404,652.75,Debit Card,Digital Goods,,0.14,False
+tx_syn_101025,usr_7966,3118.79,Debit Card,Digital Goods,51.9,0.25,False
+tx_syn_101026,usr_5613,1415.18,Cash,Digital Goods,32.5,0.24,False
+tx_syn_101027,usr_5571,3864.42,UPI,Home & Kitchen,27.1,0.34,False
+tx_syn_101028,usr_3000,1589.27,UPI,Apparel,26.7,0.08,False
+tx_syn_101029,usr_3756,104.21,UPI,Home & Kitchen,,0.19,False
+tx_syn_101030,usr_2668,2075.4,Debit Card,Digital Goods,32.6,0.21,False
+tx_syn_101031,usr_6989,132.6,Credit Card,Electronics,26.7,0.35,False
+tx_syn_101032,usr_7914,1128.06,Debit Card,Apparel,,0.07,True
+tx_syn_101033,usr_2460,4821.99,Credit Card,Home & Kitchen,40.2,0.18,False
+tx_syn_101034,usr_8190,375.02,Cash,Home & Kitchen,36.5,0.12,False
+tx_syn_101035,usr_8140,939.36,Cash,Electronics,41.8,0.18,False
+tx_syn_101036,usr_4636,2405.87,UPI,Apparel,34.9,0.08,False
+tx_syn_101037,usr_3724,3900.68,Credit Card,Home & Kitchen,29.2,0.02,False
+tx_syn_101038,usr_5809,2050.74,Credit Card,Apparel,41.1,0.2,False
+tx_syn_101039,usr_8625,587.55,UPI,Home & Kitchen,26.6,0.12,False
+tx_syn_101040,usr_5178,2070.9,UPI,Apparel,24.6,0.06,False
+tx_syn_101041,usr_6264,683.62,Credit Card,Digital Goods,44.0,0.11,False
+tx_syn_101042,usr_8252,2331.27,UPI,Apparel,31.2,0.02,False
+tx_syn_101043,usr_8245,5593.7,Credit Card,Apparel,48.4,0.33,False
+tx_syn_101044,usr_7600,2350.32,Credit Card,Electronics,,0.2,False
+tx_syn_101045,usr_6997,3626.42,UPI,Electronics,30.6,0.29,False
+tx_syn_101046,usr_3048,53.79,Credit Card,Apparel,38.3,0.15,False
+tx_syn_101047,usr_5146,2325.8,UPI,Apparel,55.7,0.32,False
+tx_syn_101048,usr_5780,3235.16,Debit Card,Apparel,40.6,0.17,False
+tx_syn_101049,usr_1716,124.53,UPI,Electronics,39.1,0.2,False
+tx_syn_101050,usr_8939,3744.66,Debit Card,Home & Kitchen,,0.17,False
+tx_syn_101051,usr_6565,583.97,Credit Card,Home & Kitchen,49.9,0.26,False
+tx_syn_101052,usr_5544,2020.09,UPI,Electronics,45.4,0.2,True
+tx_syn_101053,usr_5976,2950.18,Credit Card,Apparel,29.2,0.1,False
+tx_syn_101054,usr_5583,2006.02,UPI,Home & Kitchen,50.2,0.05,False
+tx_syn_101055,usr_2823,224.28,Credit Card,Apparel,35.6,0.21,False
+tx_syn_101056,usr_3081,1682.85,Credit Card,Electronics,,0.17,False
+tx_syn_101057,usr_4419,1485.65,Credit Card,Home & Kitchen,29.1,0.03,False
+tx_syn_101058,usr_7238,4200.45,UPI,Electronics,41.7,0.14,False
+tx_syn_101059,usr_8239,982.25,UPI,Electronics,27.1,0.18,False
+tx_syn_101060,usr_2574,747.06,Debit Card,Electronics,24.8,0.29,False
+tx_syn_101061,usr_7297,2544.26,Credit Card,Apparel,30.5,0.03,False
+tx_syn_101062,usr_1249,1007.92,UPI,Electronics,31.7,0.12,False
+tx_syn_101063,usr_1673,1919.71,Debit Card,Digital Goods,28.5,0.29,False
+tx_syn_101064,usr_5533,1921.52,UPI,Electronics,30.3,0.23,False
+tx_syn_101065,usr_3165,3991.29,Debit Card,Electronics,42.0,0.1,False
+tx_syn_101066,usr_1770,1693.45,UPI,Apparel,36.4,0.3,False
+tx_syn_101067,usr_4962,1305.43,UPI,Electronics,29.8,0.17,False
+tx_syn_101068,usr_8473,319.12,Cash,Apparel,30.6,0.17,False
+tx_syn_101069,usr_5363,271.4,UPI,Electronics,33.1,0.34,False
+tx_syn_101070,usr_2984,351.71,Debit Card,Electronics,33.6,0.33,False
+tx_syn_101071,usr_2077,389.41,UPI,Electronics,33.6,0.13,False
+tx_syn_101072,usr_1235,1878.39,Credit Card,Apparel,41.7,0.05,False
+tx_syn_101073,usr_1388,2481.54,Debit Card,Electronics,35.9,0.11,False
+tx_syn_101074,usr_4037,1409.01,UPI,Home & Kitchen,36.1,0.01,False
+tx_syn_101075,usr_8901,3229.15,Debit Card,Apparel,46.3,0.01,False
+tx_syn_101076,usr_5858,8582.39,Credit Card,Apparel,,0.14,False
+tx_syn_101077,usr_2848,3136.76,Credit Card,Apparel,23.7,0.33,False
+tx_syn_101078,usr_7544,2186.7,Credit Card,Apparel,20.8,0.3,False
+tx_syn_101079,usr_5719,1418.61,Debit Card,Digital Goods,31.2,0.18,False
+tx_syn_101080,usr_3814,1122.36,UPI,Electronics,40.9,0.2,False
+tx_syn_101081,usr_4374,208.7,UPI,Electronics,37.4,0.0,False
+tx_syn_101082,usr_8062,967.59,Debit Card,Electronics,43.2,0.08,False
+tx_syn_101083,usr_4278,4387.0,Debit Card,Electronics,30.9,0.01,False
+tx_syn_101084,usr_2252,3020.68,UPI,Electronics,18.0,0.26,False
+tx_syn_101085,usr_7996,488.14,Credit Card,Home & Kitchen,22.6,0.05,False
+tx_syn_101086,usr_4981,1181.3,Credit Card,Apparel,39.0,0.3,False
+tx_syn_101087,usr_5673,3104.16,UPI,Digital Goods,43.2,0.23,False
+tx_syn_101088,usr_3122,175.57,UPI,Electronics,18.0,0.08,False
+tx_syn_101089,usr_5530,932.06,Credit Card,Electronics,46.2,0.06,False
+tx_syn_101090,usr_3150,3487.05,UPI,Digital Goods,38.1,0.22,False
+tx_syn_101091,usr_8589,981.22,Debit Card,Home & Kitchen,33.6,0.32,False
+tx_syn_101092,usr_8871,195.43,Debit Card,Apparel,28.9,0.25,False
+tx_syn_101093,usr_5859,1457.7,Credit Card,Apparel,47.7,0.12,False
+tx_syn_101094,usr_7881,3611.55,UPI,Home & Kitchen,41.8,0.21,False
+tx_syn_101095,usr_7949,1656.13,UPI,Apparel,38.4,0.11,False
+tx_syn_101096,usr_2329,511.78,Credit Card,Electronics,28.0,0.35,False
+tx_syn_101097,usr_7241,922.82,Debit Card,Home & Kitchen,47.9,0.26,False
+tx_syn_101098,usr_7941,1126.51,UPI,Apparel,34.5,0.22,False
+tx_syn_101099,usr_2358,1608.36,Credit Card,Electronics,36.7,0.15,False
+tx_syn_101100,usr_8002,2613.95,UPI,Apparel,34.8,0.22,False
+tx_syn_101101,usr_3482,237.4,UPI,Apparel,,0.12,False
+tx_syn_101102,usr_5542,4017.41,UPI,Digital Goods,36.9,0.01,False
+tx_syn_101103,usr_3017,72.29,UPI,Electronics,40.1,0.14,False
+tx_syn_101104,usr_2331,881.81,UPI,Digital Goods,30.4,0.33,False
+tx_syn_101105,usr_5344,100.05,UPI,Apparel,36.2,0.22,False
+tx_syn_101106,usr_5261,948.53,Debit Card,Apparel,34.7,0.03,False
+tx_syn_101107,usr_8648,1393.07,Debit Card,Electronics,42.0,0.31,True
+tx_syn_101108,usr_8127,1340.22,UPI,Home & Kitchen,31.7,0.09,False
+tx_syn_101109,usr_2358,375.94,UPI,Digital Goods,36.1,0.09,False
+tx_syn_101110,usr_6115,1917.91,UPI,Apparel,37.9,0.1,False
+tx_syn_101111,usr_5637,132.46,UPI,Electronics,,0.2,False
+tx_syn_101112,usr_5854,2633.17,Credit Card,Apparel,27.2,0.19,False
+tx_syn_101113,usr_4177,5325.4,Credit Card,Home & Kitchen,28.6,0.17,False
+tx_syn_101114,usr_8730,797.3,UPI,Electronics,,0.25,False
+tx_syn_101115,usr_3128,1360.82,UPI,Apparel,32.2,0.11,True
+tx_syn_101116,usr_3180,907.3,UPI,Apparel,32.1,0.27,False
+tx_syn_101117,usr_5892,62.12,UPI,Electronics,39.3,0.06,False
+tx_syn_101118,usr_8043,927.6,Credit Card,Apparel,42.9,0.27,False
+tx_syn_101119,usr_1137,2873.97,UPI,Electronics,44.3,0.23,False
+tx_syn_101120,usr_7327,1681.36,Credit Card,Home & Kitchen,29.0,0.24,False
+tx_syn_101121,usr_4472,242.17,Credit Card,Apparel,42.0,0.17,False
+tx_syn_101122,usr_6449,3430.81,Debit Card,Apparel,51.9,0.23,False
+tx_syn_101123,usr_3832,1413.2,Debit Card,Apparel,35.3,0.03,False
+tx_syn_101124,usr_4579,3368.14,Debit Card,Electronics,33.6,0.3,False
+tx_syn_101125,usr_6971,1612.45,UPI,Home & Kitchen,31.8,0.02,False
+tx_syn_101126,usr_4031,1526.49,Credit Card,Apparel,25.2,0.05,False
+tx_syn_101127,usr_5164,250.2,Debit Card,Apparel,41.4,0.2,False
+tx_syn_101128,usr_3593,379.68,UPI,Apparel,33.6,0.26,False
+tx_syn_101129,usr_8941,6487.62,Credit Card,Apparel,32.9,0.03,False
+tx_syn_101130,usr_7196,516.92,Debit Card,Electronics,40.0,0.32,False
+tx_syn_101131,usr_6569,6875.81,Credit Card,Electronics,40.8,0.34,True
+tx_syn_101132,usr_5300,1416.38,UPI,Electronics,29.1,0.21,False
+tx_syn_101133,usr_7269,312.69,UPI,Home & Kitchen,29.3,0.17,False
+tx_syn_101134,usr_4818,238.25,Credit Card,Electronics,28.9,0.26,False
+tx_syn_101135,usr_5138,471.71,UPI,Electronics,52.2,0.11,False
+tx_syn_101136,usr_4823,4727.84,Credit Card,Home & Kitchen,46.8,0.17,False
+tx_syn_101137,usr_5042,1012.45,Credit Card,Electronics,40.2,0.32,False
+tx_syn_101138,usr_2906,955.84,UPI,Apparel,31.0,0.33,False
+tx_syn_101139,usr_7254,726.3,Debit Card,Electronics,32.0,0.32,False
+tx_syn_101140,usr_1760,336.32,Credit Card,Electronics,37.3,0.09,False
+tx_syn_101141,usr_8830,1254.45,UPI,Apparel,53.0,0.08,False
+tx_syn_101142,usr_8350,300.77,Debit Card,Electronics,36.7,0.1,False
+tx_syn_101143,usr_7991,3298.5,Debit Card,Home & Kitchen,38.5,0.15,False
+tx_syn_101144,usr_7238,882.8,Credit Card,Apparel,18.0,0.11,False
+tx_syn_101145,usr_7090,895.44,Debit Card,Electronics,36.4,0.13,True
+tx_syn_101146,usr_4445,1206.44,Debit Card,Electronics,22.4,0.22,False
+tx_syn_101147,usr_7031,1106.99,Debit Card,Apparel,30.1,0.27,False
+tx_syn_101148,usr_8687,9536.55,Credit Card,Electronics,34.6,0.26,False
+tx_syn_101149,usr_1899,1468.93,Debit Card,Electronics,31.6,0.29,False
+tx_syn_101150,usr_5455,216.21,Cash,Apparel,28.8,0.01,False
+tx_syn_101151,usr_3947,1730.54,Debit Card,Home & Kitchen,28.9,0.02,False
+tx_syn_101152,usr_2719,345.89,UPI,Apparel,32.4,0.28,False
+tx_syn_101153,usr_1280,106.57,Credit Card,Home & Kitchen,,0.19,False
+tx_syn_101154,usr_4266,6406.89,Credit Card,Digital Goods,34.4,0.2,False
+tx_syn_101155,usr_2887,2723.33,UPI,Electronics,33.7,0.02,False
+tx_syn_101156,usr_4266,7101.48,Cash,Home & Kitchen,45.1,0.09,False
+tx_syn_101157,usr_1666,1219.74,UPI,Home & Kitchen,18.0,0.22,False
+tx_syn_101158,usr_5188,1417.71,UPI,Apparel,36.3,0.3,False
+tx_syn_101159,usr_1671,381.79,Cash,Digital Goods,34.8,0.32,False
+tx_syn_101160,usr_2969,560.42,Credit Card,Electronics,33.1,0.18,False
+tx_syn_101161,usr_5156,3332.4,UPI,Electronics,28.2,0.19,False
+tx_syn_101162,usr_7777,842.62,Credit Card,Home & Kitchen,32.9,0.29,False
+tx_syn_101163,usr_4122,3206.11,Credit Card,Apparel,20.3,0.19,False
+tx_syn_101164,usr_8570,2272.06,UPI,Electronics,36.0,0.18,False
+tx_syn_101165,usr_8956,401.01,Cash,Electronics,37.5,0.32,False
+tx_syn_101166,usr_6124,1324.67,Credit Card,Home & Kitchen,28.2,0.28,False
+tx_syn_101167,usr_6585,2086.35,Credit Card,Home & Kitchen,50.7,0.32,False
+tx_syn_101168,usr_5699,532.27,Credit Card,Apparel,33.2,0.08,True
+tx_syn_101169,usr_5777,3246.83,Credit Card,Digital Goods,34.6,0.18,True
+tx_syn_101170,usr_4900,1466.74,UPI,Electronics,45.6,0.29,False
+tx_syn_101171,usr_7677,375.1,UPI,Electronics,52.4,0.04,False
+tx_syn_101172,usr_6524,1624.34,Credit Card,Home & Kitchen,24.7,0.28,False
+tx_syn_101173,usr_7981,14735.9,Debit Card,Home & Kitchen,29.3,0.06,False
+tx_syn_101174,usr_8680,343.64,UPI,Electronics,33.3,0.28,False
+tx_syn_101175,usr_7788,3104.5,Credit Card,Electronics,27.9,0.21,False
+tx_syn_101176,usr_7376,468.18,Debit Card,Home & Kitchen,41.4,0.07,False
+tx_syn_101177,usr_1523,2795.08,UPI,Digital Goods,26.9,0.17,False
+tx_syn_101178,usr_3393,2437.58,UPI,Apparel,45.0,0.24,False
+tx_syn_101179,usr_4117,693.27,UPI,Electronics,39.5,0.22,False
+tx_syn_101180,usr_3593,759.67,Credit Card,Digital Goods,44.1,0.15,False
+tx_syn_101181,usr_2968,2880.91,UPI,Digital Goods,27.0,0.31,False
+tx_syn_101182,usr_6197,1163.96,Credit Card,Apparel,30.9,0.18,False
+tx_syn_101183,usr_2753,2412.26,Credit Card,Home & Kitchen,41.8,0.18,False
+tx_syn_101184,usr_6932,338.27,Credit Card,Home & Kitchen,40.3,0.02,False
+tx_syn_101185,usr_8240,3495.77,UPI,Digital Goods,31.8,0.32,True
+tx_syn_101186,usr_7937,2283.67,UPI,Home & Kitchen,33.0,0.06,False
+tx_syn_101187,usr_3296,4324.17,Debit Card,Apparel,30.5,0.18,False
+tx_syn_101188,usr_7190,305.59,Cash,Apparel,32.7,0.28,False
+tx_syn_101189,usr_6240,1668.16,Debit Card,Apparel,26.0,0.08,False
+tx_syn_101190,usr_3261,1695.37,Credit Card,Apparel,,0.18,False
+tx_syn_101191,usr_3286,835.02,UPI,Home & Kitchen,42.7,0.08,False
+tx_syn_101192,usr_6175,1154.03,UPI,Digital Goods,32.5,0.27,False
+tx_syn_101193,usr_7493,119.7,UPI,Apparel,44.0,0.2,False
+tx_syn_101194,usr_5202,2515.77,UPI,Apparel,39.3,0.3,False
+tx_syn_101195,usr_3878,1484.61,Credit Card,Apparel,36.9,0.31,True
+tx_syn_101196,usr_5143,157.06,UPI,Home & Kitchen,28.2,0.23,False
+tx_syn_101197,usr_4644,2105.24,UPI,Apparel,23.9,0.25,False
+tx_syn_101198,usr_5432,1181.89,Cash,Electronics,30.3,0.19,False
+tx_syn_101199,usr_6145,113.12,UPI,Apparel,47.2,0.13,False
+tx_syn_101200,usr_7947,6338.42,UPI,Electronics,41.8,0.23,False
+tx_syn_101201,usr_6376,5410.64,UPI,Electronics,29.5,0.32,False
+tx_syn_101202,usr_3055,1344.72,Credit Card,Home & Kitchen,30.4,0.15,False
+tx_syn_101203,usr_5720,227.04,Credit Card,Electronics,26.3,0.11,False
+tx_syn_101204,usr_6986,2578.91,UPI,Electronics,21.0,0.14,False
+tx_syn_101205,usr_2276,1268.85,Credit Card,Electronics,35.1,0.15,False
+tx_syn_101206,usr_6811,698.32,Debit Card,Electronics,48.9,0.03,False
+tx_syn_101207,usr_3766,1267.03,Debit Card,Home & Kitchen,49.0,0.17,False
+tx_syn_101208,usr_1302,1380.33,Cash,Apparel,39.4,0.17,False
+tx_syn_101209,usr_1638,1538.89,Debit Card,Digital Goods,29.1,0.21,False
+tx_syn_101210,usr_1055,1097.61,Credit Card,Apparel,21.9,0.13,False
+tx_syn_101211,usr_5821,1725.41,UPI,Electronics,43.1,0.21,False
+tx_syn_101212,usr_1525,4568.07,UPI,Electronics,38.0,0.31,False
+tx_syn_101213,usr_5569,859.71,UPI,Home & Kitchen,31.5,0.33,False
+tx_syn_101214,usr_5123,2378.47,Credit Card,Apparel,30.1,0.2,False
+tx_syn_101215,usr_3125,4097.47,Debit Card,Digital Goods,39.3,0.01,True
+tx_syn_101216,usr_4287,1145.78,Credit Card,Apparel,27.2,0.34,False
+tx_syn_101217,usr_8553,1104.82,UPI,Apparel,36.2,0.25,False
+tx_syn_101218,usr_1364,1708.88,Credit Card,Home & Kitchen,23.8,0.12,False
+tx_syn_101219,usr_7809,1661.06,Cash,Digital Goods,53.1,0.05,False
+tx_syn_101220,usr_5621,3007.29,Credit Card,Apparel,28.4,0.05,False
+tx_syn_101221,usr_7842,1214.94,Debit Card,Electronics,,0.06,False
+tx_syn_101222,usr_6431,10044.83,Debit Card,Apparel,24.0,0.02,False
+tx_syn_101223,usr_5978,160.36,Cash,Apparel,32.8,0.32,False
+tx_syn_101224,usr_6126,55.71,Debit Card,Digital Goods,41.7,0.19,False
+tx_syn_101225,usr_6122,1889.96,Debit Card,Apparel,,0.24,False
+tx_syn_101226,usr_2646,687.99,UPI,Electronics,40.7,0.29,True
+tx_syn_101227,usr_1918,544.89,UPI,Digital Goods,33.0,0.28,False
+tx_syn_101228,usr_3797,722.88,Credit Card,Home & Kitchen,28.5,0.31,False
+tx_syn_101229,usr_7506,582.4,UPI,Electronics,25.0,0.34,False
+tx_syn_101230,usr_6870,106.29,Cash,Digital Goods,47.0,0.15,False
+tx_syn_101231,usr_2531,6456.22,UPI,Electronics,35.1,0.33,False
+tx_syn_101232,usr_4345,498.95,Debit Card,Apparel,36.7,0.25,False
+tx_syn_101233,usr_8673,2433.87,UPI,Digital Goods,,0.02,False
+tx_syn_101234,usr_7949,2638.39,UPI,Apparel,39.2,0.24,False
+tx_syn_101235,usr_7882,4817.67,Cash,Electronics,33.1,0.24,False
+tx_syn_101236,usr_2906,105.85,UPI,Apparel,40.5,0.32,False
+tx_syn_101237,usr_4086,3750.98,UPI,Home & Kitchen,28.9,0.13,False
+tx_syn_101238,usr_6311,1398.45,UPI,Electronics,21.0,0.2,False
+tx_syn_101239,usr_6750,1852.07,Credit Card,Apparel,46.2,0.0,False
+tx_syn_101240,usr_5580,1911.46,UPI,Home & Kitchen,29.6,0.12,False
+tx_syn_101241,usr_3075,3134.62,Credit Card,Electronics,31.6,0.02,True
+tx_syn_101242,usr_1713,780.04,Credit Card,Home & Kitchen,32.4,0.18,True
+tx_syn_101243,usr_2062,2427.26,Debit Card,Digital Goods,,0.29,True
+tx_syn_101244,usr_2976,1403.6,Debit Card,Apparel,43.6,0.07,False
+tx_syn_101245,usr_2296,2888.5,Credit Card,Apparel,37.4,0.18,False
+tx_syn_101246,usr_6350,8440.38,UPI,Electronics,31.6,0.07,False
+tx_syn_101247,usr_7229,453.12,Debit Card,Apparel,23.4,0.04,False
+tx_syn_101248,usr_8641,9464.73,UPI,Digital Goods,36.8,0.18,False
+tx_syn_101249,usr_1125,219.39,Credit Card,Electronics,,0.03,False
+tx_syn_101250,usr_7955,54.18,UPI,Apparel,36.2,0.21,False
+tx_syn_101251,usr_5632,131.3,Debit Card,Apparel,,0.01,False
+tx_syn_101252,usr_7288,802.8,Credit Card,Apparel,34.7,0.04,False
+tx_syn_101253,usr_4596,1853.85,UPI,Electronics,44.5,0.19,False
+tx_syn_101254,usr_4283,178.75,Credit Card,Home & Kitchen,23.8,0.21,False
+tx_syn_101255,usr_7168,60.23,Credit Card,Electronics,51.5,0.01,False
+tx_syn_101256,usr_2603,5028.92,UPI,Home & Kitchen,43.5,0.2,False
+tx_syn_101257,usr_8561,3156.01,Credit Card,Apparel,38.2,0.29,False
+tx_syn_101258,usr_1066,3031.59,Debit Card,Apparel,29.1,0.25,False
+tx_syn_101259,usr_1232,3934.09,Cash,Electronics,27.7,0.05,False
+tx_syn_101260,usr_3156,2217.36,Credit Card,Home & Kitchen,33.6,0.21,False
+tx_syn_101261,usr_2169,248.48,UPI,Electronics,44.4,0.24,False
+tx_syn_101262,usr_3158,966.79,UPI,Electronics,23.0,0.01,False
+tx_syn_101263,usr_7371,2361.7,Debit Card,Apparel,34.3,0.3,False
+tx_syn_101264,usr_5206,642.14,Debit Card,Home & Kitchen,40.4,0.32,False
+tx_syn_101265,usr_2493,2143.13,UPI,Electronics,42.1,0.3,False
+tx_syn_101266,usr_7177,94.65,UPI,Electronics,40.4,0.29,False
+tx_syn_101267,usr_5718,707.87,Debit Card,Home & Kitchen,22.2,0.26,False
+tx_syn_101268,usr_8943,1483.84,UPI,Home & Kitchen,43.8,0.22,False
+tx_syn_101269,usr_5007,1849.85,UPI,Electronics,34.8,0.24,False
+tx_syn_101270,usr_8536,1598.86,UPI,Apparel,25.0,0.28,False
+tx_syn_101271,usr_7891,2203.74,UPI,Apparel,34.0,0.23,False
+tx_syn_101272,usr_7738,60.99,Credit Card,Apparel,18.0,0.11,False
+tx_syn_101273,usr_8721,241.53,Debit Card,Digital Goods,39.1,0.13,True
+tx_syn_101274,usr_3472,3707.84,UPI,Electronics,33.1,0.31,False
+tx_syn_101275,usr_3660,2110.84,UPI,Home & Kitchen,23.4,0.01,False
+tx_syn_101276,usr_6637,265.7,UPI,Apparel,31.7,0.24,False
+tx_syn_101277,usr_3739,3372.14,Credit Card,Apparel,28.2,0.33,False
+tx_syn_101278,usr_6401,549.28,UPI,Home & Kitchen,28.7,0.25,False
+tx_syn_101279,usr_8487,1221.05,Credit Card,Digital Goods,18.0,0.35,False
+tx_syn_101280,usr_2761,332.39,Credit Card,Electronics,20.0,0.24,False
+tx_syn_101281,usr_4514,2278.86,UPI,Electronics,32.2,0.01,False
+tx_syn_101282,usr_2975,2028.52,UPI,Electronics,30.8,0.29,False
+tx_syn_101283,usr_3362,476.84,UPI,Digital Goods,42.5,0.1,False
+tx_syn_101284,usr_1876,3633.27,Credit Card,Home & Kitchen,28.8,0.16,False
+tx_syn_101285,usr_7085,973.41,Debit Card,Apparel,29.7,0.11,False
+tx_syn_101286,usr_4812,672.87,UPI,Electronics,30.1,0.09,False
+tx_syn_101287,usr_4448,347.47,Cash,Digital Goods,32.5,0.15,False
+tx_syn_101288,usr_2312,607.06,UPI,Home & Kitchen,,0.13,False
+tx_syn_101289,usr_2460,90.09,Debit Card,Home & Kitchen,30.7,0.22,False
+tx_syn_101290,usr_3709,1625.52,Credit Card,Electronics,39.1,0.28,False
+tx_syn_101291,usr_3324,3373.92,Credit Card,Electronics,53.8,0.1,False
+tx_syn_101292,usr_2733,1483.24,Credit Card,Apparel,27.2,0.07,False
+tx_syn_101293,usr_2605,495.56,Credit Card,Home & Kitchen,37.5,0.23,False
+tx_syn_101294,usr_6622,111.65,Debit Card,Electronics,34.5,0.23,False
+tx_syn_101295,usr_7767,484.88,Debit Card,Apparel,43.1,0.32,False
+tx_syn_101296,usr_3563,1018.51,Credit Card,Electronics,35.9,0.01,False
+tx_syn_101297,usr_4421,2615.9,UPI,Home & Kitchen,28.0,0.3,False
+tx_syn_101298,usr_7986,424.51,UPI,Apparel,24.3,0.18,False
+tx_syn_101299,usr_4517,2340.0,Debit Card,Electronics,39.4,0.22,False
+tx_syn_101300,usr_8997,3680.43,Credit Card,Apparel,25.0,0.03,False
+tx_syn_101301,usr_3397,1139.07,Credit Card,Apparel,,0.15,False
+tx_syn_101302,usr_6726,3151.01,Credit Card,Electronics,38.9,0.08,False
+tx_syn_101303,usr_4735,1506.04,Debit Card,Home & Kitchen,34.9,0.09,False
+tx_syn_101304,usr_3870,1874.48,Credit Card,Electronics,23.0,0.18,False
+tx_syn_101305,usr_2160,1394.84,Debit Card,Electronics,39.9,0.28,False
+tx_syn_101306,usr_5854,1169.74,Debit Card,Electronics,47.9,0.26,False
+tx_syn_101307,usr_8042,531.37,UPI,Electronics,,0.21,False
+tx_syn_101308,usr_1242,700.25,UPI,Electronics,27.9,0.19,False
+tx_syn_101309,usr_3590,666.41,Debit Card,Electronics,33.4,0.15,False
+tx_syn_101310,usr_2063,1541.27,UPI,Apparel,38.2,0.34,False
+tx_syn_101311,usr_5324,280.01,Cash,Electronics,29.7,0.2,False
+tx_syn_101312,usr_3595,4525.53,UPI,Home & Kitchen,41.8,0.09,False
+tx_syn_101313,usr_1919,2345.55,UPI,Electronics,50.4,0.08,False
+tx_syn_101314,usr_6342,973.83,Cash,Electronics,37.0,0.21,False
+tx_syn_101315,usr_1005,360.89,Credit Card,Electronics,31.4,0.18,False
+tx_syn_101316,usr_8489,3896.61,UPI,Digital Goods,37.9,0.0,False
+tx_syn_101317,usr_1467,3174.82,Debit Card,Apparel,44.2,0.29,False
+tx_syn_101318,usr_6851,2352.44,Credit Card,Home & Kitchen,35.6,0.25,True
+tx_syn_101319,usr_5170,620.3,Credit Card,Electronics,38.3,0.23,False
+tx_syn_101320,usr_1003,976.84,UPI,Home & Kitchen,40.2,0.02,False
+tx_syn_101321,usr_6966,245.15,Debit Card,Electronics,26.8,0.13,False
+tx_syn_101322,usr_1645,427.16,Debit Card,Electronics,38.1,0.33,False
+tx_syn_101323,usr_1117,2800.28,UPI,Apparel,22.8,0.3,False
+tx_syn_101324,usr_3928,2309.72,Debit Card,Apparel,28.6,0.1,False
+tx_syn_101325,usr_6725,1670.25,Debit Card,Digital Goods,43.9,0.05,False
+tx_syn_101326,usr_3551,4119.33,Credit Card,Electronics,41.6,0.16,False
+tx_syn_101327,usr_7117,1625.56,Credit Card,Digital Goods,31.9,0.12,False
+tx_syn_101328,usr_6042,1182.51,UPI,Apparel,48.7,0.24,False
+tx_syn_101329,usr_7717,798.94,UPI,Apparel,23.1,0.34,False
+tx_syn_101330,usr_6560,5127.65,Debit Card,Electronics,32.5,0.13,False
+tx_syn_101331,usr_5289,205.41,Debit Card,Electronics,36.5,0.02,False
+tx_syn_101332,usr_1846,4859.63,Credit Card,Digital Goods,18.0,0.31,False
+tx_syn_101333,usr_3762,3205.07,Credit Card,Apparel,32.9,0.01,False
+tx_syn_101334,usr_6511,300.53,UPI,Home & Kitchen,24.6,0.33,False
+tx_syn_101335,usr_8193,1548.27,UPI,Digital Goods,24.8,0.23,False
+tx_syn_101336,usr_6554,3675.22,Credit Card,Electronics,31.9,0.33,False
+tx_syn_101337,usr_7316,1576.74,UPI,Apparel,18.7,0.07,False
+tx_syn_101338,usr_8467,4329.15,Credit Card,Home & Kitchen,27.3,0.01,False
+tx_syn_101339,usr_6764,5205.96,UPI,Electronics,18.9,0.17,False
+tx_syn_101340,usr_7469,1037.92,Debit Card,Electronics,35.3,0.16,False
+tx_syn_101341,usr_6529,902.68,UPI,Apparel,35.1,0.12,False
+tx_syn_101342,usr_2141,5007.03,Credit Card,Apparel,31.2,0.34,False
+tx_syn_101343,usr_7979,2073.85,Credit Card,Home & Kitchen,42.7,0.29,False
+tx_syn_101344,usr_2810,271.98,UPI,Electronics,31.7,0.23,False
+tx_syn_101345,usr_1723,127.78,UPI,Digital Goods,34.0,0.06,False
+tx_syn_101346,usr_1224,1546.8,UPI,Electronics,26.5,0.26,False
+tx_syn_101347,usr_5627,4841.07,Debit Card,Apparel,,0.25,False
+tx_syn_101348,usr_5208,3397.09,UPI,Apparel,33.0,0.15,False
+tx_syn_101349,usr_7283,2077.78,Debit Card,Electronics,,0.32,False
+tx_syn_101350,usr_5654,319.63,Cash,Electronics,48.7,0.06,False
+tx_syn_101351,usr_3048,578.01,Debit Card,Home & Kitchen,39.9,0.09,False
+tx_syn_101352,usr_7233,3800.37,UPI,Digital Goods,30.7,0.02,False
+tx_syn_101353,usr_5749,413.38,Cash,Electronics,35.4,0.28,False
+tx_syn_101354,usr_5415,637.41,UPI,Apparel,41.9,0.22,False
+tx_syn_101355,usr_2573,299.85,Credit Card,Apparel,38.6,0.11,False
+tx_syn_101356,usr_2828,2079.22,Debit Card,Electronics,48.4,0.06,False
+tx_syn_101357,usr_2917,5237.76,Credit Card,Home & Kitchen,27.5,0.01,False
+tx_syn_101358,usr_5234,613.94,Credit Card,Home & Kitchen,42.5,0.06,False
+tx_syn_101359,usr_8678,1211.24,UPI,Electronics,,0.16,False
+tx_syn_101360,usr_7988,1860.89,UPI,Digital Goods,35.8,0.09,False
+tx_syn_101361,usr_3026,13614.04,Credit Card,Electronics,,0.09,False
+tx_syn_101362,usr_7402,249.29,UPI,Home & Kitchen,33.0,0.31,False
+tx_syn_101363,usr_4744,1292.53,Cash,Apparel,36.0,0.18,False
+tx_syn_101364,usr_1901,925.39,Cash,Apparel,39.2,0.26,False
+tx_syn_101365,usr_5785,3665.43,Debit Card,Apparel,34.7,0.01,False
+tx_syn_101366,usr_3039,1213.16,Credit Card,Electronics,18.0,0.13,False
+tx_syn_101367,usr_1009,261.74,Credit Card,Home & Kitchen,33.5,0.17,False
+tx_syn_101368,usr_1260,1861.31,Cash,Home & Kitchen,46.7,0.07,False
+tx_syn_101369,usr_7038,2701.54,Debit Card,Electronics,33.5,0.04,False
+tx_syn_101370,usr_2673,55.19,Credit Card,Home & Kitchen,46.9,0.3,False
+tx_syn_101371,usr_3219,3575.64,UPI,Electronics,,0.33,False
+tx_syn_101372,usr_8041,420.48,UPI,Home & Kitchen,20.8,0.03,False
+tx_syn_101373,usr_3060,1495.61,Credit Card,Electronics,30.5,0.12,False
+tx_syn_101374,usr_6287,1017.51,Credit Card,Electronics,29.5,0.34,False
+tx_syn_101375,usr_4713,2339.11,Debit Card,Electronics,32.2,0.03,False
+tx_syn_101376,usr_2619,884.99,UPI,Apparel,24.1,0.23,False
+tx_syn_101377,usr_1320,3719.12,UPI,Apparel,34.1,0.34,False
+tx_syn_101378,usr_2342,2410.11,UPI,Apparel,31.4,0.34,False
+tx_syn_101379,usr_6732,1927.96,UPI,Electronics,45.1,0.16,False
+tx_syn_101380,usr_3376,2913.47,UPI,Apparel,23.9,0.06,False
+tx_syn_101381,usr_3832,2574.53,Credit Card,Home & Kitchen,36.3,0.07,False
+tx_syn_101382,usr_3824,115.88,Credit Card,Home & Kitchen,37.7,0.31,False
+tx_syn_101383,usr_2994,953.76,Debit Card,Electronics,40.8,0.32,False
+tx_syn_101384,usr_3958,4857.55,UPI,Electronics,31.1,0.21,False
+tx_syn_101385,usr_7039,291.85,UPI,Home & Kitchen,36.1,0.27,False
+tx_syn_101386,usr_8717,2454.74,Credit Card,Electronics,37.2,0.26,False
+tx_syn_101387,usr_3038,6660.83,Debit Card,Electronics,20.2,0.23,False
+tx_syn_101388,usr_4490,146.5,UPI,Electronics,31.4,0.29,False
+tx_syn_101389,usr_4677,2113.36,Debit Card,Apparel,33.9,0.24,False
+tx_syn_101390,usr_2118,1186.52,UPI,Apparel,34.9,0.19,False
+tx_syn_101391,usr_8984,1607.97,Debit Card,Apparel,34.8,0.08,False
+tx_syn_101392,usr_2604,210.57,Debit Card,Electronics,37.9,0.26,False
+tx_syn_101393,usr_7461,129.13,UPI,Home & Kitchen,50.7,0.17,False
+tx_syn_101394,usr_5027,2028.58,Credit Card,Electronics,29.1,0.1,False
+tx_syn_101395,usr_1235,3170.04,UPI,Home & Kitchen,37.4,0.28,False
+tx_syn_101396,usr_2969,2792.0,Cash,Apparel,45.3,0.24,False
+tx_syn_101397,usr_5429,1462.71,UPI,Apparel,18.9,0.33,False
+tx_syn_101398,usr_2908,239.38,Credit Card,Electronics,36.5,0.06,False
+tx_syn_101399,usr_1375,2146.81,Credit Card,Electronics,19.9,0.23,False
+tx_syn_101400,usr_4530,548.47,Debit Card,Apparel,52.8,0.09,False
+tx_syn_101401,usr_6256,4405.8,UPI,Apparel,38.6,0.32,False
+tx_syn_101402,usr_3635,3329.24,Credit Card,Electronics,37.5,0.03,False
+tx_syn_101403,usr_2570,2274.35,UPI,Digital Goods,18.3,0.23,False
+tx_syn_101404,usr_3560,5401.24,UPI,Digital Goods,29.9,0.28,False
+tx_syn_101405,usr_6415,107.47,Credit Card,Apparel,30.0,0.12,False
+tx_syn_101406,usr_4391,2448.62,UPI,Digital Goods,49.2,0.33,False
+tx_syn_101407,usr_3965,771.51,UPI,Electronics,40.4,0.3,True
+tx_syn_101408,usr_4643,4307.29,Debit Card,Electronics,20.2,0.1,False
+tx_syn_101409,usr_6951,608.3,UPI,Electronics,38.2,0.0,False
+tx_syn_101410,usr_6468,2372.83,Credit Card,Apparel,,0.1,False
+tx_syn_101411,usr_4850,3831.52,UPI,Electronics,20.4,0.1,False
+tx_syn_101412,usr_1872,126.59,UPI,Digital Goods,38.1,0.31,False
+tx_syn_101413,usr_2252,962.44,UPI,Electronics,,0.34,False
+tx_syn_101414,usr_7413,2636.21,Credit Card,Electronics,38.1,0.02,False
+tx_syn_101415,usr_6947,1142.28,Credit Card,Home & Kitchen,50.2,0.16,True
+tx_syn_101416,usr_7941,609.72,UPI,Electronics,37.3,0.19,False
+tx_syn_101417,usr_2314,496.78,UPI,Electronics,35.6,0.03,False
+tx_syn_101418,usr_5820,303.82,Cash,Apparel,23.9,0.13,False
+tx_syn_101419,usr_8332,3552.47,UPI,Electronics,41.5,0.11,False
+tx_syn_101420,usr_7148,1591.7,Cash,Electronics,20.2,0.19,False
+tx_syn_101421,usr_3898,193.03,UPI,Electronics,51.4,0.23,False
+tx_syn_101422,usr_8546,917.97,Debit Card,Apparel,41.6,0.25,False
+tx_syn_101423,usr_1077,875.2,UPI,Digital Goods,57.9,0.05,False
+tx_syn_101424,usr_8577,411.03,Debit Card,Home & Kitchen,37.5,0.28,False
+tx_syn_101425,usr_3621,1079.29,Credit Card,Electronics,42.0,0.24,False
+tx_syn_101426,usr_5227,776.51,UPI,Apparel,31.8,0.31,False
+tx_syn_101427,usr_1600,802.85,UPI,Apparel,,0.16,False
+tx_syn_101428,usr_6868,2468.01,Debit Card,Digital Goods,25.3,0.31,False
+tx_syn_101429,usr_2065,504.78,Credit Card,Electronics,21.9,0.3,False
+tx_syn_101430,usr_3136,1898.3,UPI,Apparel,35.8,0.15,False
+tx_syn_101431,usr_3449,1571.87,UPI,Home & Kitchen,33.8,0.13,False
+tx_syn_101432,usr_3343,1561.18,Debit Card,Digital Goods,25.1,0.33,False
+tx_syn_101433,usr_2863,2007.85,UPI,Electronics,26.6,0.25,False
+tx_syn_101434,usr_2318,1480.85,Credit Card,Electronics,34.5,0.32,False
+tx_syn_101435,usr_5711,3855.34,Credit Card,Electronics,24.9,0.28,False
+tx_syn_101436,usr_4597,2076.29,Debit Card,Electronics,37.2,0.21,True
+tx_syn_101437,usr_7943,1475.21,Cash,Apparel,25.2,0.04,False
+tx_syn_101438,usr_4762,3237.02,Cash,Home & Kitchen,36.4,0.1,False
+tx_syn_101439,usr_8804,1727.2,UPI,Apparel,24.4,0.34,False
+tx_syn_101440,usr_7565,669.39,Debit Card,Electronics,24.5,0.11,False
+tx_syn_101441,usr_6984,467.69,UPI,Electronics,18.0,0.03,False
+tx_syn_101442,usr_6142,347.47,Credit Card,Electronics,32.8,0.25,False
+tx_syn_101443,usr_5670,4184.87,Credit Card,Electronics,46.6,0.26,False
+tx_syn_101444,usr_3190,2279.01,UPI,Home & Kitchen,46.1,0.1,False
+tx_syn_101445,usr_1992,5037.16,Cash,Electronics,37.0,0.1,False
+tx_syn_101446,usr_3712,1714.2,UPI,Electronics,18.0,0.16,False
+tx_syn_101447,usr_3192,1204.37,Credit Card,Apparel,41.4,0.01,False
+tx_syn_101448,usr_2248,160.83,Debit Card,Apparel,36.1,0.28,False
+tx_syn_101449,usr_4054,2054.57,Debit Card,Apparel,30.7,0.11,False
+tx_syn_101450,usr_5598,1620.99,UPI,Home & Kitchen,44.5,0.3,False
+tx_syn_101451,usr_5033,8377.31,Credit Card,Electronics,39.4,0.28,False
+tx_syn_101452,usr_2997,542.0,Debit Card,Home & Kitchen,50.9,0.23,False
+tx_syn_101453,usr_5916,1411.87,UPI,Electronics,22.3,0.11,False
+tx_syn_101454,usr_4687,1944.61,Credit Card,Electronics,22.9,0.18,False
+tx_syn_101455,usr_3151,1912.08,UPI,Digital Goods,24.3,0.16,False
+tx_syn_101456,usr_5018,1533.06,Credit Card,Electronics,31.8,0.12,False
+tx_syn_101457,usr_4110,2750.47,Debit Card,Apparel,47.7,0.3,False
+tx_syn_101458,usr_2970,462.9,Credit Card,Electronics,28.9,0.17,False
+tx_syn_101459,usr_1197,2377.88,Credit Card,Apparel,29.1,0.29,False
+tx_syn_101460,usr_6765,1790.39,UPI,Home & Kitchen,37.7,0.04,False
+tx_syn_101461,usr_3626,4125.36,Credit Card,Digital Goods,41.4,0.05,False
+tx_syn_101462,usr_7534,3431.46,UPI,Home & Kitchen,,0.34,False
+tx_syn_101463,usr_2202,731.39,UPI,Apparel,43.0,0.21,False
+tx_syn_101464,usr_7697,631.93,Credit Card,Electronics,28.6,0.18,False
+tx_syn_101465,usr_6567,7246.95,Credit Card,Home & Kitchen,33.3,0.18,False
+tx_syn_101466,usr_8667,1398.6,Credit Card,Home & Kitchen,46.3,0.08,False
+tx_syn_101467,usr_8182,4314.11,UPI,Electronics,32.4,0.25,False
+tx_syn_101468,usr_6742,372.17,UPI,Apparel,21.2,0.03,True
+tx_syn_101469,usr_6788,1903.12,UPI,Home & Kitchen,21.7,0.2,False
+tx_syn_101470,usr_6408,3037.99,Cash,Apparel,34.0,0.2,False
+tx_syn_101471,usr_3035,5350.91,Credit Card,Electronics,31.4,0.32,False
+tx_syn_101472,usr_1477,790.69,UPI,Digital Goods,34.7,0.18,False
+tx_syn_101473,usr_2254,2373.65,UPI,Electronics,30.8,0.05,False
+tx_syn_101474,usr_1922,1443.11,Cash,Electronics,44.8,0.2,False
+tx_syn_101475,usr_1419,162.58,UPI,Home & Kitchen,34.4,0.03,False
+tx_syn_101476,usr_3204,2158.13,Debit Card,Apparel,19.2,0.07,False
+tx_syn_101477,usr_3597,2158.69,UPI,Home & Kitchen,41.1,0.01,False
+tx_syn_101478,usr_8608,4852.34,Cash,Electronics,50.4,0.18,False
+tx_syn_101479,usr_2120,1288.02,Debit Card,Electronics,35.5,0.03,False
+tx_syn_101480,usr_4068,521.04,Credit Card,Electronics,36.2,0.16,False
+tx_syn_101481,usr_8140,132.06,UPI,Digital Goods,27.6,0.33,False
+tx_syn_101482,usr_8578,1017.04,UPI,Apparel,32.1,0.25,False
+tx_syn_101483,usr_1950,696.95,UPI,Electronics,38.5,0.03,False
+tx_syn_101484,usr_3336,2626.99,Credit Card,Electronics,43.8,0.08,False
+tx_syn_101485,usr_6373,837.27,UPI,Electronics,38.0,0.24,False
+tx_syn_101486,usr_3243,5409.19,UPI,Apparel,49.7,0.31,False
+tx_syn_101487,usr_3645,5951.06,Credit Card,Electronics,35.0,0.01,False
+tx_syn_101488,usr_2857,1795.96,Credit Card,Apparel,24.7,0.28,False
+tx_syn_101489,usr_8689,4802.54,UPI,Apparel,24.9,0.2,False
+tx_syn_101490,usr_5612,2625.23,UPI,Home & Kitchen,44.7,0.19,False
+tx_syn_101491,usr_6754,1474.8,Cash,Home & Kitchen,,0.34,False
+tx_syn_101492,usr_2865,407.89,Credit Card,Apparel,20.2,0.26,False
+tx_syn_101493,usr_3912,1154.47,Debit Card,Electronics,32.4,0.3,False
+tx_syn_101494,usr_6237,1531.35,Credit Card,Home & Kitchen,32.7,0.12,False
+tx_syn_101495,usr_3853,3640.67,UPI,Home & Kitchen,27.8,0.19,False
+tx_syn_101496,usr_7028,1231.69,UPI,Electronics,22.2,0.22,False
+tx_syn_101497,usr_8326,4153.28,UPI,Digital Goods,27.6,0.11,False
+tx_syn_101498,usr_5910,2069.47,Debit Card,Electronics,26.1,0.2,False
+tx_syn_101499,usr_7371,315.21,Credit Card,Electronics,22.4,0.08,False
+tx_syn_101500,usr_6996,9580.28,UPI,Electronics,41.2,0.05,False
+tx_syn_101501,usr_7359,1398.47,Cash,Digital Goods,36.6,0.13,False
+tx_syn_101502,usr_8091,945.23,UPI,Apparel,30.3,0.26,False
+tx_syn_101503,usr_8863,1987.17,Cash,Home & Kitchen,18.0,0.32,False
+tx_syn_101504,usr_7158,257.52,Cash,Electronics,31.7,0.16,False
+tx_syn_101505,usr_4228,10294.61,UPI,Apparel,38.6,0.22,False
+tx_syn_101506,usr_4719,1291.33,UPI,Apparel,27.9,0.04,False
+tx_syn_101507,usr_8428,989.62,Credit Card,Home & Kitchen,24.4,0.32,False
+tx_syn_101508,usr_4228,5554.46,Credit Card,Electronics,33.2,0.2,False
+tx_syn_101509,usr_7190,1380.69,Credit Card,Electronics,37.0,0.27,False
+tx_syn_101510,usr_3371,495.2,Cash,Electronics,18.0,0.28,False
+tx_syn_101511,usr_3891,1155.68,Debit Card,Digital Goods,45.7,0.09,False
+tx_syn_101512,usr_4756,4582.58,UPI,Apparel,23.6,0.19,False
+tx_syn_101513,usr_5225,398.66,UPI,Apparel,30.6,0.34,False
+tx_syn_101514,usr_8578,483.34,Credit Card,Apparel,44.2,0.03,False
+tx_syn_101515,usr_1094,404.84,UPI,Digital Goods,35.3,0.24,False
+tx_syn_101516,usr_3674,75.73,Debit Card,Digital Goods,43.5,0.34,False
+tx_syn_101517,usr_7898,3233.09,UPI,Home & Kitchen,47.4,0.11,False
+tx_syn_101518,usr_2955,2421.01,UPI,Electronics,21.8,0.3,False
+tx_syn_101519,usr_8459,839.42,UPI,Electronics,41.9,0.33,False
+tx_syn_101520,usr_1793,2207.05,Credit Card,Digital Goods,45.5,0.26,True
+tx_syn_101521,usr_2834,955.16,UPI,Apparel,31.0,0.08,False
+tx_syn_101522,usr_8450,5549.75,Debit Card,Electronics,31.7,0.12,False
+tx_syn_101523,usr_3116,6193.12,Credit Card,Apparel,18.0,0.01,False
+tx_syn_101524,usr_6779,948.0,Debit Card,Digital Goods,40.8,0.29,False
+tx_syn_101525,usr_5106,3516.21,Credit Card,Apparel,18.0,0.3,False
+tx_syn_101526,usr_4325,2719.76,UPI,Apparel,42.4,0.22,False
+tx_syn_101527,usr_6961,717.91,Debit Card,Home & Kitchen,,0.12,False
+tx_syn_101528,usr_3919,525.23,UPI,Apparel,46.0,0.03,True
+tx_syn_101529,usr_3597,1153.26,Credit Card,Electronics,37.6,0.26,False
+tx_syn_101530,usr_4205,2786.5,UPI,Digital Goods,42.8,0.25,False
+tx_syn_101531,usr_5807,5851.54,Debit Card,Digital Goods,27.3,0.32,False
+tx_syn_101532,usr_7166,2645.85,Cash,Home & Kitchen,22.9,0.26,False
+tx_syn_101533,usr_1814,3528.41,Credit Card,Home & Kitchen,19.2,0.29,False
+tx_syn_101534,usr_1345,1713.17,Credit Card,Electronics,43.5,0.26,False
+tx_syn_101535,usr_3349,3297.71,Debit Card,Digital Goods,39.8,0.22,False
+tx_syn_101536,usr_1362,2811.97,UPI,Electronics,40.1,0.15,False
+tx_syn_101537,usr_3443,901.73,Cash,Home & Kitchen,36.7,0.32,False
+tx_syn_101538,usr_3265,1495.29,UPI,Digital Goods,38.8,0.23,False
+tx_syn_101539,usr_3188,2990.28,Cash,Apparel,31.7,0.14,False
+tx_syn_101540,usr_8783,134.87,Debit Card,Home & Kitchen,37.3,0.03,False
+tx_syn_101541,usr_4005,3021.21,Debit Card,Home & Kitchen,26.9,0.1,False
+tx_syn_101542,usr_4281,402.58,Credit Card,Electronics,,0.19,False
+tx_syn_101543,usr_1984,1351.32,Credit Card,Home & Kitchen,60.1,0.1,False
+tx_syn_101544,usr_8136,3023.05,Credit Card,Electronics,34.5,0.08,False
+tx_syn_101545,usr_8790,577.02,UPI,Apparel,18.0,0.18,False
+tx_syn_101546,usr_2639,557.79,Credit Card,Electronics,30.7,0.06,False
+tx_syn_101547,usr_1827,977.8,Credit Card,Apparel,25.2,0.28,False
+tx_syn_101548,usr_3730,4100.72,Debit Card,Home & Kitchen,35.6,0.17,False
+tx_syn_101549,usr_4531,50.8,Credit Card,Digital Goods,,0.2,False
+tx_syn_101550,usr_8147,4219.72,UPI,Electronics,32.4,0.05,False
+tx_syn_101551,usr_5451,350.61,UPI,Apparel,27.9,0.11,False
+tx_syn_101552,usr_8151,8354.92,Credit Card,Apparel,35.9,0.14,False
+tx_syn_101553,usr_6443,5625.86,UPI,Digital Goods,28.9,0.28,False
+tx_syn_101554,usr_8300,1278.6,UPI,Apparel,37.2,0.27,False
+tx_syn_101555,usr_3935,1344.05,Debit Card,Home & Kitchen,50.8,0.08,False
+tx_syn_101556,usr_4876,1232.44,Credit Card,Digital Goods,24.4,0.22,False
+tx_syn_101557,usr_6959,1866.33,Credit Card,Apparel,40.4,0.09,False
+tx_syn_101558,usr_1126,221.19,UPI,Digital Goods,18.0,0.35,False
+tx_syn_101559,usr_4177,109.69,Debit Card,Digital Goods,32.2,0.33,False
+tx_syn_101560,usr_4056,156.98,UPI,Digital Goods,36.1,0.2,False
+tx_syn_101561,usr_1603,1107.76,Debit Card,Electronics,27.8,0.24,False
+tx_syn_101562,usr_8966,630.21,UPI,Apparel,19.0,0.28,False
+tx_syn_101563,usr_4449,1801.34,Debit Card,Digital Goods,33.9,0.25,False
+tx_syn_101564,usr_7024,8843.34,Credit Card,Apparel,47.2,0.24,False
+tx_syn_101565,usr_6109,928.92,Credit Card,Apparel,,0.34,False
+tx_syn_101566,usr_5146,1585.3,Credit Card,Electronics,38.9,0.21,False
+tx_syn_101567,usr_8196,1016.92,Credit Card,Electronics,43.8,0.22,False
+tx_syn_101568,usr_4533,3432.37,UPI,Apparel,55.2,0.3,False
+tx_syn_101569,usr_4367,4235.37,Debit Card,Apparel,25.3,0.23,False
+tx_syn_101570,usr_4368,3827.24,UPI,Apparel,26.1,0.26,False
+tx_syn_101571,usr_4797,6645.34,Cash,Apparel,31.7,0.08,False
+tx_syn_101572,usr_7922,100.23,Debit Card,Apparel,39.4,0.13,False
+tx_syn_101573,usr_6526,3346.58,UPI,Home & Kitchen,18.0,0.05,False
+tx_syn_101574,usr_2792,2558.13,Debit Card,Apparel,39.8,0.18,False
+tx_syn_101575,usr_3861,517.41,UPI,Apparel,35.5,0.16,False
+tx_syn_101576,usr_6732,5685.56,UPI,Apparel,29.7,0.35,False
+tx_syn_101577,usr_4476,338.68,Cash,Electronics,,0.21,False
+tx_syn_101578,usr_4417,2098.45,Credit Card,Apparel,41.8,0.28,False
+tx_syn_101579,usr_2645,508.55,Credit Card,Apparel,42.9,0.12,False
+tx_syn_101580,usr_7563,1066.18,UPI,Apparel,34.3,0.29,False
+tx_syn_101581,usr_2205,2335.95,UPI,Electronics,37.0,0.22,False
+tx_syn_101582,usr_4030,1541.42,Cash,Home & Kitchen,36.7,0.24,False
+tx_syn_101583,usr_3872,1053.94,UPI,Electronics,44.7,0.1,False
+tx_syn_101584,usr_4072,761.05,UPI,Digital Goods,37.4,0.19,False
+tx_syn_101585,usr_2854,3344.82,Credit Card,Electronics,39.7,0.22,False
+tx_syn_101586,usr_5021,329.48,Credit Card,Digital Goods,41.8,0.21,False
+tx_syn_101587,usr_5662,1062.14,Credit Card,Apparel,50.8,0.32,False
+tx_syn_101588,usr_7514,4263.59,UPI,Apparel,29.2,0.31,False
+tx_syn_101589,usr_6031,3415.69,UPI,Electronics,48.0,0.34,False
+tx_syn_101590,usr_7030,972.31,UPI,Electronics,55.2,0.23,False
+tx_syn_101591,usr_3708,2642.27,Cash,Electronics,29.8,0.34,False
+tx_syn_101592,usr_4502,3168.53,UPI,Electronics,32.4,0.29,False
+tx_syn_101593,usr_8112,4004.98,Debit Card,Home & Kitchen,30.6,0.09,False
+tx_syn_101594,usr_2332,1465.47,Debit Card,Electronics,39.8,0.15,False
+tx_syn_101595,usr_8304,461.72,Debit Card,Home & Kitchen,18.4,0.08,False
+tx_syn_101596,usr_1201,580.61,Debit Card,Electronics,30.0,0.0,False
+tx_syn_101597,usr_4507,680.98,UPI,Digital Goods,31.9,0.07,False
+tx_syn_101598,usr_7456,1671.65,UPI,Apparel,,0.0,False
+tx_syn_101599,usr_5212,110.05,Credit Card,Electronics,31.0,0.25,False
+tx_syn_101600,usr_8833,1869.29,UPI,Apparel,,0.15,False
+tx_syn_101601,usr_6032,865.6,Debit Card,Electronics,40.8,0.11,False
+tx_syn_101602,usr_8970,679.82,Credit Card,Electronics,38.8,0.27,False
+tx_syn_101603,usr_1574,3858.94,Debit Card,Apparel,48.7,0.29,False
+tx_syn_101604,usr_7387,1159.14,UPI,Home & Kitchen,40.8,0.34,False
+tx_syn_101605,usr_1536,229.78,Cash,Digital Goods,24.9,0.22,False
+tx_syn_101606,usr_2625,3205.4,UPI,Apparel,32.8,0.16,False
+tx_syn_101607,usr_3122,137.86,Credit Card,Digital Goods,31.9,0.11,False
+tx_syn_101608,usr_8973,2385.26,Credit Card,Digital Goods,36.4,0.08,False
+tx_syn_101609,usr_1385,2726.25,Debit Card,Digital Goods,43.5,0.07,False
+tx_syn_101610,usr_4281,832.63,Credit Card,Apparel,35.8,0.14,False
+tx_syn_101611,usr_1474,3185.16,Cash,Electronics,,0.35,False
+tx_syn_101612,usr_1417,1354.94,Cash,Electronics,34.3,0.0,False
+tx_syn_101613,usr_7490,1170.15,Debit Card,Apparel,41.1,0.07,False
+tx_syn_101614,usr_4600,133.64,UPI,Apparel,29.4,0.07,False
+tx_syn_101615,usr_7783,666.56,Debit Card,Electronics,21.8,0.25,False
+tx_syn_101616,usr_6034,4862.83,Debit Card,Apparel,39.7,0.12,False
+tx_syn_101617,usr_1954,945.12,UPI,Electronics,37.4,0.16,False
+tx_syn_101618,usr_5971,1474.16,UPI,Home & Kitchen,45.4,0.05,False
+tx_syn_101619,usr_5858,1416.8,UPI,Electronics,18.0,0.14,False
+tx_syn_101620,usr_6298,1656.77,UPI,Apparel,33.3,0.04,False
+tx_syn_101621,usr_2205,163.93,Credit Card,Home & Kitchen,35.1,0.19,False
+tx_syn_101622,usr_5759,859.45,Cash,Electronics,21.4,0.03,False
+tx_syn_101623,usr_5120,2361.56,Credit Card,Apparel,33.5,0.28,False
+tx_syn_101624,usr_2990,452.92,Credit Card,Home & Kitchen,44.3,0.2,False
+tx_syn_101625,usr_6299,459.73,Cash,Electronics,51.9,0.25,False
+tx_syn_101626,usr_5805,68.26,UPI,Electronics,42.6,0.15,False
+tx_syn_101627,usr_4572,1085.6,Debit Card,Electronics,31.4,0.13,False
+tx_syn_101628,usr_6975,3907.96,Credit Card,Apparel,44.9,0.03,False
+tx_syn_101629,usr_6280,145.93,Credit Card,Apparel,41.9,0.18,False
+tx_syn_101630,usr_7320,431.79,UPI,Electronics,30.1,0.18,False
+tx_syn_101631,usr_5380,718.14,Credit Card,Apparel,29.3,0.16,False
+tx_syn_101632,usr_5158,2418.34,UPI,Electronics,32.8,0.26,False
+tx_syn_101633,usr_6098,1892.15,Debit Card,Home & Kitchen,25.3,0.29,False
+tx_syn_101634,usr_5757,1017.96,UPI,Electronics,31.6,0.26,False
+tx_syn_101635,usr_3713,2611.84,Debit Card,Home & Kitchen,38.3,0.05,False
+tx_syn_101636,usr_3203,1743.19,UPI,Apparel,43.0,0.22,False
+tx_syn_101637,usr_6588,4124.76,UPI,Home & Kitchen,31.0,0.03,False
+tx_syn_101638,usr_4120,3117.01,Credit Card,Apparel,46.0,0.24,False
+tx_syn_101639,usr_1966,574.59,UPI,Apparel,39.7,0.13,False
+tx_syn_101640,usr_5944,620.03,Debit Card,Apparel,40.1,0.05,False
+tx_syn_101641,usr_6203,291.09,Cash,Home & Kitchen,26.4,0.3,False
+tx_syn_101642,usr_4432,789.67,Debit Card,Apparel,49.6,0.21,False
+tx_syn_101643,usr_1688,13897.11,UPI,Apparel,38.9,0.12,False
+tx_syn_101644,usr_5243,986.82,Credit Card,Apparel,31.4,0.01,False
+tx_syn_101645,usr_4701,498.36,Credit Card,Home & Kitchen,29.9,0.19,False
+tx_syn_101646,usr_1341,2637.53,Debit Card,Home & Kitchen,31.6,0.32,False
+tx_syn_101647,usr_7619,1457.45,UPI,Electronics,25.5,0.21,False
+tx_syn_101648,usr_6182,341.69,Credit Card,Home & Kitchen,42.6,0.34,False
+tx_syn_101649,usr_2724,912.47,Credit Card,Apparel,26.4,0.05,False
+tx_syn_101650,usr_6479,1013.43,UPI,Digital Goods,36.7,0.2,False
+tx_syn_101651,usr_7704,2573.12,UPI,Home & Kitchen,30.4,0.28,False
+tx_syn_101652,usr_5422,87.6,Credit Card,Apparel,39.9,0.18,False
+tx_syn_101653,usr_2792,614.06,Debit Card,Electronics,41.1,0.03,False
+tx_syn_101654,usr_2759,1362.15,Cash,Home & Kitchen,28.7,0.2,False
+tx_syn_101655,usr_4212,613.64,Credit Card,Apparel,33.9,0.21,False
+tx_syn_101656,usr_1989,1832.05,UPI,Digital Goods,21.9,0.26,False
+tx_syn_101657,usr_3262,1233.54,UPI,Electronics,48.7,0.27,False
+tx_syn_101658,usr_3482,858.13,Cash,Electronics,,0.27,False
+tx_syn_101659,usr_1951,5414.05,Cash,Electronics,22.3,0.23,False
+tx_syn_101660,usr_1722,1850.19,Cash,Apparel,26.8,0.08,False
+tx_syn_101661,usr_4389,300.55,Debit Card,Digital Goods,33.1,0.14,False
+tx_syn_101662,usr_3079,1528.14,UPI,Electronics,34.5,0.27,False
+tx_syn_101663,usr_3717,2781.43,Debit Card,Home & Kitchen,28.4,0.33,False
+tx_syn_101664,usr_3332,2268.82,UPI,Home & Kitchen,24.5,0.03,False
+tx_syn_101665,usr_4376,389.93,UPI,Home & Kitchen,37.6,0.19,False
+tx_syn_101666,usr_5524,6513.2,Debit Card,Apparel,49.0,0.11,False
+tx_syn_101667,usr_2500,1122.23,UPI,Home & Kitchen,34.7,0.08,False
+tx_syn_101668,usr_1285,361.75,UPI,Electronics,31.7,0.18,False
+tx_syn_101669,usr_8311,407.64,Credit Card,Home & Kitchen,30.8,0.21,False
+tx_syn_101670,usr_4495,236.12,Credit Card,Electronics,24.9,0.0,False
+tx_syn_101671,usr_8186,2978.93,Cash,Apparel,28.5,0.27,False
+tx_syn_101672,usr_3065,284.26,UPI,Home & Kitchen,43.9,0.29,False
+tx_syn_101673,usr_1768,290.61,UPI,Electronics,18.0,0.34,False
+tx_syn_101674,usr_7733,3470.48,UPI,Electronics,,0.06,False
+tx_syn_101675,usr_6490,810.53,UPI,Home & Kitchen,34.4,0.21,False
+tx_syn_101676,usr_8342,106.42,UPI,Apparel,35.2,0.15,False
+tx_syn_101677,usr_4057,145.92,Credit Card,Apparel,40.4,0.12,False
+tx_syn_101678,usr_5289,326.03,Credit Card,Electronics,34.7,0.2,True
+tx_syn_101679,usr_7645,482.05,Debit Card,Electronics,30.3,0.27,False
+tx_syn_101680,usr_6083,2019.31,Cash,Apparel,28.6,0.01,False
+tx_syn_101681,usr_6232,358.12,Credit Card,Electronics,45.2,0.34,False
+tx_syn_101682,usr_3161,277.8,UPI,Digital Goods,43.0,0.28,False
+tx_syn_101683,usr_4293,2654.56,UPI,Electronics,,0.26,False
+tx_syn_101684,usr_6797,2051.36,Debit Card,Apparel,31.8,0.27,False
+tx_syn_101685,usr_1946,1078.71,Credit Card,Electronics,28.8,0.14,False
+tx_syn_101686,usr_5926,1484.56,Debit Card,Electronics,38.1,0.26,False
+tx_syn_101687,usr_8811,723.1,Debit Card,Home & Kitchen,37.8,0.14,False
+tx_syn_101688,usr_7016,1235.74,Cash,Apparel,39.6,0.31,False
+tx_syn_101689,usr_4335,1321.85,Cash,Electronics,41.4,0.06,False
+tx_syn_101690,usr_8068,931.6,Credit Card,Electronics,39.5,0.1,False
+tx_syn_101691,usr_5150,4317.02,UPI,Electronics,43.3,0.19,False
+tx_syn_101692,usr_8810,79.15,Cash,Home & Kitchen,44.5,0.11,False
+tx_syn_101693,usr_5895,2793.28,Credit Card,Apparel,,0.15,False
+tx_syn_101694,usr_5873,289.09,UPI,Electronics,18.0,0.17,False
+tx_syn_101695,usr_2481,2925.05,Credit Card,Apparel,36.2,0.3,False
+tx_syn_101696,usr_2901,1772.39,Credit Card,Home & Kitchen,26.4,0.18,False
+tx_syn_101697,usr_7305,3385.91,Cash,Digital Goods,43.2,0.13,True
+tx_syn_101698,usr_4451,234.68,Credit Card,Digital Goods,18.0,0.09,False
+tx_syn_101699,usr_5064,1523.6,UPI,Electronics,46.7,0.14,False
+tx_syn_101700,usr_7230,1301.59,Cash,Electronics,26.9,0.18,False
+tx_syn_101701,usr_1054,2254.7,Debit Card,Electronics,24.9,0.26,False
+tx_syn_101702,usr_8643,1425.55,Credit Card,Home & Kitchen,37.2,0.04,False
+tx_syn_101703,usr_2823,1450.63,UPI,Digital Goods,31.0,0.08,False
+tx_syn_101704,usr_6297,1060.54,UPI,Apparel,49.3,0.13,False
+tx_syn_101705,usr_4462,714.88,Credit Card,Electronics,45.8,0.13,False
+tx_syn_101706,usr_8516,1234.92,UPI,Apparel,29.9,0.14,False
+tx_syn_101707,usr_4079,277.02,UPI,Electronics,43.1,0.28,False
+tx_syn_101708,usr_1832,5913.4,Debit Card,Electronics,29.6,0.11,False
+tx_syn_101709,usr_5408,2305.76,Credit Card,Apparel,29.5,0.18,False
+tx_syn_101710,usr_3806,5533.4,UPI,Electronics,40.3,0.22,False
+tx_syn_101711,usr_6954,512.82,UPI,Electronics,46.6,0.08,False
+tx_syn_101712,usr_7103,3856.62,Credit Card,Home & Kitchen,30.5,0.25,False
+tx_syn_101713,usr_7102,3027.89,Debit Card,Electronics,31.1,0.19,False
+tx_syn_101714,usr_3490,2085.03,UPI,Electronics,36.8,0.16,False
+tx_syn_101715,usr_6886,1815.63,UPI,Electronics,26.6,0.28,False
+tx_syn_101716,usr_1327,735.08,Credit Card,Digital Goods,47.5,0.09,False
+tx_syn_101717,usr_8221,3101.1,Cash,Home & Kitchen,26.5,0.31,False
+tx_syn_101718,usr_7904,1303.13,Credit Card,Electronics,28.8,0.2,False
+tx_syn_101719,usr_4310,182.35,UPI,Apparel,49.2,0.21,False
+tx_syn_101720,usr_4300,725.4,UPI,Electronics,36.0,0.31,False
+tx_syn_101721,usr_7722,4978.31,Debit Card,Apparel,50.7,0.29,False
+tx_syn_101722,usr_8218,3473.0,UPI,Home & Kitchen,32.3,0.21,False
+tx_syn_101723,usr_8776,7271.88,Credit Card,Digital Goods,55.6,0.26,False
+tx_syn_101724,usr_4675,1829.92,UPI,Apparel,39.4,0.15,False
+tx_syn_101725,usr_4054,561.86,UPI,Digital Goods,27.8,0.19,False
+tx_syn_101726,usr_6383,369.88,Debit Card,Digital Goods,27.7,0.02,False
+tx_syn_101727,usr_8585,422.45,Debit Card,Digital Goods,21.8,0.03,False
+tx_syn_101728,usr_8970,85.99,Credit Card,Apparel,22.7,0.29,False
+tx_syn_101729,usr_3143,941.75,UPI,Apparel,28.6,0.02,False
+tx_syn_101730,usr_6207,432.47,UPI,Apparel,25.8,0.06,False
+tx_syn_101731,usr_8245,1004.8,Credit Card,Electronics,18.0,0.28,False
+tx_syn_101732,usr_2311,4969.91,Credit Card,Electronics,41.4,0.0,False
+tx_syn_101733,usr_4191,1063.52,UPI,Home & Kitchen,40.8,0.1,False
+tx_syn_101734,usr_7957,3836.49,UPI,Apparel,36.8,0.2,False
+tx_syn_101735,usr_3538,1724.27,UPI,Digital Goods,24.6,0.21,True
+tx_syn_101736,usr_4983,560.96,Cash,Electronics,48.2,0.27,False
+tx_syn_101737,usr_5547,841.7,Debit Card,Electronics,32.7,0.18,False
+tx_syn_101738,usr_6619,207.77,Cash,Home & Kitchen,27.1,0.18,False
+tx_syn_101739,usr_1164,780.19,UPI,Apparel,36.2,0.25,False
+tx_syn_101740,usr_5277,2087.2,Cash,Electronics,35.7,0.17,False
+tx_syn_101741,usr_7612,184.72,UPI,Digital Goods,18.0,0.21,False
+tx_syn_101742,usr_6005,463.85,Credit Card,Home & Kitchen,33.9,0.31,False
+tx_syn_101743,usr_7878,914.65,Debit Card,Apparel,35.2,0.14,False
+tx_syn_101744,usr_1822,7286.25,UPI,Home & Kitchen,31.0,0.13,False
+tx_syn_101745,usr_1943,2815.65,Credit Card,Home & Kitchen,23.0,0.0,False
+tx_syn_101746,usr_7097,2430.2,UPI,Home & Kitchen,23.2,0.21,False
+tx_syn_101747,usr_7150,272.33,UPI,Home & Kitchen,38.6,0.01,False
+tx_syn_101748,usr_5425,2783.6,Credit Card,Electronics,40.7,0.18,False
+tx_syn_101749,usr_1774,2819.06,Credit Card,Apparel,30.4,0.28,False
+tx_syn_101750,usr_8840,1704.29,Debit Card,Electronics,37.4,0.19,False
+tx_syn_101751,usr_3198,8405.63,Credit Card,Electronics,30.3,0.09,False
+tx_syn_101752,usr_4156,758.15,Credit Card,Digital Goods,26.9,0.28,False
+tx_syn_101753,usr_5242,5152.72,UPI,Apparel,36.0,0.09,False
+tx_syn_101754,usr_4695,4481.5,UPI,Home & Kitchen,24.4,0.26,False
+tx_syn_101755,usr_4452,70.78,Cash,Home & Kitchen,50.3,0.21,False
+tx_syn_101756,usr_1914,1126.49,UPI,Digital Goods,22.0,0.06,False
+tx_syn_101757,usr_6667,6848.25,Credit Card,Digital Goods,36.6,0.32,False
+tx_syn_101758,usr_2308,245.9,UPI,Apparel,35.5,0.07,False
+tx_syn_101759,usr_7843,1478.47,Debit Card,Electronics,34.7,0.35,False
+tx_syn_101760,usr_5177,7000.18,Credit Card,Electronics,46.8,0.0,False
+tx_syn_101761,usr_1513,1509.43,UPI,Apparel,18.0,0.09,False
+tx_syn_101762,usr_2920,428.89,UPI,Apparel,37.7,0.07,False
+tx_syn_101763,usr_7958,1620.88,Credit Card,Apparel,31.9,0.0,False
+tx_syn_101764,usr_7852,461.68,UPI,Home & Kitchen,39.2,0.26,True
+tx_syn_101765,usr_7035,1370.04,UPI,Digital Goods,34.7,0.24,False
+tx_syn_101766,usr_4594,188.47,Debit Card,Home & Kitchen,33.6,0.28,False
+tx_syn_101767,usr_5841,1724.17,UPI,Apparel,23.9,0.09,False
+tx_syn_101768,usr_8166,1359.15,Debit Card,Electronics,28.5,0.16,False
+tx_syn_101769,usr_2409,13617.18,Credit Card,Electronics,60.8,0.23,False
+tx_syn_101770,usr_5802,1843.07,UPI,Electronics,39.2,0.15,False
+tx_syn_101771,usr_5566,1485.74,Credit Card,Home & Kitchen,43.1,0.24,False
+tx_syn_101772,usr_4190,2156.85,Credit Card,Electronics,31.2,0.22,False
+tx_syn_101773,usr_5491,329.75,UPI,Home & Kitchen,26.9,0.04,False
+tx_syn_101774,usr_2555,1678.56,Credit Card,Apparel,40.8,0.27,False
+tx_syn_101775,usr_7404,389.98,UPI,Electronics,18.0,0.25,False
+tx_syn_101776,usr_1804,4725.06,UPI,Electronics,28.7,0.23,False
+tx_syn_101777,usr_6029,177.41,UPI,Apparel,31.2,0.05,False
+tx_syn_101778,usr_2279,1063.0,UPI,Apparel,42.2,0.09,False
+tx_syn_101779,usr_6853,2192.11,UPI,Home & Kitchen,37.7,0.14,False
+tx_syn_101780,usr_6000,1152.55,Credit Card,Home & Kitchen,30.2,0.1,False
+tx_syn_101781,usr_8393,223.91,Credit Card,Apparel,37.3,0.08,False
+tx_syn_101782,usr_6172,1500.88,Credit Card,Home & Kitchen,31.6,0.28,False
+tx_syn_101783,usr_8083,1897.15,Debit Card,Apparel,43.3,0.22,False
+tx_syn_101784,usr_6986,2240.05,Debit Card,Digital Goods,36.2,0.2,False
+tx_syn_101785,usr_6619,891.0,Credit Card,Electronics,49.0,0.08,False
+tx_syn_101786,usr_4577,1542.8,Credit Card,Home & Kitchen,31.8,0.32,False
+tx_syn_101787,usr_3901,1128.35,UPI,Apparel,44.6,0.07,True
+tx_syn_101788,usr_2387,2056.84,Cash,Electronics,35.0,0.28,False
+tx_syn_101789,usr_6399,1626.81,UPI,Electronics,28.3,0.34,False
+tx_syn_101790,usr_5688,1392.86,UPI,Apparel,56.3,0.25,False
+tx_syn_101791,usr_3761,566.69,Debit Card,Electronics,45.3,0.35,False
+tx_syn_101792,usr_8325,53.64,UPI,Electronics,36.2,0.23,False
+tx_syn_101793,usr_3679,394.27,UPI,Digital Goods,,0.08,False
+tx_syn_101794,usr_3106,274.11,Credit Card,Home & Kitchen,25.0,0.07,False
+tx_syn_101795,usr_8894,1123.11,Credit Card,Home & Kitchen,25.3,0.11,False
+tx_syn_101796,usr_5223,1755.35,Debit Card,Home & Kitchen,43.7,0.0,False
+tx_syn_101797,usr_5831,481.34,Debit Card,Digital Goods,34.2,0.24,False
+tx_syn_101798,usr_3768,5086.07,UPI,Apparel,32.9,0.09,False
+tx_syn_101799,usr_4953,62.07,UPI,Electronics,31.8,0.29,False
+tx_syn_101800,usr_4186,2713.52,Credit Card,Digital Goods,35.5,0.13,False
+tx_syn_101801,usr_4280,1816.48,UPI,Home & Kitchen,32.0,0.17,False
+tx_syn_101802,usr_3573,891.85,Credit Card,Apparel,18.0,0.34,False
+tx_syn_101803,usr_5616,143.25,UPI,Apparel,46.2,0.08,False
+tx_syn_101804,usr_3599,1827.47,Credit Card,Apparel,33.3,0.25,False
+tx_syn_101805,usr_5033,926.84,Credit Card,Digital Goods,49.8,0.26,False
+tx_syn_101806,usr_1236,5005.5,Credit Card,Electronics,19.2,0.08,False
+tx_syn_101807,usr_2304,1455.56,Credit Card,Digital Goods,19.2,0.18,False
+tx_syn_101808,usr_4430,5103.71,Credit Card,Digital Goods,31.9,0.12,False
+tx_syn_101809,usr_8368,498.35,UPI,Apparel,42.5,0.27,False
+tx_syn_101810,usr_6877,2378.53,UPI,Apparel,23.8,0.22,True
+tx_syn_101811,usr_2301,1778.67,UPI,Apparel,23.5,0.17,False
+tx_syn_101812,usr_8402,2470.64,Credit Card,Electronics,37.4,0.27,False
+tx_syn_101813,usr_3541,484.97,UPI,Electronics,31.5,0.08,False
+tx_syn_101814,usr_3051,2018.5,Credit Card,Home & Kitchen,38.8,0.26,False
+tx_syn_101815,usr_7809,1290.62,UPI,Apparel,31.7,0.3,False
+tx_syn_101816,usr_1441,13719.18,Credit Card,Electronics,37.5,0.31,False
+tx_syn_101817,usr_3076,762.94,Debit Card,Electronics,45.8,0.27,False
+tx_syn_101818,usr_4180,4024.03,UPI,Digital Goods,23.9,0.14,False
+tx_syn_101819,usr_3657,208.52,UPI,Apparel,44.3,0.34,False
+tx_syn_101820,usr_4798,3012.88,UPI,Digital Goods,19.7,0.13,False
+tx_syn_101821,usr_1804,3606.05,Credit Card,Electronics,39.4,0.22,False
+tx_syn_101822,usr_1074,3109.37,Credit Card,Apparel,46.3,0.06,False
+tx_syn_101823,usr_7981,1344.07,UPI,Electronics,29.7,0.34,False
+tx_syn_101824,usr_8313,1088.49,Credit Card,Apparel,39.7,0.25,False
+tx_syn_101825,usr_3175,10110.71,UPI,Apparel,30.1,0.26,False
+tx_syn_101826,usr_4924,518.52,Credit Card,Electronics,39.2,0.02,False
+tx_syn_101827,usr_3089,1474.86,Credit Card,Apparel,18.0,0.27,False
+tx_syn_101828,usr_6475,2049.28,Debit Card,Apparel,35.6,0.27,False
+tx_syn_101829,usr_1040,2222.36,UPI,Home & Kitchen,37.6,0.24,False
+tx_syn_101830,usr_8077,460.74,Debit Card,Home & Kitchen,45.6,0.1,False
+tx_syn_101831,usr_3081,1960.34,Credit Card,Electronics,42.1,0.17,False
+tx_syn_101832,usr_8184,3120.41,UPI,Apparel,32.8,0.04,False
+tx_syn_101833,usr_6796,142.36,UPI,Digital Goods,36.5,0.17,False
+tx_syn_101834,usr_8320,4414.99,Credit Card,Digital Goods,21.9,0.09,False
+tx_syn_101835,usr_8141,103.91,Debit Card,Digital Goods,48.2,0.12,False
+tx_syn_101836,usr_6497,842.02,Debit Card,Apparel,,0.06,False
+tx_syn_101837,usr_5683,78.69,Credit Card,Home & Kitchen,18.4,0.08,False
+tx_syn_101838,usr_2622,194.51,Debit Card,Apparel,36.3,0.03,False
+tx_syn_101839,usr_8796,4407.82,UPI,Electronics,36.9,0.32,False
+tx_syn_101840,usr_1341,838.92,UPI,Home & Kitchen,27.6,0.19,False
+tx_syn_101841,usr_5052,1045.38,Cash,Home & Kitchen,35.0,0.14,False
+tx_syn_101842,usr_3074,486.52,Debit Card,Electronics,26.8,0.19,False
+tx_syn_101843,usr_8992,1686.3,Credit Card,Electronics,22.3,0.22,False
+tx_syn_101844,usr_8454,1676.09,Debit Card,Home & Kitchen,29.0,0.32,False
+tx_syn_101845,usr_1645,887.96,Cash,Electronics,35.7,0.06,False
+tx_syn_101846,usr_5826,4284.67,Debit Card,Electronics,42.1,0.1,False
+tx_syn_101847,usr_5263,3942.52,Debit Card,Apparel,34.8,0.34,False
+tx_syn_101848,usr_1609,920.02,Debit Card,Electronics,42.2,0.13,False
+tx_syn_101849,usr_7411,1274.42,UPI,Digital Goods,39.7,0.01,False
+tx_syn_101850,usr_6868,649.59,Debit Card,Apparel,25.4,0.05,False
+tx_syn_101851,usr_7136,2831.69,UPI,Apparel,39.6,0.01,False
+tx_syn_101852,usr_7964,961.85,Debit Card,Digital Goods,39.9,0.35,False
+tx_syn_101853,usr_1454,1347.34,Credit Card,Apparel,49.0,0.1,False
+tx_syn_101854,usr_3953,575.9,Credit Card,Apparel,37.7,0.32,False
+tx_syn_101855,usr_2708,7960.78,Credit Card,Home & Kitchen,23.7,0.35,False
+tx_syn_101856,usr_4472,670.28,UPI,Apparel,29.5,0.21,False
+tx_syn_101857,usr_3969,2701.24,UPI,Electronics,18.5,0.01,False
+tx_syn_101858,usr_4028,1053.92,Cash,Home & Kitchen,38.5,0.03,False
+tx_syn_101859,usr_8643,465.7,Cash,Home & Kitchen,48.3,0.17,False
+tx_syn_101860,usr_5797,2944.46,UPI,Home & Kitchen,18.0,0.14,False
+tx_syn_101861,usr_3681,780.58,Cash,Digital Goods,48.6,0.21,False
+tx_syn_101862,usr_4629,3657.04,Debit Card,Home & Kitchen,38.4,0.15,False
+tx_syn_101863,usr_6695,4492.64,Credit Card,Home & Kitchen,25.0,0.33,False
+tx_syn_101864,usr_5225,3586.74,UPI,Digital Goods,36.4,0.19,False
+tx_syn_101865,usr_4067,114.14,Cash,Electronics,25.3,0.24,False
+tx_syn_101866,usr_6941,2836.79,Credit Card,Apparel,37.9,0.31,False
+tx_syn_101867,usr_2386,1003.83,Debit Card,Home & Kitchen,34.7,0.05,False
+tx_syn_101868,usr_4776,3774.7,Debit Card,Apparel,37.0,0.08,False
+tx_syn_101869,usr_3866,1878.77,Debit Card,Electronics,26.4,0.04,False
+tx_syn_101870,usr_5788,3278.52,Credit Card,Electronics,27.6,0.05,False
+tx_syn_101871,usr_4363,1295.62,UPI,Electronics,38.5,0.18,False
+tx_syn_101872,usr_6490,1428.39,UPI,Apparel,29.9,0.11,False
+tx_syn_101873,usr_5889,330.69,UPI,Home & Kitchen,35.5,0.15,False
+tx_syn_101874,usr_5124,2808.35,UPI,Digital Goods,38.1,0.34,False
+tx_syn_101875,usr_1148,1028.62,Credit Card,Home & Kitchen,32.3,0.05,False
+tx_syn_101876,usr_4850,1297.95,Credit Card,Home & Kitchen,44.0,0.19,False
+tx_syn_101877,usr_6415,2817.63,Debit Card,Apparel,32.6,0.03,False
+tx_syn_101878,usr_3058,1694.14,UPI,Apparel,,0.11,False
+tx_syn_101879,usr_8679,454.13,Credit Card,Apparel,28.8,0.18,True
+tx_syn_101880,usr_7819,1655.9,UPI,Apparel,,0.33,False
+tx_syn_101881,usr_2136,992.53,UPI,Electronics,28.2,0.14,False
+tx_syn_101882,usr_1186,1191.17,UPI,Apparel,,0.02,False
+tx_syn_101883,usr_3854,101.7,Debit Card,Home & Kitchen,35.6,0.14,False
+tx_syn_101884,usr_7887,474.37,UPI,Apparel,57.0,0.05,False
+tx_syn_101885,usr_2250,643.9,Debit Card,Digital Goods,28.6,0.08,False
+tx_syn_101886,usr_2333,2296.64,UPI,Apparel,45.0,0.22,False
+tx_syn_101887,usr_5193,70.81,Debit Card,Electronics,38.5,0.02,False
+tx_syn_101888,usr_5150,996.01,Debit Card,Apparel,29.8,0.16,False
+tx_syn_101889,usr_7766,4689.28,Cash,Home & Kitchen,38.7,0.21,False
+tx_syn_101890,usr_3711,263.57,Debit Card,Electronics,,0.15,False
+tx_syn_101891,usr_5853,1357.79,Cash,Electronics,31.4,0.01,False
+tx_syn_101892,usr_5501,2829.6,Debit Card,Apparel,37.8,0.34,False
+tx_syn_101893,usr_7212,5191.73,Credit Card,Digital Goods,44.1,0.13,False
+tx_syn_101894,usr_8479,2522.27,UPI,Apparel,38.5,0.27,False
+tx_syn_101895,usr_6408,2344.98,UPI,Digital Goods,30.6,0.11,False
+tx_syn_101896,usr_2785,3202.72,UPI,Home & Kitchen,30.2,0.17,False
+tx_syn_101897,usr_8715,1113.72,Credit Card,Electronics,33.5,0.14,False
+tx_syn_101898,usr_1750,3000.37,Credit Card,Home & Kitchen,43.7,0.12,False
+tx_syn_101899,usr_8315,64.39,Debit Card,Apparel,27.8,0.01,False
+tx_syn_101900,usr_8634,4701.98,Cash,Electronics,37.5,0.13,False
+tx_syn_101901,usr_2762,1104.33,UPI,Home & Kitchen,20.9,0.31,False
+tx_syn_101902,usr_8411,1500.89,Credit Card,Home & Kitchen,39.3,0.24,False
+tx_syn_101903,usr_8658,579.58,Cash,Electronics,40.6,0.05,False
+tx_syn_101904,usr_4920,2492.34,UPI,Digital Goods,51.4,0.21,False
+tx_syn_101905,usr_8101,193.52,Debit Card,Home & Kitchen,42.1,0.31,False
+tx_syn_101906,usr_8674,3759.27,UPI,Digital Goods,30.8,0.25,False
+tx_syn_101907,usr_5460,3219.69,Credit Card,Electronics,21.2,0.05,False
+tx_syn_101908,usr_7122,488.16,UPI,Digital Goods,38.6,0.3,False
+tx_syn_101909,usr_1481,3032.93,Debit Card,Apparel,31.4,0.11,False
+tx_syn_101910,usr_7344,2828.21,Credit Card,Electronics,37.0,0.16,False
+tx_syn_101911,usr_1153,1850.47,UPI,Home & Kitchen,28.1,0.18,False
+tx_syn_101912,usr_8617,891.75,UPI,Home & Kitchen,32.7,0.3,False
+tx_syn_101913,usr_2524,620.18,Credit Card,Apparel,19.8,0.33,False
+tx_syn_101914,usr_3120,524.63,Cash,Apparel,25.3,0.33,False
+tx_syn_101915,usr_7856,740.51,Debit Card,Electronics,24.1,0.0,False
+tx_syn_101916,usr_3343,4259.87,Credit Card,Apparel,41.6,0.32,False
+tx_syn_101917,usr_6136,195.48,UPI,Apparel,27.2,0.02,False
+tx_syn_101918,usr_6760,3227.61,Credit Card,Apparel,45.9,0.09,False
+tx_syn_101919,usr_2240,822.34,Debit Card,Apparel,27.3,0.18,False
+tx_syn_101920,usr_1060,1377.15,Debit Card,Digital Goods,52.0,0.17,False
+tx_syn_101921,usr_1938,2898.03,UPI,Apparel,18.0,0.21,False
+tx_syn_101922,usr_2639,3933.35,Debit Card,Home & Kitchen,37.8,0.17,False
+tx_syn_101923,usr_7185,811.02,Credit Card,Digital Goods,34.5,0.33,False
+tx_syn_101924,usr_5120,1165.29,Cash,Apparel,,0.08,False
+tx_syn_101925,usr_6158,1013.57,Cash,Electronics,29.5,0.1,False
+tx_syn_101926,usr_8970,74.01,Debit Card,Electronics,,0.32,False
+tx_syn_101927,usr_5226,681.61,Debit Card,Home & Kitchen,36.3,0.03,False
+tx_syn_101928,usr_4569,1156.43,UPI,Electronics,26.2,0.21,False
+tx_syn_101929,usr_2252,1003.08,Debit Card,Apparel,37.8,0.24,False
+tx_syn_101930,usr_5203,2353.78,Credit Card,Electronics,35.2,0.18,False
+tx_syn_101931,usr_1171,924.46,UPI,Electronics,40.8,0.24,False
+tx_syn_101932,usr_2458,1259.82,UPI,Apparel,26.9,0.06,False
+tx_syn_101933,usr_4549,1060.58,Debit Card,Digital Goods,30.7,0.3,False
+tx_syn_101934,usr_5197,2479.07,UPI,Apparel,46.5,0.05,False
+tx_syn_101935,usr_8009,3627.63,Credit Card,Digital Goods,26.5,0.14,False
+tx_syn_101936,usr_7667,1416.29,Credit Card,Digital Goods,22.4,0.03,False
+tx_syn_101937,usr_3322,2854.31,UPI,Electronics,28.8,0.19,False
+tx_syn_101938,usr_2636,683.77,UPI,Electronics,19.1,0.23,False
+tx_syn_101939,usr_4115,1453.12,Debit Card,Home & Kitchen,48.4,0.33,False
+tx_syn_101940,usr_5090,812.25,Debit Card,Digital Goods,31.8,0.26,False
+tx_syn_101941,usr_7960,1012.6,UPI,Apparel,31.9,0.19,False
+tx_syn_101942,usr_4004,2422.96,Debit Card,Digital Goods,40.5,0.33,False
+tx_syn_101943,usr_6136,3891.59,Debit Card,Electronics,28.0,0.17,False
+tx_syn_101944,usr_1329,283.16,Credit Card,Electronics,32.4,0.2,False
+tx_syn_101945,usr_4640,1862.37,Debit Card,Apparel,,0.21,False
+tx_syn_101946,usr_4894,1620.71,Cash,Apparel,19.3,0.14,False
+tx_syn_101947,usr_6616,276.86,Credit Card,Electronics,34.6,0.29,False
+tx_syn_101948,usr_8982,478.62,UPI,Apparel,42.9,0.06,False
+tx_syn_101949,usr_5107,720.53,Cash,Electronics,34.9,0.19,False
+tx_syn_101950,usr_2341,378.75,Credit Card,Apparel,42.0,0.25,False
+tx_syn_101951,usr_4663,552.84,UPI,Digital Goods,24.9,0.32,False
+tx_syn_101952,usr_1215,610.57,Credit Card,Digital Goods,27.8,0.31,False
+tx_syn_101953,usr_1338,786.17,Credit Card,Home & Kitchen,23.2,0.18,False
+tx_syn_101954,usr_6895,2540.95,Debit Card,Apparel,,0.23,False
+tx_syn_101955,usr_5062,1577.17,Credit Card,Apparel,31.5,0.14,False
+tx_syn_101956,usr_3708,7765.65,UPI,Electronics,31.2,0.16,False
+tx_syn_101957,usr_4152,1014.25,Credit Card,Electronics,39.9,0.32,False
+tx_syn_101958,usr_2750,2573.38,Credit Card,Electronics,30.2,0.33,False
+tx_syn_101959,usr_6604,3742.85,UPI,Home & Kitchen,43.4,0.31,False
+tx_syn_101960,usr_3421,2095.24,Credit Card,Digital Goods,36.2,0.05,False
+tx_syn_101961,usr_8119,1005.44,Debit Card,Apparel,31.1,0.3,False
+tx_syn_101962,usr_1709,2571.4,UPI,Home & Kitchen,21.0,0.33,False
+tx_syn_101963,usr_6319,459.93,Credit Card,Electronics,39.8,0.13,False
+tx_syn_101964,usr_8704,764.3,UPI,Apparel,36.6,0.18,False
+tx_syn_101965,usr_7609,1474.1,UPI,Home & Kitchen,37.0,0.27,False
+tx_syn_101966,usr_6208,1591.93,UPI,Apparel,37.3,0.2,False
+tx_syn_101967,usr_6387,90.3,UPI,Electronics,29.7,0.35,False
+tx_syn_101968,usr_4726,5274.5,Debit Card,Digital Goods,32.9,0.16,False
+tx_syn_101969,usr_4642,2197.03,UPI,Home & Kitchen,30.3,0.25,False
+tx_syn_101970,usr_4993,1282.26,Debit Card,Digital Goods,44.8,0.28,False
+tx_syn_101971,usr_1488,4918.93,UPI,Home & Kitchen,31.9,0.17,False
+tx_syn_101972,usr_6657,1090.77,Cash,Digital Goods,28.9,0.3,False
+tx_syn_101973,usr_1046,7131.28,Credit Card,Electronics,45.4,0.19,False
+tx_syn_101974,usr_4359,1342.44,Credit Card,Electronics,,0.14,False
+tx_syn_101975,usr_5873,268.45,UPI,Electronics,36.2,0.04,False
+tx_syn_101976,usr_6135,2655.18,Credit Card,Electronics,33.1,0.14,False
+tx_syn_101977,usr_5806,2094.79,UPI,Apparel,31.0,0.26,False
+tx_syn_101978,usr_1400,2718.94,Cash,Apparel,33.8,0.32,False
+tx_syn_101979,usr_4990,5494.99,Credit Card,Apparel,26.8,0.09,False
+tx_syn_101980,usr_6913,2746.93,Credit Card,Electronics,38.3,0.12,False
+tx_syn_101981,usr_8124,1751.07,Debit Card,Digital Goods,48.2,0.05,False
+tx_syn_101982,usr_4157,3554.73,UPI,Electronics,39.0,0.24,False
+tx_syn_101983,usr_5345,2063.39,Debit Card,Electronics,24.8,0.34,False
+tx_syn_101984,usr_1390,994.01,Credit Card,Home & Kitchen,38.1,0.22,False
+tx_syn_101985,usr_4853,3952.81,Credit Card,Home & Kitchen,35.9,0.22,False
+tx_syn_101986,usr_5430,501.62,Credit Card,Apparel,38.0,0.19,False
+tx_syn_101987,usr_1628,2307.21,UPI,Electronics,27.2,0.03,False
+tx_syn_101988,usr_8686,3890.08,UPI,Apparel,34.2,0.26,False
+tx_syn_101989,usr_5232,2415.6,Debit Card,Electronics,41.7,0.21,False
+tx_syn_101990,usr_3930,2200.88,Credit Card,Electronics,25.1,0.23,False
+tx_syn_101991,usr_7831,2564.43,Credit Card,Home & Kitchen,30.4,0.31,False
+tx_syn_101992,usr_2521,1176.07,Cash,Electronics,31.8,0.27,False
+tx_syn_101993,usr_1826,20796.01,UPI,Electronics,42.7,0.27,False
+tx_syn_101994,usr_5822,459.41,Debit Card,Apparel,44.0,0.32,False
+tx_syn_101995,usr_2500,295.27,Cash,Digital Goods,18.0,0.35,False
+tx_syn_101996,usr_7737,655.13,Debit Card,Digital Goods,42.7,0.2,False
+tx_syn_101997,usr_4294,1415.09,Debit Card,Apparel,44.2,0.04,False
+tx_syn_101998,usr_6085,1336.09,UPI,Electronics,43.7,0.16,False
+tx_syn_101999,usr_3419,3142.63,UPI,Electronics,29.7,0.28,False
+tx_syn_102000,usr_1934,983.24,Debit Card,Electronics,32.2,0.01,False
+tx_syn_102001,usr_4042,1242.17,UPI,Apparel,20.9,0.02,False
+tx_syn_102002,usr_5497,74.22,UPI,Apparel,18.0,0.02,False
+tx_syn_102003,usr_2466,998.94,Debit Card,Apparel,,0.26,False
+tx_syn_102004,usr_4561,1928.27,UPI,Apparel,34.8,0.18,False
+tx_syn_102005,usr_1614,429.74,Cash,Electronics,35.7,0.13,False
+tx_syn_102006,usr_6392,643.51,Debit Card,Apparel,41.2,0.04,False
+tx_syn_102007,usr_8693,469.65,Debit Card,Electronics,60.2,0.26,False
+tx_syn_102008,usr_2182,127.21,Debit Card,Apparel,30.8,0.11,False
+tx_syn_102009,usr_4223,1224.51,Debit Card,Home & Kitchen,25.2,0.09,False
+tx_syn_102010,usr_8138,411.0,Debit Card,Apparel,,0.23,False
+tx_syn_102011,usr_3667,2496.19,Credit Card,Apparel,36.1,0.2,False
+tx_syn_102012,usr_7331,3440.12,UPI,Apparel,29.3,0.13,False
+tx_syn_102013,usr_8980,1469.74,Debit Card,Electronics,,0.22,False
+tx_syn_102014,usr_6217,7252.26,Debit Card,Electronics,27.3,0.09,False
+tx_syn_102015,usr_1130,1127.67,Credit Card,Apparel,33.1,0.28,False
+tx_syn_102016,usr_7948,1346.45,UPI,Electronics,33.6,0.08,False
+tx_syn_102017,usr_6290,8203.74,Credit Card,Home & Kitchen,26.1,0.06,False
+tx_syn_102018,usr_3983,524.08,UPI,Home & Kitchen,19.7,0.27,False
+tx_syn_102019,usr_8129,5192.19,Cash,Digital Goods,36.1,0.25,False
+tx_syn_102020,usr_5278,128.81,Cash,Digital Goods,45.8,0.06,False
+tx_syn_102021,usr_8126,1114.32,UPI,Electronics,42.4,0.04,False
+tx_syn_102022,usr_5459,180.63,Credit Card,Digital Goods,,0.29,False
+tx_syn_102023,usr_1038,2401.71,UPI,Home & Kitchen,27.4,0.27,False
+tx_syn_102024,usr_8694,1737.57,Debit Card,Apparel,36.0,0.11,False
+tx_syn_102025,usr_4959,2257.4,UPI,Electronics,22.1,0.23,False
+tx_syn_102026,usr_7640,894.51,Credit Card,Digital Goods,35.6,0.04,False
+tx_syn_102027,usr_4587,880.18,UPI,Electronics,46.0,0.18,False
+tx_syn_102028,usr_6468,133.48,UPI,Home & Kitchen,46.3,0.01,False
+tx_syn_102029,usr_8125,825.26,UPI,Electronics,,0.14,False
+tx_syn_102030,usr_1920,4818.46,UPI,Apparel,42.6,0.03,False
+tx_syn_102031,usr_8564,908.22,Credit Card,Apparel,38.2,0.17,False
+tx_syn_102032,usr_3769,3254.06,UPI,Electronics,41.6,0.15,False
+tx_syn_102033,usr_8328,3375.0,Credit Card,Electronics,40.0,0.16,False
+tx_syn_102034,usr_5111,890.95,Debit Card,Apparel,27.3,0.02,False
+tx_syn_102035,usr_1492,1849.35,Debit Card,Electronics,21.3,0.13,False
+tx_syn_102036,usr_6545,230.42,Debit Card,Apparel,41.7,0.26,False
+tx_syn_102037,usr_2131,247.02,Cash,Apparel,52.0,0.13,False
+tx_syn_102038,usr_8037,139.79,UPI,Home & Kitchen,42.1,0.25,False
+tx_syn_102039,usr_4521,1615.86,UPI,Home & Kitchen,18.1,0.13,False
+tx_syn_102040,usr_1310,1049.45,Credit Card,Electronics,29.8,0.15,False
+tx_syn_102041,usr_1738,1479.46,Debit Card,Electronics,32.5,0.2,False
+tx_syn_102042,usr_4241,1375.17,Cash,Electronics,18.4,0.33,False
+tx_syn_102043,usr_1545,825.97,UPI,Digital Goods,22.5,0.04,False
+tx_syn_102044,usr_3461,2086.83,UPI,Digital Goods,33.9,0.01,False
+tx_syn_102045,usr_5346,2607.61,UPI,Apparel,36.4,0.21,False
+tx_syn_102046,usr_5854,76.53,Debit Card,Electronics,25.8,0.33,False
+tx_syn_102047,usr_2804,468.03,Credit Card,Digital Goods,22.1,0.35,False
+tx_syn_102048,usr_4212,2298.37,UPI,Digital Goods,44.3,0.17,False
+tx_syn_102049,usr_6393,929.79,Credit Card,Digital Goods,30.9,0.16,False
+tx_syn_102050,usr_8583,2005.06,Credit Card,Home & Kitchen,32.2,0.23,False
+tx_syn_102051,usr_6727,817.02,Debit Card,Apparel,29.6,0.19,False
+tx_syn_102052,usr_4810,941.96,UPI,Electronics,27.6,0.22,False
+tx_syn_102053,usr_7010,361.01,Debit Card,Apparel,45.3,0.31,False
+tx_syn_102054,usr_8206,587.69,Credit Card,Apparel,26.7,0.26,False
+tx_syn_102055,usr_1813,1723.84,Debit Card,Apparel,35.7,0.17,False
+tx_syn_102056,usr_5124,1071.83,Debit Card,Apparel,34.3,0.16,False
+tx_syn_102057,usr_6053,2729.41,UPI,Electronics,18.0,0.22,False
+tx_syn_102058,usr_3032,3496.11,UPI,Apparel,36.2,0.16,False
+tx_syn_102059,usr_5572,1454.21,Debit Card,Apparel,21.1,0.16,False
+tx_syn_102060,usr_5413,2605.86,UPI,Electronics,39.6,0.01,False
+tx_syn_102061,usr_1244,709.86,Debit Card,Apparel,24.1,0.06,False
+tx_syn_102062,usr_5843,1014.97,Debit Card,Home & Kitchen,38.6,0.17,False
+tx_syn_102063,usr_5792,12625.24,Debit Card,Home & Kitchen,30.5,0.29,False
+tx_syn_102064,usr_1271,928.59,UPI,Apparel,28.5,0.1,False
+tx_syn_102065,usr_4511,1648.32,UPI,Apparel,36.0,0.18,False
+tx_syn_102066,usr_2771,419.04,Credit Card,Electronics,21.7,0.12,False
+tx_syn_102067,usr_2262,1698.29,UPI,Home & Kitchen,33.6,0.04,False
+tx_syn_102068,usr_3424,3608.57,Debit Card,Apparel,40.8,0.34,False
+tx_syn_102069,usr_5361,3703.66,Debit Card,Apparel,43.1,0.3,False
+tx_syn_102070,usr_8069,2369.49,Credit Card,Digital Goods,30.3,0.03,False
+tx_syn_102071,usr_1920,2515.01,Debit Card,Apparel,31.5,0.25,False
+tx_syn_102072,usr_4430,1519.31,UPI,Electronics,21.5,0.12,False
+tx_syn_102073,usr_5435,1631.62,UPI,Electronics,27.8,0.35,False
+tx_syn_102074,usr_5484,308.24,Cash,Apparel,20.9,0.11,False
+tx_syn_102075,usr_3624,1106.12,Cash,Apparel,37.9,0.08,False
+tx_syn_102076,usr_4760,1128.65,Credit Card,Digital Goods,41.4,0.2,False
+tx_syn_102077,usr_3050,5777.62,Cash,Apparel,30.3,0.29,False
+tx_syn_102078,usr_4500,1065.25,Credit Card,Home & Kitchen,25.2,0.07,False
+tx_syn_102079,usr_2165,1484.69,UPI,Apparel,36.8,0.25,False
+tx_syn_102080,usr_1375,1421.54,UPI,Apparel,26.8,0.02,False
+tx_syn_102081,usr_8837,1872.85,Cash,Apparel,39.9,0.32,False
+tx_syn_102082,usr_3033,2532.65,UPI,Apparel,50.7,0.03,False
+tx_syn_102083,usr_7467,508.9,Credit Card,Apparel,26.7,0.32,False
+tx_syn_102084,usr_1145,1404.16,Credit Card,Electronics,27.9,0.17,False
+tx_syn_102085,usr_7077,3196.81,Debit Card,Digital Goods,21.8,0.16,False
+tx_syn_102086,usr_5388,1169.55,Credit Card,Electronics,35.4,0.34,False
+tx_syn_102087,usr_8832,637.46,UPI,Electronics,34.9,0.35,False
+tx_syn_102088,usr_1431,1964.06,UPI,Electronics,31.9,0.23,False
+tx_syn_102089,usr_1704,3174.71,Credit Card,Electronics,34.3,0.04,False
+tx_syn_102090,usr_8092,167.4,Debit Card,Apparel,25.3,0.18,False
+tx_syn_102091,usr_7094,2749.36,Credit Card,Electronics,20.1,0.19,False
+tx_syn_102092,usr_3632,3153.19,Debit Card,Electronics,27.7,0.18,False
+tx_syn_102093,usr_5494,1164.22,UPI,Apparel,18.0,0.2,False
+tx_syn_102094,usr_7960,7416.83,Debit Card,Home & Kitchen,26.7,0.01,True
+tx_syn_102095,usr_8511,2831.17,Credit Card,Electronics,36.8,0.25,False
+tx_syn_102096,usr_1963,2724.31,UPI,Apparel,34.7,0.25,False
+tx_syn_102097,usr_8307,2529.83,Credit Card,Home & Kitchen,19.1,0.04,False
+tx_syn_102098,usr_3234,343.82,Debit Card,Digital Goods,43.1,0.2,False
+tx_syn_102099,usr_3041,490.85,Cash,Home & Kitchen,32.5,0.2,False
+tx_syn_102100,usr_2828,1172.48,UPI,Electronics,23.2,0.24,False
+tx_syn_102101,usr_3108,601.76,Debit Card,Home & Kitchen,31.1,0.03,False
+tx_syn_102102,usr_5068,1015.8,UPI,Apparel,29.2,0.22,False
+tx_syn_102103,usr_1938,3998.14,UPI,Electronics,26.8,0.1,False
+tx_syn_102104,usr_8547,3180.43,Credit Card,Digital Goods,41.1,0.18,False
+tx_syn_102105,usr_5805,1839.85,Credit Card,Apparel,24.8,0.27,False
+tx_syn_102106,usr_1806,3565.0,Debit Card,Digital Goods,35.8,0.25,False
+tx_syn_102107,usr_2463,2806.56,UPI,Home & Kitchen,22.8,0.04,False
+tx_syn_102108,usr_8486,1058.61,UPI,Apparel,33.9,0.21,False
+tx_syn_102109,usr_6421,454.06,Credit Card,Home & Kitchen,36.5,0.34,False
+tx_syn_102110,usr_4415,1349.53,UPI,Apparel,36.5,0.05,False
+tx_syn_102111,usr_1010,2448.81,UPI,Apparel,34.9,0.3,False
+tx_syn_102112,usr_6181,1082.2,UPI,Digital Goods,32.2,0.25,False
+tx_syn_102113,usr_2868,2028.07,Credit Card,Home & Kitchen,25.2,0.27,False
+tx_syn_102114,usr_7369,228.34,UPI,Digital Goods,25.3,0.1,False
+tx_syn_102115,usr_8320,2531.02,Credit Card,Digital Goods,36.7,0.1,False
+tx_syn_102116,usr_8878,3065.21,UPI,Digital Goods,23.5,0.32,False
+tx_syn_102117,usr_7707,2258.65,UPI,Home & Kitchen,21.5,0.13,False
+tx_syn_102118,usr_5867,6204.68,Credit Card,Apparel,46.4,0.02,False
+tx_syn_102119,usr_6690,3204.42,UPI,Electronics,32.0,0.21,False
+tx_syn_102120,usr_6703,4251.22,Credit Card,Home & Kitchen,39.6,0.04,False
+tx_syn_102121,usr_8827,4930.92,UPI,Electronics,41.6,0.28,False
+tx_syn_102122,usr_8742,2959.16,UPI,Electronics,34.6,0.22,False
+tx_syn_102123,usr_6429,2068.97,UPI,Electronics,31.0,0.31,False
+tx_syn_102124,usr_1884,60.32,UPI,Digital Goods,31.1,0.27,False
+tx_syn_102125,usr_8410,1178.66,Credit Card,Digital Goods,47.9,0.04,False
+tx_syn_102126,usr_4564,1574.02,Cash,Apparel,29.5,0.13,False
+tx_syn_102127,usr_2389,702.41,UPI,Apparel,,0.27,False
+tx_syn_102128,usr_4401,739.18,Credit Card,Home & Kitchen,40.0,0.15,False
+tx_syn_102129,usr_8274,5896.92,Credit Card,Apparel,36.3,0.34,False
+tx_syn_102130,usr_5321,4051.31,Credit Card,Apparel,43.4,0.26,False
+tx_syn_102131,usr_1824,3454.99,Debit Card,Apparel,,0.01,False
+tx_syn_102132,usr_3265,987.61,UPI,Apparel,39.9,0.31,False
+tx_syn_102133,usr_1936,74.83,Cash,Apparel,18.9,0.04,False
+tx_syn_102134,usr_3800,200.52,UPI,Apparel,45.6,0.05,False
+tx_syn_102135,usr_3553,723.65,UPI,Apparel,43.7,0.26,False
+tx_syn_102136,usr_7402,78.56,Debit Card,Digital Goods,31.6,0.3,False
+tx_syn_102137,usr_7007,81.14,Credit Card,Electronics,37.9,0.19,False
+tx_syn_102138,usr_4845,4521.46,Credit Card,Electronics,41.8,0.1,False
+tx_syn_102139,usr_8684,2254.49,Debit Card,Apparel,25.4,0.12,False
+tx_syn_102140,usr_2796,715.19,Credit Card,Electronics,33.0,0.12,False
+tx_syn_102141,usr_1053,306.15,UPI,Apparel,23.1,0.11,False
+tx_syn_102142,usr_8214,1340.05,Credit Card,Electronics,43.9,0.09,False
+tx_syn_102143,usr_1726,59.65,UPI,Apparel,41.2,0.21,False
+tx_syn_102144,usr_3736,5067.17,Debit Card,Electronics,31.8,0.32,False
+tx_syn_102145,usr_6640,1014.49,Cash,Home & Kitchen,30.8,0.11,False
+tx_syn_102146,usr_4170,976.5,UPI,Apparel,32.9,0.07,False
+tx_syn_102147,usr_6139,941.49,Credit Card,Electronics,26.6,0.29,False
+tx_syn_102148,usr_2913,179.33,UPI,Home & Kitchen,32.7,0.26,False
+tx_syn_102149,usr_6872,1880.6,UPI,Electronics,25.4,0.33,False
+tx_syn_102150,usr_2596,2426.94,Cash,Home & Kitchen,,0.06,False
+tx_syn_102151,usr_2914,2079.32,UPI,Digital Goods,43.9,0.05,False
+tx_syn_102152,usr_8657,318.21,Credit Card,Electronics,42.2,0.19,False
+tx_syn_102153,usr_3466,1606.54,Debit Card,Digital Goods,24.0,0.22,True
+tx_syn_102154,usr_3737,1566.99,Debit Card,Home & Kitchen,32.4,0.17,False
+tx_syn_102155,usr_1849,3700.53,Credit Card,Digital Goods,39.2,0.21,False
+tx_syn_102156,usr_3109,907.93,Credit Card,Home & Kitchen,40.7,0.06,False
+tx_syn_102157,usr_8312,885.91,Credit Card,Electronics,18.6,0.17,False
+tx_syn_102158,usr_7359,1784.69,Cash,Digital Goods,40.5,0.23,False
+tx_syn_102159,usr_1002,1854.66,Credit Card,Electronics,23.6,0.15,False
+tx_syn_102160,usr_5255,1190.35,Credit Card,Electronics,32.9,0.24,False
+tx_syn_102161,usr_8906,1103.53,UPI,Electronics,44.9,0.16,False
+tx_syn_102162,usr_5069,1276.72,UPI,Electronics,43.7,0.12,False
+tx_syn_102163,usr_5876,3602.49,Credit Card,Apparel,45.5,0.11,False
+tx_syn_102164,usr_8287,1163.03,Cash,Home & Kitchen,25.1,0.14,False
+tx_syn_102165,usr_1892,5112.09,Debit Card,Digital Goods,27.2,0.01,False
+tx_syn_102166,usr_3030,1312.14,Cash,Electronics,29.4,0.23,False
+tx_syn_102167,usr_4160,5413.77,Credit Card,Digital Goods,33.0,0.3,False
+tx_syn_102168,usr_3376,3269.76,Debit Card,Digital Goods,36.0,0.12,False
+tx_syn_102169,usr_5675,860.17,Debit Card,Electronics,45.1,0.02,False
+tx_syn_102170,usr_2933,3636.44,Credit Card,Apparel,26.3,0.35,False
+tx_syn_102171,usr_2380,259.89,UPI,Home & Kitchen,28.9,0.09,False
+tx_syn_102172,usr_4681,4713.61,Credit Card,Apparel,,0.04,False
+tx_syn_102173,usr_2290,1847.67,Debit Card,Home & Kitchen,24.3,0.13,False
+tx_syn_102174,usr_2640,150.67,UPI,Home & Kitchen,,0.26,False
+tx_syn_102175,usr_6047,1910.38,Cash,Apparel,33.4,0.1,False
+tx_syn_102176,usr_8490,6636.61,UPI,Electronics,,0.2,False
+tx_syn_102177,usr_3682,180.24,Debit Card,Apparel,27.3,0.15,False
+tx_syn_102178,usr_1987,1506.16,Credit Card,Electronics,40.2,0.04,False
+tx_syn_102179,usr_8708,2529.52,Debit Card,Apparel,,0.12,False
+tx_syn_102180,usr_8816,3041.77,Credit Card,Home & Kitchen,22.1,0.25,False
+tx_syn_102181,usr_2218,1011.45,Cash,Apparel,38.3,0.21,False
+tx_syn_102182,usr_6016,461.06,Credit Card,Digital Goods,18.0,0.04,False
+tx_syn_102183,usr_7881,127.88,UPI,Apparel,,0.06,False
+tx_syn_102184,usr_2355,1610.33,Credit Card,Home & Kitchen,36.7,0.22,False
+tx_syn_102185,usr_5265,1135.66,UPI,Home & Kitchen,40.6,0.28,False
+tx_syn_102186,usr_5616,5397.67,UPI,Digital Goods,44.6,0.12,False
+tx_syn_102187,usr_6582,162.53,UPI,Home & Kitchen,49.3,0.21,False
+tx_syn_102188,usr_5135,2131.59,Debit Card,Electronics,46.7,0.06,False
+tx_syn_102189,usr_2560,95.51,Credit Card,Digital Goods,35.8,0.11,False
+tx_syn_102190,usr_8428,388.51,Credit Card,Home & Kitchen,43.8,0.01,False
+tx_syn_102191,usr_2418,1137.86,UPI,Electronics,35.7,0.27,False
+tx_syn_102192,usr_1954,1142.12,UPI,Home & Kitchen,40.0,0.14,False
+tx_syn_102193,usr_8393,2133.34,Cash,Digital Goods,29.1,0.29,False
+tx_syn_102194,usr_1983,4388.57,Credit Card,Apparel,38.1,0.25,False
+tx_syn_102195,usr_8291,1884.14,Cash,Apparel,30.2,0.29,False
+tx_syn_102196,usr_1974,5574.3,UPI,Home & Kitchen,32.7,0.1,False
+tx_syn_102197,usr_5133,3890.87,UPI,Home & Kitchen,38.2,0.06,True
+tx_syn_102198,usr_7471,1630.89,Debit Card,Apparel,52.0,0.34,False
+tx_syn_102199,usr_6370,3280.13,Credit Card,Electronics,,0.25,False
+tx_syn_102200,usr_4972,1901.91,UPI,Electronics,34.1,0.29,False
+tx_syn_102201,usr_6295,197.27,UPI,Home & Kitchen,27.1,0.0,False
+tx_syn_102202,usr_6721,2478.65,Debit Card,Home & Kitchen,41.8,0.12,False
+tx_syn_102203,usr_1913,229.49,Credit Card,Electronics,31.3,0.26,False
+tx_syn_102204,usr_5549,1672.89,Credit Card,Apparel,37.4,0.03,False
+tx_syn_102205,usr_1036,2233.06,UPI,Electronics,,0.2,False
+tx_syn_102206,usr_4387,173.92,UPI,Home & Kitchen,44.9,0.15,False
+tx_syn_102207,usr_2711,2872.73,Cash,Electronics,41.4,0.01,False
+tx_syn_102208,usr_4020,4501.48,UPI,Electronics,,0.08,False
+tx_syn_102209,usr_1795,1774.28,Credit Card,Electronics,19.6,0.1,False
+tx_syn_102210,usr_5036,558.94,Debit Card,Apparel,40.2,0.04,False
+tx_syn_102211,usr_6068,2162.08,UPI,Apparel,34.9,0.22,False
+tx_syn_102212,usr_5688,1684.88,Credit Card,Electronics,37.5,0.08,False
+tx_syn_102213,usr_6233,1303.35,Credit Card,Digital Goods,48.8,0.1,False
+tx_syn_102214,usr_4111,6777.54,Credit Card,Electronics,29.0,0.31,False
+tx_syn_102215,usr_2324,2120.51,Credit Card,Apparel,45.2,0.16,False
+tx_syn_102216,usr_7367,897.28,UPI,Digital Goods,29.0,0.14,False
+tx_syn_102217,usr_1317,2947.65,Credit Card,Apparel,47.5,0.25,False
+tx_syn_102218,usr_3396,3936.57,Credit Card,Apparel,40.6,0.32,False
+tx_syn_102219,usr_3162,290.81,Credit Card,Electronics,,0.01,False
+tx_syn_102220,usr_3745,452.9,UPI,Home & Kitchen,30.7,0.16,False
+tx_syn_102221,usr_6442,488.54,Credit Card,Apparel,50.5,0.21,False
+tx_syn_102222,usr_2591,2165.18,Cash,Home & Kitchen,49.4,0.11,False
+tx_syn_102223,usr_4111,1713.05,Credit Card,Electronics,39.3,0.27,False
+tx_syn_102224,usr_6985,1786.88,Debit Card,Apparel,37.2,0.34,False
+tx_syn_102225,usr_7183,5137.49,Credit Card,Home & Kitchen,36.2,0.33,False
+tx_syn_102226,usr_4930,2742.29,Debit Card,Digital Goods,37.9,0.09,False
+tx_syn_102227,usr_2996,296.41,Cash,Electronics,33.0,0.08,False
+tx_syn_102228,usr_6868,818.52,UPI,Home & Kitchen,44.5,0.34,False
+tx_syn_102229,usr_2312,1078.93,Credit Card,Electronics,39.1,0.16,False
+tx_syn_102230,usr_2285,957.41,UPI,Apparel,26.0,0.07,False
+tx_syn_102231,usr_5311,2041.83,UPI,Electronics,39.8,0.25,False
+tx_syn_102232,usr_8314,4054.34,UPI,Apparel,35.6,0.1,False
+tx_syn_102233,usr_3383,707.64,Debit Card,Apparel,31.5,0.09,False
+tx_syn_102234,usr_4239,1494.84,UPI,Electronics,50.3,0.31,False
+tx_syn_102235,usr_3139,2854.11,Credit Card,Electronics,35.1,0.06,False
+tx_syn_102236,usr_7496,1018.81,Credit Card,Electronics,18.0,0.02,False
+tx_syn_102237,usr_7714,381.32,UPI,Digital Goods,32.1,0.09,False
+tx_syn_102238,usr_8738,1209.67,Cash,Digital Goods,42.6,0.21,False
+tx_syn_102239,usr_7959,152.25,Debit Card,Home & Kitchen,26.3,0.04,False
+tx_syn_102240,usr_2704,5187.1,Credit Card,Electronics,42.4,0.17,False
+tx_syn_102241,usr_7924,189.98,UPI,Apparel,25.7,0.22,False
+tx_syn_102242,usr_1362,1088.72,UPI,Home & Kitchen,45.6,0.3,False
+tx_syn_102243,usr_3604,1408.59,Debit Card,Digital Goods,29.3,0.08,True
+tx_syn_102244,usr_8512,7646.3,UPI,Apparel,31.2,0.29,False
+tx_syn_102245,usr_2716,376.79,Credit Card,Home & Kitchen,30.6,0.08,False
+tx_syn_102246,usr_6289,268.75,Debit Card,Digital Goods,39.3,0.24,False
+tx_syn_102247,usr_5451,65.74,UPI,Digital Goods,49.9,0.15,False
+tx_syn_102248,usr_5286,354.37,Debit Card,Electronics,34.3,0.04,False
+tx_syn_102249,usr_4738,468.1,UPI,Electronics,34.1,0.25,False
+tx_syn_102250,usr_3469,1842.48,Cash,Apparel,29.3,0.08,False
+tx_syn_102251,usr_5795,496.55,UPI,Apparel,20.4,0.06,False
+tx_syn_102252,usr_7150,87.32,Credit Card,Electronics,30.2,0.13,False
+tx_syn_102253,usr_7276,3204.07,UPI,Electronics,23.5,0.23,False
+tx_syn_102254,usr_8914,869.12,Debit Card,Home & Kitchen,18.2,0.08,False
+tx_syn_102255,usr_1556,835.68,Credit Card,Apparel,33.5,0.06,False
+tx_syn_102256,usr_1825,698.4,UPI,Electronics,,0.0,False
+tx_syn_102257,usr_3808,6717.06,Credit Card,Apparel,45.9,0.17,False
+tx_syn_102258,usr_6150,385.64,UPI,Home & Kitchen,26.9,0.15,False
+tx_syn_102259,usr_7678,4163.21,Credit Card,Home & Kitchen,39.9,0.08,False
+tx_syn_102260,usr_5521,2749.46,Debit Card,Electronics,39.7,0.02,False
+tx_syn_102261,usr_8561,193.21,UPI,Home & Kitchen,45.6,0.15,False
+tx_syn_102262,usr_3719,7829.93,UPI,Apparel,32.6,0.28,False
+tx_syn_102263,usr_7506,619.85,UPI,Electronics,45.4,0.25,False
+tx_syn_102264,usr_4508,236.82,Credit Card,Home & Kitchen,39.0,0.3,True
+tx_syn_102265,usr_4741,3232.28,UPI,Apparel,43.9,0.0,False
+tx_syn_102266,usr_2574,2257.66,UPI,Electronics,54.6,0.34,False
+tx_syn_102267,usr_4998,1778.53,UPI,Apparel,33.2,0.12,False
+tx_syn_102268,usr_3129,355.24,Credit Card,Electronics,35.7,0.35,False
+tx_syn_102269,usr_3403,1221.87,Cash,Electronics,31.1,0.09,False
+tx_syn_102270,usr_4329,2779.98,UPI,Home & Kitchen,47.3,0.17,False
+tx_syn_102271,usr_8885,701.36,Credit Card,Electronics,56.3,0.12,False
+tx_syn_102272,usr_1588,722.33,Debit Card,Digital Goods,40.4,0.12,False
+tx_syn_102273,usr_3012,55.66,Debit Card,Apparel,20.5,0.29,False
+tx_syn_102274,usr_2547,394.62,UPI,Electronics,26.7,0.26,False
+tx_syn_102275,usr_1294,3798.85,Credit Card,Electronics,44.1,0.35,False
+tx_syn_102276,usr_2985,1099.3,Debit Card,Apparel,24.5,0.21,False
+tx_syn_102277,usr_6343,7519.88,UPI,Apparel,29.1,0.16,False
+tx_syn_102278,usr_6644,956.66,Credit Card,Electronics,28.8,0.03,False
+tx_syn_102279,usr_4117,2310.66,UPI,Electronics,33.5,0.35,False
+tx_syn_102280,usr_2690,646.11,UPI,Home & Kitchen,36.4,0.19,False
+tx_syn_102281,usr_2136,864.06,Credit Card,Electronics,18.1,0.25,False
+tx_syn_102282,usr_6352,430.91,Debit Card,Digital Goods,21.2,0.14,False
+tx_syn_102283,usr_3064,817.29,UPI,Home & Kitchen,21.4,0.19,False
+tx_syn_102284,usr_5455,1476.3,Credit Card,Apparel,22.4,0.33,True
+tx_syn_102285,usr_8390,8690.57,Credit Card,Electronics,34.3,0.06,False
+tx_syn_102286,usr_8009,2014.24,Credit Card,Electronics,35.9,0.1,False
+tx_syn_102287,usr_5795,449.96,Debit Card,Home & Kitchen,42.8,0.05,True
+tx_syn_102288,usr_5543,132.81,UPI,Electronics,38.9,0.28,False
+tx_syn_102289,usr_7999,293.15,Cash,Electronics,29.3,0.02,False
+tx_syn_102290,usr_7508,1538.25,Credit Card,Apparel,36.2,0.03,False
+tx_syn_102291,usr_5770,2657.93,Credit Card,Electronics,43.2,0.1,False
+tx_syn_102292,usr_2007,5126.76,Debit Card,Apparel,32.3,0.18,False
+tx_syn_102293,usr_6445,78.71,UPI,Home & Kitchen,31.6,0.14,False
+tx_syn_102294,usr_3514,1381.52,UPI,Apparel,26.2,0.02,False
+tx_syn_102295,usr_7557,1195.73,Credit Card,Digital Goods,,0.34,False
+tx_syn_102296,usr_4526,1971.09,Credit Card,Home & Kitchen,40.0,0.33,False
+tx_syn_102297,usr_5681,1526.04,Cash,Electronics,34.2,0.1,False
+tx_syn_102298,usr_6352,2141.02,Cash,Apparel,50.8,0.26,False
+tx_syn_102299,usr_2247,1981.73,UPI,Apparel,28.4,0.2,False
+tx_syn_102300,usr_6089,274.0,Credit Card,Apparel,40.7,0.08,False
+tx_syn_102301,usr_4902,2944.45,UPI,Electronics,37.5,0.09,False
+tx_syn_102302,usr_2435,286.72,UPI,Digital Goods,33.4,0.17,False
+tx_syn_102303,usr_1571,2208.36,Debit Card,Apparel,30.5,0.15,False
+tx_syn_102304,usr_3382,1018.59,Debit Card,Apparel,39.3,0.1,False
+tx_syn_102305,usr_2245,1348.23,Credit Card,Apparel,38.8,0.28,False
+tx_syn_102306,usr_3084,4255.02,UPI,Apparel,35.9,0.17,False
+tx_syn_102307,usr_6084,4021.19,UPI,Home & Kitchen,37.8,0.23,False
+tx_syn_102308,usr_1277,3115.33,UPI,Apparel,34.5,0.07,False
+tx_syn_102309,usr_6315,1334.57,Debit Card,Electronics,20.2,0.19,False
+tx_syn_102310,usr_8059,2448.89,UPI,Electronics,34.9,0.11,False
+tx_syn_102311,usr_2887,1344.7,Debit Card,Digital Goods,31.9,0.18,False
+tx_syn_102312,usr_5579,3716.95,Credit Card,Apparel,50.7,0.27,False
+tx_syn_102313,usr_2265,977.83,Debit Card,Digital Goods,39.6,0.27,False
+tx_syn_102314,usr_8491,6375.98,Credit Card,Electronics,35.9,0.12,False
+tx_syn_102315,usr_5826,4897.41,Credit Card,Electronics,38.1,0.24,False
+tx_syn_102316,usr_7335,2485.86,Credit Card,Electronics,25.5,0.33,False
+tx_syn_102317,usr_2040,639.85,Debit Card,Apparel,29.0,0.22,False
+tx_syn_102318,usr_7667,304.1,Credit Card,Apparel,31.4,0.05,False
+tx_syn_102319,usr_1917,3522.16,Credit Card,Electronics,37.5,0.24,False
+tx_syn_102320,usr_7544,375.23,Credit Card,Apparel,30.5,0.04,False
+tx_syn_102321,usr_1885,3516.69,UPI,Apparel,29.9,0.31,False
+tx_syn_102322,usr_3752,1264.72,Credit Card,Electronics,25.1,0.18,False
+tx_syn_102323,usr_1021,989.26,Cash,Apparel,34.4,0.13,False
+tx_syn_102324,usr_5569,4253.02,UPI,Home & Kitchen,,0.02,False
+tx_syn_102325,usr_4191,1716.74,UPI,Electronics,37.8,0.13,False
+tx_syn_102326,usr_7353,1597.05,UPI,Electronics,28.3,0.32,False
+tx_syn_102327,usr_3353,1522.72,Credit Card,Electronics,37.4,0.01,False
+tx_syn_102328,usr_8437,885.01,UPI,Home & Kitchen,25.4,0.17,False
+tx_syn_102329,usr_5799,2822.2,Credit Card,Home & Kitchen,,0.33,False
+tx_syn_102330,usr_1686,574.56,UPI,Apparel,36.8,0.14,False
+tx_syn_102331,usr_1284,5081.29,UPI,Electronics,32.0,0.15,False
+tx_syn_102332,usr_5811,4089.52,Debit Card,Digital Goods,20.9,0.2,False
+tx_syn_102333,usr_4747,791.07,UPI,Digital Goods,21.9,0.16,False
+tx_syn_102334,usr_1762,2403.23,Cash,Home & Kitchen,36.1,0.06,False
+tx_syn_102335,usr_6346,1582.69,UPI,Digital Goods,39.1,0.01,False
+tx_syn_102336,usr_6043,791.53,Credit Card,Home & Kitchen,37.1,0.21,False
+tx_syn_102337,usr_3428,8091.13,UPI,Home & Kitchen,39.3,0.32,False
+tx_syn_102338,usr_3507,96.01,UPI,Apparel,31.8,0.04,False
+tx_syn_102339,usr_6126,574.19,Cash,Apparel,40.5,0.07,False
+tx_syn_102340,usr_1028,1371.42,Debit Card,Electronics,37.1,0.13,False
+tx_syn_102341,usr_1906,1378.48,UPI,Home & Kitchen,28.8,0.28,False
+tx_syn_102342,usr_4104,1650.2,Credit Card,Digital Goods,,0.09,False
+tx_syn_102343,usr_8813,2557.44,Credit Card,Apparel,36.7,0.31,False
+tx_syn_102344,usr_8022,1808.2,UPI,Electronics,48.4,0.02,False
+tx_syn_102345,usr_7222,1700.59,UPI,Electronics,45.9,0.33,False
+tx_syn_102346,usr_4999,149.0,Cash,Electronics,33.4,0.2,False
+tx_syn_102347,usr_3994,900.42,Cash,Electronics,30.6,0.23,False
+tx_syn_102348,usr_3506,525.27,Cash,Apparel,47.5,0.13,False
+tx_syn_102349,usr_5665,605.1,Debit Card,Digital Goods,38.9,0.27,False
+tx_syn_102350,usr_7102,1504.75,Credit Card,Electronics,32.7,0.06,False
+tx_syn_102351,usr_4609,450.55,UPI,Electronics,18.0,0.02,False
+tx_syn_102352,usr_4553,3720.87,UPI,Apparel,27.8,0.14,False
+tx_syn_102353,usr_2453,537.09,UPI,Electronics,27.2,0.3,False
+tx_syn_102354,usr_5833,5389.22,Credit Card,Digital Goods,33.0,0.26,False
+tx_syn_102355,usr_4356,28929.19,Debit Card,Electronics,39.5,0.18,False
+tx_syn_102356,usr_1515,1744.63,Debit Card,Electronics,40.8,0.2,False
+tx_syn_102357,usr_7096,4701.06,Cash,Electronics,47.0,0.05,False
+tx_syn_102358,usr_8266,2823.63,Debit Card,Electronics,42.1,0.29,False
+tx_syn_102359,usr_7540,1654.65,Cash,Apparel,23.1,0.28,False
+tx_syn_102360,usr_8656,61.62,UPI,Electronics,43.0,0.23,False
+tx_syn_102361,usr_1038,2715.22,Debit Card,Apparel,48.9,0.16,False
+tx_syn_102362,usr_4342,2232.14,Credit Card,Apparel,48.5,0.34,False
+tx_syn_102363,usr_1886,1769.31,UPI,Electronics,23.9,0.31,False
+tx_syn_102364,usr_3844,2621.99,Cash,Electronics,32.6,0.23,False
+tx_syn_102365,usr_3204,7396.38,Cash,Apparel,42.4,0.13,False
+tx_syn_102366,usr_2098,2241.82,UPI,Home & Kitchen,24.4,0.22,False
+tx_syn_102367,usr_8027,4974.83,UPI,Digital Goods,19.5,0.2,False
+tx_syn_102368,usr_2823,898.33,Credit Card,Electronics,36.9,0.14,False
+tx_syn_102369,usr_4201,2266.55,Credit Card,Electronics,28.5,0.11,False
+tx_syn_102370,usr_6806,1212.2,Cash,Electronics,20.3,0.14,False
+tx_syn_102371,usr_6069,2069.75,UPI,Apparel,44.7,0.2,False
+tx_syn_102372,usr_4155,2640.64,UPI,Apparel,35.6,0.15,False
+tx_syn_102373,usr_4093,133.73,UPI,Home & Kitchen,29.8,0.09,False
+tx_syn_102374,usr_4530,1922.28,UPI,Home & Kitchen,26.0,0.27,False
+tx_syn_102375,usr_6658,512.85,UPI,Electronics,35.7,0.19,False
+tx_syn_102376,usr_4778,2045.77,Cash,Apparel,38.6,0.02,False
+tx_syn_102377,usr_3896,1187.12,UPI,Digital Goods,37.0,0.13,False
+tx_syn_102378,usr_4453,2723.44,UPI,Electronics,21.3,0.31,False
+tx_syn_102379,usr_7891,287.07,UPI,Apparel,38.3,0.26,False
+tx_syn_102380,usr_4511,1821.85,UPI,Digital Goods,40.1,0.11,False
+tx_syn_102381,usr_8771,637.49,Debit Card,Home & Kitchen,31.3,0.33,False
+tx_syn_102382,usr_1988,3500.96,Credit Card,Home & Kitchen,,0.03,False
+tx_syn_102383,usr_5116,4795.57,Debit Card,Electronics,27.0,0.34,False
+tx_syn_102384,usr_7446,10177.43,Credit Card,Apparel,45.2,0.09,False
+tx_syn_102385,usr_5964,2911.41,UPI,Electronics,35.3,0.0,False
+tx_syn_102386,usr_5026,2572.42,Credit Card,Apparel,30.0,0.15,False
+tx_syn_102387,usr_5179,486.88,UPI,Electronics,31.5,0.13,False
+tx_syn_102388,usr_8941,787.07,Debit Card,Home & Kitchen,42.7,0.19,False
+tx_syn_102389,usr_2682,1178.18,UPI,Home & Kitchen,36.2,0.28,False
+tx_syn_102390,usr_7072,2722.07,Credit Card,Apparel,39.7,0.29,False
+tx_syn_102391,usr_8620,4486.46,UPI,Electronics,43.3,0.14,False
+tx_syn_102392,usr_6506,427.39,Credit Card,Electronics,29.7,0.15,False
+tx_syn_102393,usr_6626,4650.38,Cash,Home & Kitchen,35.3,0.05,False
+tx_syn_102394,usr_8424,2191.09,Credit Card,Apparel,32.3,0.02,False
+tx_syn_102395,usr_5665,1748.46,Credit Card,Home & Kitchen,42.8,0.22,False
+tx_syn_102396,usr_4963,451.3,Cash,Electronics,30.9,0.02,False
+tx_syn_102397,usr_1933,152.83,Credit Card,Apparel,34.6,0.26,False
+tx_syn_102398,usr_4598,1562.73,UPI,Home & Kitchen,53.7,0.19,False
+tx_syn_102399,usr_4233,1947.49,UPI,Apparel,45.1,0.07,False
+tx_syn_102400,usr_2980,2618.45,Credit Card,Apparel,25.4,0.19,False
+tx_syn_102401,usr_8330,1513.33,Debit Card,Home & Kitchen,41.9,0.06,False
+tx_syn_102402,usr_2855,3544.47,UPI,Electronics,40.1,0.15,False
+tx_syn_102403,usr_4056,3293.98,UPI,Electronics,24.8,0.28,False
+tx_syn_102404,usr_1792,4769.91,Cash,Apparel,33.3,0.16,False
+tx_syn_102405,usr_1791,869.95,UPI,Electronics,26.1,0.05,False
+tx_syn_102406,usr_8691,739.04,UPI,Home & Kitchen,18.0,0.25,False
+tx_syn_102407,usr_2809,2541.2,UPI,Home & Kitchen,33.0,0.07,False
+tx_syn_102408,usr_6390,1065.33,Debit Card,Digital Goods,29.9,0.26,False
+tx_syn_102409,usr_7635,214.92,UPI,Apparel,24.8,0.17,False
+tx_syn_102410,usr_3255,648.32,Credit Card,Electronics,34.1,0.16,False
+tx_syn_102411,usr_4610,1026.11,UPI,Electronics,18.0,0.3,False
+tx_syn_102412,usr_2607,672.87,Credit Card,Home & Kitchen,34.6,0.25,False
+tx_syn_102413,usr_6179,776.79,Debit Card,Electronics,34.3,0.01,False
+tx_syn_102414,usr_7573,676.08,UPI,Home & Kitchen,40.0,0.1,False
+tx_syn_102415,usr_1984,126.29,Credit Card,Home & Kitchen,20.6,0.3,False
+tx_syn_102416,usr_6776,1874.5,UPI,Electronics,52.4,0.01,False
+tx_syn_102417,usr_4676,1687.18,UPI,Electronics,49.1,0.19,False
+tx_syn_102418,usr_4380,1957.17,Debit Card,Apparel,27.6,0.25,False
+tx_syn_102419,usr_1519,434.44,UPI,Digital Goods,46.6,0.22,False
+tx_syn_102420,usr_1590,680.88,Debit Card,Electronics,41.5,0.27,False
+tx_syn_102421,usr_2050,1789.83,UPI,Digital Goods,30.5,0.25,False
+tx_syn_102422,usr_6805,1697.65,UPI,Apparel,29.0,0.24,False
+tx_syn_102423,usr_4633,1320.6,UPI,Digital Goods,29.7,0.29,False
+tx_syn_102424,usr_7131,826.55,Credit Card,Electronics,58.2,0.23,False
+tx_syn_102425,usr_7342,4443.9,Credit Card,Electronics,45.8,0.14,False
+tx_syn_102426,usr_7530,797.3,Debit Card,Home & Kitchen,32.5,0.17,False
+tx_syn_102427,usr_5444,1144.59,UPI,Digital Goods,33.2,0.25,False
+tx_syn_102428,usr_1959,2090.4,UPI,Apparel,41.4,0.31,False
+tx_syn_102429,usr_7059,1459.61,Debit Card,Home & Kitchen,41.0,0.1,False
+tx_syn_102430,usr_1692,816.81,Debit Card,Digital Goods,26.1,0.12,False
+tx_syn_102431,usr_6655,1079.73,UPI,Electronics,,0.33,False
+tx_syn_102432,usr_4899,2897.99,Credit Card,Apparel,29.5,0.2,False
+tx_syn_102433,usr_5473,636.64,UPI,Digital Goods,35.5,0.06,False
+tx_syn_102434,usr_3946,326.21,Debit Card,Apparel,33.8,0.23,False
+tx_syn_102435,usr_8059,726.19,Debit Card,Electronics,,0.35,False
+tx_syn_102436,usr_8725,3459.24,Debit Card,Home & Kitchen,31.9,0.29,True
+tx_syn_102437,usr_1526,217.76,Debit Card,Electronics,35.2,0.26,False
+tx_syn_102438,usr_4224,8673.85,UPI,Electronics,18.2,0.07,False
+tx_syn_102439,usr_7877,1451.68,Debit Card,Digital Goods,37.0,0.31,False
+tx_syn_102440,usr_3253,7591.05,Credit Card,Apparel,,0.18,False
+tx_syn_102441,usr_7598,5084.28,UPI,Home & Kitchen,,0.31,False
+tx_syn_102442,usr_4344,1135.34,Credit Card,Home & Kitchen,43.8,0.12,False
+tx_syn_102443,usr_4965,448.27,Cash,Electronics,33.8,0.02,False
+tx_syn_102444,usr_6355,374.33,Debit Card,Electronics,18.0,0.17,False
+tx_syn_102445,usr_2875,543.96,UPI,Electronics,27.5,0.09,False
+tx_syn_102446,usr_2763,2279.0,Debit Card,Electronics,34.2,0.25,False
+tx_syn_102447,usr_1520,623.77,Debit Card,Home & Kitchen,34.5,0.33,False
+tx_syn_102448,usr_6797,801.82,UPI,Apparel,30.0,0.24,False
+tx_syn_102449,usr_2016,1122.11,Credit Card,Apparel,18.0,0.31,False
+tx_syn_102450,usr_8099,4450.15,Debit Card,Electronics,29.5,0.16,False
+tx_syn_102451,usr_8998,427.95,Credit Card,Apparel,43.3,0.27,True
+tx_syn_102452,usr_7869,59.07,UPI,Apparel,46.1,0.3,False
+tx_syn_102453,usr_6109,161.56,Credit Card,Apparel,29.0,0.25,False
+tx_syn_102454,usr_7644,4282.56,Cash,Electronics,50.2,0.18,False
+tx_syn_102455,usr_1116,1926.95,Credit Card,Apparel,20.5,0.22,False
+tx_syn_102456,usr_3433,623.99,Debit Card,Electronics,,0.25,False
+tx_syn_102457,usr_6463,401.06,UPI,Apparel,41.8,0.09,False
+tx_syn_102458,usr_1583,677.33,UPI,Home & Kitchen,40.4,0.28,False
+tx_syn_102459,usr_1394,269.49,Credit Card,Electronics,34.1,0.33,False
+tx_syn_102460,usr_6183,5160.72,UPI,Apparel,24.7,0.16,False
+tx_syn_102461,usr_4788,2810.18,Debit Card,Electronics,24.7,0.25,False
+tx_syn_102462,usr_3768,1167.12,UPI,Electronics,28.0,0.26,False
+tx_syn_102463,usr_5167,3653.97,Credit Card,Electronics,25.0,0.23,False
+tx_syn_102464,usr_4860,566.53,UPI,Digital Goods,35.3,0.19,False
+tx_syn_102465,usr_1273,2322.92,Cash,Apparel,33.4,0.31,False
+tx_syn_102466,usr_3013,3539.95,UPI,Digital Goods,24.3,0.16,False
+tx_syn_102467,usr_6439,844.25,UPI,Apparel,31.2,0.02,False
+tx_syn_102468,usr_5433,2599.89,UPI,Apparel,,0.3,False
+tx_syn_102469,usr_2389,679.39,Debit Card,Apparel,,0.24,False
+tx_syn_102470,usr_4566,689.08,UPI,Electronics,40.3,0.3,False
+tx_syn_102471,usr_5702,253.82,UPI,Electronics,26.4,0.05,False
+tx_syn_102472,usr_1165,1093.86,UPI,Electronics,27.5,0.01,False
+tx_syn_102473,usr_2567,2404.88,Debit Card,Apparel,,0.33,False
+tx_syn_102474,usr_7154,5120.78,UPI,Electronics,35.1,0.05,False
+tx_syn_102475,usr_6420,1716.49,UPI,Electronics,40.8,0.28,False
+tx_syn_102476,usr_1728,3629.78,UPI,Electronics,27.6,0.29,False
+tx_syn_102477,usr_7944,3161.76,Credit Card,Apparel,28.6,0.25,False
+tx_syn_102478,usr_3043,392.66,Debit Card,Home & Kitchen,,0.05,False
+tx_syn_102479,usr_5197,1247.32,Credit Card,Digital Goods,25.1,0.23,False
+tx_syn_102480,usr_4496,273.82,Cash,Electronics,32.1,0.31,False
+tx_syn_102481,usr_6511,2113.13,Cash,Electronics,25.3,0.15,False
+tx_syn_102482,usr_1778,5438.71,UPI,Apparel,37.7,0.14,False
+tx_syn_102483,usr_1213,315.4,Debit Card,Digital Goods,26.2,0.16,False
+tx_syn_102484,usr_4762,2432.88,Debit Card,Electronics,,0.03,False
+tx_syn_102485,usr_6207,1850.58,Debit Card,Home & Kitchen,46.6,0.31,False
+tx_syn_102486,usr_2576,1627.02,Credit Card,Apparel,37.8,0.3,False
+tx_syn_102487,usr_3448,940.09,Credit Card,Electronics,35.7,0.35,False
+tx_syn_102488,usr_7731,839.68,Credit Card,Electronics,22.6,0.2,False
+tx_syn_102489,usr_3936,133.35,Debit Card,Electronics,46.0,0.26,False
+tx_syn_102490,usr_4117,492.41,UPI,Digital Goods,43.7,0.07,False
+tx_syn_102491,usr_6791,77.53,UPI,Apparel,32.9,0.23,False
+tx_syn_102492,usr_8630,1617.58,UPI,Apparel,30.9,0.23,False
+tx_syn_102493,usr_1591,251.39,UPI,Apparel,27.3,0.32,False
+tx_syn_102494,usr_6429,3764.7,Credit Card,Apparel,49.4,0.29,False
+tx_syn_102495,usr_6205,1382.97,UPI,Apparel,40.9,0.33,False
+tx_syn_102496,usr_7235,2215.29,UPI,Electronics,27.8,0.3,False
+tx_syn_102497,usr_8827,1002.36,Cash,Electronics,43.5,0.3,False
+tx_syn_102498,usr_3720,1530.14,UPI,Electronics,45.6,0.02,False
+tx_syn_102499,usr_1713,5195.74,Debit Card,Home & Kitchen,34.0,0.3,False
