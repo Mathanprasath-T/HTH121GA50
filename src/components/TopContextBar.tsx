@@ -33,6 +33,7 @@ export const TopContextBar: React.FC<TopContextBarProps> = ({
       case 'specification_review': return 'Review Specification';
       case 'datasets': return 'Datasets Explorer';
       case 'validation': return 'Validation Suite';
+      case 'validation_lab': return 'Validation Lab (Synthetic vs Reference)';
       case 'anomaly_lab': return 'Anomaly Lab';
       case 'stress_test': return 'Stress Testing';
       case 'reports': return 'Reports & Audits';

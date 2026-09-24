@@ -8,7 +8,8 @@ import {
   Zap, 
   FileText, 
   Settings, 
-  HardDrive
+  HardDrive,
+  GitCompare
 } from 'lucide-react';
 
 export type NavTab = 
@@ -17,6 +18,7 @@ export type NavTab =
   | 'specification_review'
   | 'datasets'
   | 'validation'
+  | 'validation_lab'
   | 'anomaly_lab'
   | 'stress_test'
   | 'reports'
@@ -100,7 +102,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
           onClick={() => onSelectTab('validation')}
         >
           <CheckCheck className="nav-icon" />
-          <span>Validation</span>
+          <span>Rule Validation</span>
+        </div>
+
+        <div 
+          className={`nav-item ${currentTab === 'validation_lab' ? 'active' : ''}`}
+          onClick={() => onSelectTab('validation_lab')}
+        >
+          <GitCompare className="nav-icon" />
+          <span style={{ flex: 1 }}>Validation Lab</span>
+          <span className="badge badge-neutral" style={{ fontSize: '9px', padding: '1px 5px' }}>VS REF</span>
         </div>
 
         <div className="nav-section-title">Testing</div>

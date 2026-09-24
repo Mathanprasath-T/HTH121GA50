@@ -780,7 +780,7 @@ function buildPotentialIssues(
   const issues: PotentialDataIssue[] = [];
 
   if (schema.reference_only_count > 0) {
-    issues.append?.({} as any) || issues.push({
+    issues.push({
       category: 'Schema Issues',
       type: 'Missing Reference Columns',
       severity: 'Medium',
@@ -987,6 +987,13 @@ function generateEmbeddedBenchmarkSample(): {
     refLines.push(`${rId},${rCust},${rAmt},"${rMethod}","${rCat}",${rAge},${rDisc},"${rRegion}"`);
   }
 
+  return {
+    syntheticName: 'synthetic_ecommerce_sample.csv',
+    syntheticCsv: synLines.join('\n'),
+    referenceName: 'reference_retail_kaggle_sample.csv',
+    referenceCsv: refLines.join('\n')
+  };
+}
 
 // Export Generators
 export function generateValidationReportMarkdown(res: ValidationComparisonResult): string {

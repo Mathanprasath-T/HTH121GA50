@@ -791,6 +791,7 @@ html, body {
   to { transform: rotate(360deg); }
 }
 
-.spin {
+.spin, .spin-animation {
   animation: spin 1s linear infinite;
 }
+

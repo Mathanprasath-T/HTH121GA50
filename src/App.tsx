@@ -8,6 +8,7 @@ import { DashboardView } from './views/DashboardView';
 import { CreateDatasetView } from './views/CreateDatasetView';
 import { SpecificationReviewView } from './views/SpecificationReviewView';
 import { ValidationView } from './views/ValidationView';
+import { ValidationLabView } from './views/ValidationLabView';
 import { DatasetExplorerView } from './views/DatasetExplorerView';
 import { AnomalyLabView } from './views/AnomalyLabView';
 import { StressTestView } from './views/StressTestView';
@@ -246,6 +247,14 @@ export function App() {
           {currentTab === 'validation' && (
             <ValidationView
               dataset={activeDatasetFull}
+              onSelectDatasetTab={() => setCurrentTab('datasets')}
+            />
+          )}
+
+          {currentTab === 'validation_lab' && (
+            <ValidationLabView
+              activeDataset={activeDatasetFull}
+              allDatasets={activeDatasetFull ? [activeDatasetFull] : []}
               onSelectDatasetTab={() => setCurrentTab('datasets')}
             />
           )}
