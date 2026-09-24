@@ -2,8 +2,82 @@ import io
 import math
 import numpy as np
 import pandas as pd
-from scipy import stats
 from typing import Dict, Any, List, Optional, Tuple
+
+# Attempt to import scipy.stats; gracefully fall back to exact NumPy implementation if AppLocker blocks C DLLs
+try:
+    from scipy import stats as scipy_stats
+    HAS_SCIPY = True
+except Exception:
+    HAS_SCIPY = False
+
+def compute_ks_2samp(s_arr: np.ndarray, r_arr: np.ndarray) -> Tuple[float, float]:
+    """Computes exact two-sample Kolmogorov-Smirnov statistic D and asymptotic p-value."""
+    if HAS_SCIPY:
+        try:
+            res = scipy_stats.ks_2samp(s_arr, r_arr)
+            return float(res.statistic), float(res.pvalue)
+        except Exception:
+            pass
+            
+    # Pure NumPy exact Kolmogorov-Smirnov calculation
+    n1 = len(s_arr)
+    n2 = len(r_arr)
+    if n1 == 0 or n2 == 0:
+        return 0.0, 1.0
+        
+    s_sorted = np.sort(s_arr)
+    r_sorted = np.sort(r_arr)
+    
+    # Combined values evaluated at all observed sample points
+    all_vals = np.concatenate([s_sorted, r_sorted])
+    
+    # Empirical CDFs
+    cdf1 = np.searchsorted(s_sorted, all_vals, side='right') / n1
+    cdf2 = np.searchsorted(r_sorted, all_vals, side='right') / n2
+    
+    d_stat = float(np.max(np.abs(cdf1 - cdf2)))
+    
+    # Kolmogorov distribution asymptotic p-value
+    en = math.sqrt(n1 * n2 / (n1 + n2))
+    lam = max(0.0, (en + 0.12 + 0.11 / max(1e-5, en)) * d_stat)
+    
+    p_val = 0.0
+    for k in range(1, 101):
+        term = 2.0 * ((-1) ** (k - 1)) * math.exp(-2.0 * (k * lam) ** 2)
+        p_val += term
+        if abs(term) < 1e-12:
+            break
+            
+    p_val = max(0.0, min(1.0, p_val))
+    return round(d_stat, 4), p_val
+
+def compute_wasserstein_1d(s_arr: np.ndarray, r_arr: np.ndarray) -> float:
+    """Computes exact 1D Wasserstein-1 (Earth Mover's) Distance using empirical CDF integral."""
+    if HAS_SCIPY:
+        try:
+            return float(scipy_stats.wasserstein_distance(s_arr, r_arr))
+        except Exception:
+            pass
+            
+    n1 = len(s_arr)
+    n2 = len(r_arr)
+    if n1 == 0 or n2 == 0:
+        return 0.0
+        
+    all_vals = np.sort(np.unique(np.concatenate([s_arr, r_arr])))
+    if len(all_vals) <= 1:
+        return 0.0
+        
+    s_sorted = np.sort(s_arr)
+    r_sorted = np.sort(r_arr)
+    
+    cdf1 = np.searchsorted(s_sorted, all_vals[:-1], side='right') / n1
+    cdf2 = np.searchsorted(r_sorted, all_vals[:-1], side='right') / n2
+    
+    deltas = np.diff(all_vals)
+    w_dist = float(np.sum(np.abs(cdf1 - cdf2) * deltas))
+    return round(w_dist, 4)
 
 def load_dataframe(file_bytes: bytes, filename: str) -> pd.DataFrame:
     """Safely loads CSV or Excel into pandas DataFrame with encoding fallback."""
@@ -11,14 +85,13 @@ def load_dataframe(file_bytes: bytes, filename: str) -> pd.DataFrame:
     if lower.endswith(('.xlsx', '.xls')):
         return pd.read_excel(io.BytesIO(file_bytes))
     
-    # Try utf-8, fallback to latin1 or iso-8859-1
     for enc in ['utf-8', 'latin1', 'iso-8859-1', 'cp1252']:
         try:
             return pd.read_csv(io.BytesIO(file_bytes), encoding=enc)
         except UnicodeDecodeError:
             continue
         except Exception as e:
-            raise ValueError(f"Could not parse CSV file with {enc} encoding: {str(e)}")
+            raise ValueError(f"Could not parse CSV file: {str(e)}")
             
     raise ValueError("Could not decode file with supported text encodings (UTF-8, Latin1, CP1252).")
 
@@ -31,9 +104,7 @@ def infer_column_types(df: pd.DataFrame) -> Dict[str, str]:
             types[col] = 'empty'
             continue
             
-        # Check if numeric
         if pd.api.types.is_numeric_dtype(series):
-            # Check if boolean represented as 0/1
             unique_vals = set(series.unique())
             if unique_vals.issubset({0, 1}) and len(unique_vals) <= 2:
                 types[col] = 'boolean'
@@ -41,12 +112,10 @@ def infer_column_types(df: pd.DataFrame) -> Dict[str, str]:
                 types[col] = 'numeric'
             continue
             
-        # Check if date/time
         if pd.api.types.is_datetime64_any_dtype(series):
             types[col] = 'datetime'
             continue
             
-        # Try parsing strings as date
         sample = series.head(20).astype(str)
         is_date = False
         try:
@@ -60,14 +129,12 @@ def infer_column_types(df: pd.DataFrame) -> Dict[str, str]:
             types[col] = 'datetime'
             continue
             
-        # Check if ID-like (high unique ratio string, e.g. UUID, id, hash)
         unique_ratio = len(series.unique()) / len(series)
         col_lower = str(col).lower()
         if unique_ratio > 0.85 and ('id' in col_lower or 'uuid' in col_lower or 'key' in col_lower or 'hash' in col_lower or 'ref' in col_lower):
             types[col] = 'id'
             continue
             
-        # Categorical
         types[col] = 'categorical'
         
     return types
@@ -152,8 +219,8 @@ def compare_numeric_distributions(synth_df: pd.DataFrame, ref_df: pd.DataFrame, 
     results = []
     
     for col in common_numeric_cols:
-        s_raw = pd.to_numeric(synth_df[col], errors='coerce').dropna()
-        r_raw = pd.to_numeric(ref_df[col], errors='coerce').dropna()
+        s_raw = pd.to_numeric(synth_df[col], errors='coerce').dropna().values
+        r_raw = pd.to_numeric(ref_df[col], errors='coerce').dropna().values
         
         if len(s_raw) == 0 or len(r_raw) == 0:
             continue
@@ -161,27 +228,27 @@ def compare_numeric_distributions(synth_df: pd.DataFrame, ref_df: pd.DataFrame, 
         s_count = int(len(s_raw))
         r_count = int(len(r_raw))
         
-        s_mean = float(s_raw.mean())
-        r_mean = float(r_raw.mean())
+        s_mean = float(np.mean(s_raw))
+        r_mean = float(np.mean(r_raw))
         mean_diff = s_mean - r_mean
         mean_rel_diff_pct = (abs(mean_diff) / max(abs(r_mean), 1e-9)) * 100
         
-        s_median = float(s_raw.median())
-        r_median = float(r_raw.median())
+        s_median = float(np.median(s_raw))
+        r_median = float(np.median(r_raw))
         median_diff = s_median - r_median
         
-        s_std = float(s_raw.std(ddof=1)) if s_count > 1 else 0.0
-        r_std = float(r_raw.std(ddof=1)) if r_count > 1 else 0.0
+        s_std = float(np.std(s_raw, ddof=1)) if s_count > 1 else 0.0
+        r_std = float(np.std(r_raw, ddof=1)) if r_count > 1 else 0.0
         std_diff = s_std - r_std
         std_rel_diff_pct = (abs(std_diff) / max(abs(r_std), 1e-9)) * 100
         
-        s_min = float(s_raw.min())
-        r_min = float(r_raw.min())
-        s_max = float(s_raw.max())
-        r_max = float(r_raw.max())
+        s_min = float(np.min(s_raw))
+        r_min = float(np.min(r_raw))
+        s_max = float(np.max(s_raw))
+        r_max = float(np.max(r_raw))
         
-        s_q1, s_q3 = float(s_raw.quantile(0.25)), float(s_raw.quantile(0.75))
-        r_q1, r_q3 = float(r_raw.quantile(0.25)), float(r_raw.quantile(0.75))
+        s_q1, s_q3 = float(np.percentile(s_raw, 25)), float(np.percentile(s_raw, 75))
+        r_q1, r_q3 = float(np.percentile(r_raw, 25)), float(np.percentile(r_raw, 75))
         s_iqr = s_q3 - s_q1
         r_iqr = r_q3 - r_q1
         iqr_diff = s_iqr - r_iqr
@@ -190,21 +257,14 @@ def compare_numeric_distributions(synth_df: pd.DataFrame, ref_df: pd.DataFrame, 
         r_missing_pct = float((ref_df[col].isna().sum() / len(ref_df)) * 100)
         missing_diff_pct = s_missing_pct - r_missing_pct
         
-        # Two-Sample Kolmogorov-Smirnov test
-        ks_res = stats.ks_2samp(s_raw, r_raw)
-        ks_stat = float(ks_res.statistic)
-        ks_pvalue = float(ks_res.pvalue)
-        
-        # Wasserstein distance (Earth Mover's Distance)
-        try:
-            w_dist = float(stats.wasserstein_distance(s_raw, r_raw))
-        except Exception:
-            w_dist = 0.0
+        # KS Test & Wasserstein Distance
+        ks_stat, ks_pvalue = compute_ks_2samp(s_raw, r_raw)
+        w_dist = compute_wasserstein_1d(s_raw, r_raw)
             
         # Quantiles (10, 25, 50, 75, 90, 99)
-        quantiles = [0.10, 0.25, 0.50, 0.75, 0.90, 0.99]
-        s_quantiles = {f"p{int(q*100)}": round(float(s_raw.quantile(q)), 2) for q in quantiles}
-        r_quantiles = {f"p{int(q*100)}": round(float(r_raw.quantile(q)), 2) for q in quantiles}
+        quantiles = [10, 25, 50, 75, 90, 99]
+        s_quantiles = {f"p{q}": round(float(np.percentile(s_raw, q)), 2) for q in quantiles}
+        r_quantiles = {f"p{q}": round(float(np.percentile(r_raw, q)), 2) for q in quantiles}
         
         # Unified Histogram Bins (12 bins)
         global_min = min(s_min, r_min)
@@ -262,10 +322,10 @@ def compare_numeric_distributions(synth_df: pd.DataFrame, ref_df: pd.DataFrame, 
                 "missing_diff_pct": round(missing_diff_pct, 2)
             },
             "statistical_tests": {
-                "ks_statistic": round(ks_stat, 4),
+                "ks_statistic": ks_stat,
                 "ks_pvalue": ks_pvalue,
                 "ks_passed_similarity": bool(ks_stat <= 0.15),
-                "wasserstein_distance": round(w_dist, 4)
+                "wasserstein_distance": w_dist
             },
             "quantiles": {
                 "synthetic": s_quantiles,
@@ -339,8 +399,6 @@ def compare_categorical_distributions(synth_df: pd.DataFrame, ref_df: pd.DataFra
             })
             
         tvd = round(0.5 * tvd_accum, 4)
-        
-        # Sort categories by reference frequency descending
         categories_comparison.sort(key=lambda x: x["reference_count"], reverse=True)
         
         results.append({
@@ -349,7 +407,7 @@ def compare_categorical_distributions(synth_df: pd.DataFrame, ref_df: pd.DataFra
             "synthetic_unique_count": len(s_counts),
             "reference_unique_count": len(r_counts),
             "total_variation_distance": tvd,
-            "categories": categories_comparison[:25], # Top 25 for report readability
+            "categories": categories_comparison[:25],
             "missing_from_synthetic": missing_from_synthetic,
             "missing_from_reference": missing_from_reference,
             "rare_categories": rare_categories[:10],
@@ -390,14 +448,14 @@ def compare_outliers(synth_df: pd.DataFrame, ref_df: pd.DataFrame, common_numeri
     results = []
     
     for col in common_numeric_cols:
-        s_raw = pd.to_numeric(synth_df[col], errors='coerce').dropna()
-        r_raw = pd.to_numeric(ref_df[col], errors='coerce').dropna()
+        s_raw = pd.to_numeric(synth_df[col], errors='coerce').dropna().values
+        r_raw = pd.to_numeric(ref_df[col], errors='coerce').dropna().values
         
         if len(s_raw) == 0 or len(r_raw) == 0:
             continue
             
-        s_q1, s_q3 = s_raw.quantile(0.25), s_raw.quantile(0.75)
-        r_q1, r_q3 = r_raw.quantile(0.25), r_raw.quantile(0.75)
+        s_q1, s_q3 = np.percentile(s_raw, 25), np.percentile(s_raw, 75)
+        r_q1, r_q3 = np.percentile(r_raw, 25), np.percentile(r_raw, 75)
         
         s_iqr = s_q3 - s_q1
         r_iqr = r_q3 - r_q1
@@ -437,7 +495,9 @@ def compare_correlations(synth_df: pd.DataFrame, ref_df: pd.DataFrame, common_nu
             "synthetic_matrix": {},
             "reference_matrix": {},
             "differences": [],
-            "preserved_ratio": 1.0
+            "preserved_ratio": 1.0,
+            "total_pairs": 0,
+            "preserved_pairs_count": 0
         }
         
     s_corr = synth_df[common_numeric_cols].apply(pd.to_numeric, errors='coerce').corr().fillna(0)
@@ -477,7 +537,6 @@ def compare_correlations(synth_df: pd.DataFrame, ref_df: pd.DataFrame, common_nu
                 "relationship_status": status
             })
             
-    # Sort pairs by largest correlation discrepancy
     pairwise_diffs.sort(key=lambda x: abs(x["difference"]), reverse=True)
     preserved_ratio = round(preserved_count / max(1, total_pairs), 3)
     
@@ -502,7 +561,6 @@ def detect_potential_issues(
     """Identifies factual, evidence-backed potential data quality or fidelity issues."""
     issues = []
     
-    # 1. Schema Issues
     if schema_analysis["reference_only_count"] > 0:
         issues.append({
             "category": "Schema Issues",
@@ -523,7 +581,6 @@ def detect_potential_issues(
             "interpretation": "Direct type casting mismatch will trip downstream schema validators and ingestion parsers."
         })
         
-    # 2. Distribution Issues
     for item in numeric_comp:
         col = item["column"]
         ks_stat = item["statistical_tests"]["ks_statistic"]
@@ -550,7 +607,6 @@ def detect_potential_issues(
                 "interpretation": f"The central location of '{col}' in the synthetic data has shifted relative to the reference."
             })
             
-    # 3. Categorical Issues
     for item in cat_comp:
         col = item["column"]
         if item["missing_from_synthetic"]:
@@ -572,7 +628,6 @@ def detect_potential_issues(
                 "interpretation": "Marginal frequencies of categorical states deviate noticeably between synthetic and reference."
             })
             
-    # 4. Data Quality / Missingness Issues
     for item in missing_comp:
         col = item["column"]
         diff = item["difference_pct"]
@@ -586,7 +641,6 @@ def detect_potential_issues(
                 "interpretation": f"Potential mismatch: null rate for '{col}' is noticeably {'higher' if diff > 0 else 'lower'} in the synthetic dataset."
             })
             
-    # 5. Relationship / Correlation Issues
     for pair in corr_comp.get("differences", []):
         diff = abs(pair["difference"])
         if diff >= 0.35:
@@ -612,7 +666,6 @@ def identify_risk_areas(
     """Generates structured synthetic data risk cards across defined risk dimensions."""
     risk_cards = []
     
-    # 1. Distribution Drift
     drifted_numeric = [item for item in numeric_comp if item["statistical_tests"]["ks_statistic"] > 0.20]
     if drifted_numeric:
         worst = max(drifted_numeric, key=lambda x: x["statistical_tests"]["ks_statistic"])
@@ -627,7 +680,6 @@ def identify_risk_areas(
             "recommended_investigation": "Inspect generation seed and distribution parameters for quantile calibration."
         })
         
-    # 2. Missingness Mismatch
     miss_discrepant = [m for m in missing_comp if abs(m["difference_pct"]) >= 2.0]
     if miss_discrepant:
         worst_m = max(miss_discrepant, key=lambda x: abs(x["difference_pct"]))
@@ -641,7 +693,6 @@ def identify_risk_areas(
             "recommended_investigation": "Adjust null dropout parameters in generator specification for target column."
         })
         
-    # 3. Category Imbalance
     imbalanced_cat = [c for c in cat_comp if c["missing_from_synthetic"] or c["total_variation_distance"] > 0.15]
     if imbalanced_cat:
         worst_c = max(imbalanced_cat, key=lambda x: x["total_variation_distance"])
@@ -655,7 +706,6 @@ def identify_risk_areas(
             "recommended_investigation": "Verify categorical support domain and frequency priors in synthesis engine."
         })
         
-    # 4. Outlier Mismatch
     outlier_discrepant = [o for o in outlier_comp if o["is_substantial_discrepancy"]]
     if outlier_discrepant:
         worst_o = max(outlier_discrepant, key=lambda x: abs(x["outlier_diff_pct"]))
@@ -669,7 +719,6 @@ def identify_risk_areas(
             "recommended_investigation": "Evaluate heavy-tail Pareto or extreme-value injection limits."
         })
         
-    # 5. Correlation Mismatch
     corr_divergent = [c for c in corr_comp.get("differences", []) if abs(c["difference"]) >= 0.25]
     if corr_divergent:
         worst_corr = corr_divergent[0]
@@ -683,7 +732,6 @@ def identify_risk_areas(
             "recommended_investigation": "Incorporate copula or multivariate joint covariance modeling into generator."
         })
         
-    # 6. Schema Mismatch
     if schema_analysis["reference_only_count"] > 0 or schema_analysis["type_mismatches_count"] > 0:
         risk_cards.append({
             "category": "Schema Mismatch",
@@ -704,33 +752,25 @@ def calculate_statistical_similarity_index(
     missing_comp: List[Dict[str, Any]],
     corr_comp: Dict[str, Any]
 ) -> Dict[str, Any]:
-    """
-    Computes a composite Statistical Similarity Index (0 - 100) based strictly on mathematical alignment.
-    Explicitly clarifies what the index measures and what it does NOT mean.
-    """
-    # 1. Schema score (25%)
+    """Computes composite Statistical Similarity Index (0 - 100) based strictly on mathematical alignment."""
     schema_score = schema_analysis["overlap_ratio"] * 100
     if schema_analysis["type_mismatches_count"] > 0:
         schema_score = max(0, schema_score - schema_analysis["type_mismatches_count"] * 15)
         
-    # 2. Distribution score (35%): derived from 1 - average KS statistic
     if numeric_comp:
         avg_ks = np.mean([item["statistical_tests"]["ks_statistic"] for item in numeric_comp])
         dist_score = max(0.0, min(100.0, (1.0 - avg_ks) * 100.0))
     else:
         dist_score = 80.0
         
-    # 3. Categorical score (15%): derived from 1 - average TVD
     if cat_comp:
         avg_tvd = np.mean([item["total_variation_distance"] for item in cat_comp])
         cat_score = max(0.0, min(100.0, (1.0 - avg_tvd) * 100.0))
     else:
         cat_score = 85.0
         
-    # 4. Correlation score (15%): preserved pairs ratio
     corr_score = corr_comp.get("preserved_ratio", 1.0) * 100.0
     
-    # 5. Missingness score (10%): 100 - average missing difference
     if missing_comp:
         avg_miss_diff = np.mean([abs(m["difference_pct"]) for m in missing_comp])
         miss_score = max(0.0, 100.0 - (avg_miss_diff * 4.0))
@@ -768,18 +808,14 @@ def generate_executive_summary(
     similarity_index: Dict[str, Any]
 ) -> Dict[str, Any]:
     """Generates concise, factual executive summary strictly derived from calculated metrics."""
-    # Count close numeric distributions (KS <= 0.20)
     close_num = sum(1 for item in numeric_comp if item["statistical_tests"]["ks_statistic"] <= 0.20)
     total_num = len(numeric_comp)
     
-    # Count close categorical distributions (TVD <= 0.15)
     close_cat = sum(1 for item in cat_comp if item["total_variation_distance"] <= 0.15)
     total_cat = len(cat_comp)
     
-    # Count notable missingness discrepancies (>= 2.0%)
     notable_miss = sum(1 for m in missing_comp if abs(m["difference_pct"]) >= 2.0)
     
-    # Key findings
     findings = []
     if schema_analysis["common_columns_count"] > 0:
         findings.append(f"Schema compatibility is {schema_analysis['schema_compatibility']} with {schema_analysis['common_columns_count']} overlapping columns.")
@@ -852,36 +888,30 @@ def run_full_validation_comparison(
     ref_filename: str
 ) -> Dict[str, Any]:
     """Executes end-to-end statistical comparison across uploaded Synthetic and Reference datasets."""
-    # 1. Load DataFrames
     synth_df = load_dataframe(synth_bytes, synth_filename)
     ref_df = load_dataframe(ref_bytes, ref_filename)
     
-    # 2. Extract Previews
     synth_preview = extract_preview(synth_df, synth_filename, len(synth_bytes))
     ref_preview = extract_preview(ref_df, ref_filename, len(ref_bytes))
     
-    # 3. Schema Analysis
     schema_analysis = analyze_schemas(synth_df, ref_df)
     common_cols = schema_analysis["common_columns"]
     
     if len(common_cols) == 0:
         raise ValueError("No comparable common columns were detected between the uploaded datasets. Please ensure both files share at least one column header.")
         
-    # Detect common numeric and categorical columns
     synth_types = synth_preview["column_types"]
     ref_types = ref_preview["column_types"]
     
     common_numeric = [c for c in common_cols if synth_types.get(c) == 'numeric' and ref_types.get(c) == 'numeric']
     common_categorical = [c for c in common_cols if synth_types.get(c) in ['categorical', 'boolean'] and ref_types.get(c) in ['categorical', 'boolean']]
     
-    # 4. Statistical Computations
     numeric_comp = compare_numeric_distributions(synth_df, ref_df, common_numeric)
     cat_comp = compare_categorical_distributions(synth_df, ref_df, common_categorical)
     missing_comp = compare_missingness(synth_df, ref_df, common_cols)
     outlier_comp = compare_outliers(synth_df, ref_df, common_numeric)
     corr_comp = compare_correlations(synth_df, ref_df, common_numeric)
     
-    # 5. Synthesis and Recommendations
     similarity_index = calculate_statistical_similarity_index(schema_analysis, numeric_comp, cat_comp, missing_comp, corr_comp)
     issues = detect_potential_issues(schema_analysis, numeric_comp, cat_comp, missing_comp, outlier_comp, corr_comp)
     risk_areas = identify_risk_areas(schema_analysis, numeric_comp, cat_comp, missing_comp, outlier_comp, corr_comp)
