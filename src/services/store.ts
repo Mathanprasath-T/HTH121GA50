@@ -58,6 +58,23 @@ class StoreService {
     this.notify();
   }
 
+  async updateDatasetCloudMetadata(
+    id: string, 
+    cloudUpdates: Partial<Dataset>
+  ): Promise<void> {
+    await idb.updateDatasetMetadata({ id, ...cloudUpdates });
+    if (cloudUpdates.cloudStatus === 'CLOUD_SAVED') {
+      const ds = await this.getDatasetById(id);
+      this.logActivity(
+        'REPORT_CREATED',
+        ds?.name || 'Dataset',
+        `Cloud sync complete: stored in Supabase with Storage assets`,
+        id
+      );
+    }
+    this.notify();
+  }
+
   async deleteDataset(id: string): Promise<void> {
     const ds = await this.getDatasetById(id);
     await idb.deleteDataset(id);

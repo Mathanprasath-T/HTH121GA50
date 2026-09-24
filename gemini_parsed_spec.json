@@ -1,0 +1,113 @@
+{
+  "id": "spec_gemini_1790287248_2941",
+  "name": "ecommerce_transactions_10k",
+  "domain": "ecommerce",
+  "prompt": "Create an e-commerce transaction dataset with 10,000 rows, 2% fraud, weekend sales increase, missing emails and extreme transactions.",
+  "totalRows": 10000,
+  "seed": 582941,
+  "createdAt": "2026-09-24T22:00:48.183641+00:00",
+  "schema": [
+    {
+      "name": "transaction_id",
+      "type": "uuid",
+      "nullable": false,
+      "isIdentifier": true,
+      "description": "Unique transaction identifier"
+    },
+    {
+      "name": "customer_id",
+      "type": "uuid",
+      "nullable": false,
+      "description": "Customer account reference"
+    },
+    {
+      "name": "timestamp",
+      "type": "timestamp",
+      "nullable": false,
+      "description": "ISO 8601 transaction timestamp"
+    },
+    {
+      "name": "amount",
+      "type": "decimal",
+      "nullable": false,
+      "min": 2.5,
+      "max": 2500.0,
+      "precision": 2,
+      "description": "Gross transaction amount in USD"
+    },
+    {
+      "name": "payment_method",
+      "type": "categorical",
+      "nullable": false,
+      "enumOptions": [
+        "credit_card",
+        "debit_card",
+        "paypal",
+        "apple_pay",
+        "wire_transfer"
+      ],
+      "description": "Payment processing gateway"
+    },
+    {
+      "name": "product_category",
+      "type": "categorical",
+      "nullable": false,
+      "enumOptions": [
+        "electronics",
+        "apparel",
+        "home_goods",
+        "digital_software",
+        "luxury_jewelry"
+      ],
+      "description": "Primary inventory category"
+    },
+    {
+      "name": "device_type",
+      "type": "categorical",
+      "nullable": false,
+      "enumOptions": [
+        "desktop_chrome",
+        "desktop_safari",
+        "mobile_ios",
+        "mobile_android"
+      ],
+      "description": "Client browser or device"
+    },
+    {
+      "name": "billing_country",
+      "type": "categorical",
+      "nullable": false,
+      "enumOptions": [
+        "US",
+        "CA",
+        "GB",
+        "DE",
+        "FR",
+        "JP",
+        "AU"
+      ],
+      "description": "Cardholder billing territory"
+    },
+    {
+      "name": "customer_email",
+      "type": "varchar",
+      "nullable": true,
+      "description": "Customer contact email address"
+    },
+    {
+      "name": "is_fraud",
+      "type": "boolean",
+      "nullable": false,
+      "description": "Binary fraud classifier ground truth"
+    }
+  ],
+  "edgeCases": {
+    "fraudRate": 2.0,
+    "weekendSalesIncrease": 30.0,
+    "extremeValuesRate": 1.0,
+    "missingValuesRate": 2.0,
+    "duplicateRate": 0.2,
+    "invalidDatesRate": 0.1,
+    "rareCategoriesRate": 0.5
+  }
+}

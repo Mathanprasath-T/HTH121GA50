@@ -12,6 +12,7 @@ def generate_sample_benchmark_pair(n_rows: int = 2500):
     # Synthetic amounts: slightly lower mean ($2487.20)
     s_amounts = np.random.exponential(scale=1800, size=n_rows) + 50.0
     # Add synthetic extreme outliers (1.0%)
+    
     extreme_idx = np.random.choice(n_rows, size=int(n_rows * 0.01), replace=False)
     s_amounts[extreme_idx] *= 5.5
     s_amounts = np.round(s_amounts, 2)

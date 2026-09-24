@@ -2,14 +2,24 @@ import React, { useState } from 'react';
 import { 
   Terminal, 
   ArrowRight, 
-  Hash
+  Hash,
+  Cpu,
+  CheckCircle2,
+  AlertTriangle,
+  RefreshCw,
+  Sparkles,
+  Bot
 } from 'lucide-react';
 import { PREBUILT_TEMPLATES } from '../services/nlpParser';
 import type { PrebuiltTemplate } from '../services/nlpParser';
+import type { DatasetSpecification } from '../types';
+import { parseRequirementWithAi } from '../services/aiParserService';
 
 interface CreateDatasetViewProps {
-  onGenerateSpecification: (prompt: string, seed: number) => void;
+  onGenerateSpecification: (spec: DatasetSpecification) => void;
 }
+
+export type AiParsingStatus = 'IDLE' | 'LOADING' | 'SUCCESS' | 'FALLBACK' | 'ERROR';
 
 export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
   onGenerateSpecification
@@ -19,18 +29,58 @@ export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
   );
   const [seed, setSeed] = useState(582941);
 
+  // AI Parsing State
+  const [parsingStatus, setParsingStatus] = useState<AiParsingStatus>('IDLE');
+  const [statusMessage, setStatusMessage] = useState<string>('Describe your dataset requirement in natural language...');
+  const [parsedSpec, setParsedSpec] = useState<DatasetSpecification | null>(null);
+  const [aiSource, setAiSource] = useState<'gemini' | 'fallback'>('gemini');
+  const [modelUsed, setModelUsed] = useState<string>('models/gemini-3.5-flash');
+
   const handleSelectTemplate = (template: PrebuiltTemplate) => {
     setPrompt(template.prompt);
+    setParsedSpec(null);
+    setParsingStatus('IDLE');
+    setStatusMessage('Describe your dataset requirement in natural language...');
   };
 
   const handleRandomizeSeed = () => {
     setSeed(Math.floor(Math.random() * 900000) + 100000);
+    if (parsedSpec) {
+      setParsedSpec(prev => prev ? { ...prev, seed: Math.floor(Math.random() * 900000) + 100000 } : null);
+    }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!prompt.trim()) return;
-    onGenerateSpecification(prompt.trim(), seed);
+  const handleParseAndGenerate = async (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    if (!prompt.trim() || parsingStatus === 'LOADING') return;
+
+    setParsingStatus('LOADING');
+    setStatusMessage('Gemini is understanding your requirement...');
+
+    try {
+      const result = await parseRequirementWithAi(prompt.trim(), seed);
+      setParsedSpec(result.specification);
+      setAiSource(result.source);
+
+      if (result.source === 'gemini') {
+        setParsingStatus('SUCCESS');
+        const m = result.model || 'models/gemini-3.5-flash';
+        setModelUsed(m);
+        setStatusMessage(`✓ Requirement parsed by Gemini (${m.replace('models/', '')})`);
+      } else {
+        setParsingStatus('FALLBACK');
+        setStatusMessage(result.error ? `Gemini unavailable (${result.error}) — using local parser` : 'Gemini unavailable — using local parser');
+      }
+    } catch {
+      setParsingStatus('ERROR');
+      setStatusMessage('AI parsing failed — using local parser');
+    }
+  };
+
+  const handleProceedToReview = () => {
+    if (parsedSpec) {
+      onGenerateSpecification(parsedSpec);
+    }
   };
 
   return (
@@ -40,8 +90,49 @@ export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
         <div>
           <h1 className="page-title">Create Dataset</h1>
           <p className="page-subtitle">
-            Describe what you need. SyntheticLab will convert your requirements into a controllable dataset specification.
+            Describe what you need in natural language. Gemini AI interprets your constraints into a verified dataset specification for our deterministic generation engine.
           </p>
+        </div>
+      </div>
+
+      {/* Transparent GenAI Architecture Flow Indicator */}
+      <div 
+        style={{ 
+          marginBottom: '20px', 
+          padding: '12px 16px', 
+          backgroundColor: 'var(--surface)', 
+          border: '1px solid var(--border)', 
+          borderRadius: 'var(--radius-md)',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '8px'
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '12px', fontWeight: 600, color: 'var(--text-primary)' }}>
+            <Cpu size={15} style={{ color: 'var(--accent-primary)' }} />
+            <span>Generation Pipeline Flow:</span>
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11px', flexWrap: 'wrap' }}>
+            <span className="badge badge-neutral">1. Natural Language</span>
+            <span style={{ color: 'var(--text-muted)' }}>→</span>
+            <span className="badge" style={{ backgroundColor: 'rgba(99, 102, 241, 0.15)', borderColor: 'var(--accent-border)', color: 'var(--accent-primary)' }}>
+              <Bot size={11} style={{ marginRight: '4px' }} />
+              2. Gemini AI Parser
+            </span>
+            <span style={{ color: 'var(--text-muted)' }}>→</span>
+            <span className="badge badge-neutral">3. Structured Spec</span>
+            <span style={{ color: 'var(--text-muted)' }}>→</span>
+            <span className="badge badge-neutral">4. Deterministic PRNG</span>
+            <span style={{ color: 'var(--text-muted)' }}>→</span>
+            <span className="badge badge-success">5. Statistical Validation</span>
+          </div>
+        </div>
+
+        <div style={{ fontSize: '11px', color: 'var(--text-secondary)', lineHeight: 1.4 }}>
+          <strong style={{ color: 'var(--text-primary)' }}>Architecture Principle: </strong>
+          Gemini parses your requirement into structured statistical parameters. Our local deterministic Mulberry32 engine generates and validates the actual records.
         </div>
       </div>
 
@@ -55,12 +146,36 @@ export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
                 Requirement Specification Editor
               </span>
             </div>
-            <span className="badge badge-neutral" style={{ fontSize: '11px' }}>
-              NLP Compiler v2.4
-            </span>
+
+            {/* AI Status Badge */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              {parsingStatus === 'LOADING' && (
+                <span className="badge badge-info" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                  <RefreshCw size={11} className="spin-animation" />
+                  <span>Gemini Parsing...</span>
+                </span>
+              )}
+              {parsingStatus === 'SUCCESS' && (
+                <span className="badge badge-success" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                  <CheckCircle2 size={11} />
+                  <span>Gemini AI Verified</span>
+                </span>
+              )}
+              {parsingStatus === 'FALLBACK' && (
+                <span className="badge badge-warning" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                  <AlertTriangle size={11} />
+                  <span>Local Parser Fallback</span>
+                </span>
+              )}
+              {parsingStatus === 'IDLE' && (
+                <span className="badge badge-neutral" style={{ fontSize: '11px' }}>
+                  Google Gemini Ready
+                </span>
+              )}
+            </div>
           </div>
 
-          <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+          <form onSubmit={handleParseAndGenerate} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
             <div>
               <label className="form-label" htmlFor="prompt-input">
                 Dataset Generation Prompt (Natural Language Requirements)
@@ -68,14 +183,21 @@ export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
               <textarea
                 id="prompt-input"
                 className="input-textarea"
-                rows={6}
+                rows={5}
                 value={prompt}
-                onChange={(e) => setPrompt(e.target.value)}
+                onChange={(e) => {
+                  setPrompt(e.target.value);
+                  if (parsedSpec) setParsedSpec(null);
+                  if (parsingStatus !== 'IDLE') setParsingStatus('IDLE');
+                }}
                 placeholder="Specify row volume, target domain, anomaly rates (fraud, missing values, extreme values), seasonality, or distribution constraints..."
                 style={{ fontSize: '13px', lineHeight: '1.6' }}
               />
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '6px', fontSize: '11px', color: 'var(--text-muted)' }}>
-                <span>Supports natural numbers, percentages (%), statistical shifts, and domain keywords.</span>
+              
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '6px', fontSize: '11px', color: 'var(--text-muted)' }}>
+                <span style={{ color: parsingStatus === 'SUCCESS' ? 'var(--success)' : parsingStatus === 'FALLBACK' ? 'var(--warning)' : 'var(--text-muted)' }}>
+                  {statusMessage}
+                </span>
                 <span>{prompt.length} chars</span>
               </div>
             </div>
@@ -120,19 +242,118 @@ export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
               </div>
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '8px' }}>
-              <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
-                Next: Review and fine-tune schema parameters
-              </div>
-              <button 
-                type="submit" 
-                className="btn btn-primary"
-                disabled={!prompt.trim()}
+            {/* AI Parsed Specification Preview Card (Shows upon parsing) */}
+            {parsedSpec && (
+              <div 
+                style={{ 
+                  backgroundColor: 'var(--surface-elevated)', 
+                  border: aiSource === 'gemini' ? '1px solid var(--accent-border)' : '1px solid var(--border)', 
+                  borderRadius: 'var(--radius-sm)', 
+                  padding: '16px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '12px'
+                }}
               >
-                <span>Generate Specification</span>
-                <ArrowRight size={14} />
-              </button>
-            </div>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <Sparkles size={15} style={{ color: aiSource === 'gemini' ? 'var(--accent-primary)' : 'var(--warning)' }} />
+                    <span style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-primary)' }}>
+                      AI Parsed Specification
+                    </span>
+                  </div>
+
+                  <span className={`badge ${aiSource === 'gemini' ? 'badge-success' : 'badge-warning'}`} style={{ fontSize: '10px' }}>
+                    {aiSource === 'gemini' ? `Parsed by Gemini (${modelUsed.replace('models/', '')})` : 'Local Parser Fallback'}
+                  </span>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px' }}>
+                  <div style={{ padding: '8px 10px', backgroundColor: 'var(--bg-secondary)', borderRadius: 'var(--radius-sm)' }}>
+                    <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>Target Domain</div>
+                    <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text-primary)', textTransform: 'capitalize' }}>
+                      {parsedSpec.domain.replace('_', ' ')}
+                    </div>
+                  </div>
+
+                  <div style={{ padding: '8px 10px', backgroundColor: 'var(--bg-secondary)', borderRadius: 'var(--radius-sm)' }}>
+                    <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>Row Volume</div>
+                    <div style={{ fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-mono)', color: 'var(--text-primary)' }}>
+                      {parsedSpec.totalRows.toLocaleString()}
+                    </div>
+                  </div>
+
+                  <div style={{ padding: '8px 10px', backgroundColor: 'var(--bg-secondary)', borderRadius: 'var(--radius-sm)' }}>
+                    <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>Fraud / Anomaly Rate</div>
+                    <div style={{ fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-mono)', color: 'var(--warning)' }}>
+                      {parsedSpec.edgeCases.fraudRate}%
+                    </div>
+                  </div>
+
+                  <div style={{ padding: '8px 10px', backgroundColor: 'var(--bg-secondary)', borderRadius: 'var(--radius-sm)' }}>
+                    <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>Missing Values Rate</div>
+                    <div style={{ fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-mono)', color: 'var(--text-primary)' }}>
+                      {parsedSpec.edgeCases.missingValuesRate}%
+                    </div>
+                  </div>
+
+                  <div style={{ padding: '8px 10px', backgroundColor: 'var(--bg-secondary)', borderRadius: 'var(--radius-sm)' }}>
+                    <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>Extreme Outlier Rate</div>
+                    <div style={{ fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-mono)', color: 'var(--text-primary)' }}>
+                      {parsedSpec.edgeCases.extremeValuesRate}%
+                    </div>
+                  </div>
+
+                  <div style={{ padding: '8px 10px', backgroundColor: 'var(--bg-secondary)', borderRadius: 'var(--radius-sm)' }}>
+                    <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>Weekend Sales Uplift</div>
+                    <div style={{ fontSize: '13px', fontWeight: 600, fontFamily: 'var(--font-mono)', color: 'var(--text-primary)' }}>
+                      +{parsedSpec.edgeCases.weekendSalesIncrease}%
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '4px' }}>
+                  <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>
+                    Schema fields: {parsedSpec.schema.length} attributes ready for tuning
+                  </div>
+                  <button 
+                    type="button" 
+                    className="btn btn-primary"
+                    onClick={handleProceedToReview}
+                  >
+                    <span>Proceed to Review & Tune Specification</span>
+                    <ArrowRight size={14} />
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* Action Buttons */}
+            {!parsedSpec && (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: '8px' }}>
+                <div style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>
+                  Next: Gemini will interpret requirements into typed schema parameters
+                </div>
+                <button 
+                  type="submit" 
+                  className="btn btn-primary"
+                  disabled={!prompt.trim() || parsingStatus === 'LOADING'}
+                >
+                  {parsingStatus === 'LOADING' ? (
+                    <>
+                      <RefreshCw size={14} className="spin-animation" />
+                      <span>Understanding with Gemini...</span>
+                    </>
+                  ) : (
+                    <>
+                      <Sparkles size={14} />
+                      <span>Parse Requirement with Gemini</span>
+                      <ArrowRight size={14} />
+                    </>
+                  )}
+                </button>
+              </div>
+            )}
           </form>
         </div>
 
@@ -143,7 +364,7 @@ export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
               Example Specifications
             </div>
             <p className="section-card-desc" style={{ marginBottom: '14px' }}>
-              Pre-configured engineering prompt templates with real-world edge cases:
+              Select an engineering requirement to test Gemini's natural language comprehension:
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
@@ -199,8 +420,11 @@ export const CreateDatasetView: React.FC<CreateDatasetViewProps> = ({
               lineHeight: '1.5'
             }}
           >
-            <span style={{ fontWeight: 600, color: 'var(--text-primary)' }}>Deterministic Guarantee: </span>
-            Identical prompts combined with the same PRNG seed will yield bit-for-bit identical row values and anomaly positions across any environment.
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px' }}>
+              <CheckCircle2 size={14} style={{ color: 'var(--success)' }} />
+              <strong style={{ color: 'var(--text-primary)' }}>Dual Reliability Guarantee</strong>
+            </div>
+            Gemini provides flexible natural-language intent recognition. If the network or API quota is unavailable, SyntheticLab automatically switches to the internal rule-based NLP compiler with zero downtime.
           </div>
         </div>
       </div>

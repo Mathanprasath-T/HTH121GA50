@@ -4,9 +4,12 @@ import {
   HardDrive, 
   Cpu, 
   Check, 
-  RotateCcw
+  RotateCcw,
+  Cloud,
+  CheckCircle2
 } from 'lucide-react';
 import type { GlobalMetrics } from '../services/store';
+import { isSupabaseConfigured } from '../services/supabaseClient';
 
 interface SettingsViewProps {
   metrics: GlobalMetrics;
@@ -127,6 +130,74 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 <span>Clear Database</span>
               </button>
             )}
+          </div>
+        </div>
+
+        {/* Supabase Cloud Database & Storage Card */}
+        <div className="section-card">
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Cloud size={16} style={{ color: '#10b981' }} />
+              <span className="section-card-title" style={{ margin: 0 }}>
+                Supabase Cloud Persistence &amp; Storage
+              </span>
+            </div>
+            {isSupabaseConfigured() ? (
+              <span 
+                className="badge" 
+                style={{ 
+                  backgroundColor: 'rgba(16, 185, 129, 0.12)', 
+                  color: '#10b981', 
+                  border: '1px solid rgba(16, 185, 129, 0.3)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '4px'
+                }}
+              >
+                <CheckCircle2 size={12} />
+                <span>Active &amp; Configured</span>
+              </span>
+            ) : (
+              <span className="badge badge-warning">Credentials Missing</span>
+            )}
+          </div>
+
+          <p className="section-card-desc">
+            Dual persistence architecture: datasets are first saved instantly to local IndexedDB, then asynchronously synchronized to your Supabase PostgreSQL database and Storage buckets in chunks of 500 rows.
+          </p>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px', marginBottom: '14px', fontFamily: 'var(--font-mono)', fontSize: '12px' }}>
+            <div style={{ backgroundColor: 'var(--bg-secondary)', padding: '12px', borderRadius: 'var(--radius-sm)' }}>
+              <div style={{ color: 'var(--text-muted)', fontSize: '11px' }}>Cloud Endpoint</div>
+              <div style={{ fontSize: '12px', fontWeight: 600, color: 'var(--text-primary)', marginTop: '4px', wordBreak: 'break-all' }}>
+                https://rpwtzksyslincqowxclm.supabase.co
+              </div>
+            </div>
+
+            <div style={{ backgroundColor: 'var(--bg-secondary)', padding: '12px', borderRadius: 'var(--radius-sm)' }}>
+              <div style={{ color: 'var(--text-muted)', fontSize: '11px' }}>Ingestion Batch Size</div>
+              <div style={{ fontSize: '12px', fontWeight: 600, color: 'var(--text-primary)', marginTop: '4px' }}>
+                500 records / batch
+              </div>
+            </div>
+
+            <div style={{ backgroundColor: 'var(--bg-secondary)', padding: '12px', borderRadius: 'var(--radius-sm)' }}>
+              <div style={{ color: 'var(--text-muted)', fontSize: '11px' }}>PostgreSQL Tables</div>
+              <div style={{ fontSize: '12px', color: 'var(--text-primary)', marginTop: '4px' }}>
+                generation_jobs, datasets, dataset_records, anomaly_logs
+              </div>
+            </div>
+
+            <div style={{ backgroundColor: 'var(--bg-secondary)', padding: '12px', borderRadius: 'var(--radius-sm)' }}>
+              <div style={{ color: 'var(--text-muted)', fontSize: '11px' }}>Storage Buckets</div>
+              <div style={{ fontSize: '12px', color: 'var(--text-primary)', marginTop: '4px' }}>
+                datasets/ (CSV &amp; Anomaly Log), reports/ (Markdown)
+              </div>
+            </div>
+          </div>
+
+          <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+            Schema definitions and RLS policies are available at <code style={{ color: 'var(--accent-primary)' }}>supabase/schema.sql</code>.
           </div>
         </div>
 

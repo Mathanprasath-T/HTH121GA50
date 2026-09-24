@@ -6,7 +6,8 @@ import {
   SlidersHorizontal, 
   Layers, 
   Plus, 
-  Trash2
+  Trash2,
+  Sparkles
 } from 'lucide-react';
 import type { DatasetSpecification, DomainType, ColumnDefinition } from '../types';
 
@@ -14,12 +15,14 @@ interface SpecificationReviewViewProps {
   initialSpec: DatasetSpecification;
   onBack: () => void;
   onGenerateDataset: (spec: DatasetSpecification) => void;
+  onGenerateWithGemini?: (spec: DatasetSpecification) => void;
 }
 
 export const SpecificationReviewView: React.FC<SpecificationReviewViewProps> = ({
   initialSpec,
   onBack,
-  onGenerateDataset
+  onGenerateDataset,
+  onGenerateWithGemini
 }) => {
   const [spec, setSpec] = useState<DatasetSpecification>({ ...initialSpec });
 
@@ -390,18 +393,37 @@ export const SpecificationReviewView: React.FC<SpecificationReviewViewProps> = (
         </div>
 
         {/* Bottom Actions */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '10px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '10px', flexWrap: 'wrap', gap: '12px' }}>
           <button className="btn btn-secondary" onClick={onBack}>
             <ArrowLeft size={14} />
             <span>Back to Requirements</span>
           </button>
-          <button 
-            className="btn btn-primary"
-            onClick={() => onGenerateDataset(spec)}
-          >
-            <Play size={14} fill="currentColor" />
-            <span>Generate Dataset</span>
-          </button>
+          
+          <div style={{ display: 'flex', gap: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
+            {onGenerateWithGemini && (
+              <button 
+                className="btn btn-secondary"
+                onClick={() => onGenerateWithGemini(spec)}
+                title="Use your Gemini API key to directly prompt the Gemini model to synthesize realistic records"
+                style={{ 
+                  borderColor: 'rgba(139, 92, 246, 0.4)', 
+                  backgroundColor: 'rgba(139, 92, 246, 0.08)',
+                  color: '#a78bfa' 
+                }}
+              >
+                <Sparkles size={14} style={{ color: '#a78bfa' }} />
+                <span>Synthesize with Gemini AI</span>
+              </button>
+            )}
+
+            <button 
+              className="btn btn-primary"
+              onClick={() => onGenerateDataset(spec)}
+            >
+              <Play size={14} fill="currentColor" />
+              <span>Synthesize with Deterministic PRNG</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

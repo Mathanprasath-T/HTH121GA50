@@ -1,6 +1,5 @@
 import React from 'react';
 import { 
-  Plus, 
   Download, 
   Lock, 
   ChevronRight
@@ -104,15 +103,6 @@ export const TopContextBar: React.FC<TopContextBarProps> = ({
             <span>Export CSV</span>
           </button>
         )}
-
-        {/* New Dataset Action */}
-        <button 
-          className="btn btn-primary btn-sm"
-          onClick={() => onSelectTab('create_dataset')}
-        >
-          <Plus size={13} />
-          <span>New Dataset</span>
-        </button>
       </div>
     </header>
   );

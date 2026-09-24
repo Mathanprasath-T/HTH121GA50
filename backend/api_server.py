@@ -18,8 +18,11 @@ from validation_engine import (
 )
 
 from sample_benchmark import generate_sample_benchmark_pair
+from gemini_parser import call_gemini_api, generate_gemini_synthetic_rows, load_env_file
 
-PORT = 8000
+load_env_file()
+
+PORT = int(os.environ.get('PORT', 8000))
 comparison_cache = {}
 
 class ValidationLabHandler(http.server.BaseHTTPRequestHandler):
@@ -42,10 +45,16 @@ class ValidationLabHandler(http.server.BaseHTTPRequestHandler):
             self.send_header('Content-Type', 'application/json')
             self._send_cors_headers()
             self.end_headers()
+            api_key_configured = bool(os.environ.get('GEMINI_API_KEY'))
+            configured_model = os.environ.get('GEMINI_MODEL', 'models/gemini-3.5-flash')
             self.wfile.write(json.dumps({
                 "status": "ok",
                 "engine": "Python NumPy + Pandas Statistical Engine v2.4.0",
-                "cached_comparisons": len(comparison_cache)
+                "cached_comparisons": len(comparison_cache),
+                "ai_parser": {
+                    "enabled": api_key_configured,
+                    "model": configured_model if api_key_configured else "not_configured"
+                }
             }).encode('utf-8'))
             return
 
@@ -149,6 +158,91 @@ class ValidationLabHandler(http.server.BaseHTTPRequestHandler):
 
         content_length = int(self.headers.get('Content-Length', 0))
         post_data = self.rfile.read(content_length)
+        if path == '/api/ai/parse':
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                prompt = data.get('prompt', '').strip()
+                seed = int(data.get('seed', 582941))
+
+                if not prompt:
+                    raise ValueError("Requirement prompt cannot be empty.")
+
+                success, spec, model_used, err_msg = call_gemini_api(prompt, seed)
+                if success and spec:
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/json')
+                    self._send_cors_headers()
+                    self.end_headers()
+                    self.wfile.write(json.dumps({
+                        "success": True,
+                        "source": "gemini",
+                        "model": model_used,
+                        "specification": spec
+                    }).encode('utf-8'))
+                else:
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/json')
+                    self._send_cors_headers()
+                    self.end_headers()
+                    self.wfile.write(json.dumps({
+                        "success": False,
+                        "source": "gemini",
+                        "error": err_msg or "Gemini requirement parsing could not be completed."
+                    }).encode('utf-8'))
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self._send_cors_headers()
+                self.end_headers()
+                self.wfile.write(json.dumps({
+                    "success": False,
+                    "source": "gemini",
+                    "error": str(e)
+                }).encode('utf-8'))
+            return
+
+        if path == '/api/ai/generate_rows':
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                prompt = data.get('prompt', '')
+                schema = data.get('schema', [])
+                count = int(data.get('count', 25))
+                edge_cases = data.get('edgeCases', {})
+
+                success, records, model_used, err_msg = generate_gemini_synthetic_rows(
+                    prompt, schema, count, edge_cases
+                )
+                if success:
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/json')
+                    self._send_cors_headers()
+                    self.end_headers()
+                    self.wfile.write(json.dumps({
+                        "success": True,
+                        "source": "gemini",
+                        "model": model_used,
+                        "records": records,
+                        "count": len(records)
+                    }).encode('utf-8'))
+                else:
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/json')
+                    self._send_cors_headers()
+                    self.end_headers()
+                    self.wfile.write(json.dumps({
+                        "success": False,
+                        "error": err_msg or "Failed to generate records with Gemini"
+                    }).encode('utf-8'))
+            except Exception as e:
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json')
+                self._send_cors_headers()
+                self.end_headers()
+                self.wfile.write(json.dumps({
+                    "success": False,
+                    "error": str(e)
+                }).encode('utf-8'))
+            return
 
         if path == '/api/validation/upload':
             try:
@@ -333,12 +427,13 @@ class ValidationLabHandler(http.server.BaseHTTPRequestHandler):
 
 if __name__ == '__main__':
     socketserver.TCPServer.allow_reuse_address = True
-    port = 8000
+    host = os.environ.get('HOST', '0.0.0.0')
+    port = int(os.environ.get('PORT', 8000))
     try:
-        httpd = socketserver.TCPServer(("127.0.0.1", port), ValidationLabHandler)
+        httpd = socketserver.TCPServer((host, port), ValidationLabHandler)
     except OSError:
         port = 8080
-        httpd = socketserver.TCPServer(("127.0.0.1", port), ValidationLabHandler)
+        httpd = socketserver.TCPServer((host, port), ValidationLabHandler)
         
-    print(f"SyntheticLab Validation Lab API server running at http://127.0.0.1:{port}", flush=True)
+    print(f"SyntheticLab Validation Lab API server running at http://{host}:{port}", flush=True)
     httpd.serve_forever()

@@ -6,7 +6,8 @@ import {
   CheckCheck, 
   Sliders, 
   Trash2,
-  Layers
+  Layers,
+  Cloud
 } from 'lucide-react';
 import type { Dataset, ActivityItem } from '../types';
 import type { GlobalMetrics } from '../services/store';
@@ -177,6 +178,24 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                           <span style={{ fontSize: '11px', fontFamily: 'var(--font-mono)', color: 'var(--text-muted)' }}>
                             [{ds.seed}]
                           </span>
+                          {ds.cloudStatus === 'CLOUD_SAVED' && (
+                            <span 
+                              style={{ 
+                                display: 'inline-flex', 
+                                alignItems: 'center', 
+                                gap: '3px', 
+                                fontSize: '10px', 
+                                color: '#10b981', 
+                                backgroundColor: 'rgba(16, 185, 129, 0.1)', 
+                                padding: '1px 5px', 
+                                borderRadius: '4px' 
+                              }}
+                              title="Synced to Supabase Cloud"
+                            >
+                              <Cloud size={10} />
+                              <span>Cloud</span>
+                            </span>
+                          )}
                         </div>
                       </td>
                       <td>

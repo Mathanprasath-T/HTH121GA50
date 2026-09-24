@@ -73,6 +73,26 @@ class StorageDatabase {
     });
   }
 
+  async updateDatasetMetadata(updates: Partial<Dataset> & { id: string }): Promise<void> {
+    const db = await this.openDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction([STORE_DATASETS], 'readwrite');
+      const dsStore = tx.objectStore(STORE_DATASETS);
+      const req = dsStore.get(updates.id);
+      req.onsuccess = () => {
+        const existing = req.result;
+        if (!existing) {
+          resolve();
+          return;
+        }
+        const merged = { ...existing, ...updates };
+        dsStore.put(merged);
+      };
+      tx.oncomplete = () => resolve();
+      tx.onerror = () => reject(tx.error);
+    });
+  }
+
   async getDataset(id: string): Promise<Dataset | null> {
     const db = await this.openDB();
     return new Promise((resolve, reject) => {

@@ -121,6 +121,15 @@ export interface Dataset {
   records: DatasetRecord[];
   validationReport: ValidationReport;
   anomalyLogs: AnomalyLog[];
+  // Cloud persistence metadata (Supabase)
+  cloudStatus?: 'CLOUD_SAVED' | 'LOCAL_ONLY' | 'SYNCING' | 'SYNC_FAILED';
+  cloudDatasetId?: string;
+  cloudJobId?: string;
+  cloudStoragePath?: string;
+  cloudAnomalyStoragePath?: string;
+  cloudReportStoragePath?: string;
+  cloudError?: string;
+  cloudSyncedAt?: string;
 }
 
 export interface ActivityItem {

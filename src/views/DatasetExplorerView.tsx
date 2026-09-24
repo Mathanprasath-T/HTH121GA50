@@ -8,19 +8,27 @@ import {
   Eye, 
   X, 
   AlertCircle,
-  Database
+  Database,
+  Cloud,
+  CloudOff,
+  RefreshCw
 } from 'lucide-react';
 import type { Dataset, DatasetRecord } from '../types';
 import { exportDatasetToCsv } from '../services/exporter';
+import { downloadCloudDatasetCsv } from '../services/supabaseService';
 
 interface DatasetExplorerViewProps {
   dataset: Dataset | null;
   onGoToCreate: () => void;
+  onRetryCloudSave?: (dataset: Dataset) => void;
+  isSyncingCloud?: boolean;
 }
 
 export const DatasetExplorerView: React.FC<DatasetExplorerViewProps> = ({
   dataset,
-  onGoToCreate
+  onGoToCreate,
+  onRetryCloudSave,
+  isSyncingCloud
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [anomalyFilter, setAnomalyFilter] = useState<'ALL' | 'ANOMALIES_ONLY' | 'CLEAN_ONLY'>('ALL');
@@ -128,12 +136,71 @@ export const DatasetExplorerView: React.FC<DatasetExplorerViewProps> = ({
       {/* Header */}
       <div className="page-header" style={{ marginBottom: '16px' }}>
         <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
             <h1 className="page-title">{dataset.name}</h1>
             <span className="badge badge-neutral" style={{ fontFamily: 'var(--font-mono)' }}>
               Seed: {dataset.seed}
             </span>
+
+            {/* Cloud Status Badge */}
+            {dataset.cloudStatus === 'CLOUD_SAVED' ? (
+              <span 
+                className="badge" 
+                style={{ 
+                  backgroundColor: 'rgba(16, 185, 129, 0.12)', 
+                  color: '#10b981', 
+                  border: '1px solid rgba(16, 185, 129, 0.3)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '5px'
+                }}
+                title={`Synced to Supabase Cloud\nCloud ID: ${dataset.cloudDatasetId || 'Active'}`}
+              >
+                <Cloud size={12} />
+                <span>☁ Cloud Saved</span>
+              </span>
+            ) : dataset.cloudStatus === 'SYNCING' || isSyncingCloud ? (
+              <span 
+                className="badge" 
+                style={{ 
+                  backgroundColor: 'rgba(59, 130, 246, 0.12)', 
+                  color: '#3b82f6', 
+                  border: '1px solid rgba(59, 130, 246, 0.3)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '5px'
+                }}
+              >
+                <RefreshCw size={12} className="spin-animate" />
+                <span>Syncing to Supabase...</span>
+              </span>
+            ) : dataset.cloudStatus === 'SYNC_FAILED' ? (
+              <span 
+                className="badge" 
+                style={{ 
+                  backgroundColor: 'rgba(239, 68, 68, 0.12)', 
+                  color: '#ef4444', 
+                  border: '1px solid rgba(239, 68, 68, 0.3)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '5px'
+                }}
+                title={dataset.cloudError || 'Cloud persistence failed'}
+              >
+                <CloudOff size={12} />
+                <span>Sync Failed</span>
+              </span>
+            ) : (
+              <span 
+                className="badge badge-neutral"
+                style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}
+                title="Stored locally in client IndexedDB"
+              >
+                <span>💾 Local Storage</span>
+              </span>
+            )}
           </div>
+
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: '6px', fontSize: '13px', color: 'var(--text-secondary)' }}>
             <span><strong>{dataset.rowCount.toLocaleString()}</strong> rows</span>
             <span>•</span>
@@ -145,7 +212,32 @@ export const DatasetExplorerView: React.FC<DatasetExplorerViewProps> = ({
           </div>
         </div>
 
-        <div style={{ display: 'flex', gap: '10px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+          {/* Cloud Storage CSV Download Button */}
+          {dataset.cloudStoragePath && (
+            <button 
+              className="btn btn-secondary btn-sm"
+              onClick={() => downloadCloudDatasetCsv(dataset.cloudStoragePath!, `${dataset.name}_supabase.csv`)}
+              title="Download CSV asset directly from Supabase Storage"
+            >
+              <Cloud size={13} />
+              <span>Cloud CSV</span>
+            </button>
+          )}
+
+          {/* Sync / Retry Save to Supabase Button */}
+          {onRetryCloudSave && dataset.cloudStatus !== 'CLOUD_SAVED' && (
+            <button 
+              className="btn btn-secondary btn-sm"
+              onClick={() => onRetryCloudSave(dataset)}
+              disabled={isSyncingCloud || dataset.cloudStatus === 'SYNCING'}
+              title="Persist schema, dataset rows (in batches of 500), and audit files to Supabase"
+            >
+              <RefreshCw size={13} className={isSyncingCloud || dataset.cloudStatus === 'SYNCING' ? 'spin-animate' : ''} />
+              <span>{isSyncingCloud || dataset.cloudStatus === 'SYNCING' ? 'Syncing...' : 'Sync to Supabase'}</span>
+            </button>
+          )}
+
           <button 
             className="btn btn-primary btn-sm"
             onClick={() => exportDatasetToCsv(dataset)}
